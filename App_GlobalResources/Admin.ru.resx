@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Admin_Menu_BinhChon" xml:space="preserve">
+    <value>голосовать</value>
+  </data>
+  <data name="Admin_Menu_CauHinh" xml:space="preserve">
+    <value>Конфигурация</value>
+  </data>
+  <data name="Admin_Menu_CauHinhNoiDung" xml:space="preserve">
+    <value>Настройка содержания</value>
+  </data>
+  <data name="Admin_Menu_CauHoi" xml:space="preserve">
+    <value>вопрос</value>
+  </data>
+  <data name="Admin_Menu_ChucNang" xml:space="preserve">
+    <value>Функции</value>
+  </data>
+  <data name="Admin_Menu_ChucNangMenu" xml:space="preserve">
+    <value>Функции меню</value>
+  </data>
+  <data name="Admin_Menu_DanhMuc" xml:space="preserve">
+    <value>Категории</value>
+  </data>
+  <data name="Admin_Menu_DanhSachQuangCao" xml:space="preserve">
+    <value>Списокобъявлений</value>
+  </data>
+  <data name="Admin_Menu_DanhSachSanPham" xml:space="preserve">
+    <value>Список Проектов</value>
+  </data>
+  <data name="Admin_Menu_DanhSachTin" xml:space="preserve">
+    <value>Лента Новостей</value>
+  </data>
+  <data name="Admin_Menu_DanhSachTuKhoaTimKiem" xml:space="preserve">
+    <value>Списокпоисковыхзапросов</value>
+  </data>
+  <data name="Admin_Menu_DanhSachViDeo_Music" xml:space="preserve">
+    <value>Медиа</value>
+  </data>
+  <data name="Admin_Menu_Google" xml:space="preserve">
+    <value>Google</value>
+  </data>
+  <data name="Admin_Menu_GoogleAnalytics" xml:space="preserve">
+    <value>Google Analytics</value>
+  </data>
+  <data name="Admin_Menu_GoogleWebmasterTools" xml:space="preserve">
+    <value>Google Webmaster Tools</value>
+  </data>
+  <data name="Admin_Menu_HeThong" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="Admin_Menu_HeThongMenuWebSite" xml:space="preserve">
+    <value>Меню сайта</value>
+  </data>
+  <data name="Admin_Menu_HoSoNangLuc" xml:space="preserve">
+    <value>Емкость профиля</value>
+  </data>
+  <data name="Admin_Menu_HoTroDichNoiDung" xml:space="preserve">
+    <value>переводчик Google</value>
+  </data>
+  <data name="Admin_Menu_HuongDan" xml:space="preserve">
+    <value>Гид для пользователей</value>
+  </data>
+  <data name="Admin_Menu_IpDaBinhChon" xml:space="preserve">
+    <value>список IP вотов</value>
+  </data>
+  <data name="Admin_Menu_KiemTraRanking" xml:space="preserve">
+    <value>Проверка Alexa Ranking</value>
+  </data>
+  <data name="Admin_Menu_LichSuDangNhap" xml:space="preserve">
+    <value>История журнала</value>
+  </data>
+  <data name="Admin_Menu_LienHeVoiBICWebVN" xml:space="preserve">
+    <value>Связаться с BICWeb.Vn</value>
+  </data>
+  <data name="Admin_Menu_LuaChon" xml:space="preserve">
+    <value>выбор</value>
+  </data>
+  <data name="Admin_Menu_MailServer" xml:space="preserve">
+    <value>Почтовый сервер</value>
+  </data>
+  <data name="Admin_Menu_MenuHeThong" xml:space="preserve">
+    <value>Система меню</value>
+  </data>
+  <data name="System_GroupAcounts" xml:space="preserve">
+    <value>Группа аккаунтов</value>
+  </data>
+  <data name="Admin_Menu_PhanQuyenHeThong" xml:space="preserve">
+    <value>Децентрализованные системы</value>
+  </data>
+  <data name="Admin_Menu_QuangCaoVideoGocPhai" xml:space="preserve">
+    <value>Видеообъявленияв правомуглу</value>
+  </data>
+  <data name="Admin_Menu_QuanLyComment" xml:space="preserve">
+    <value>Список комментариев</value>
+  </data>
+  <data name="Admin_Menu_QuanLyDieuKhien" xml:space="preserve">
+    <value>Управление кнопками</value>
+  </data>
+  <data name="Admin_Menu_QuanLyQuangCao" xml:space="preserve">
+    <value>Управление баннерами</value>
+  </data>
+  <data name="Admin_Menu_QuanLySupport" xml:space="preserve">
+    <value>Поддержка управления</value>
+  </data>
+  <data name="Admin_Menu_QuanLyTaiKhoan" xml:space="preserve">
+    <value>Управление аккаунтами</value>
+  </data>
+  <data name="Admin_Menu_QuanTriNguoiDung" xml:space="preserve">
+    <value>Администрирование пользователей</value>
+  </data>
+  <data name="Admin_Menu_Seo_SearchEngineOptimization" xml:space="preserve">
+    <value>Оптимизация поиска</value>
+  </data>
+  <data name="Admin_Menu_TaiLieuBICCMS2012" xml:space="preserve">
+    <value>Документ BIC CMS 2014</value>
+  </data>
+  <data name="Admin_Menu_TaiLieuBICEditor2012" xml:space="preserve">
+    <value>Документ BIC Редактор 2014</value>
+  </data>
+  <data name="Admin_Menu_TaiLieuBICImage2012" xml:space="preserve">
+    <value>Документ инструменты BIC изображения</value>
+  </data>
+  <data name="Admin_Menu_ThemMoiTinTuc" xml:space="preserve">
+    <value>Добавить новое</value>
+  </data>
+  <data name="Admin_Menu_ThongTinLienHe" xml:space="preserve">
+    <value>Контактная информация</value>
+  </data>
+  <data name="Admin_Menu_ThucHienCauLenhSQL" xml:space="preserve">
+    <value>Выполнение SQL заявлений</value>
+  </data>
+  <data name="Admin_Menu_TienIch" xml:space="preserve">
+    <value>Гаджеты</value>
+  </data>
+  <data name="Admin_Menu_VeChungToi" xml:space="preserve">
+    <value>О компании</value>
+  </data>
+  <data name="Admin_Menu_XemLogFile" xml:space="preserve">
+    <value>Просмотрфайлажурнала</value>
+  </data>
+  <data name="System_Account" xml:space="preserve">
+    <value>аккаунт</value>
+  </data>
+  <data name="System_Add" xml:space="preserve">
+    <value>Добавить новое</value>
+  </data>
+  <data name="System_Browse" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="System_Description" xml:space="preserve">
+    <value>описание</value>
+  </data>
+  <data name="System_InputCategoryName" xml:space="preserve">
+    <value>Введитеназваниекатегории</value>
+  </data>
+  <data name="Admin_MenuUser_Function" xml:space="preserve">
+    <value>Функции</value>
+  </data>
+  <data name="Admin_MenuUser_ImageDescription" xml:space="preserve">
+    <value>Описание изображения</value>
+  </data>
+  <data name="System_OtherInformation" xml:space="preserve">
+    <value>Другая информация</value>
+  </data>
+  <data name="System_Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="Admin_MenuUser_Link" xml:space="preserve">
+    <value>ссылка</value>
+    <comment>ссылка</comment>
+  </data>
+  <data name="Admin_MenuUser_LoginRequired" xml:space="preserve">
+    <value>Требуется логин</value>
+  </data>
+  <data name="Admin_MenuUser_ModelMenu" xml:space="preserve">
+    <value>Меню расположений</value>
+  </data>
+  <data name="System_New" xml:space="preserve">
+    <value>Новости</value>
+  </data>
+  <data name="Admin_MenuUser_OriginalList" xml:space="preserve">
+    <value>Оригинальный список</value>
+  </data>
+  <data name="Admin_MenuUser_Pagesize" xml:space="preserve">
+    <value>Page Size</value>
+  </data>
+  <data name="Admin_MenuUser_ParentCategories" xml:space="preserve">
+    <value>Исходник категории</value>
+  </data>
+  <data name="Admin_MenuUser_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Admin_MenuUser_SelectTheFunction" xml:space="preserve">
+    <value>[Выберитефункцию]</value>
+  </data>
+  <data name="System_UrlSEO" xml:space="preserve">
+    <value>Url SEO</value>
+  </data>
+  <data name="System_Target" xml:space="preserve">
+    <value>Цель</value>
+  </data>
+  <data name="Admin_MenuUser_Title" xml:space="preserve">
+    <value>название</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Cloning" xml:space="preserve">
+    <value>клонирование</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Delete" xml:space="preserve">
+    <value>удаления</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Down" xml:space="preserve">
+    <value>вниз</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Edit" xml:space="preserve">
+    <value>Редакт.</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_EditName" xml:space="preserve">
+    <value>переименовать</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Up" xml:space="preserve">
+    <value>вверх</value>
+  </data>
+  <data name="System_CategoriesComments" xml:space="preserve">
+    <value>Коментарии</value>
+  </data>
+  <data name="System_Content" xml:space="preserve">
+    <value>контент</value>
+  </data>
+  <data name="Admin_Comment_CreateDate" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Admin_Comment_EnterTheNameOfTheSender" xml:space="preserve">
+    <value>Введите имя отправителя</value>
+  </data>
+  <data name="System_Locks" xml:space="preserve">
+    <value>блокировка</value>
+  </data>
+  <data name="Admin_Comment_NewsContent" xml:space="preserve">
+    <value>Содержание</value>
+  </data>
+  <data name="Admin_Comment_Sender" xml:space="preserve">
+    <value>Отправитель</value>
+  </data>
+  <data name="Admin_Comment_Sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="Admin_Comment_Sex_Man" xml:space="preserve">
+    <value>человек</value>
+  </data>
+  <data name="Admin_Comment_Sex_Woman" xml:space="preserve">
+    <value>женщины</value>
+  </data>
+  <data name="System_All" xml:space="preserve">
+    <value>все</value>
+  </data>
+  <data name="Admin_ListingMenuUser_ModelMenu" xml:space="preserve">
+    <value>Меню расположений</value>
+  </data>
+  <data name="Admin_MenuUser_Connection" xml:space="preserve">
+    <value>Теме меню</value>
+  </data>
+  <data name="Admin_NavigatePath_Home" xml:space="preserve">
+    <value>Главная страница</value>
+  </data>
+  <data name="Admin_MenuAdmin_CategoriesParent" xml:space="preserve">
+    <value>Исходник категории</value>
+  </data>
+  <data name="Admin_MenuAdmin_CategoriesParent1" xml:space="preserve">
+    <value>Исходник категории</value>
+  </data>
+  <data name="Admin_MenuAdmin_Function" xml:space="preserve">
+    <value>Функции</value>
+  </data>
+  <data name="Admin_MenuAdmin_Icon" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="Admin_MenuAdmin_KeyShortcuts" xml:space="preserve">
+    <value>Сочетания клавиш</value>
+  </data>
+  <data name="Admin_MenuAdmin_NameList" xml:space="preserve">
+    <value>Имя списка</value>
+  </data>
+  <data name="Admin_MenuAdmin_Select" xml:space="preserve">
+    <value>выбор...</value>
+  </data>
+  <data name="Admin_MenuAdmin_SourceLinks" xml:space="preserve">
+    <value>ссылка</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Cloning" xml:space="preserve">
+    <value>клонирование</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Delete" xml:space="preserve">
+    <value>удаление</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Down" xml:space="preserve">
+    <value>вниз</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Edit" xml:space="preserve">
+    <value>Редакт.</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Rename" xml:space="preserve">
+    <value>переименовать (F2)</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Up" xml:space="preserve">
+    <value>вверх</value>
+  </data>
+  <data name="Admin_LoginView_ChangePassword" xml:space="preserve">
+    <value>Изменить пароль</value>
+  </data>
+  <data name="Admin_LoginView_Exit" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="Admin_LoginView_Login" xml:space="preserve">
+    <value>вход</value>
+  </data>
+  <data name="System_Delete" xml:space="preserve">
+    <value>удаления</value>
+  </data>
+  <data name="Admin_LoginLog_LoginName" xml:space="preserve">
+    <value>Войти Имя</value>
+  </data>
+  <data name="Admin_LoginLog_Time" xml:space="preserve">
+    <value>время</value>
+  </data>
+  <data name="Admin_Paging" xml:space="preserve">
+    <value>Переместить страницу: {4} с {2} до {3}кол-во  {5} учет</value>
+  </data>
+  <data name="Admin_Paging_FirstPage" xml:space="preserve">
+    <value>первая страница</value>
+  </data>
+  <data name="Admin_Paging_LastPage" xml:space="preserve">
+    <value>Последняя страница</value>
+  </data>
+  <data name="Admin_Paging_NextPage" xml:space="preserve">
+    <value>Следующая страница</value>
+  </data>
+  <data name="Admin_Paging_NextPages" xml:space="preserve">
+    <value>На следующих страницах</value>
+  </data>
+  <data name="Admin_Paging_PageSize" xml:space="preserve">
+    <value>номер страницы:</value>
+  </data>
+  <data name="Admin_Paging_PrevPage" xml:space="preserve">
+    <value>предыдущую страницу</value>
+  </data>
+  <data name="Admin_Paging_PrevPages" xml:space="preserve">
+    <value>Предыдущая страницы</value>
+  </data>
+  <data name="Admin_Roles_ListingRoles" xml:space="preserve">
+    <value>Группа счетов</value>
+  </data>
+  <data name="Admin_Roles_NumberAcount" xml:space="preserve">
+    <value>Номер аккаунта</value>
+  </data>
+  <data name="Admin_Security_Browser" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="System_Edit" xml:space="preserve">
+    <value>Редакт.</value>
+  </data>
+  <data name="Admin_Security_NamePanel" xml:space="preserve">
+    <value>Проверка имени</value>
+  </data>
+  <data name="Admin_Security_User_AcountName" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="Admin_Security_User_AcuontInfomation" xml:space="preserve">
+    <value>Информация об учетной записи</value>
+  </data>
+  <data name="Admin_Security_User_Address" xml:space="preserve">
+    <value>адрес</value>
+  </data>
+  <data name="Admin_Security_User_ChangeThePassword" xml:space="preserve">
+    <value>Измените пароль</value>
+  </data>
+  <data name="Admin_Security_User_ConfirmNewPasswordIsRequired" xml:space="preserve">
+    <value>Требуется подтверждение пароля</value>
+  </data>
+  <data name="Admin_Security_User_DidNotEnterANewPassword" xml:space="preserve">
+    <value>Новый пароль не введен.</value>
+  </data>
+  <data name="Admin_Security_User_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Admin_Security_User_FieldRequiredToEnterContent" xml:space="preserve">
+    <value>Обязательное поле</value>
+  </data>
+  <data name="Admin_Security_User_FullName" xml:space="preserve">
+    <value>Полное имя</value>
+  </data>
+  <data name="System_FullScreen" xml:space="preserve">
+    <value>Full Screen</value>
+  </data>
+  <data name="Admin_Security_User_GroupPermissions" xml:space="preserve">
+    <value>Права групп</value>
+  </data>
+  <data name="Admin_Security_User_HomePhone" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="Admin_Security_User_IntegrationIntoGroupsTheRightToSetOrRemoveUsersFromTheGroup" xml:space="preserve">
+    <value>Интеграция в группах право устанавливать или удалять пользователей из группы</value>
+  </data>
+  <data name="Admin_Security_User_LastLogin" xml:space="preserve">
+    <value>Последний вход в систему</value>
+  </data>
+  <data name="Admin_Security_User_LastVisit" xml:space="preserve">
+    <value>Последний визит</value>
+  </data>
+  <data name="Admin_Security_User_Member" xml:space="preserve">
+    <value>Член</value>
+  </data>
+  <data name="Admin_Security_User_Message1" xml:space="preserve">
+    <value>Эта учетная запись уже используется, выберите другой аккаунт!</value>
+  </data>
+  <data name="Admin_Security_User_Message2" xml:space="preserve">
+    <value>Этот адрес уже используется, выберите другой аккаунт!</value>
+  </data>
+  <data name="Admin_Security_User_Message3" xml:space="preserve">
+    <value>Пароль должен содержать не менее 4-х символов!</value>
+  </data>
+  <data name="Admin_Security_User_Message4" xml:space="preserve">
+    <value>Учетная запись создана!</value>
+  </data>
+  <data name="Admin_Security_User_Message5" xml:space="preserve">
+    <value>Создать аккаунт не удалась, попробуйте еще раз!</value>
+  </data>
+  <data name="Admin_Security_User_Message6" xml:space="preserve">
+    <value>Пароль {0} изменен</value>
+  </data>
+  <data name="Admin_Security_User_Message7" xml:space="preserve">
+    <value>Пароль {0} не изменен</value>
+  </data>
+  <data name="Admin_Security_User_Mobile" xml:space="preserve">
+    <value>мобильный</value>
+  </data>
+  <data name="Admin_Security_User_NewPassword" xml:space="preserve">
+    <value>Новый пароль:</value>
+  </data>
+  <data name="Admin_Security_User_NewPasswordIsRequired" xml:space="preserve">
+    <value>Запросить новый пароль</value>
+  </data>
+  <data name="Admin_Security_User_NoOldPassword" xml:space="preserve">
+    <value>Не введен старый пароль</value>
+  </data>
+  <data name="Admin_Security_User_NotConfirmThePassword" xml:space="preserve">
+    <value>Пароль не подтвержден.</value>
+  </data>
+  <data name="Admin_Security_User_OldPassword" xml:space="preserve">
+    <value>Старый пароль:</value>
+  </data>
+  <data name="Admin_Security_User_Password" xml:space="preserve">
+    <value>пароль</value>
+  </data>
+  <data name="Admin_Security_User_PasswordConfirmationDoesNotMatch" xml:space="preserve">
+    <value>Пароли не совпадают.</value>
+  </data>
+  <data name="Admin_Security_User_PasswordIsRequired" xml:space="preserve">
+    <value>Требуется  пароль.</value>
+  </data>
+  <data name="Admin_Security_User_PersonalInformation" xml:space="preserve">
+    <value>Личная информация</value>
+  </data>
+  <data name="Admin_Security_User_RegistrationDate" xml:space="preserve">
+    <value>Дата регистрации</value>
+  </data>
+  <data name="Admin_Security_User_RetypeNewPassword" xml:space="preserve">
+    <value>Повторите новый пароль:</value>
+  </data>
+  <data name="Admin_Security_User_System" xml:space="preserve">
+    <value>система</value>
+  </data>
+  <data name="Admin_Security_User_Tell" xml:space="preserve">
+    <value>телефон</value>
+  </data>
+  <data name="Admin_Security_User_TickToApproveOrDenyTheAccount" xml:space="preserve">
+    <value>Щелкните, чтобы просмотреть или отказать в учетной записи</value>
+  </data>
+  <data name="Admin_Security_User_TitleCompanyName" xml:space="preserve">
+    <value>Название компании</value>
+  </data>
+  <data name="Admin_Security_User_UnlockForAccount" xml:space="preserve">
+    <value>Разблокировка учетной записи</value>
+  </data>
+  <data name="Admin_Security_User_UserName" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="Admin_Security_User_YetToConfirmThePassword" xml:space="preserve">
+    <value>Пароль не подтвержден</value>
+  </data>
+  <data name="Admin_Security_User_YouEnterTheOldPassword" xml:space="preserve">
+    <value>Старый пароль введен не правильно.</value>
+  </data>
+  <data name="System_View" xml:space="preserve">
+    <value>Просмотра</value>
+  </data>
+  <data name="Admin_Controls_ControlsName" xml:space="preserve">
+    <value>Проверка имени</value>
+  </data>
+  <data name="Admin_Controls_DetailedContent" xml:space="preserve">
+    <value>Подробное содержание</value>
+  </data>
+  <data name="Admin_Controls_DirectoryName" xml:space="preserve">
+    <value>имя папки</value>
+  </data>
+  <data name="Admin_Controls_Load" xml:space="preserve">
+    <value>загрузка</value>
+  </data>
+  <data name="Admin_Controls_Message1" xml:space="preserve">
+    <value>Вы не будет утвержден оставляет за собой право удалить элементы</value>
+  </data>
+  <data name="Admin_Controls_Path" xml:space="preserve">
+    <value>путь</value>
+  </data>
+  <data name="Admin_Security_Agree" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="Admin_Security_Cancel" xml:space="preserve">
+    <value>отменить</value>
+  </data>
+  <data name="Admin_Security_User_AccordingToTheList" xml:space="preserve">
+    <value>Согласно списку</value>
+  </data>
+  <data name="Admin_Security_User_DisplayName" xml:space="preserve">
+    <value>Отображаемое имя</value>
+  </data>
+  <data name="Admin_Security_User_EmailAddress" xml:space="preserve">
+    <value>Адрес электронной почты</value>
+  </data>
+  <data name="Admin_Security_User_FilterByGroup" xml:space="preserve">
+    <value>[Сортировка по группе ]</value>
+  </data>
+  <data name="Admin_Security_User_Name" xml:space="preserve">
+    <value>имя</value>
+  </data>
+  <data name="Admin_Security_User_NoData" xml:space="preserve">
+    <value>Нет данных</value>
+  </data>
+  <data name="System_Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="Admin_Security_User_SlectAll" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="Admin_Security_User_SlectGroup" xml:space="preserve">
+    <value>Выберите группу</value>
+  </data>
+  <data name="Admin_XML_Config_Category" xml:space="preserve">
+    <value>тип</value>
+  </data>
+  <data name="Admin_XML_Config_ConfigurationName" xml:space="preserve">
+    <value>Имя конфигурации</value>
+  </data>
+  <data name="System_InputTitle" xml:space="preserve">
+    <value>Введите название</value>
+  </data>
+  <data name="System_InputViewCount" xml:space="preserve">
+    <value>Введите просмотры</value>
+  </data>
+  <data name="Admin_XML_Config_News" xml:space="preserve">
+    <value>Новости</value>
+  </data>
+  <data name="Admin_XML_Config_Product" xml:space="preserve">
+    <value>Продукция</value>
+  </data>
+  <data name="Admin_XML_Config_Value" xml:space="preserve">
+    <value>значение</value>
+  </data>
+  <data name="Admin_XML_MailConfig_ConfigurationName" xml:space="preserve">
+    <value>Имя конфигурации</value>
+  </data>
+  <data name="Admin_XML_MailConfig_ConfiguredPassword" xml:space="preserve">
+    <value>Изменить пароль</value>
+  </data>
+  <data name="Admin_XML_MailConfig_EnterATitle" xml:space="preserve">
+    <value>Введите название</value>
+  </data>
+  <data name="Admin_XML_MailConfig_PassWord" xml:space="preserve">
+    <value>пароль</value>
+  </data>
+  <data name="System_Reset" xml:space="preserve">
+    <value>Введите снова</value>
+  </data>
+  <data name="Admin_XML_MailConfig_Value" xml:space="preserve">
+    <value>значение</value>
+  </data>
+  <data name="Admin_XML_MailConfig_YouHaveNotEnteredAPassword" xml:space="preserve">
+    <value>Вы не ввели пароль</value>
+  </data>
+  <data name="Admin_Adv_AdGroup" xml:space="preserve">
+    <value>Группа объявлений</value>
+  </data>
+  <data name="Admin_Adv_AdPlacement" xml:space="preserve">
+    <value>Размещение рекламы</value>
+  </data>
+  <data name="Admin_Adv_DetailedContents" xml:space="preserve">
+    <value>Подробное содержание</value>
+  </data>
+  <data name="Admin_Adv_Expires" xml:space="preserve">
+    <value>Истекает</value>
+  </data>
+  <data name="Admin_Adv_NameAd" xml:space="preserve">
+    <value>объявления</value>
+  </data>
+  <data name="Admin_Adv_Sectbox" xml:space="preserve">
+    <value>[Выберите место для размещения ]</value>
+  </data>
+  <data name="Admin_Adv_Views" xml:space="preserve">
+    <value>Источник</value>
+  </data>
+  <data name="Admin_Config_AddNew" xml:space="preserve">
+    <value>Добавить новую</value>
+  </data>
+  <data name="Admin_ToolBar_Back" xml:space="preserve">
+    <value>назад</value>
+  </data>
+  <data name="Admin_ToolBar_Delete_Note" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Admin_XML_SearchEngine_ConfigurationName" xml:space="preserve">
+    <value>Имя конфигурации</value>
+  </data>
+  <data name="Admin_XML_SearchEngine_Value" xml:space="preserve">
+    <value>значение</value>
+  </data>
+  <data name="Admin_XML_Support_Category" xml:space="preserve">
+    <value>тип</value>
+  </data>
+  <data name="Admin_XML_Support_Langue" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="Admin_XML_Support_Style" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="Admin_XML_Support_Title" xml:space="preserve">
+    <value>название</value>
+  </data>
+  <data name="Admin_XML_Support_TypeOfContact" xml:space="preserve">
+    <value>Тип контакта</value>
+  </data>
+  <data name="Admin_ListingMenuUser_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Admin_NavigatePath_Edit" xml:space="preserve">
+    <value>Редакт.</value>
+  </data>
+  <data name="Admin_NavigatePath_WatchContent" xml:space="preserve">
+    <value>Просмотр содержимого</value>
+  </data>
+  <data name="Admin_Adv_DropDownList" xml:space="preserve">
+    <value>[ -	Выберите место для размещения  ]</value>
+  </data>
+  <data name="Admin_Adv_EnterAd" xml:space="preserve">
+    <value>-Введите объявление</value>
+  </data>
+  <data name="Admin_Adv_InThePage" xml:space="preserve">
+    <value>На странице</value>
+  </data>
+  <data name="Admin_Adv_Message1" xml:space="preserve">
+    <value>Вы не выбрали размещение объявлений!</value>
+  </data>
+  <data name="Admin_Adv_Order" xml:space="preserve">
+    <value>порядок</value>
+  </data>
+  <data name="Admin_Controls_AddNew" xml:space="preserve">
+    <value>Добавить новую</value>
+  </data>
+  <data name="Admin_FrameView_AddNew" xml:space="preserve">
+    <value>Добавить новую</value>
+  </data>
+  <data name="Admin_FrameView_Browse" xml:space="preserve">
+    <value>общественность</value>
+  </data>
+  <data name="Admin_FrameView_DetailedContents" xml:space="preserve">
+    <value>Подробное содержание</value>
+  </data>
+  <data name="Admin_FrameView_Document" xml:space="preserve">
+    <value>документация</value>
+  </data>
+  <data name="Admin_FrameView_EnterTheFunctionName" xml:space="preserve">
+    <value>Введите имя функции</value>
+  </data>
+  <data name="Admin_FrameView_Faq" xml:space="preserve">
+    <value> спросил встречаться</value>
+  </data>
+  <data name="Admin_FrameView_FunctionName" xml:space="preserve">
+    <value>имя функции</value>
+  </data>
+  <data name="Admin_FrameView_GalleryListing" xml:space="preserve">
+    <value>Галерея</value>
+  </data>
+  <data name="Admin_FrameView_GroupName" xml:space="preserve">
+    <value>название группы</value>
+  </data>
+  <data name="Admin_FrameView_Law" xml:space="preserve">
+    <value>Правило</value>
+  </data>
+  <data name="Admin_FrameView_Message1" xml:space="preserve">
+    <value>Вы не можете удалять записи утвержденных!</value>
+  </data>
+  <data name="Admin_FrameView_News" xml:space="preserve">
+    <value>Новости</value>
+  </data>
+  <data name="Admin_FrameView_Oder" xml:space="preserve">
+    <value>Заказ</value>
+  </data>
+  <data name="Admin_FrameView_Other" xml:space="preserve">
+    <value>другие</value>
+  </data>
+  <data name="Admin_FrameView_Product" xml:space="preserve">
+    <value>Продукция</value>
+  </data>
+  <data name="Admin_FrameView_ResourceKey" xml:space="preserve">
+    <value>Resource key</value>
+  </data>
+  <data name="Admin_FrameView_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Admin_FrameView_StyleFunction" xml:space="preserve">
+    <value>Виды функций</value>
+  </data>
+  <data name="Admin_FrameView_SystemDistribution" xml:space="preserve">
+    <value>Распределительная система</value>
+  </data>
+  <data name="Admin_FrameView_Video" xml:space="preserve">
+    <value>видео</value>
+  </data>
+  <data name="Admin_Security_User_LastVisitn" xml:space="preserve">
+    <value>Последний визит</value>
+  </data>
+  <data name="Admin_Security_User_Message8" xml:space="preserve">
+    <value>Счет {0} \ n Вы должны разблокировать, прежде чем сбросить пароль!</value>
+  </data>
+  <data name="Admin_Security_User_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Admin_PollChoices_DetailedContents" xml:space="preserve">
+    <value>Подробное содержание</value>
+  </data>
+  <data name="Admin_PollChoices_EnterSelection" xml:space="preserve">
+    <value>Введите выбора</value>
+  </data>
+  <data name="Admin_PollChoices_Message1" xml:space="preserve">
+    <value>Вы не можете удалять удаленные записи</value>
+  </data>
+  <data name="Admin_PollChoices_Questions" xml:space="preserve">
+    <value>вопрос</value>
+  </data>
+  <data name="Admin_PollChoices_Selection" xml:space="preserve">
+    <value>выбор</value>
+    <comment>выбор</comment>
+  </data>
+  <data name="Admin_PollChoices_Vote" xml:space="preserve">
+    <value>голосовать</value>
+  </data>
+  <data name="Admin_PollChoices_Votes" xml:space="preserve">
+    <value>Голосов</value>
+  </data>
+  <data name="Admin_PollCPs_Message1" xml:space="preserve">
+    <value>Вы не можете удалять записи утвержденных!</value>
+  </data>
+  <data name="Admin_PollCPs_Message2" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить эту запись?</value>
+  </data>
+  <data name="Admin_Poll_DeleteIPHourly" xml:space="preserve">
+    <value>IP Удалить почасовой</value>
+  </data>
+  <data name="Admin_Poll_DetailedContents" xml:space="preserve">
+    <value>Подробное содержание</value>
+  </data>
+  <data name="Admin_Poll_EnterQuestion" xml:space="preserve">
+    <value>Введите вопрос</value>
+  </data>
+  <data name="Admin_Poll_HoursDeleteIP" xml:space="preserve">
+    <value>Часы удалить IP</value>
+  </data>
+  <data name="Admin_Poll_ModeAuthentication" xml:space="preserve">
+    <value>Режим проверки подлинности</value>
+  </data>
+  <data name="Admin_Poll_Questions" xml:space="preserve">
+    <value>вопрос</value>
+  </data>
+  <data name="Admin_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Admin_Article_Comment" xml:space="preserve">
+    <value>комментарий</value>
+  </data>
+  <data name="Admin_Article_CommentState" xml:space="preserve">
+    <value>Комментарии утвержденного/ не утвержден комментарий</value>
+  </data>
+  <data name="Admin_Article_DateCreationAscending" xml:space="preserve">
+    <value>Дата по возрастанию</value>
+  </data>
+  <data name="Admin_Article_DateCreationDescending" xml:space="preserve">
+    <value>Дата по убыванию</value>
+  </data>
+  <data name="Admin_Article_DateModificationAscending" xml:space="preserve">
+    <value>Дата модиф. по возрастанию</value>
+  </data>
+  <data name="Admin_Article_DateModificationDescending" xml:space="preserve">
+    <value>Дата модиф. по убыванию</value>
+  </data>
+  <data name="System_DatePosted" xml:space="preserve">
+    <value>Дата публикации</value>
+  </data>
+  <data name="Admin_Article_FromDate" xml:space="preserve">
+    <value>С</value>
+  </data>
+  <data name="System_Image" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Admin_Article_List" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="Admin_Article_Order" xml:space="preserve">
+    <value>Заказ</value>
+  </data>
+  <data name="Admin_Article_SearchByCategory" xml:space="preserve">
+    <value>Поиск по категории</value>
+  </data>
+  <data name="Admin_Article_SelectDate" xml:space="preserve">
+    <value>Выберите дату</value>
+  </data>
+  <data name="Admin_Article_SkipConditions" xml:space="preserve">
+    <value>Сброс</value>
+  </data>
+  <data name="Admin_Article_SortResults" xml:space="preserve">
+    <value>Сортировать результаты по</value>
+  </data>
+  <data name="Admin_Article_Spotlight" xml:space="preserve">
+    <value>прожектор</value>
+  </data>
+  <data name="Admin_Article_Title" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="Admin_Article_ToDay" xml:space="preserve">
+    <value>По</value>
+  </data>
+  <data name="Admin_Article_Update" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Admin_Article_ViewsAscending" xml:space="preserve">
+    <value>Просмотров по убыванию</value>
+  </data>
+  <data name="Admin_Article_ViewsDescending" xml:space="preserve">
+    <value>Просмотров по возрастанию</value>
+  </data>
+  <data name="Admin_Article_AppearComment" xml:space="preserve">
+    <value>показать комментарии</value>
+  </data>
+  <data name="Admin_Article_close" xml:space="preserve">
+    <value>близко</value>
+  </data>
+  <data name="Admin_Article_ContactByPost" xml:space="preserve">
+    <value>Связаться по почте</value>
+  </data>
+  <data name="System_DetailedContent" xml:space="preserve">
+    <value>Подробное содержание</value>
+  </data>
+  <data name="Admin_Article_DetailedContent2" xml:space="preserve">
+    <value>Подробное содержание</value>
+  </data>
+  <data name="Admin_Article_Havebrowse" xml:space="preserve">
+    <value>Показать</value>
+  </data>
+  <data name="Admin_Article_Home" xml:space="preserve">
+    <value>Главная страница</value>
+  </data>
+  <data name="Admin_Article_ImageDescription" xml:space="preserve">
+    <value>Описание изображения</value>
+  </data>
+  <data name="Admin_Article_Images" xml:space="preserve">
+    <value>изображения</value>
+  </data>
+  <data name="Admin_Article_Link" xml:space="preserve">
+    <value>ссылка</value>
+  </data>
+  <data name="Admin_Article_ListOfSelected" xml:space="preserve">
+    <value>Список категорий</value>
+  </data>
+  <data name="Admin_Article_Message1" xml:space="preserve">
+    <value>Вы не можете удалять удаленные записи!</value>
+  </data>
+  <data name="Admin_Article_Message2" xml:space="preserve">
+    <value>Добавить комментарий, пожалуйста, удалите комментарий.</value>
+  </data>
+  <data name="Admin_Article_Message3" xml:space="preserve">
+    <value>удалить не удалось.</value>
+  </data>
+  <data name="Admin_Article_Message4" xml:space="preserve">
+    <value>Вы должны выбрать хотя бы одну категорию</value>
+  </data>
+  <data name="Admin_Article_Message5" xml:space="preserve">
+    <value>Вы хотите, чтобы обновить группу?</value>
+  </data>
+  <data name="Admin_Article_Message6" xml:space="preserve">
+    <value>Вы обновляется  новости</value>
+  </data>
+  <data name="System_MetaDescription" xml:space="preserve">
+    <value>Meta Description</value>
+  </data>
+  <data name="System_MetaKeyword" xml:space="preserve">
+    <value>Meta Keyword</value>
+  </data>
+  <data name="System_Move" xml:space="preserve">
+    <value>Перемещать</value>
+  </data>
+  <data name="Admin_Article_NewsFocus" xml:space="preserve">
+    <value>Новости фокусе</value>
+  </data>
+  <data name="Admin_Article_NewsTitle" xml:space="preserve">
+    <value>Заголовок новости</value>
+  </data>
+  <data name="System_NoBrowse" xml:space="preserve">
+    <value>Показать</value>
+  </data>
+  <data name="Admin_Article_NoCategorySelected" xml:space="preserve">
+    <value>Категория не был выбран.</value>
+  </data>
+  <data name="System_NoComment" xml:space="preserve">
+    <value>Нет прокомментировать?</value>
+  </data>
+  <data name="Admin_Article_NoItemsSelected" xml:space="preserve">
+    <value>Категория не был выбран.</value>
+  </data>
+  <data name="Admin_Article_Noposts" xml:space="preserve">
+    <value>--- Нет сообщений еще</value>
+  </data>
+  <data name="Admin_Article_Page" xml:space="preserve">
+    <value>страница:</value>
+  </data>
+  <data name="Admin_Article_PageTitle" xml:space="preserve">
+    <value>Название страницы</value>
+  </data>
+  <data name="Admin_Article_RelatedNews" xml:space="preserve">
+    <value>Новости по теме</value>
+  </data>
+  <data name="Admin_Article_RelatedNewsList" xml:space="preserve">
+    <value>Перечислите связанные новости</value>
+  </data>
+  <data name="Admin_Article_RemovingNews" xml:space="preserve">
+    <value>Удаление всех</value>
+  </data>
+  <data name="Admin_Article_SelectRelevantInformationFromTheMatch" xml:space="preserve">
+    <value>Выберите соответствующую информацию список</value>
+  </data>
+  <data name="Admin_Article_ShortDescription" xml:space="preserve">
+    <value>Краткое описание</value>
+  </data>
+  <data name="System_Source" xml:space="preserve">
+    <value>Ссылка</value>
+  </data>
+  <data name="Admin_Article_SpecialPosition" xml:space="preserve">
+    <value>специальных мест</value>
+  </data>
+  <data name="System_Tags" xml:space="preserve">
+    <value>Теги</value>
+  </data>
+  <data name="Admin_Article_Title2" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="Admin_Article_TypeOfNews" xml:space="preserve">
+    <value>Тип информации</value>
+  </data>
+  <data name="Admin_Article_Video" xml:space="preserve">
+    <value>видео</value>
+  </data>
+  <data name="Admin_Article_Views2" xml:space="preserve">
+    <value>Источник</value>
+  </data>
+  <data name="Admin_Article_Votes" xml:space="preserve">
+    <value>Голосовать</value>
+  </data>
+  <data name="Admin_Comment_AgreeOrNoAgre" xml:space="preserve">
+    <value>иметь/ нет</value>
+  </data>
+  <data name="Admin_Comment_AgreeOrNoAgree" xml:space="preserve">
+    <value>иметь/ нет</value>
+  </data>
+  <data name="Admin_Comment_All" xml:space="preserve">
+    <value>[ все ]</value>
+  </data>
+  <data name="Admin_Comment_DateEdit" xml:space="preserve">
+    <value>Дата редактирования</value>
+  </data>
+  <data name="Admin_Comment_DateSubmitted" xml:space="preserve">
+    <value>Дата представления</value>
+  </data>
+  <data name="Admin_Comment_DetailedContents" xml:space="preserve">
+    <value>Подробное содержание</value>
+  </data>
+  <data name="Admin_Comment_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Admin_Comment_Message1" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить записиnày?</value>
+  </data>
+  <data name="Admin_Comment_Message2" xml:space="preserve">
+    <value>Вы не можете удалять записи утвержденных!</value>
+  </data>
+  <data name="Admin_Comment_PostSubject" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="Admin_Comment_SenderAddress" xml:space="preserve">
+    <value>Адрес отправителя</value>
+  </data>
+  <data name="Admin_Comment_SEnterTheNameOfTheSender" xml:space="preserve">
+    <value>Введите имя отправителя</value>
+  </data>
+  <data name="Admin_DeleteAll" xml:space="preserve">
+    <value>Очистить все</value>
+  </data>
+  <data name="Admin_Product_AppearComment" xml:space="preserve">
+    <value>показать комментарии</value>
+  </data>
+  <data name="Admin_Product_Approved" xml:space="preserve">
+    <value>Показать</value>
+  </data>
+  <data name="Admin_Product_Close" xml:space="preserve">
+    <value>близко</value>
+  </data>
+  <data name="Admin_Product_Code" xml:space="preserve">
+    <value>код</value>
+  </data>
+  <data name="Admin_Product_Comment" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="Admin_Product_CommentState" xml:space="preserve">
+    <value>Комментарии утвержденного/ не утвержден комментарий</value>
+  </data>
+  <data name="Admin_Product_FromDay" xml:space="preserve">
+    <value>С</value>
+  </data>
+  <data name="Admin_Product_Home" xml:space="preserve">
+    <value>Главная страница</value>
+  </data>
+  <data name="Admin_Product_ImageDescription" xml:space="preserve">
+    <value>Описание изображения</value>
+  </data>
+  <data name="Admin_Product_Images" xml:space="preserve">
+    <value>изображения</value>
+  </data>
+  <data name="Admin_Product_InStock" xml:space="preserve">
+    <value>На складе</value>
+  </data>
+  <data name="Admin_Product_Link" xml:space="preserve">
+    <value>ссылка</value>
+  </data>
+  <data name="Admin_Product_List" xml:space="preserve">
+    <value>список</value>
+  </data>
+  <data name="Admin_Product_ListComment" xml:space="preserve">
+    <value>Список комментариев</value>
+  </data>
+  <data name="Admin_Product_ListOfSelected" xml:space="preserve">
+    <value>выбранного списка</value>
+  </data>
+  <data name="Admin_Product_ListRelatedProducts" xml:space="preserve">
+    <value>Список сопутствующих товаров</value>
+  </data>
+  <data name="System_Manufacture" xml:space="preserve">
+    <value>Производитель</value>
+  </data>
+  <data name="Admin_Product_Message1" xml:space="preserve">
+    <value>Вы должны выбрать хотя бы одну категорию</value>
+  </data>
+  <data name="Admin_Product_Message2" xml:space="preserve">
+    <value>Продукты есть комментарий, пожалуйста, удалите комментарий.</value>
+  </data>
+  <data name="Admin_Product_Message3" xml:space="preserve">
+    <value>удалить не удалось.</value>
+  </data>
+  <data name="Admin_Product_Message4" xml:space="preserve">
+    <value>Вы не можете удалять удаленные записи</value>
+  </data>
+  <data name="Admin_Product_Message5" xml:space="preserve">
+    <value>Вы хотите, чтобы обновить группу?</value>
+  </data>
+  <data name="Admin_Product_NewsFocus" xml:space="preserve">
+    <value>Типичные продукты</value>
+  </data>
+  <data name="Admin_Product_NewsTitle" xml:space="preserve">
+    <value>Заголовок новости</value>
+  </data>
+  <data name="Admin_Product_NoItemsSelected" xml:space="preserve">
+    <value>Категория не был выбран.</value>
+  </data>
+  <data name="Admin_Product_Noposts" xml:space="preserve">
+    <value>--- Нет сообщений еще</value>
+  </data>
+  <data name="Admin_Product_OldPrice" xml:space="preserve">
+    <value>старая цена</value>
+  </data>
+  <data name="Admin_Product_Order" xml:space="preserve">
+    <value>другие</value>
+  </data>
+  <data name="Admin_Product_OtherProductInformation" xml:space="preserve">
+    <value>Другая информация о продукте</value>
+  </data>
+  <data name="Admin_Product_PageTitle" xml:space="preserve">
+    <value>Название страницы</value>
+  </data>
+  <data name="Admin_Product_Price" xml:space="preserve">
+    <value>цена</value>
+  </data>
+  <data name="Admin_Product_Promotion" xml:space="preserve">
+    <value>продвижение</value>
+  </data>
+  <data name="Admin_Product_Property" xml:space="preserve">
+    <value>свойства</value>
+  </data>
+  <data name="Admin_Product_RelatedNews" xml:space="preserve">
+    <value>Новости по теме</value>
+  </data>
+  <data name="Admin_Product_RelatedProducts" xml:space="preserve">
+    <value>Сопутствующие товары</value>
+  </data>
+  <data name="Admin_Product_RemovingNews" xml:space="preserve">
+    <value>Удаление всех</value>
+  </data>
+  <data name="Admin_Product_SearchByCategory" xml:space="preserve">
+    <value>Поиск по категории</value>
+  </data>
+  <data name="Admin_Product_SelectRelatedProductsFromList" xml:space="preserve">
+    <value>Выберите сопутствующие товары из списка</value>
+  </data>
+  <data name="Admin_Product_ShortDescription" xml:space="preserve">
+    <value>Краткое описание</value>
+  </data>
+  <data name="Admin_Product_Size" xml:space="preserve">
+    <value>размер</value>
+  </data>
+  <data name="Admin_Product_SkipConditions" xml:space="preserve">
+    <value>Сброс</value>
+  </data>
+  <data name="Admin_Product_SortOutput" xml:space="preserve">
+    <value>Сортировать результаты</value>
+  </data>
+  <data name="Admin_Product_Spotlight" xml:space="preserve">
+    <value>прожектор</value>
+  </data>
+  <data name="Admin_Product_Title" xml:space="preserve">
+    <value>название</value>
+  </data>
+  <data name="Admin_Product_Title2" xml:space="preserve">
+    <value>название</value>
+  </data>
+  <data name="Admin_Product_ToDay" xml:space="preserve">
+    <value>По</value>
+  </data>
+  <data name="Admin_Product_TypeOfNews" xml:space="preserve">
+    <value>Тип информации</value>
+  </data>
+  <data name="Admin_Product_Update" xml:space="preserve">
+    <value>обновление</value>
+  </data>
+  <data name="Admin_Product_Video" xml:space="preserve">
+    <value>видео</value>
+  </data>
+  <data name="Admin_Product_Views2" xml:space="preserve">
+    <value>Источник</value>
+  </data>
+  <data name="Admin_Product_Votes" xml:space="preserve">
+    <value>Голосовать</value>
+  </data>
+  <data name="Admin_MenuUser_ExclusiveMenu" xml:space="preserve">
+    <value>меню</value>
+  </data>
+  <data name="Admin_MenuUser_ExclusiveNavigatePath" xml:space="preserve">
+    <value>Navigate Path</value>
+  </data>
+  <data name="Admin_MenuUser_ExclusiveSiteMap" xml:space="preserve">
+    <value>Site Map</value>
+  </data>
+  <data name="Admin_EditTitleMessage" xml:space="preserve">
+    <value>Изменить содержание</value>
+  </data>
+  <data name="Admin_MessageDelete" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить выбранную запись?</value>
+  </data>
+  <data name="Admin_MessageDeleteChildFirst" xml:space="preserve">
+    <value>Вы должны удалить список категорий, прежде чем !</value>
+  </data>
+  <data name="Admin_MessageDeleteFail" xml:space="preserve">
+    <value>Ошибка происходит, удалите журналы не удалось!</value>
+  </data>
+  <data name="Admin_MessageDeletePermission" xml:space="preserve">
+    <value>Вы не можете удалить файл:</value>
+  </data>
+  <data name="Admin_MessageDenyDelete" xml:space="preserve">
+    <value>Вы не можете удалять информацию!</value>
+  </data>
+  <data name="Admin_MessageDenyEdit" xml:space="preserve">
+    <value>Вы не можете редактировать информацию!</value>
+  </data>
+  <data name="Admin_MessageEditPermission" xml:space="preserve">
+    <value>Вы не можете редактировать информацию:</value>
+  </data>
+  <data name="Admin_MessageInsertFail" xml:space="preserve">
+    <value>Ошибка возникает, добавлять новые не удалось!</value>
+  </data>
+  <data name="Admin_MessageInsertSuccess" xml:space="preserve">
+    <value>Добавить новый успех!</value>
+  </data>
+  <data name="Admin_MessageInsertTitle" xml:space="preserve">
+    <value>Добавить новое содержание</value>
+  </data>
+  <data name="Admin_MessageNoData" xml:space="preserve">
+    <value>Нет данных!</value>
+  </data>
+  <data name="Admin_MessageNoSelect" xml:space="preserve">
+    <value>Вы не выберите содержимое, которое требуется удалить!</value>
+  </data>
+  <data name="Admin_MessageRequireTitle" xml:space="preserve">
+    <value>Обязательное поле</value>
+  </data>
+  <data name="Admin_MessageUpdateFail" xml:space="preserve">
+    <value>Ошибка происходит, обновление не удалось!</value>
+  </data>
+  <data name="Admin_MessageUpdatePermission" xml:space="preserve">
+    <value>Вы не можете обновить эту информацию!</value>
+  </data>
+  <data name="Admin_MessageUpdateTitle" xml:space="preserve">
+    <value>Изменить содержание</value>
+  </data>
+  <data name="Admin_Controls_Save" xml:space="preserve">
+    <value>экономить</value>
+  </data>
+  <data name="Admin_Menu_DanhSachThuVienAnh" xml:space="preserve">
+    <value>Готовые дома</value>
+  </data>
+  <data name="Admin_XML_SearchEngine_Save" xml:space="preserve">
+    <value>экономить</value>
+  </data>
+  <data name="Admin_Article_Message7" xml:space="preserve">
+    <value>Вы хотите удалить эту запись?</value>
+  </data>
+  <data name="Admin_Article_Message71" xml:space="preserve">
+    <value>Вы хотите удалить записи?</value>
+  </data>
+  <data name="Admin_Comment_Posts" xml:space="preserve">
+    <value>Сообщений</value>
+  </data>
+  <data name="Admin_Comment_StyleComment" xml:space="preserve">
+    <value>введите комментарий</value>
+  </data>
+  <data name="Admin_Article_CommentAscending" xml:space="preserve">
+    <value>Комментарий по возрастанию</value>
+  </data>
+  <data name="Admin_Article_CommentDescending" xml:space="preserve">
+    <value>Комментарий по убыванию</value>
+  </data>
+  <data name="Admin_Article_PriorityAscending" xml:space="preserve">
+    <value>Приоритет по возрастанию</value>
+  </data>
+  <data name="Admin_Article_PriorityDescending" xml:space="preserve">
+    <value>Приоритет по убыванию</value>
+  </data>
+  <data name="Admin_Product_Havebrowse" xml:space="preserve">
+    <value>Показать</value>
+  </data>
+  <data name="Admin_Product_SelectDate" xml:space="preserve">
+    <value>Выберите дату</value>
+  </data>
+  <data name="Admin_Product_Views" xml:space="preserve">
+    <value>Просм</value>
+  </data>
+  <data name="Admin_Gallery_CheckAll" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="Admin_Gallery_DeleteImage" xml:space="preserve">
+    <value>Удалить фото</value>
+  </data>
+  <data name="Admin_Gallery_Guid" xml:space="preserve">
+    <value>Инструкция: Дваждыщелкнитенавидео, чтобывставитьвидео</value>
+  </data>
+  <data name="Admin_Gallery_ImageType" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="Admin_Gallery_InsertImage" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Admin_Gallery_DinhDangAnhHoTro" xml:space="preserve">
+    <value>Типы фоток</value>
+  </data>
+  <data name="Admin_Gallery_HoanTatTaiAnh" xml:space="preserve">
+    <value>Закончить загрузки фоток</value>
+  </data>
+  <data name="Admin_Gallery_HoTroKeoTha" xml:space="preserve">
+    <value>Выбрать фото из компьютера</value>
+  </data>
+  <data name="Admin_Gallery_ResizeImage" xml:space="preserve">
+    <value>Высота изменяется по размеру ширины</value>
+  </data>
+  <data name="Admin_Gallery_SelectImageType" xml:space="preserve">
+    <value>Выбрать папки фоток</value>
+  </data>
+  <data name="Admin_Gallery_SelectImageUpload" xml:space="preserve">
+    <value>Выбрать фото</value>
+  </data>
+  <data name="Admin_Gallery_TrinhDuyetHoTroKeoTha" xml:space="preserve">
+    <value>Браузер поддерживает перетаскивание фоток</value>
+  </data>
+  <data name="Admin_Gallery_Upload" xml:space="preserve">
+    <value>Загрузить фото из компьютера</value>
+  </data>
+  <data name="Admin_Gallery_Boanh" xml:space="preserve">
+    <value>изображения</value>
+  </data>
+  <data name="Admin_Product_RelatedProductList" xml:space="preserve">
+    <value>Danh sách sản phẩm liên quan</value>
+  </data>
+  <data name="Admin_FrameView_Advice" xml:space="preserve">
+    <value>Tư vấn</value>
+  </data>
+  <data name="Admin_FrameView_Contact" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="Admin_FrameView_Distributionsystem" xml:space="preserve">
+    <value>Hệ thống phân phối</value>
+  </data>
+  <data name="Admin_FrameView_Gallery" xml:space="preserve">
+    <value>Фотогалерея</value>
+  </data>
+  <data name="Admin_FrameView_Home" xml:space="preserve">
+    <value>Гл. страница</value>
+  </data>
+  <data name="Admin_FrameView_Introduction" xml:space="preserve">
+    <value>Giới thiệu</value>
+  </data>
+  <data name="Admin_FrameView_NewsGroup" xml:space="preserve">
+    <value>Tin tức (dạng nhóm)</value>
+  </data>
+  <data name="Admin_FrameView_NewsList" xml:space="preserve">
+    <value>Лента новостей</value>
+  </data>
+  <data name="Admin_FrameView_Partner" xml:space="preserve">
+    <value>Đối tác</value>
+  </data>
+  <data name="Admin_FrameView_Project" xml:space="preserve">
+    <value>Dự án</value>
+  </data>
+  <data name="Admin_FrameView_Recruitment" xml:space="preserve">
+    <value>Tuyển dụng</value>
+  </data>
+  <data name="Admin_FrameView_Services" xml:space="preserve">
+    <value>Dịch vụ</value>
+  </data>
+  <data name="Admin_Gallery_Anhduoctailengandaynhat" xml:space="preserve">
+    <value>Загруженные фото</value>
+  </data>
+  <data name="Admin_Article_Co" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Admin_Article_Khong" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Admin_Gallery_DanhMucAnh" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="Admin_Gallery_ThuVienAnh" xml:space="preserve">
+    <value>Фотогалерея</value>
+  </data>
+  <data name="Admin_Gallery_UploadAnh" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="Admin_Home_Address" xml:space="preserve">
+    <value>~/admin/Styles/img/text_address_ru.png</value>
+  </data>
+  <data name="Admin_Home_Imgbicsrv" xml:space="preserve">
+    <value>~/admin/Styles/img/text_bicsrv2014_ru.png</value>
+  </data>
+  <data name="Admin_Menu_Quanlytailieu" xml:space="preserve">
+    <value>Управление документами</value>
+  </data>
+  <data name="Admin_Gallery_Suathemmoidanhmuc" xml:space="preserve">
+    <value>Редактировать, добавить новую папку фоток</value>
+  </data>
+  <data name="Admin_Video_Anhmota" xml:space="preserve">
+    <value>Главное изображение</value>
+  </data>
+  <data name="Admin_Video_Danhmucvideo" xml:space="preserve">
+    <value>Папка видео</value>
+  </data>
+  <data name="Admin_Video_Dinhdangchophep" xml:space="preserve">
+    <value>Формат видео</value>
+  </data>
+  <data name="Admin_Video_Huongdanclickdupdechenvideo" xml:space="preserve">
+    <value>( Инструкция: Дваждыщелкнитенавидео, чтобывставитьвидео )</value>
+  </data>
+  <data name="Admin_Video_TenVideo" xml:space="preserve">
+    <value>Название видео</value>
+  </data>
+  <data name="Admin_Video_Thuvienvideo" xml:space="preserve">
+    <value>Видеогалерея</value>
+  </data>
+  <data name="Admin_Video_uploadVideo" xml:space="preserve">
+    <value>Загрузитьвидео</value>
+  </data>
+  <data name="Admin_Video_Videoduoctailengandaynhat" xml:space="preserve">
+    <value>Последние добавленные видео</value>
+  </data>
+  <data name="Admin_Video_Videothuocdanhmuc" xml:space="preserve">
+    <value>Видеопосписку</value>
+  </data>
+  <data name="Product_CatGiam" xml:space="preserve">
+    <value>Покрой:</value>
+  </data>
+  <data name="Product_ChieuDai" xml:space="preserve">
+    <value>Длина изделия:</value>
+  </data>
+  <data name="Product_ChieuDaiTay" xml:space="preserve">
+    <value>Длина рукава:</value>
+  </data>
+  <data name="Product_Code" xml:space="preserve">
+    <value>Артикул:</value>
+  </data>
+  <data name="Product_DuongVienCoAo" xml:space="preserve">
+    <value>Вырез горловины:</value>
+  </data>
+  <data name="Product_GioiTinh" xml:space="preserve">
+    <value>Пол:</value>
+  </data>
+  <data name="Product_LichHen" xml:space="preserve">
+    <value>По назначению:</value>
+  </data>
+  <data name="Product_MauSac" xml:space="preserve">
+    <value>Цвет:</value>
+  </data>
+  <data name="Product_Mua" xml:space="preserve">
+    <value>Сезон:</value>
+  </data>
+  <data name="Product_ThanhPhan" xml:space="preserve">
+    <value>Состав:</value>
+  </data>
+  <data name="Product_TheLoai" xml:space="preserve">
+    <value>Стиль:</value>
+  </data>
+  <data name="Product_ThuongHieu" xml:space="preserve">
+    <value>Страна бренда:</value>
+  </data>
+  <data name="Admin_FrameView_Room" xml:space="preserve">
+    <value>Room</value>
+  </data>
+  <data name="Admin_Menu_NhomTaiKhoan" xml:space="preserve">
+    <value>Группа управления</value>
+  </data>
+  <data name="Admin_Menu_News_Letter" xml:space="preserve">
+    <value>Список рассылки</value>
+  </data>
+  <data name="Admin_Menu_Accommodation" xml:space="preserve">
+    <value>жилье</value>
+  </data>
+  <data name="Admin_Menu_Hotel" xml:space="preserve">
+    <value>отель</value>
+  </data>
+  <data name="Admin_Menu_Room_List" xml:space="preserve">
+    <value>Список номеров</value>
+  </data>
+  <data name="Admin_Menu_Type_of_Room" xml:space="preserve">
+    <value>Тип номера</value>
+  </data>
+  <data name="Admin_MenuUser_DeActive_Menu_Message" xml:space="preserve">
+    <value>Вы уверены, чтобы отключить эту категорию? Все содержание, связанное в этой категории будет отключена!</value>
+  </data>
+  <data name="Admin_MenuUser_User_Guide" xml:space="preserve">
+    <value>&lt;span style="color:red; font-weight: bold;"&gt;Warning:&lt;/span&gt;&lt;br /&gt; All related content in this category will be deactivated when category deactivated or deleted.</value>
+  </data>
+  <data name="Admin_Article_Message8" xml:space="preserve">
+    <value>Главная категория деактивирован, пожалуйста, выберите другой основную категорию</value>
+  </data>
+  <data name="Admin_Article_Message9" xml:space="preserve">
+    <value>Главная категория не существует или было удалено. Пожалуйста, выберите основную категорию для этой новой записи</value>
+  </data>
+  <data name="Admin_Menu_Document" xml:space="preserve">
+    <value>Управление документооборотом</value>
+  </data>
+  <data name="Admin_Menu_TraLoi" xml:space="preserve">
+    <value>Ответ</value>
+  </data>
+  <data name="Document_Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="System_Dropdown_Select" xml:space="preserve">
+    <value>[-- Поиск --]</value>
+  </data>
+  <data name="Admin_XML_Promotion_Content" xml:space="preserve">
+    <value>Promotion Content</value>
+  </data>
+  <data name="Admin_XML_Promotion_Title" xml:space="preserve">
+    <value>Promotion Title</value>
+  </data>
+  <data name="System_MenuIcon" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Admin_FrameView_Tour" xml:space="preserve">
+    <value>Tours</value>
+  </data>
+</root>

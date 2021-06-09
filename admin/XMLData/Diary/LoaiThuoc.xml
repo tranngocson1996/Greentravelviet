@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LoaiThuoc>
+  <type value="Chọn loại thuốc"></type>
+  <type value="Almotriptan"></type>
+  <type value="Amitriptyline"></type>
+  <type value="Aspirin"></type>
+  <type value="Atenolol"></type>
+  <type value="Beta blockers"></type>
+  <type value="Clonidine"></type>
+  <type value="Codeine phosphate"></type>
+  <type value="Cyproheptadine hydrochloride"></type>
+  <type value="Diclofenac"></type>
+  <type value="Domperidone"></type>
+  <type value="Dosulepin (Dothiepin)"></type>
+  <type value="Eletriptan"></type>
+  <type value="Ergotamine tartrate"></type>
+  <type value="Flunarizine"></type>
+  <type value="Flurbiprofen"></type>
+  <type value="Frovatriptan"></type>
+  <type value="Gabapentin"></type>
+  <type value="Ibuprofen"></type>
+  <type value="Isometheptene mucate"></type>
+  <type value="Methysergide"></type>
+  <type value="Metoclopramide"></type>
+  <type value="Metoprolol"></type>
+  <type value="Nadolol"></type>
+  <type value="Naproxen"></type>
+  <type value="Naratriptan"></type>
+  <type value="Nortriptyline"></type>
+  <type value="Paracetamol"></type>
+  <type value="Pizotifen"></type>
+  <type value="Prochlorperazine"></type>
+  <type value="Propranolol"></type>
+  <type value="Rizatriptan"></type>
+  <type value="Sodium valproate"></type>
+  <type value="Sumatriptan"></type>
+  <type value="Timolol"></type>
+  <type value="Tolfenamic Acid"></type>
+  <type value="Topiramate"></type>
+  <type value="Zolmitriptan"></type>
+</LoaiThuoc>

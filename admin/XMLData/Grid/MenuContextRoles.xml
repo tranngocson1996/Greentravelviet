@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+    <Group Flow="Vertical">
+        <Item Text="Xem danh sách tài khoản" Value="View"  LeftLogo="~/admin/Styles/icon/ContextMenu/view.gif"></Item>
+        <Item Text="Xoá bản ghi" Value="Delete"  LeftLogo="~/admin/Styles/icon/ContextMenu/delete.gif"></Item>
+     
+    </Group>
+</Menu>

@@ -1,0 +1,2 @@
+﻿- Có bình luận mới: Đọc ra những bài viết có comment chưa duyệt
+- Không có bình luận mới: Đọc ra những bài viết có comment đã được duyệt, và không có comment mới nào

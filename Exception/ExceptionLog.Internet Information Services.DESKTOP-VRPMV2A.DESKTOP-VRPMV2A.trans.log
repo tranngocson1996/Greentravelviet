@@ -1,0 +1,1264 @@
+﻿
+## 2018.04.27 @ 08:19:33 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: hiliTourCaption ##
+
+
+## 2018.04.27 @ 08:34:12 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: hiliTourCaption ##
+
+
+## 2018.05.04 @ 14:02:07 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.04 @ 15:07:22 (GMT + 07) ## System.InvalidCastException: Unable to cast object of type 'BIC.WebControls.TourHotelListView' to type 'BIC.WebControls.ArticleListViewTop'.
+   at Controls_Tour_TourTabHome.menuTabContent_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\bicweb\BETA AND HOST\Vietnamtimestour\Controls\Tour\TourTabHome.ascx.cs:line 46
+   at System.Web.UI.WebControls.ListView.OnItemDataBound(ListViewItemEventArgs e)
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2018.05.04 @ 15:07:22 (GMT + 07) ## System.InvalidCastException: Unable to cast object of type 'BIC.WebControls.TourHotelListView' to type 'BIC.WebControls.ArticleListViewTop'.
+   at Controls_Tour_TourTabHome.menuTabContent_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\bicweb\BETA AND HOST\Vietnamtimestour\Controls\Tour\TourTabHome.ascx.cs:line 46
+   at System.Web.UI.WebControls.ListView.OnItemDataBound(ListViewItemEventArgs e)
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2018.05.04 @ 15:10:35 (GMT + 07) ## System.InvalidCastException: Unable to cast object of type 'BIC.WebControls.TourHotelListView' to type 'BIC.WebControls.ArticleListViewTop'.
+   at Controls_Tour_TourTabHome.menuTabContent_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\bicweb\BETA AND HOST\Vietnamtimestour\Controls\Tour\TourTabHome.ascx.cs:line 46
+   at System.Web.UI.WebControls.ListView.OnItemDataBound(ListViewItemEventArgs e)
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2018.05.04 @ 15:10:35 (GMT + 07) ## System.InvalidCastException: Unable to cast object of type 'BIC.WebControls.TourHotelListView' to type 'BIC.WebControls.ArticleListViewTop'.
+   at Controls_Tour_TourTabHome.menuTabContent_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\bicweb\BETA AND HOST\Vietnamtimestour\Controls\Tour\TourTabHome.ascx.cs:line 46
+   at System.Web.UI.WebControls.ListView.OnItemDataBound(ListViewItemEventArgs e)
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2018.05.04 @ 15:14:33 (GMT + 07) ## System.InvalidCastException: Unable to cast object of type 'BIC.WebControls.TourHotelListView' to type 'BIC.WebControls.ArticleListViewTop'.
+   at Controls_Tour_TourTabHome.menuTabContent_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\bicweb\BETA AND HOST\Vietnamtimestour\Controls\Tour\TourTabHome.ascx.cs:line 46
+   at System.Web.UI.WebControls.ListView.OnItemDataBound(ListViewItemEventArgs e)
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2018.05.04 @ 15:14:33 (GMT + 07) ## System.InvalidCastException: Unable to cast object of type 'BIC.WebControls.TourHotelListView' to type 'BIC.WebControls.ArticleListViewTop'.
+   at Controls_Tour_TourTabHome.menuTabContent_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\bicweb\BETA AND HOST\Vietnamtimestour\Controls\Tour\TourTabHome.ascx.cs:line 46
+   at System.Web.UI.WebControls.ListView.OnItemDataBound(ListViewItemEventArgs e)
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2018.05.04 @ 15:14:43 (GMT + 07) ## System.InvalidCastException: Unable to cast object of type 'BIC.WebControls.TourHotelListView' to type 'BIC.WebControls.ArticleListViewTop'.
+   at Controls_Tour_TourTabHome.menuTabContent_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\bicweb\BETA AND HOST\Vietnamtimestour\Controls\Tour\TourTabHome.ascx.cs:line 46
+   at System.Web.UI.WebControls.ListView.OnItemDataBound(ListViewItemEventArgs e)
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2018.05.04 @ 15:14:43 (GMT + 07) ## System.InvalidCastException: Unable to cast object of type 'BIC.WebControls.TourHotelListView' to type 'BIC.WebControls.ArticleListViewTop'.
+   at Controls_Tour_TourTabHome.menuTabContent_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\bicweb\BETA AND HOST\Vietnamtimestour\Controls\Tour\TourTabHome.ascx.cs:line 46
+   at System.Web.UI.WebControls.ListView.OnItemDataBound(ListViewItemEventArgs e)
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2018.05.04 @ 15:17:29 (GMT + 07) ## System.InvalidCastException: Unable to cast object of type 'BIC.WebControls.TourHotelListView' to type 'BIC.WebControls.ArticleListViewTop'.
+   at Controls_Tour_TourTabHome.menuTabContent_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\bicweb\BETA AND HOST\Vietnamtimestour\Controls\Tour\TourTabHome.ascx.cs:line 46
+   at System.Web.UI.WebControls.ListView.OnItemDataBound(ListViewItemEventArgs e)
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2018.05.04 @ 15:17:29 (GMT + 07) ## System.InvalidCastException: Unable to cast object of type 'BIC.WebControls.TourHotelListView' to type 'BIC.WebControls.ArticleListViewTop'.
+   at Controls_Tour_TourTabHome.menuTabContent_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\bicweb\BETA AND HOST\Vietnamtimestour\Controls\Tour\TourTabHome.ascx.cs:line 46
+   at System.Web.UI.WebControls.ListView.OnItemDataBound(ListViewItemEventArgs e)
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2018.05.04 @ 15:17:53 (GMT + 07) ## System.InvalidCastException: Unable to cast object of type 'BIC.WebControls.TourHotelListView' to type 'BIC.WebControls.ArticleListViewTop'.
+   at Controls_Tour_TourTabHome.menuTabContent_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\bicweb\BETA AND HOST\Vietnamtimestour\Controls\Tour\TourTabHome.ascx.cs:line 46
+   at System.Web.UI.WebControls.ListView.OnItemDataBound(ListViewItemEventArgs e)
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2018.05.04 @ 15:17:54 (GMT + 07) ## System.InvalidCastException: Unable to cast object of type 'BIC.WebControls.TourHotelListView' to type 'BIC.WebControls.ArticleListViewTop'.
+   at Controls_Tour_TourTabHome.menuTabContent_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\bicweb\BETA AND HOST\Vietnamtimestour\Controls\Tour\TourTabHome.ascx.cs:line 46
+   at System.Web.UI.WebControls.ListView.OnItemDataBound(ListViewItemEventArgs e)
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2018.05.04 @ 15:18:38 (GMT + 07) ## System.InvalidCastException: Unable to cast object of type 'BIC.WebControls.TourHotelListView' to type 'BIC.WebControls.ArticleListViewTop'.
+   at Controls_Tour_TourTabHome.menuTabContent_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\bicweb\BETA AND HOST\Vietnamtimestour\Controls\Tour\TourTabHome.ascx.cs:line 43
+   at System.Web.UI.WebControls.ListView.OnItemDataBound(ListViewItemEventArgs e)
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2018.05.04 @ 15:18:38 (GMT + 07) ## System.InvalidCastException: Unable to cast object of type 'BIC.WebControls.TourHotelListView' to type 'BIC.WebControls.ArticleListViewTop'.
+   at Controls_Tour_TourTabHome.menuTabContent_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\bicweb\BETA AND HOST\Vietnamtimestour\Controls\Tour\TourTabHome.ascx.cs:line 43
+   at System.Web.UI.WebControls.ListView.OnItemDataBound(ListViewItemEventArgs e)
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2018.05.08 @ 13:44:44 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.08 @ 15:03:41 (GMT + 07) ## System.IO.FileNotFoundException: Could not find file 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'.
+File name: 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at Admin_Components_Tour_EditionTour.LoadYTuongTour() in f:\bicweb\BETA AND HOST\Vietnamtimestour\admin\Components\Tour\EditionTour.ascx.cs:line 69 ##
+
+
+## 2018.05.08 @ 15:03:41 (GMT + 07) ## Error: System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Transportation'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.BicGetData.GetAllData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Searching\BicSearching.cs:line 280
+ClientConnectionId:61925f88-9e40-4198-94db-6bc7c37f7451
+Error Number:208,State:1,Class:16 - SQL:SELECT TransportationID,TenPhuongTien,Priority,IsActive,LanguageKey FROM Transportation   where (IsActive = 1) AND (LanguageKey = N'vi')  order by TenPhuongTien ##
+
+
+## 2018.05.08 @ 15:09:11 (GMT + 07) ## Error: System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Transportation'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.BicGetData.GetAllData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Searching\BicSearching.cs:line 280
+ClientConnectionId:ec085259-9ea1-4b89-baf6-1bda3cdbe468
+Error Number:208,State:1,Class:16 - SQL:SELECT TransportationID,TenPhuongTien,Priority,IsActive FROM Transportation   where (LanguageKey = N'vi')  order by Priority ##
+
+
+## 2018.05.08 @ 15:12:25 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.TransportationInsert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataAccess.ExecuteNonQuery(DbCommand cmd) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BICLib\DataAccess.cs:line 38
+ClientConnectionId:ea47265d-d131-4175-9dd4-9fc666964365
+Error Number:2812,State:62,Class:16 ##
+
+
+## 2018.05.08 @ 15:12:47 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.TransportationInsert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataAccess.ExecuteNonQuery(DbCommand cmd) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BICLib\DataAccess.cs:line 38
+ClientConnectionId:7894d5ad-1251-4d1d-b4c4-0517d0fbd9c8
+Error Number:2812,State:62,Class:16 ##
+
+
+## 2018.05.08 @ 15:12:54 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.TransportationInsert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataAccess.ExecuteNonQuery(DbCommand cmd) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BICLib\DataAccess.cs:line 38
+ClientConnectionId:7894d5ad-1251-4d1d-b4c4-0517d0fbd9c8
+Error Number:2812,State:62,Class:16 ##
+
+
+## 2018.05.08 @ 15:16:26 (GMT + 07) ## System.IO.FileNotFoundException: Could not find file 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'.
+File name: 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at Admin_Components_Tour_EditionTour.LoadYTuongTour() in f:\bicweb\BETA AND HOST\Vietnamtimestour\admin\Components\Tour\EditionTour.ascx.cs:line 69 ##
+
+
+## 2018.05.08 @ 15:17:13 (GMT + 07) ## System.IO.FileNotFoundException: Could not find file 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'.
+File name: 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at Admin_Components_Tour_EditionTour.LoadYTuongTour() in f:\bicweb\BETA AND HOST\Vietnamtimestour\admin\Components\Tour\EditionTour.ascx.cs:line 69 ##
+
+
+## 2018.05.08 @ 15:24:02 (GMT + 07) ## System.IO.FileNotFoundException: Could not find file 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'.
+File name: 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at Admin_Components_Tour_EditionTour.LoadYTuongTour() in f:\bicweb\BETA AND HOST\Vietnamtimestour\admin\Components\Tour\EditionTour.ascx.cs:line 69 ##
+
+
+## 2018.05.08 @ 15:42:22 (GMT + 07) ## System.IO.FileNotFoundException: Could not find file 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'.
+File name: 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at Admin_Components_Tour_EditionTour.LoadYTuongTour() in f:\bicweb\BETA AND HOST\Vietnamtimestour\admin\Components\Tour\EditionTour.ascx.cs:line 69 ##
+
+
+## 2018.05.08 @ 15:42:45 (GMT + 07) ## System.IO.FileNotFoundException: Could not find file 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'.
+File name: 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at Admin_Components_Tour_EditionTour.LoadYTuongTour() in f:\bicweb\BETA AND HOST\Vietnamtimestour\admin\Components\Tour\EditionTour.ascx.cs:line 69 ##
+
+
+## 2018.05.08 @ 15:43:00 (GMT + 07) ## System.IO.FileNotFoundException: Could not find file 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_en.xml'.
+File name: 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_en.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at Admin_Components_Tour_EditionTour.LoadYTuongTour() in f:\bicweb\BETA AND HOST\Vietnamtimestour\admin\Components\Tour\EditionTour.ascx.cs:line 69 ##
+
+
+## 2018.05.08 @ 15:47:59 (GMT + 07) ## System.IO.FileNotFoundException: Could not find file 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'.
+File name: 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at Admin_Components_Tour_EditionTour.LoadYTuongTour() in f:\bicweb\BETA AND HOST\Vietnamtimestour\admin\Components\Tour\EditionTour.ascx.cs:line 69 ##
+
+
+## 2018.05.08 @ 15:49:14 (GMT + 07) ## System.IO.FileNotFoundException: Could not find file 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'.
+File name: 'F:\bicweb\BETA AND HOST\Vietnamtimestour\admin\XMLData\YTuongTour_vi.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at Admin_Components_Tour_EditionTour.LoadYTuongTour() in f:\bicweb\BETA AND HOST\Vietnamtimestour\admin\Components\Tour\EditionTour.ascx.cs:line 69 ##
+
+
+## 2018.05.09 @ 20:54:30 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.09 @ 20:59:58 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.09 @ 21:30:20 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.09 @ 21:32:36 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.09 @ 21:34:27 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.09 @ 21:39:59 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.09 @ 21:44:39 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.09 @ 21:46:36 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 10:07:39 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 10:10:40 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 10:10:42 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 10:12:46 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 10:12:56 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 10:19:13 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 10:29:35 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 10:34:34 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 13:25:16 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 13:30:46 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 13:36:13 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 13:47:54 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 13:51:59 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 13:57:56 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 14:07:54 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 14:19:03 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 14:21:55 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 14:22:44 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 14:25:59 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 14:26:00 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 14:28:57 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 14:38:31 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 14:40:37 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 14:48:14 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 14:54:14 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 14:58:46 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 15:28:06 (GMT + 07) ## Error: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'FROM'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.BicGetData.GetPagingData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Searching\BicSearching.cs:line 240
+ClientConnectionId:286db3e3-4845-45e0-8b16-6b215f29094b
+Error Number:156,State:1,Class:15 - SQL:SELECT TOP 3  FROM Tour    order by Priority ##
+
+
+## 2018.05.10 @ 15:32:32 (GMT + 07) ## Error: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'FROM'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.BicGetData.GetPagingData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Searching\BicSearching.cs:line 240
+ClientConnectionId:fbe4ad06-31af-491a-932f-63d5c48796cb
+Error Number:156,State:1,Class:15 - SQL:SELECT TOP 3  FROM Tour    order by Priority ##
+
+
+## 2018.05.10 @ 15:34:32 (GMT + 07) ## Error: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'FROM'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.BicGetData.GetPagingData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Searching\BicSearching.cs:line 240
+ClientConnectionId:427dda89-11d8-4765-911c-bb8baed225a5
+Error Number:156,State:1,Class:15 - SQL:SELECT TOP 3  FROM Tour    order by Priority ##
+
+
+## 2018.05.10 @ 15:34:32 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: hiliTourCaption ##
+
+
+## 2018.05.10 @ 15:45:16 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 15:46:45 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.10 @ 15:52:04 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.11 @ 08:17:52 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.11 @ 08:21:47 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.11 @ 08:40:14 (GMT + 07) ## Error: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'FROM'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.BicGetData.GetPagingData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Searching\BicSearching.cs:line 240
+ClientConnectionId:1767d303-77ff-4be6-b3f1-71684ad1a077
+Error Number:156,State:1,Class:15 - SQL:SELECT TOP 18  FROM Tour    order by Priority ##
+
+
+## 2018.05.11 @ 08:42:22 (GMT + 07) ## Error: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'FROM'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.BicGetData.GetPagingData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Searching\BicSearching.cs:line 240
+ClientConnectionId:21afc2ce-5f72-40a9-bfca-2f4bdf8a76b1
+Error Number:156,State:1,Class:15 - SQL:SELECT TOP 12  FROM Tour    order by Priority ##
+
+
+## 2018.05.11 @ 09:07:26 (GMT + 07) ## Error: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'FROM'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.BicGetData.GetPagingData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Searching\BicSearching.cs:line 240
+ClientConnectionId:975151b1-9c1b-4105-b373-9fcb5be9ed6e
+Error Number:156,State:1,Class:15 - SQL:SELECT TOP 12  FROM Tour    order by Priority ##
+
+
+## 2018.05.11 @ 12:03:23 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.11 @ 13:37:46 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.11 @ 14:05:17 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionTourInfor ##
+
+
+## 2018.05.11 @ 14:05:17 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionLienHe ##
+
+
+## 2018.05.11 @ 14:05:17 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: captionHttt ##
+
+
+## 2018.05.11 @ 14:13:20 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionTourInfor ##
+
+
+## 2018.05.11 @ 14:13:20 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionLienHe ##
+
+
+## 2018.05.11 @ 14:13:20 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: captionHttt ##
+
+
+## 2018.05.11 @ 15:24:16 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionTourInfor ##
+
+
+## 2018.05.11 @ 15:24:16 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionLienHe ##
+
+
+## 2018.05.11 @ 15:24:16 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: captionHttt ##
+
+
+## 2018.05.11 @ 15:28:03 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionTourInfor ##
+
+
+## 2018.05.11 @ 15:28:03 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionLienHe ##
+
+
+## 2018.05.11 @ 15:28:04 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: captionHttt ##
+
+
+## 2018.05.11 @ 15:29:08 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionTourInfor ##
+
+
+## 2018.05.11 @ 15:29:08 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionLienHe ##
+
+
+## 2018.05.11 @ 15:29:08 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: captionHttt ##
+
+
+## 2018.05.11 @ 15:33:18 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionTourInfor ##
+
+
+## 2018.05.11 @ 15:33:18 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionLienHe ##
+
+
+## 2018.05.11 @ 15:33:18 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: captionHttt ##
+
+
+## 2018.05.11 @ 16:29:52 (GMT + 07) ## Error: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'FROM'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.BicGetData.GetPagingData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Searching\BicSearching.cs:line 240
+ClientConnectionId:4022a3c0-c1d9-4727-bf80-9f17ff80f887
+Error Number:156,State:1,Class:15 - SQL:SELECT TOP 12  FROM Tour    order by Priority ##
+
+
+## 2018.05.11 @ 16:45:47 (GMT + 07) ## Error: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'FROM'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.BicGetData.GetPagingData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Searching\BicSearching.cs:line 240
+ClientConnectionId:803dc18a-0292-4c25-98ca-9409c0fbd04b
+Error Number:156,State:1,Class:15 - SQL:SELECT TOP 12  FROM Tour    order by Priority ##
+
+
+## 2018.05.11 @ 16:56:28 (GMT + 07) ## Error: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'FROM'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.BicGetData.GetPagingData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Searching\BicSearching.cs:line 240
+ClientConnectionId:4795847f-98d5-4b2b-a720-b903ce5fb748
+Error Number:156,State:1,Class:15 - SQL:SELECT TOP 12  FROM Tour    order by Priority ##
+
+
+## 2018.05.13 @ 10:54:23 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 10:56:47 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 10:59:12 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 11:23:47 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 11:27:17 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 11:29:47 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 11:33:54 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 11:34:16 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 11:34:44 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 11:36:53 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 11:37:42 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 11:37:50 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 11:37:56 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 11:38:52 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 11:39:04 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 11:39:52 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.13 @ 11:40:08 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.14 @ 10:08:54 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.14 @ 10:09:05 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.14 @ 10:16:16 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.14 @ 13:54:12 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The user name or password is incorrect
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 116
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 169
+ClientConnectionId:5f1dff69-c4a4-4563-a0e7-f322699ebe0f
+Error Number:1326,State:0,Class:20 ##
+
+
+## 2018.05.14 @ 13:54:12 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The user name or password is incorrect
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 116
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 169
+ClientConnectionId:5f1dff69-c4a4-4563-a0e7-f322699ebe0f
+Error Number:1326,State:0,Class:20 ##
+
+
+## 2018.05.14 @ 13:54:12 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The user name or password is incorrect
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 116
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 169
+ClientConnectionId:5f1dff69-c4a4-4563-a0e7-f322699ebe0f
+Error Number:1326,State:0,Class:20 ##
+
+
+## 2018.05.14 @ 13:54:12 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The user name or password is incorrect
+   at BIC.Data.DataHelper.GetTable(String strSQL, Boolean isProcedure) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 260
+   at Controls_Menu_MenuFooter.IsParent(String parentID) in f:\bicweb\BETA AND HOST\DA_GreenTravelViet\Greentravelviet\Controls\Menu\MenuFooter.ascx.cs:line 74
+   at ASP.controls_menu_menufooter_ascx.__DataBind__control7(Object sender, EventArgs e) in f:\bicweb\BETA AND HOST\DA_GreenTravelViet\Greentravelviet\Controls\Menu\MenuFooter.ascx:line 11
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180
+ClientConnectionId:5f1dff69-c4a4-4563-a0e7-f322699ebe0f
+Error Number:1326,State:0,Class:20 ##
+
+
+## 2018.05.14 @ 13:59:29 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.15 @ 16:03:06 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 119
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 176
+ClientConnectionId:9717cab6-a2af-419f-b98c-b6766d18d061
+Error Number:102,State:1,Class:15 ##
+
+
+## 2018.05.15 @ 16:03:34 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 119
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 176
+ClientConnectionId:f18fbdf3-9529-45b3-87c6-90a4a003755e
+Error Number:102,State:1,Class:15 ##
+
+
+## 2018.05.15 @ 16:06:53 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 119
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 176
+ClientConnectionId:c6d867b2-431e-4f23-9411-1b0b2d059652
+Error Number:102,State:1,Class:15 ##
+
+
+## 2018.05.15 @ 16:13:25 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 119
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 176
+ClientConnectionId:9717cab6-a2af-419f-b98c-b6766d18d061
+Error Number:102,State:1,Class:15 ##
+
+
+## 2018.05.15 @ 16:17:20 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 119
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 176
+ClientConnectionId:ed9f8e78-2aa1-49dc-8b75-de374c293eb9
+Error Number:102,State:1,Class:15 ##
+
+
+## 2018.05.15 @ 16:19:28 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 119
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 176
+ClientConnectionId:4a9cf748-6434-4a80-afd0-9190fcb8fc3f
+Error Number:102,State:1,Class:15 ##
+
+
+## 2018.05.15 @ 16:21:28 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 119
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 176
+ClientConnectionId:9e9bf238-3b66-4210-b676-ee8454700e12
+Error Number:102,State:1,Class:15 ##
+
+
+## 2018.05.15 @ 16:21:59 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 119
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 176
+ClientConnectionId:e4ab5f4c-0f9a-4fea-a523-5023cea9761d
+Error Number:102,State:1,Class:15 ##
+
+
+## 2018.05.15 @ 16:22:46 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 119
+   at BIC.WebControls.MenuListView.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 176
+ClientConnectionId:6beefcb0-9ade-4e64-99d0-50ffa648690f
+Error Number:102,State:1,Class:15 ##
+
+
+## 2018.05.16 @ 21:25:05 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: hiliTourCaption ##
+
+
+## 2018.05.17 @ 00:26:40 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.17 @ 00:34:25 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.17 @ 01:01:09 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.17 @ 01:01:57 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.17 @ 01:09:49 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.17 @ 01:09:59 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.18 @ 08:52:35 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.18 @ 08:54:37 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.18 @ 08:57:45 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.18 @ 08:58:14 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.18 @ 08:59:51 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.18 @ 09:43:37 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.18 @ 11:39:14 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.18 @ 11:43:14 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.18 @ 11:44:28 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.18 @ 11:49:38 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.18 @ 11:55:39 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.05.18 @ 13:47:15 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.06.05 @ 17:22:31 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.06.05 @ 17:39:33 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.06.05 @ 17:39:44 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.06.05 @ 17:42:39 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: hiliTourCaption ##
+
+
+## 2018.06.05 @ 17:42:39 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: hiliTourCaption ##
+
+
+## 2018.06.05 @ 17:49:09 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: hiliTourCaption ##
+
+
+## 2018.06.05 @ 17:49:09 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: hiliTourCaption ##
+
+
+## 2018.06.05 @ 17:49:26 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: hiliTourCaption ##
+
+
+## 2018.06.05 @ 17:49:26 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: hiliTourCaption ##
+
+
+## 2018.06.05 @ 18:05:37 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.06.05 @ 18:06:42 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.06.05 @ 18:07:27 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.06.05 @ 18:09:24 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: CaptionRef ##
+
+
+## 2018.06.06 @ 16:45:52 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: hiliTourCaption ##
+
+
+## 2018.06.06 @ 16:45:52 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: hiliTourCaption ##
+

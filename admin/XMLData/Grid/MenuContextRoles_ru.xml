@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+    <Group Flow="Vertical">
+        <Item Text="Просмотр списка аккаунтов" Value="View"  LeftLogo="~/admin/Styles/icon/ContextMenu/view.gif"></Item>
+        <Item Text="удаление записей" Value="Delete"  LeftLogo="~/admin/Styles/icon/ContextMenu/delete.gif"></Item>
+    </Group>
+</Menu>

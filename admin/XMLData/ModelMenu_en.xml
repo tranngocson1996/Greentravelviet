@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<TypeMenu>
+  <type name="Menu đỉnh trên" key="1" type="global" cot="cot1" />
+  <!--<type name="Menu đỉnh dưới" key="2" type="global" cot="cot2" />-->
+  <type name="Menu đặc biệt nội dung" key="3" type="global" cot="cot3" />
+  <type name="Menu ở chân trang" key="4" type="global" cot="cot1" />
+</TypeMenu>

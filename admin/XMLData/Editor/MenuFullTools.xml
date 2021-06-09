@@ -1,0 +1,285 @@
+﻿<root>
+
+
+    <tools enabled="true">
+       
+        <tool name="Undo" />
+        <tool name="Redo" />
+        <tool name="SelectAll" />
+        <EditorToolStrip Name="Paste Options"  PopupHeight="250px" PopupAlign="Left">
+            <EditorTool Name="Cut" />
+            <EditorTool Name="Copy" />
+            <tool name="Paste" shortcut="CTRL+!"/>
+            <EditorTool Name="PasteFromWord" />
+            <EditorTool Name="Paste" />
+            <EditorTool Name="PasteFromWordNoFontsNoSizes" />
+            <EditorTool Name="PastePlainText" />
+            <EditorTool Name="PasteHtmlss" />
+        </EditorToolStrip>
+        <tool name="StripAll" />
+        <tool name="StripCss" />
+        <tool name="StripFont" />
+        <tool name="StripSpan" />
+        <tool name="StripWord" />
+   
+        <tool name="LinkManager" />
+        <tool name="InsertLink" />
+        <tool name="Unlink" />
+     
+        <tool name="CustomImageManagement"  shortcut="CTRL+G"/>
+      
+        <tool name="FlashManager" />
+        <tool name="MediaManager" />
+        <tool name="DocumentManager" />
+      
+        <tool separator="true"/>
+        <!--<tool name="InsertTableLight" />-->
+        <tool name="InsertTable" />
+        
+
+        <tool name="Indent" />
+        <tool name="Outdent" />
+        <tool name="InsertOrderedList" />
+        <tool name="InsertUnorderedList"/>
+
+    </tools>
+
+    <tools name="Tool3" enabled="true" >
+        <tool name="InsertSnippet" />
+     
+        <!--<tool  name="TranslateTool" Name="TranslateTool"  type="dropdown" width="130" ItemsPerRow="1" PopupWidth="160" PopupHeight="300">
+          <item  name="&lt;img src='../flags/en.png' /&gt; English"  value="en"  />
+          <item  name="&lt;img src=&#39;./flags/en.png&#39; /&gt; Vietnamese"  value="vi"  />
+          <item  name="&lt;img src=&#39;./flags/en.png&#39; /&gt; Russian"  value="rus"  />
+      </tool>-->
+    </tools>
+
+    <tools name="FontTool" dockable="true"  >
+        <tool name="ForeColor" />
+        <tool name="BackColor"/>
+        <tool separator="true"/>
+   
+        <tool separator="true"/>
+        <tool name="FormatBlock"/>
+        <tool name="FontName"/>
+        <tool name="RealFontSize"/>
+    </tools>
+
+    <tools enabled="true" dockable="true">
+        <tool name="Bold" />
+        <tool name="Italic" />
+        <tool name="Underline" />
+        <tool name="StrikeThrough" />
+        <tool separator="true"/>
+        <tool name="Superscript" />
+        <tool name="Subscript" />
+        <tool separator="true"/>
+        <tool name="ConvertToLower" />
+        <tool name="ConvertToUpper" />
+        <tool separator="true"/>
+        <tool name="JustifyLeft" />
+        <tool name="JustifyCenter" />
+        <tool name="JustifyRight" />
+        <tool name="JustifyFull" />
+        <tool name="JustifyNone" />
+        <tool name="ToggleScreenMode" />
+        
+
+    </tools>
+
+    <snippets>
+
+        <snippet name="Bảng 2 cột cách nhau 20px">
+            <![CDATA[
+    <table width="576px">
+        <tr>
+            <td style="width:278px; vertical-align:top; text-align:justify"></td>
+            <td width="20px"></td>
+           <td style="width:278px; vertical-align:top; text-align:justify"></td>
+        </tr>
+    </table>
+	]]>
+        </snippet>
+
+        <snippet name="Bảng 5 ô 100x100 cách nhau 10px">
+            <![CDATA[
+          <center>
+   <table width="540px">
+  <tr>
+    	<td style="width:100px;"></td>
+		<td width="10px"></td>
+        <td style="width:100px;"></td>
+		<td width="10px"></td>
+        <td style="width:100px;"></td>
+		<td width="10px"></td>
+        <td style="width:100px;"></td>
+		<td width="10px"></td>
+        <td style="width:100px;"></td>
+  </tr>
+
+</table>
+</center>
+	]]>
+        </snippet>
+        <snippet name="Bảng 5 ô, 2 dòng 100x100 cách nhau 10px">
+            <![CDATA[
+          <center>
+   <table width="540px">
+  <tr>
+    	<td style="width:100px;"></td>
+		<td width="10px"></td>
+        <td style="width:100px;"></td>
+		<td width="10px"></td>
+        <td style="width:100px;"></td>
+		<td width="10px"></td>
+        <td style="width:100px;"></td>
+		<td width="10px"></td>
+        <td style="width:100px;"></td>
+  </tr>
+   <tr>
+    	<td style="width:100px; text-align:center; vertical-align:middle"></td>
+		<td width="10px"></td>
+        <td style="width:100px; text-align:center; vertical-align:middle"></td>
+		<td width="10px"></td>
+        <td style="width:100px; text-align:center; vertical-align:middle"></td>
+		<td width="10px"></td>
+        <td style="width:100px; text-align:center; vertical-align:middle"></td>
+		<td width="10px"></td>
+        <td style="width:100px; text-align:center; vertical-align:middle"></td>
+  </tr>
+</table>
+</center>
+	]]>
+        </snippet>
+    </snippets>
+
+    <symbols>
+
+    </symbols>
+  <fontNames>
+    <item value="Arial" name="Arial"/>
+    <item value="Courier New"  name="Courier New" />
+    <item value="Garamond"  name="Garamond"/>
+    <item value="Georgia" name="Georgia"/>
+    <item value="MS Sans Serif" name="MS Sans Serif"/>
+    <item value="Segoe UI" name="Segoe UI"/>
+    <item value="Tahoma" name="Tahoma"/>
+    <item value="Times New Roman" name="Times New Roman"/>
+    <item value="Verdana" name="Verdana"/>
+    <item value="UTM-AVO" name="UTM-AVO"/>
+    <item value="UTM-AVOBOLD" name="UTM-AVOBOLD"/>
+    <item value="UTM Trajan Pro Bold" name="UTM Trajan Pro Bold"/>
+  </fontNames>
+    <fontSizes>
+    </fontSizes>
+    <realFontSizes>
+        <item value="10px"></item>
+        <item value="11px"></item>
+        <item value="12px"></item>
+        <item value="13px"></item>
+        <item value="14px"></item>
+        <item value="15px"></item>
+        <item value="16px"></item>
+        <item value="17px"></item>
+        <item value="18px"></item>
+        <item value="19px"></item>
+        <item value="20px"></item>
+        <item value="21px"></item>
+        <item value="22px"></item>
+        <item value="23px"></item>
+        <item value="24px"></item>
+        <item value="25px"></item>
+        <item value="26px"></item>
+        <item value="27px"></item>
+        <item value="28px"></item>
+        <item value="29px"></item>
+        <item value="30px"></item>
+        <item value="31px"></item>
+        <item value="32px"></item>
+        <item value="33px"></item>
+        <item value="34px"></item>
+        <item value="35px"></item>
+        <item value="36px"></item>
+        <item value="37px"></item>
+        <item value="38px"></item>
+        <item value="39px"></item>
+        <item value="40px"></item>
+        <item value="41px"></item>
+        <item value="42px"></item>
+        <item value="43px"></item>
+        <item value="44px"></item>
+        <item value="45px"></item>
+        <item value="46px"></item>
+        <item value="47px"></item>
+        <item value="48px"></item>
+        <item value="49px"></item>
+        <item value="50px"></item>
+        <item value="51px"></item>
+        <item value="52px"></item>
+        <item value="53px"></item>
+        <item value="54px"></item>
+        <item value="55px"></item>
+        <item value="56px"></item>
+        <item value="57px"></item>
+        <item value="58px"></item>
+        <item value="59px"></item>
+        <item value="60px"></item>
+        <item value="61px"></item>
+        <item value="62px"></item>
+        <item value="63px"></item>
+        <item value="64px"></item>
+        <item value="65px"></item>
+        <item value="66px"></item>
+        <item value="67px"></item>
+        <item value="68px"></item>
+        <item value="69px"></item>
+        <item value="70px"></item>
+        <item value="71px"></item>
+        <item value="72px"></item>
+    </realFontSizes>
+    <colors>
+    </colors>
+    <classes>
+        <class name="Không định dạng" value="" />
+        <class name="Bảng có viền" value=".TableWidthBorder"/>
+    </classes>
+    <paragraphs>
+        <paragraph name="&lt;H1>Heading 1&lt;/H1>" value="&lt;H1>" />
+        <paragraph name="&lt;H2 style='font-family: Trebuchet MS;'>Heading 2&lt;/H2>" value="&lt;H2 style='font-family: Trebuchet MS;'>" />
+        <paragraph name="&lt;H3 class='serif'>Heading 3&lt;/H3>" value="&lt;H3 class='serif'>" />
+        <paragraph name="Giãn dòng 17px" value="&lt;p style='line-height:17px;'>"  />
+        <paragraph name="Giãn dòng 18px" value="&lt;p style='line-height:18px;'>"  />
+        <paragraph name="Giãn dòng 19px" value="&lt;p style='line-height:19px;'>"  />
+        <paragraph name="Giãn dòng 20px" value="&lt;p style='line-height:20px;'>"  />
+        <paragraph name="Giãn dòng 21px" value="&lt;p style='line-height:21px;'>"  />
+        <paragraph name="Giãn dòng 22px" value="&lt;p style='line-height:22px;'>"  />
+        <paragraph name="Giãn dòng 23px" value="&lt;p style='line-height:23px;'>"  />
+        <paragraph name="Giãn dòng 24px" value="&lt;p style='line-height:24px;'>"  />
+        <paragraph name="Giãn dòng 25px" value="&lt;p style='line-height:25px;'>"  />
+        <paragraph name="Giãn dòng 110%" value="&lt;p style='line-height:110%;'>"  />
+        <paragraph name="Giãn dòng 120%" value="&lt;p style='line-height:120%;'>"  />
+        <paragraph name="Giãn dòng 130%" value="&lt;p style='line-height:130%;'>"  />
+        <paragraph name="Giãn dòng 140%" value="&lt;p style='line-height:140%;'>"  />
+        <paragraph name="Giãn dòng 150%" value="&lt;p style='line-height:150%;'>"  />
+        <paragraph name="Giãn dòng 160%" value="&lt;p style='line-height:160%;'>"  />
+        <paragraph name="Giãn dòng 170%" value="&lt;p style='line-height:170%;'>"  />
+        <paragraph name="Giãn dòng 200%" value="&lt;p style='line-height:200%;'>"  />
+        <paragraph name="Giãn dòng 300%" value="&lt;p style='line-height:300%;'>"  />
+    </paragraphs>
+    <contextMenus>
+        <contextMenu forElement="A">
+            <tool name="LinkManager" />
+            <tool name="Unlink" />
+        </contextMenu>
+        <contextMenu forElement="P">
+            <tool name="JustifyLeft" />
+            <tool name="JustifyCenter" />
+            <tool name="JustifyRight" />
+            <tool name="JustifyFull" />
+        </contextMenu>
+    </contextMenus>
+    <dialogParameters>
+    </dialogParameters>
+    <languages>
+    </languages>
+</root>

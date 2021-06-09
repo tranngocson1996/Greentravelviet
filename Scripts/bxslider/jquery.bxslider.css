@@ -1,0 +1,132 @@
+
+.bx-wrapper {
+    margin: 0 auto 60px;
+    padding: 0;
+    position: relative;
+}
+.bx-wrapper img {
+    display: block;
+    max-width: 100%;
+}
+.bx-wrapper .bx-viewport {
+    background: #fff none repeat scroll 0 0;
+    border: 5px solid #fff;
+    box-shadow: 0 0 5px #ccc;
+    left: -5px;
+    transform: translateZ(0px);
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: -30px;
+    position: absolute;
+    width: 100%;
+}
+.bx-wrapper .bx-loading {
+    background: #fff url("images/bx_loader.gif") no-repeat scroll center center;
+    height: 100%;
+    left: 0;
+    min-height: 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+.bx-wrapper .bx-pager {
+    color: #666;
+    font-family: Arial;
+    font-size: 0.85em;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #666 none repeat scroll 0 0;
+    border-radius: 5px;
+    display: block;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0 none;
+    text-indent: -9999px;
+    width: 10px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #000 none repeat scroll 0 0;
+}
+.bx-wrapper .bx-prev {
+    background: rgba(0, 0, 0, 0) url("images/controls.png") no-repeat scroll 0 -32px;
+    left: 10px;
+}
+.bx-wrapper .bx-next {
+    background: rgba(0, 0, 0, 0) url("images/controls.png") no-repeat scroll -43px -32px;
+    right: 10px;
+}
+.bx-wrapper .bx-prev:hover {
+    background-position: 0 0;
+}
+.bx-wrapper .bx-next:hover {
+    background-position: -43px 0;
+}
+.bx-wrapper .bx-controls-direction a {
+    height: 32px;
+    margin-top: -16px;
+    outline: 0 none;
+    position: absolute;
+    text-indent: -9999px;
+    top: 50%;
+    width: 32px;
+    z-index: 9999;
+}
+.bx-wrapper .bx-controls-direction a.disabled {
+    display: none;
+}
+.bx-wrapper .bx-controls-auto {
+    text-align: center;
+}
+.bx-wrapper .bx-controls-auto .bx-start {
+    background: rgba(0, 0, 0, 0) url("images/controls.png") no-repeat scroll -86px -11px;
+    display: block;
+    height: 11px;
+    margin: 0 3px;
+    outline: 0 none;
+    text-indent: -9999px;
+    width: 10px;
+}
+.bx-wrapper .bx-controls-auto .bx-start:hover, .bx-wrapper .bx-controls-auto .bx-start.active {
+    background-position: -86px 0;
+}
+.bx-wrapper .bx-controls-auto .bx-stop {
+    background: rgba(0, 0, 0, 0) url("images/controls.png") no-repeat scroll -86px -44px;
+    display: block;
+    height: 11px;
+    margin: 0 3px;
+    outline: 0 none;
+    text-indent: -9999px;
+    width: 9px;
+}
+.bx-wrapper .bx-controls-auto .bx-stop:hover, .bx-wrapper .bx-controls-auto .bx-stop.active {
+    background-position: -86px -33px;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    text-align: left;
+    width: 80%;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+    right: 0;
+    width: 35px;
+}
+.bx-wrapper .bx-caption {
+    background: rgba(80, 80, 80, 0.75) none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.bx-wrapper .bx-caption span {
+    color: #fff;
+    display: block;
+    font-family: Arial;
+    font-size: 0.85em;
+    padding: 10px;
+}

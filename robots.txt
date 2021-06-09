@@ -1,0 +1,12 @@
+User-Agent: *
+Disallow: /
+Disallow: /Admin/
+Disallow: /WebService
+Disallow: /WebService/
+Disallow: /*.aspx
+Disallow: /print-article.html
+Disallow: /print-product.html
+
+User-Agent: Googlebot
+Disallow: /
+

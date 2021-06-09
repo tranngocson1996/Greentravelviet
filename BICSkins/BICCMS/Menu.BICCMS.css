@@ -1,0 +1,18 @@
+.RadMenu_BICCMS { float: left; position: relative; background-color: Transparent; height: 35px; z-index: 999; }
+
+.RadMenu_BICCMS .rmLink { position: relative; text-decoration: none; height: 35px; font: normal bold 12px/35px Arial; padding: 0px 20px !important; color: #fff; }
+.RadMenu_BICCMS .rmLink .rmText { padding: 0px !important; }
+.RadMenu_BICCMS .rmLink .rmLeftImage { position: absolute; top: 5px; left: 0px; }
+.RadMenu_BICCMS .rmSlide { }
+
+.RadMenu_BICCMS .rmLink:hover, .RadMenu_BICCMS .focused, .RadMenu_BICCMS .expanded { cursor: pointer; color: #004551; background: url(Menu/selected_menu.gif) no-repeat 30px bottom; }
+
+.RadMenu_BICCMS .rmLink:hover .rmText, .RadMenu_BICCMS .focused .rmText, .RadMenu_BICCMS .expanded .rmText { cursor: pointer; }
+.RadMenu_BICCMS .rmGroup { background: #004551; }
+.RadMenu_BICCMS .rmGroup .rmLeftImage { position: absolute; top: 7px; left: 2px; margin: 0px; display: none; }
+.RadMenu_BICCMS .rmGroup .rmLink { width: auto; padding: 0 10px 0px 20px !important; font: normal normal 12px/30px Arial; height: 29px; color: #89c7d1; background: url(Menu/bullet_submenu_3x5.gif) 10px center no-repeat; border-bottom: 1px solid #216570; }
+
+.RadMenu_BICCMS .rmGroup .rmLink .rmText { padding: 0px !important; margin: 0px; }
+
+.RadMenu_BICCMS .rmGroup .rmLink:hover, .RadMenu_BICCMS .rmGroup .focused, .RadMenu_BICCMS .rmGroup .expanded { color: #fff; }
+.RadMenu_BICCMS .rmLevel1 .rmLast .rmLink { border: none; }

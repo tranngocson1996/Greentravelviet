@@ -1,0 +1,20 @@
+﻿/* Layout admin */
+* {margin:0px;padding:0px;}
+body {background:#001119;color:#000;font:normal normal 12px/17px Arial;}
+.container {position:relative;}
+.header {background:url(img/bg_head_repeatX_1x75.jpg) repeat-x;height:75px;position:relative;width:100%;z-index:2;}
+.header .logo {background:url(img/logo_top_left_250x75.jpg) no-repeat;height:75px;width:250px;}
+.main {background:#1C3C47 url(img/bg_login_repeat_1x1000.jpg) repeat-x;min-height:300px;min-height:420px;padding:0px;position:relative;width:100%;}
+.login-frame {background:url(img/bg_login_CENTER_862x420.jpg) no-repeat;height:420px;margin:0px auto;position:relative;width:862px;}
+.input-user {border:1px solid #C9C9C9;font:normal normal 12px/22px Arial;height:22px;left:336px;padding:0px 5px;position:absolute;top:144px;width:159px;}
+.valid-user {height:22px;left:515px;line-height:22px;position:absolute;top:142px;}
+.input-pass {border:1px solid #C9C9C9;font:normal normal 12px/22px Arial;height:22px;left:336px;padding:0px 5px;position:absolute;top:178px;width:159px;}
+.valid-pass {height:22px;left:515px;line-height:22px;position:absolute;top:177px;}
+.input-login {left:532px;position:absolute;top:209px;}
+.input-remember {display:block;left:0px;position:absolute;top:213px;}
+.input-remember input[type="checkbox"] {left:310px;margin:0px;position:absolute;top:1px;}
+.input-remember label {display:block;height:17px;left:335px;margin:0px;position:absolute;text-shadow:0.1em 0.1em 0.05 #fff;top:0px;width:179px;}
+.fail-text {color:#fff;display:block;left:0px;position:absolute;text-align:center;top:300px;width:862px;}
+.login-frame select {position: absolute;
+left: 378px;
+top: 253px;}

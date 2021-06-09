@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+    <Group Flow="Vertical">
+        <Item Text="Tải về máy" Value="Tải về"  LeftLogo="~/admin/Styles/icon/ContextMenu/icon_download_10x10.gif"></Item>
+        <Item Text="Xóa bản ghi" Value="Delete"  LeftLogo="~/admin/Styles/icon/ContextMenu/delete.gif" ></Item>
+    </Group>
+</Menu>

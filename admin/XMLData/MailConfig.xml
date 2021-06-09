@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MailConfig>
+  <type datakey="1" name="Tiêu đề thư liên hệ" key="ContactSubject" value="Contact BICCMS" />
+  <type datakey="2" name="Tên miền" key="Domain" value="BICCMS" />
+  <type datakey="3" name="Tên hiển thị" key="DisplayName" value="BQT Website" />
+  <type datakey="4" name="Email quản lý" key="WebMasterEmail" value="hotro@bicweb.vn" />
+  <type datakey="5" name="Email gửi nền" key="Sender" value="noreply2017bicweb@gmail.com" />
+  <type datakey="6" name="Mật khẩu" key="Password" value="x1vwIoHnQVweNhw3rN5g7A==" />
+  <type datakey="7" name="Smtp" key="Smtp" value="smtp.gmail.com" />
+  <type datakey="8" name="Port" key="port" value="587" />
+  <type datakey="9" name="Ssl" key="Ssl" value="1" />
+  <!--<type datakey="10" name="Salemail" key="SaleMail" value="lovelybeautyvn@gmail.com" />-->
+  <type datakey="11" name="Cc Email" key="CCMail" value="" />
+</MailConfig>

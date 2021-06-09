@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<TamNhin>
+  <type value="Điểm mù"></type>
+  <type value="Điểm màu"></type>
+  <type value="Đèn nhấp nháy"></type>
+  <type value="Lấp lánh hay các ngôi sao"></type>
+  <type value="Mù tạm thời"></type>
+  <type value="Tầm nhìn đường hầm"></type>
+  <type value="Đường Zig Zag"></type>
+</TamNhin>

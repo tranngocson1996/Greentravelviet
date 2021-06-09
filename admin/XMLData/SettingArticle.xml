@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SettingArticle>
+  <key datakey="1" name="Cho phép hiển thị bình luận" key="EnableComment" value="0" />
+  <key datakey="2" name="Cho phép hiển thị tin liên quan" key="EnableRelatedNews" value="0" />
+  <key datakey="3" name="Cho phép hiển thị bộ ảnh" key="EnableArrayImage" value="0" />
+  <key datakey="4" name="Cho phép hiển thị tags" key="EnableTags" value="0" />
+</SettingArticle>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Code" xml:space="preserve">
+    <value>Код проверки:</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>E-mail адрес:</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>ФИО:</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>войти</value>
+  </data>
+  <data name="NoAccount" xml:space="preserve">
+    <value>У вас еще нет учетной записи?</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Тел:</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Адрес:</value>
+    <comment>System</comment>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Город /область</value>
+  </data>
+  <data name="Bt_Cancel" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Bt_Register" xml:space="preserve">
+    <value>Зарегистрироваться</value>
+  </data>
+  <data name="Bt_Send" xml:space="preserve">
+    <value>Отправить заказ</value>
+  </data>
+  <data name="ProcessingData" xml:space="preserve">
+    <value>Обработка данных ...</value>
+  </data>
+  <data name="Bt_Close" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>e-mail:</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Пол</value>
+  </data>
+  <data name="NguoiDatHang" xml:space="preserve">
+    <value>Информация о заказчике</value>
+  </data>
+  <data name="NguoiNhanHang" xml:space="preserve">
+    <value>Информация получателя</value>
+  </data>
+  <data name="TenNguoiDat" xml:space="preserve">
+    <value>Имя Заказчика:</value>
+  </data>
+  <data name="TenNguoiNhan" xml:space="preserve">
+    <value>Имя получателя:</value>
+  </data>
+  <data name="HinhThucVanChuyen" xml:space="preserve">
+    <value>Способы доставки:</value>
+  </data>
+  <data name="PhuongThucThanhToan" xml:space="preserve">
+    <value>Способ оплаты:</value>
+  </data>
+  <data name="ThanhToanVaChuyenHang" xml:space="preserve">
+    <value>Оплата и доставка</value>
+  </data>
+  <data name="ThoiGianNhanHang" xml:space="preserve">
+    <value>Срок доставки:</value>
+  </data>
+  <data name="DangNhapTruoc" xml:space="preserve">
+    <value>Если вы уже зарегистрированы, войдите перед оплатой</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>следующий</value>
+  </data>
+  <data name="NgheNghiep" xml:space="preserve">
+    <value>Деятельность:</value>
+  </data>
+  <data name="NhapEmail" xml:space="preserve">
+    <value>Введите e-mail</value>
+  </data>
+  <data name="NhapHoTen" xml:space="preserve">
+    <value>Введите полное имя</value>
+  </data>
+  <data name="NhapThongTin" xml:space="preserve">
+    <value>Заполните личную информацию по образцу</value>
+  </data>
+  <data name="NotEmail" xml:space="preserve">
+    <value>Неправильный формат e-mail</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Примечание &lt;i&gt;(Вы можете оставить вопрос либо ваше пожелание . Текст  не должен  превышать 255 символов)&lt;/i&gt;</value>
+  </data>
+  <data name="Notes2" xml:space="preserve">
+    <value>Примечание:</value>
+  </data>
+  <data name="NotName" xml:space="preserve">
+    <value>ФИО без пробелов</value>
+  </data>
+  <data name="ThongTinTrungNhau" xml:space="preserve">
+    <value>Информация о получателе совпадает с информацией о заказчике</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>назад</value>
+  </data>
+  <data name="Continues" xml:space="preserve">
+    <value>Продолжить покупки</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Gia" xml:space="preserve">
+    <value>цена (руб.)</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>фото</value>
+  </data>
+  <data name="Noproduct" xml:space="preserve">
+    <value>Корзина пуста</value>
+  </data>
+  <data name="SoLuong" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="TenSP" xml:space="preserve">
+    <value>Название продукта</value>
+  </data>
+  <data name="ThanhTien" xml:space="preserve">
+    <value>Сумма  (руб.)</value>
+  </data>
+  <data name="TongTien" xml:space="preserve">
+    <value>общая сумма (руб.)</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Вы заказали продукт на сайте</value>
+  </data>
+  <data name="SubjectMaster" xml:space="preserve">
+    <value>Пользователь заказал товар в …</value>
+  </data>
+  <data name="GioHang" xml:space="preserve">
+    <value>Корзина</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Благодарим за выбор нашего продукта . Мы свяжемся с вами в ближайшее время</value>
+  </data>
+  <data name="TitleSuccess" xml:space="preserve">
+    <value>Заказ готов</value>
+  </data>
+  <data name="TTDatHang" xml:space="preserve">
+    <value>ИНФОРМАЦИЯ ДЛЯ ЗАКАЗА</value>
+  </data>
+  <data name="XacNhanDonHang" xml:space="preserve">
+    <value>Подтвердить и отправить  заказ</value>
+  </data>
+  <data name="Redirecting" xml:space="preserve">
+    <value>Нажмите, если вас не переключили на другую страницу в течение 5 секунд.</value>
+  </data>
+  <data name="MassageAddCart" xml:space="preserve">
+    <value>Вы добавили этот товар в корзину</value>
+  </data>
+  <data name="CountCart" xml:space="preserve">
+    <value>В корзине &lt;span&gt;{0} &lt;/span&gt;</value>
+  </data>
+  <data name="NotCart" xml:space="preserve">
+    <value>корзина пуста. Выберите товар.</value>
+  </data>
+  <data name="DenNguoiNhan" xml:space="preserve">
+    <value>адрес получателя</value>
+  </data>
+  <data name="ThanhToanTienMat" xml:space="preserve">
+    <value>Оплата наличными</value>
+  </data>
+  <data name="MassageErrorCart" xml:space="preserve">
+    <value>Количество не должно превышать 500 штук.</value>
+  </data>
+</root>

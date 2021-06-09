@@ -1,0 +1,21 @@
+﻿* {margin:0px;padding:0px;}
+.container {background:#ededed;float:left;height:556px;margin:6px;padding-left:22px;padding-top:20px;position:relative;text-align:left;width:684px;}
+.img_info_frame {background:#ededed;float:left;height:556px;margin:6px;padding-left:22px;padding-top:20px;position:relative;text-align:left;width:684px;}
+.g_top_left {background:url(img/b_top_left_14x14.gif) no-repeat;height:14px;left:0px;position:absolute;top:0px;width:14px;}
+.g_bottom_right {background:url(img/b_bottom_right_13x13.gif) no-repeat;bottom:0px;height:13px;position:absolute;right:0px;width:13px;}
+.container .text {background:url(img/bullet_arrow_10x10.png) no-repeat left 50%;float:left;font-size:11px;height:21px;padding-left:20px;position:relative;}
+.container .text1 {background:url(img/bullet_menu_7x7.gif) no-repeat left 50%;float:left;font-size:11px;height:21px;padding-left:10px;position:relative;width:32px;}
+.container .link {float:left;height:21px;margin-bottom:5px;position:relative;width:684px;}
+.container .upload {float:left;height:21px;position:relative;width:350px;}
+.container .textbox_imginfo {border:1px solid #cccccc;float:left;font-family:Tahoma;font-size:11px;height:19px;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;padding-left:5px;position:relative;width:216px;}
+.container .thongtin {float:left;height:21px;position:relative;width:332px;}
+.container .img_info {border:1px solid #cccccc;font-family:Tahoma;font-size:11px;height:19px;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;padding-left:2px;position:relative;width:44px;}
+.link .motaanh {border:1px solid #cccccc;float:right;font-family:Tahoma;font-size:11px;height:19px;margin:0px 22px 0px 0px;padding:0px 0px 0px 0px;padding-left:2px;position:relative;width:170px;}
+.link .select {border:1px solid #cccccc;font-family:Tahoma;font-size:11px;height:19px;margin:0px 22px 0px 0px;padding:0px 0px 0px 0px;position:relative;width:210px;}
+.container .input {float:left;position:relative;}
+.container .preview {float:left;height:405px;margin-bottom:5px;margin-top:10px;position:relative;width:684px;}
+.preview .preview_tieude {background:url(img/preview_8x7.gif) no-repeat left 50%;float:left;font-size:11px;height:21px;padding-left:20px;position:relative;width:657px;}
+.preview .preview_text {background-color:#FFFFFF;border:1px solid #cccccc;float:left;height:384px;overflow:auto;position:relative;text-align:left;width:637px;}
+.container .footer {float:left;height:21px;position:relative;width:637px;}
+.footer .footer_left {float:left;position:relative;width:300px;}
+.footer .footer_right {float:left;position:relative;text-align:right;width:337px;}

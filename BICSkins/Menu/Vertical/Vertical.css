@@ -1,0 +1,172 @@
+.title_box {
+    border-left: 1px solid white;
+    background-color: #0b49a6;
+    padding-left: 20px;
+    /*width: 282px;*/
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+.menuLeftPro .Vertical{ margin-top: 0;}
+.Vertical {
+    float: left;
+    width: 265px;
+    margin-bottom: 20px;
+}
+.menuLeftPro .mncap {
+    list-style-image: none;
+    margin-bottom: 20px;
+    border: medium none;
+    padding-bottom: 10px;
+}
+.RadMenu_Left, .RadMenu_Left .rmVertical {
+    width: 265px;
+    float: left;
+}
+
+        .RadMenu_Left .rmVertical .rmSlide .rmGroup {
+            border: none;
+            border-radius: 0px;
+            padding-bottom: 0px !important;
+            padding-top: 0px !important;
+        }
+
+    .RadMenu_Left .rmSlide .rmVertical {
+    }
+
+    .RadMenu_Left .rmItem {
+        float: left;
+background: url("img/ico-ul.png") no-repeat;
+        background-position: left 14px;
+border-bottom: 1px solid #383838;
+padding: 9px 0px;
+width: 267px;
+    }
+    
+     .RadMenu_Left .rmItem.rmLast {
+        border: none !important ;
+    }
+
+    .RadMenu_Left .rmLink {
+        font: normal 12px Arial;
+        display: block;
+        padding: 0px 10px 0px 18px;
+        position: relative;
+        text-decoration: none;
+    }
+
+.Vertical .RadMenu .rmGroup .rmLink, .Vertical .RadMenu .rmSlide .rmGroup .rmTemplate {
+    padding: 5px 15px;
+}
+
+.RadMenu_Left .rmGroup .rmLink {
+    background-image: none;
+}
+
+    .RadMenu_Left .rmGroup .rmLink .rmText {
+        margin-left: 0px;
+        padding: 5px !important; /*background: url("img/boder_sub.png")left bottom repeat-x;*/
+    }
+
+.RadMenu_Left .rmGroup .rmLast .rmText {
+    background: none;
+    border: none;
+}
+
+.RadMenu_Left .rmLast .rmLink {
+    border: none !important;
+}
+
+.RadMenu_Left .rmLink .rmText {
+    white-space: normal;
+    color: #FFF;
+padding-left: 4px;
+font: 14px/20px Arial;
+text-transform: uppercase;
+}
+
+.RadMenu_Left .rmGroup .rmLink .rmText {
+    white-space: nowrap;
+    color: #444444;
+}
+
+.RadMenu_Left .rmGroup .rmLink, .RadMenu_Left .rmGroup {
+    width: auto !important;
+}
+
+    .RadMenu_Left .rmGroup .rmItem {
+        width: 100% !important;
+    }
+
+        .RadMenu_Left .rmGroup .rmItem:hover {
+            /*background: #706d6d;*/
+        }
+
+.RadMenu_Left .rmExpanded .rmText, .RadMenu_Left .expanded .rmText, .RadMenu_Left .rmItem .rmLink:hover .rmText, .RadMenu_Left .focused .rmText, .RadMenu_Left .expanded .rmText {
+    color: #0081CC  !important;
+    cursor: pointer;
+}
+
+.RadMenu_Left .rmGroup .rmExpanded .rmText, .RadMenu_Left .rmGroup .expanded .rmText,  .RadMenu_Left .rmGroup .focused .rmText, .RadMenu_Left .rmGroup .expanded .rmText {
+    color: #444444 !important;
+}
+.RadMenu_Left .rmGroup .rmItem .rmLink .rmText{font: 12px/18px Arial}
+.RadMenu_Left .rmGroup .rmItem .rmLink:hover .rmText{color: #0081CC  !important;}
+
+.RadMenu_Left .rmExpanded, .RadMenu_Left .expanded, .RadMenu_Left .rmItem .rmLink:hover, .RadMenu_Left .focused, .RadMenu_Left .expanded .RadMenu_Left .rmLink:hover .rmText, .RadMenu_Left .focused .rmText, .RadMenu_Left .expanded .rmText {
+}
+
+.RadMenu_Left .rmSlide {
+    padding-top: 0px;
+    background: none;
+    margin-left: 1px;top: 1px !important;
+}
+
+.RadMenu_Left .rmGroup {
+    background-color: #ededed;
+    color: #444444;
+}
+
+.RadMenu_Left .rmLink .rmText.rmExpandRight {
+    /*background: url("img/li-arrow.png")right 8px no-repeat;*/
+}
+
+.RadMenu_Left .rmExpanded .rmText.rmExpandRight, .RadMenu_Left .expanded .rmText.rmExpandRight, .RadMenu_Left .rmItem .rmLink:hover .rmText.rmExpandRight, .RadMenu_Left .focused .rmText.rmExpandRight, .RadMenu_Left .expanded .rmText.rmExpandRight {
+    /*background: url("img/li-arrow_hover.png")right 8px no-repeat;*/
+}
+.rmLevel1 .rmItem {
+    background: none;
+    padding-left: 0;
+}
+.menuhotel {
+    margin-bottom: 0px;
+}
+
+    .menuhotel .title_box {
+        background-color: #f4f4f4;
+        width: 198px;
+        border: 1px solid #d4d4d4;
+        height: 30px;
+        width: 198px;
+        border-bottom: 1px solid #d4d4d4;
+    }
+
+    .menuhotel .title_box {
+        font: bold 15px/30px arial;
+        color: #f79426;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+    }
+
+    .menuhotel .RadMenu_Left .rmVertical {
+        background: url('img/bg_info.jpg') repeat-x 0 top #fff8e8;
+    }
+
+    .menuhotel .RadMenu_Left .rmLink {
+        padding-left: 45px;
+        background: url('img/icon_menuleft.png') no-repeat 25px 8px transparent;
+    }

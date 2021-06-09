@@ -1,0 +1,587 @@
+﻿
+## 2017.03.11 @ 10:10:37 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2017.03.11 @ 10:10:45 (GMT + 07) ## System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BIC.Utils.BicAjax.Navigate(String url) in d:\BICWED.VN\ASP.NET\pcc1.vn\dll\BICLib\BICLib\Utils\Utils.cs:line 1069
+   at BIC.Utils.BicAdmin.NavigateToEdit(String id) in d:\BICWED.VN\ASP.NET\pcc1.vn\dll\BICLib\BICLib\Utils\Utils.cs:line 2881
+   at Admin_Components_Article_ListingArticle.rgManager_ItemCommand(Object source, GridCommandEventArgs e) in d:\PROJECT\BICWEB\ASP.NET\battrangmosaic.com.vn\admin\Components\Article\ListingArticle.ascx.cs:line 376 ##
+
+
+## 2017.03.11 @ 10:15:14 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2017.03.13 @ 16:05:58 (GMT + 07) ## System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ImageID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.controls_menu_menuitem_ascx.__DataBind__control3(Object sender, EventArgs e) in d:\PROJECT\BICWEB\ASP.NET\battrangmosaic.com.vn\Controls\Menu\MenuItem.ascx:line 8
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2017.03.13 @ 16:05:58 (GMT + 07) ## System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ImageID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.controls_menu_menuitem_ascx.__DataBind__control3(Object sender, EventArgs e) in d:\PROJECT\BICWEB\ASP.NET\battrangmosaic.com.vn\Controls\Menu\MenuItem.ascx:line 8
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2017.03.13 @ 16:07:59 (GMT + 07) ## System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ImageID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.controls_menu_menuitem_ascx.__DataBind__control3(Object sender, EventArgs e) in d:\PROJECT\BICWEB\ASP.NET\battrangmosaic.com.vn\Controls\Menu\MenuItem.ascx:line 8
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2017.03.13 @ 16:07:59 (GMT + 07) ## System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ImageID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.controls_menu_menuitem_ascx.__DataBind__control3(Object sender, EventArgs e) in d:\PROJECT\BICWEB\ASP.NET\battrangmosaic.com.vn\Controls\Menu\MenuItem.ascx:line 8
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2017.03.13 @ 16:08:41 (GMT + 07) ## System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ImageID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.controls_menu_menuitem_ascx.__DataBind__control3(Object sender, EventArgs e) in d:\PROJECT\BICWEB\ASP.NET\battrangmosaic.com.vn\Controls\Menu\MenuItem.ascx:line 8
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2017.03.13 @ 16:08:41 (GMT + 07) ## System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ImageID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.controls_menu_menuitem_ascx.__DataBind__control3(Object sender, EventArgs e) in d:\PROJECT\BICWEB\ASP.NET\battrangmosaic.com.vn\Controls\Menu\MenuItem.ascx:line 8
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.MenuListView.LoadData() in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 180 ##
+
+
+## 2017.03.14 @ 08:16:23 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=973; handshake=14036;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BIC.DAO.MenuUserDAO.GetMenuUserByIDShort(Int32 menuUserId) in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\Entity\MenuUser\MenuUserDAO.cs:line 274
+   at BIC.Biz.MenuUserBiz.GetByIdShort(Int32 menuUserId) in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\Entity\MenuUser\MenuUserBiz.cs:line 214
+   at BIC.WebControls.MenuCaption.LoadData() in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\WebControls\Menu\MenuCaption.cs:line 48
+ClientConnectionId:a45e2f87-bc83-4298-934e-ae00085362f4
+Error Number:-2,State:0,Class:11 ##
+
+
+## 2017.03.14 @ 08:16:23 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=973; handshake=14036;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BIC.DAO.MenuUserDAO.GetMenuUserByIDShort(Int32 menuUserId) in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\Entity\MenuUser\MenuUserDAO.cs:line 274
+   at BIC.Biz.MenuUserBiz.GetByIdShort(Int32 menuUserId) in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\Entity\MenuUser\MenuUserBiz.cs:line 214
+   at BIC.WebControls.MenuCaption.LoadData() in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\WebControls\Menu\MenuCaption.cs:line 48
+ClientConnectionId:a45e2f87-bc83-4298-934e-ae00085362f4
+Error Number:-2,State:0,Class:11 ##
+
+
+## 2017.03.14 @ 08:16:23 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=973; handshake=14036;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 116
+   at BIC.WebControls.MenuListView.LoadData() in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 176
+ClientConnectionId:a45e2f87-bc83-4298-934e-ae00085362f4
+Error Number:-2,State:0,Class:11 ##
+
+
+## 2017.03.14 @ 08:16:23 (GMT + 07) ## System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=973; handshake=14036;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 116
+   at BIC.WebControls.MenuListView.LoadData() in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\WebControls\Menu\MenuListView.cs:line 176
+ClientConnectionId:a45e2f87-bc83-4298-934e-ae00085362f4
+Error Number:-2,State:0,Class:11 ##
+
+
+## 2017.04.18 @ 11:31:37 (GMT + 07) ## Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NewColumn1'.
+Invalid column name 'NewColumn2'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.BicGetData.GetPagingData() in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\DBHelper\Searching\BicSearching.cs:line 240
+ClientConnectionId:ebc8e487-3930-49a0-a2e7-b3057586e7bb
+Error Number:207,State:1,Class:16 - SQL:SELECT TOP 20 FrameViewID,Name,GroupName,TypeOfControl,URLControl,NewColumn1,NewColumn2,IsActive,ResourceKey FROM FrameView    order by Priority DESC ##
+
+
+## 2017.04.18 @ 14:25:28 (GMT + 07) ## Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NewColumn1'.
+Invalid column name 'NewColumn2'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.BicGetData.GetPagingData() in d:\BICWEB\CMS\BICCMS2017\dll\BIC.Web.UI\DBHelper\Searching\BicSearching.cs:line 240
+ClientConnectionId:b1aa21a3-f1b9-48b3-abec-b337c2e1aa15
+Error Number:207,State:1,Class:16 - SQL:SELECT TOP 20 FrameViewID,Name,GroupName,TypeOfControl,URLControl,NewColumn1,NewColumn2,IsActive,ResourceKey FROM FrameView    order by Priority DESC ##
+
+
+## 2017.04.19 @ 10:11:45 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2017.04.19 @ 10:11:49 (GMT + 07) ## System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BIC.Utils.BicAjax.Navigate(String url) in d:\BICWED.VN\ASP.NET\pcc1.vn\dll\BICLib\BICLib\Utils\Utils.cs:line 1069
+   at BIC.Utils.BicAdmin.NavigateToEdit(String id) in d:\BICWED.VN\ASP.NET\pcc1.vn\dll\BICLib\BICLib\Utils\Utils.cs:line 2881
+   at Admin_Components_Product_ListingProduct.rgManager_ItemCommand(Object source, GridCommandEventArgs e) in d:\PROJECT\BICWEB\ASP.NET\azper.vn\admin\Components\Product\ListingProduct.ascx.cs:line 396 ##
+
+
+## 2017.04.19 @ 10:17:02 (GMT + 07) ## System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BIC.Utils.BicAjax.Navigate(String url) in d:\BICWED.VN\ASP.NET\pcc1.vn\dll\BICLib\BICLib\Utils\Utils.cs:line 1069
+   at BIC.Utils.BicAdmin.NavigateToEdit(String id) in d:\BICWED.VN\ASP.NET\pcc1.vn\dll\BICLib\BICLib\Utils\Utils.cs:line 2881
+   at Admin_Components_Product_ListingProduct.rgManager_ItemCommand(Object source, GridCommandEventArgs e) in d:\PROJECT\BICWEB\ASP.NET\azper.vn\admin\Components\Product\ListingProduct.ascx.cs:line 396 ##
+
+
+## 2017.04.19 @ 10:34:56 (GMT + 07) ## System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BIC.Utils.BicAjax.Navigate(String url) in d:\BICWED.VN\ASP.NET\pcc1.vn\dll\BICLib\BICLib\Utils\Utils.cs:line 1069
+   at BIC.Utils.BicAdmin.NavigateToEdit(String id) in d:\BICWED.VN\ASP.NET\pcc1.vn\dll\BICLib\BICLib\Utils\Utils.cs:line 2881
+   at Admin_Components_Product_ListingProduct.rgManager_ItemCommand(Object source, GridCommandEventArgs e) in d:\PROJECT\BICWEB\ASP.NET\azper.vn\admin\Components\Product\ListingProduct.ascx.cs:line 396 ##
+
+
+## 2017.04.19 @ 10:50:15 (GMT + 07) ## System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BIC.Utils.BicAjax.Navigate(String url) in d:\BICWED.VN\ASP.NET\pcc1.vn\dll\BICLib\BICLib\Utils\Utils.cs:line 1069
+   at BIC.Utils.BicAdmin.NavigateToEdit(String id) in d:\BICWED.VN\ASP.NET\pcc1.vn\dll\BICLib\BICLib\Utils\Utils.cs:line 2881
+   at Admin_Components_Product_ListingProduct.rgManager_ItemCommand(Object source, GridCommandEventArgs e) in d:\PROJECT\BICWEB\ASP.NET\azper.vn\admin\Components\Product\ListingProduct.ascx.cs:line 396 ##
+
+
+## 2017.04.19 @ 10:50:30 (GMT + 07) ## System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BIC.Utils.BicAjax.Navigate(String url) in d:\BICWED.VN\ASP.NET\pcc1.vn\dll\BICLib\BICLib\Utils\Utils.cs:line 1069
+   at BIC.Utils.BicAdmin.NavigateToEdit(String id) in d:\BICWED.VN\ASP.NET\pcc1.vn\dll\BICLib\BICLib\Utils\Utils.cs:line 2881
+   at Admin_Components_Product_ListingProduct.rgManager_ItemCommand(Object source, GridCommandEventArgs e) in d:\PROJECT\BICWEB\ASP.NET\azper.vn\admin\Components\Product\ListingProduct.ascx.cs:line 396 ##
+
+
+## 2017.04.19 @ 10:51:52 (GMT + 07) ## System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BIC.Utils.BicAjax.Navigate(String url) in d:\BICWED.VN\ASP.NET\pcc1.vn\dll\BICLib\BICLib\Utils\Utils.cs:line 1069
+   at BIC.Utils.BicAdmin.NavigateToEdit(String id) in d:\BICWED.VN\ASP.NET\pcc1.vn\dll\BICLib\BICLib\Utils\Utils.cs:line 2881
+   at Admin_Components_Product_ListingProduct.rgManager_ItemCommand(Object source, GridCommandEventArgs e) in d:\PROJECT\BICWEB\ASP.NET\azper.vn\admin\Components\Product\ListingProduct.ascx.cs:line 396 ##
+
+
+## 2017.05.30 @ 08:50:11 (GMT + 07) ## System.ArgumentException: Column 'Level' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BIC.Utils.MenuUserUtils.BindingAllMenuRadTreeView(RadTreeView rtvMenuUser, String language, String typeOfControl) in d:\PROJECT\BICWEB\ASP.NET\CMS2018\Website\App_Code\MenuUserUtils.cs:line 366 ##
+
+
+## 2017.07.01 @ 08:36:55 (GMT + 07) ## ProductListViewTopPager - ProductListSystem.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Manufactory'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.controls_product_productlisting_ascx.__DataBind__control16(Object sender, EventArgs e) in d:\PROJECT\BICWEB\ASP.NET\CMS2018\Website\Controls\Product\ProductListing.ascx:line 40
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.ProductListViewTopPager.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Product\ProductListViewTopPager.cs:line 361 ##
+
+
+## 2017.07.01 @ 08:40:47 (GMT + 07) ## ProductListViewTopPager - ProductListSystem.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PriceSort'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 119
+   at BIC.WebControls.ProductListViewTopPager.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Product\ProductListViewTopPager.cs:line 310
+ClientConnectionId:303e42b3-3d3c-4d2f-b85a-25c555b8d5a8
+Error Number:207,State:1,Class:16 ##
+
+
+## 2017.07.01 @ 09:51:42 (GMT + 07) ## ProductListViewTopPager - ProductListSystem.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PriceSort'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BIC.Data.DataHelper.ExecuteSQL(String sql) in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\DBHelper\Data\DataHelper.cs:line 119
+   at BIC.WebControls.ProductListViewTopPager.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Product\ProductListViewTopPager.cs:line 310
+ClientConnectionId:ee6d10e1-7d76-4ba8-8b4c-de4d01c6bec2
+Error Number:207,State:1,Class:16 ##
+
+
+## 2018.03.09 @ 20:30:07 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.09 @ 21:04:57 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.09 @ 21:08:25 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2018.03.09 @ 21:14:22 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2018.03.09 @ 21:14:28 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2018.03.09 @ 21:14:48 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2018.03.09 @ 21:14:55 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2018.03.09 @ 21:15:02 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2018.03.09 @ 21:36:54 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.09 @ 21:42:17 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 00:19:38 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2018.03.10 @ 00:20:08 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 00:25:29 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2018.03.10 @ 00:25:43 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2018.03.10 @ 00:25:55 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2018.03.10 @ 00:26:07 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2018.03.10 @ 00:26:23 (GMT + 07) ## Thread was being aborted. ##
+
+
+## 2018.03.10 @ 00:34:54 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 00:35:33 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 00:38:02 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 00:39:23 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 00:41:12 (GMT + 07) ## ProductListViewTopPager - ProductListSystem.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ImageName'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.controls_product_productlisting_ascx.__DataBind__control7(Object sender, EventArgs e) in d:\PROJECT\GDADEV\ASP.NET\noithatlugia.vn\Controls\Product\ProductListing.ascx:line 25
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.ProductListViewTopPager.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Product\ProductListViewTopPager.cs:line 370 ##
+
+
+## 2018.03.10 @ 00:41:12 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 00:41:30 (GMT + 07) ## ProductListViewTopPager - ProductListSystem.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ImageName'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.controls_product_productlisting_ascx.__DataBind__control7(Object sender, EventArgs e) in d:\PROJECT\GDADEV\ASP.NET\noithatlugia.vn\Controls\Product\ProductListing.ascx:line 25
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.ProductListViewTopPager.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Product\ProductListViewTopPager.cs:line 370 ##
+
+
+## 2018.03.10 @ 00:41:30 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 00:42:20 (GMT + 07) ## ProductListViewTopPager - ProductListSystem.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ImageName'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.controls_product_productlisting_ascx.__DataBind__control7(Object sender, EventArgs e) in d:\PROJECT\GDADEV\ASP.NET\noithatlugia.vn\Controls\Product\ProductListing.ascx:line 25
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.ListView.CreateItemsWithoutGroups(ListViewPagedDataSource dataSource, Boolean dataBinding, InsertItemPosition insertPosition, ArrayList keyArray)
+   at System.Web.UI.WebControls.ListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.ListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.ListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at BIC.WebControls.ProductListViewTopPager.LoadData() in D:\PROJECT\BICWEB\ASP.NET\CMS2018\BIC.Web.UI\WebControls\Product\ProductListViewTopPager.cs:line 370 ##
+
+
+## 2018.03.10 @ 00:42:20 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 00:43:40 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 00:55:57 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 01:00:15 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 07:55:48 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 08:01:41 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 08:02:56 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 08:13:38 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 14:46:50 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+
+
+## 2018.03.10 @ 15:22:20 (GMT + 07) ## Bạn chưa truyền MenuUserID cho HyperLink: mnCap ##
+

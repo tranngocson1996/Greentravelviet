@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SearchEngine>
+  <key datakey="1" name="Tiêu đề BIC CMS" key="AdminTitle" value="Hệ thống quản trị nội dung" />
+  <key datakey="2" name="Meta Description" key="Description" value="" />
+  <key datakey="3" name="Meta Keywords" key="Keywords" value="" />
+  <key datakey="9" name="Meta Address" key="MetaAddress" value="" />
+  <key datakey="4" name="Tiêu đề trang" key="Title" value="" />
+  <key datakey="5" name="Geo placename" key="Placename" value="" />
+  <key datakey="10" name="Geo position" key="GeoPosition" value="21.018395, 105.849286" />
+  <key datakey="11" name="Geo region" key="Georegion" value="VN-Hanoi" />
+  <key datakey="20" name="Hotline đặt hàng" key="Hotline" value="0938024688" />
+  <key datakey="6" name="Google Analytics" key="GoogleAnalytics" value="UA-98692136-1" />
+  <key datakey="7" name="GoogleWebMasterKey" key="GoogleWebMasterKey" value="tavfZlo5yfRZcfDmqAbwtjjCxYnfmpV3XPrnZVMDC7M" />
+  <key datakey="8" name="Mã nguôn ngữ mặc định" key="DefaultLanguage" value="vi" />
+  <key datakey="12" name="Mã nguôn ngữ mặc định - Admin" key="DefaultLanguageAdmin" value="vi" />
+  <key datakey="100" name="Hiển thị ngôn ngữ (1 - true, 0 - false)" key="ShowLanguagKey" value="1" />
+  <key datakey="14" name="Facebook App ID" key="FacebookAppID" value="" />
+  <key datakey="15" name="Facebook Site Name" key="FacebookSiteName" value="https://www.facebook.com/" />
+  <key datakey="16" name="Google+ Site Name" key="GooglePlusSiteName" value="https://plus.google.com" />
+  <key datakey="17" name="Youtube Site Name" key="YoutubeSiteName" value="https://www.youtube.com" />
+  <key datakey="18" name="Twitter Site Name" key="TwitterSiteName" value="https://www.twitter.com" />
+  <key datakey="19" name="Instagram Site Name" key="InstagramSiteName" value="https://www.instagram.com" />
+  <key datakey="21" name="Pinterest Site Name" key="PinterestSiteName" value="https://www.instagram.com" />
+</SearchEngine>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+    <Group Flow="Vertical">
+        <Item Text="Редактирование записей" Value="Edit"  LeftLogo="~/admin/Styles/icon/ContextMenu/edit.gif" Key="S" AccessKey="S" ></Item>
+    </Group>
+</Menu>

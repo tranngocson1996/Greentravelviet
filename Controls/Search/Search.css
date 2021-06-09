@@ -1,0 +1,714 @@
+﻿.title-search {
+    height: 40px;
+    width: 200px;
+    background: rgba(56,170,12,0.8) url(img/bg_title.png) no-repeat 30px;
+    margin: auto;
+    padding-left: 60px;
+    line-height: 40px;
+    font-family: "RobotoBold";
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+
+.sidebar .title-search {
+    width: 100%;
+    background: #ffffff url(img/bg_title1.png) no-repeat 0;
+    margin: auto;
+    padding-left: 40px;
+    line-height: 40px;
+    font-family: "RobotoBold";
+    text-transform: uppercase;
+    color: #38aa0c;
+    font-size: 16px;
+}
+
+.sidebar .search-text {
+    width: 100%;
+}
+
+.search-text {
+    height: 40px;
+    width: 200px;
+    position: relative;
+    border: 1px solid #e5e5e5;
+}
+
+#ibtSearch {
+    width: 40px;
+    height: 40px;
+    background: url(img/ic_search.png) no-repeat;
+    font-size: 0 !important;
+    border: none;
+    float: right;
+}
+
+.search-box {
+    width: 100%;
+    height: 40px;
+}
+
+    .search-box #txtSearch {
+        padding: 0 20px;
+        width: 100%;
+        height: 40px;
+        border: 1px solid #e5e5e5;
+        color: #646464;
+        font-weight: normal;
+        font-size: 14px;
+        font-family: "RobotoRegular";
+        margin-top: 10px;
+    }
+
+.rcbSlide {
+    z-index: 999999 !important;
+}
+
+.RadComboBox .rcbInputCell .rcbInput {
+    padding-left: 5px;
+    width: 129px !important;
+    height: 40px !Important;
+    line-height: 30px;
+    border: none !important;
+    font-size: 14px;
+    padding-right: 14px !important;
+}
+
+.RadComboBoxDropDown .rcbScroll {
+    height: 130px !important;
+}
+
+.rcbScroll.rcbWidth {
+    width: 100% !important;
+    overflow: auto !important;
+}
+
+#ctl00_Searching_drlDiaDiem_DropDown .rcbScroll.rcbWidth {
+    height: 200px !important;
+}
+
+.RadComboBox_Default td.rcbInputCellLeft {
+    background: none !important;
+}
+
+.RadComboBox table td.rcbInputCell {
+    width: 53px !important;
+}
+
+.RadComboBox_Default td.rcbArrowCellRight {
+    background: url('img/drl.png') no-repeat left 0px !important;
+    display: block;
+    position: absolute;
+    left: 126px;
+    height: 10px;
+}
+
+.RadComboBox .rcbArrowCell a {
+    display: none !important;
+    width: 28px !important;
+    height: 27px;
+    background: url('img/drl.png') no-repeat left 4px;
+    display: block;
+}
+
+.search-text .input-text {
+    border: none;
+    background: transparent;
+    font: normal 12px/27px arial;
+    color: #8b8b8b;
+    width: 185px;
+    margin-left: 20px;
+    height: 27px;
+}
+
+.search-text .search-button {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 7px;
+    left: 7px;
+    cursor: pointer;
+}
+
+.RadComboBox_Default .rcbInputCell .rcbEmptyMessage {
+    color: #646464;
+    font-weight: normal;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-family: Arial !important;
+}
+/*Search Result*/
+.caption-search span {
+    text-transform: uppercase;
+    color: #015196;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.searchlist {
+    padding: 0 20px;
+}
+
+    .searchlist .item {
+        width: auto;
+        border-bottom: solid 1px #ede5d0;
+        border-left: solid 1px #ede5d0;
+        border-right: solid 1px #ede5d0;
+        padding: 15px 10px 10px 20px;
+        overflow: hidden;
+        background-color: #fff;
+    }
+
+    .searchlist .first {
+        border-top: solid 1px #ede5d0;
+    }
+
+    .searchlist .item .title {
+        width: 95%;
+        display: block;
+        margin: 0 0 3px 0;
+    }
+
+        .searchlist .item .title a {
+            font-weight: bold;
+            color: #015196;
+            line-height: 18px;
+        }
+
+            .searchlist .item .title a:hover {
+                color: #015196;
+            }
+
+    .searchlist .item .desciption {
+        font: 12px/16px Arial;
+        width: 100%;
+        overflow: hidden;
+        text-align: justify;
+    }
+
+    .searchlist .item .order {
+        text-align: right;
+    }
+
+        .searchlist .item .order b {
+            border-right: 1px solid black;
+            margin: 0 10px 0 5px;
+            padding: 0 10px 0 0;
+        }
+
+            .searchlist .item .order b a {
+                font-weight: bold;
+                color: Black;
+                text-decoration: none;
+            }
+
+                .searchlist .item .order b a:hover {
+                    text-decoration: underline;
+                }
+
+        .searchlist .item .order a {
+            color: #015196;
+            font: 12px/17px Arial;
+            text-decoration: underline;
+        }
+
+    .searchlist .pager {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        top: 15px;
+        margin-bottom: 20px;
+    }
+
+        .searchlist .pager label {
+            color: #656565;
+            line-height: 20px;
+            padding-right: 5px;
+            display: inline-block;
+        }
+
+        .searchlist .pager a.num {
+            width: 22px;
+            height: 22px;
+            line-height: 22px;
+            color: #585858;
+            text-align: center;
+            font-weight: bold;
+            display: inline-block;
+            margin-left: 1px;
+        }
+
+        .searchlist .pager a.select, .searchlist .pager a:hover {
+            color: #fff;
+            font-weight: bold;
+            background: #2b6ea5;
+            border-radius: .5em;
+        }
+
+.highlight {
+    background-color: Yellow;
+    color: #333;
+}
+
+/**AutoComplete**/
+
+.autocomplete-w1 {
+    background: url(img/shadow.png) no-repeat bottom right;
+    left: 0px;
+    margin: 8px 0 0 6px;
+    position: absolute; /* IE6 fix: */
+    _background: none;
+    _margin: 0;
+}
+
+.autocomplete {
+    background: #FFF;
+    border: 1px solid #999;
+    cursor: default;
+    margin: -6px 6px 6px -6px;
+    max-height: 350px;
+    overflow: auto;
+    text-align: left; /* IE6 specific: */
+    _height: 350px;
+    _margin: 0;
+    _overflow-x: hidden;
+}
+
+    .autocomplete .selected {
+        background: #F0F0F0;
+    }
+
+    .autocomplete div {
+        padding: 2px 5px;
+        white-space: nowrap;
+    }
+
+    .autocomplete strong {
+        color: #3399FF;
+        font-weight: normal;
+    }
+
+.qlTop {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background: url(img/qlbg.png) no-repeat 0 top;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    height: auto;
+    margin-left: -20px;
+    margin-top: 5px;
+    overflow: hidden;
+    padding-top: 10px;
+    position: absolute;
+    width: 310px !important;
+    z-index: 300;
+}
+
+    .qlTop .qlBottom {
+        background: url(img/qlbg.png) no-repeat -620px bottom;
+        padding-bottom: 10px;
+    }
+
+    .qlTop .qlContent {
+        background: url(img/qlbg.png) repeat-y -310px 0;
+        padding: 0 5px;
+        width: 300px;
+    }
+
+.ac_results {
+    background-color: white;
+    padding: 0px;
+}
+
+    .ac_results * {
+        float: none;
+        font-size: 11px;
+        line-height: 120%;
+        list-style: none;
+    }
+
+    .ac_results ul {
+        list-style: none;
+        margin: 0;
+        max-height: none !important;
+        overflow: visible !important;
+        padding: 0;
+        width: 100%;
+    }
+
+    .ac_results li {
+        cursor: default;
+        display: block;
+        font-size: 12px;
+        height: auto; /*  	it is very important, if line-height not setted or setted  	in relative units scroll will be broken in firefox 	*/
+        line-height: 16px;
+        margin: 0px;
+        min-height: 20px; /*  	if width will be 100% horizontal scrollbar will apear  	when scroll mode will be used 	*/ /*width: 100%;*/
+        font: menu;
+        overflow: hidden;
+        padding: 0px 5px;
+    }
+
+        .ac_results li:hover {
+            background: #ffcbb4 !important;
+        }
+
+        .ac_results li .caption {
+            height: 25px;
+            line-height: 25px;
+            margin-left: -5px;
+            padding-left: 10px;
+            width: 300px;
+        }
+
+            .ac_results li .caption b {
+                color: #B53510;
+                font-size: 12px;
+                font-weight: bold;
+                line-height: 25px;
+            }
+
+        .ac_results li .thumb {
+            float: left;
+            padding: 8px;
+            width: 48px;
+        }
+
+        .ac_results li .content {
+            color: #000 !important;
+            float: right;
+            padding: 5px;
+            width: auto;
+            width: 216px;
+        }
+
+            .ac_results li .content .title {
+                color: #000 !important;
+                display: block;
+                font-weight: bold !important;
+                margin-bottom: 2px;
+            }
+
+                .ac_results li .content .title * {
+                    color: #000 !important;
+                    font-weight: bold !important;
+                }
+
+            .ac_results li .content .desc {
+                color: #000 !important;
+                display: block;
+                font-weight: normal !important;
+            }
+
+                .ac_results li .content .desc * {
+                    color: #000 !important;
+                    font-weight: normal !important;
+                }
+
+.ac_loading {
+    background: white /* url('indicator.gif') right center no-repeat*/;
+}
+
+.ac_odd {
+    background-color: #fbfbfb;
+}
+
+.ac_over {
+    color: #000;
+}
+
+* html .ui-autocomplete {
+    height: 200px;
+}
+
+.autocomplete-w1 {
+    background: url(img/shadow.png) no-repeat bottom right;
+    left: 0px;
+    margin: 8px 0 0 6px;
+    position: absolute;
+    top: 0px; /* IE6 fix: */
+    _background: none;
+    _margin: 0;
+}
+
+.autocomplete {
+    background: #FFF;
+    border: 1px solid #999;
+    cursor: default;
+    margin: -6px 6px 6px -6px;
+    max-height: 350px;
+    overflow: auto;
+    text-align: left; /* IE6 specific: */
+    _height: 350px;
+    _margin: 0;
+    _overflow-x: hidden;
+}
+
+    .autocomplete div {
+        padding: 2px 5px;
+        white-space: nowrap;
+    }
+
+    .autocomplete strong {
+        color: #3399FF;
+        font-weight: normal;
+    }
+
+.searchlist .item {
+    width: 100%;
+}
+
+
+    .searchlist .item .desciption {
+        float: left;
+        width: 100%;
+        display: block;
+    }
+
+    .searchlist .item .order {
+        text-align: left;
+        display: block;
+        float: left;
+    }
+
+
+/*.mn-fixed-rcbSlide{position:fixed !important; top:54px !important;z-index:99999999 !important; }*/
+.RadComboBoxDropDown_Default .rcbItem em {
+    background: none !important;
+    font-weight: normal !important;
+}
+
+.RadComboBox_Default, .RadComboBox_Default .rcbInput, .RadComboBoxDropDown_Default {
+    font-size: 12px;
+    width: 200px !important;
+    height: 130px !important;
+}
+
+
+.searchtour .timkiem, .searchtour .khoanggia, .searchtour .soluongngay, .searchtour .loaihinh, .searchtour .diadiem, .searchtour .nhaptukhoa {
+}
+
+.sidebar .searchtour {
+    background: #ffffff;
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    padding: 20px 0 0;
+}
+
+.searchtour {
+    width: 990px;
+    height: 100px;
+    margin: auto;
+    padding: 10px 0 0 30px;
+    background: rgba(180,180,180,0.6);
+}
+
+.sidebar .searchtour .timkiem {
+    width: 100%;
+}
+
+.searchtour .timkiem {
+    width: 200px;
+    height: 40px;
+    float: left;
+    margin-top: 30px;
+    background: #38aa0c;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "RobotoRegular";
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+    .searchtour .timkiem .searchBlock {
+        width: 40px;
+        float: right;
+        height: 40px;
+    }
+
+
+.searchtour .khoanggia {
+    width: 138px;
+    float: right;
+}
+
+    .searchtour .khoanggia .searchBlock {
+        width: 138px;
+        float: right;
+        height: 35px;
+    }
+
+        .searchtour .khoanggia .searchBlock .search-text {
+        }
+
+.searchtour .soluongngay {
+    width: 200px;
+    float: left;
+}
+
+    .searchtour .soluongngay .searchBlock {
+        width: 100%;
+        float: right;
+        height: 40px;
+        margin-top: 10px;
+        background: #ffffff;
+    }
+
+        .searchtour .soluongngay .searchBlock .search-text {
+        }
+
+.searchtour .loaihinh {
+    width: 138px;
+    float: right;
+}
+
+    .searchtour .loaihinh .searchBlock {
+        width: 138px;
+        float: right;
+        height: 35px;
+    }
+
+        .searchtour .loaihinh .searchBlock .search-text {
+        }
+
+.searchtour .diadiem {
+    width: 200px;
+    float: left;
+}
+
+.sidebar .searchtour .diadiem .searchBlock {
+    height: 60px;
+}
+
+.searchtour .diadiem .searchBlock {
+    width: 100%;
+    float: right;
+    height: 40px;
+    margin-top: 10px;
+    background: #ffffff;
+}
+
+    .searchtour .diadiem .searchBlock .search-text {
+    }
+
+.searchtour .nhaptukhoa {
+    width: 300px;
+    float: left;
+}
+
+.sidebar .searchtour .nhaptukhoa .searchBlock {
+    height: 60px;
+}
+
+.searchtour .nhaptukhoa .searchBlock {
+    width: 100%;
+    float: right;
+    height: 40px;
+}
+
+    .searchtour .nhaptukhoa .searchBlock .search-text {
+    }
+
+.searchtour .khoanggia, .searchtour .soluongngay, .searchtour .loaihinh, .searchtour .diadiem, .searchtour .nhaptukhoa {
+    margin-right: 10px;
+    padding-left: 2px;
+    font-family: "RobotoRegular";
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #222222;
+}
+
+.sidebar .searchtour .khoanggia, .sidebar .searchtour .soluongngay, .sidebar .searchtour .loaihinh, .sidebar .searchtour .diadiem, .sidebar .searchtour .nhaptukhoa {
+    width: 100%;
+}
+
+
+
+
+.rcbArrowCell.rcbArrowCellRight {
+    display: none !important;
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .searchtour {
+        width: 100%;
+    }
+
+        .searchtour .nhaptukhoa {
+            width: 200px;
+        }
+
+        .searchtour .diadiem {
+            width: 150px;
+        }
+
+    .search-text {
+        width: 100%;
+    }
+
+    .searchtour .soluongngay {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:767px) {
+    .searchtour {
+        width: 100%;
+    }
+
+        .searchtour .nhaptukhoa {
+            width: 45%;
+        }
+
+        .searchtour .diadiem {
+            width: 45%;
+        }
+
+    .search-text {
+        width: 100%;
+    }
+
+    .searchtour .soluongngay {
+        width: 45%;
+        clear: both;
+    }
+}
+
+@media screen and (max-width:481px) {
+    .searchtour {
+        width: 100%;
+    }
+
+    .search-text {
+        width: 100%;
+    }
+
+    .searchtour .soluongngay, .searchtour .nhaptukhoa, .searchtour .diadiem {
+        width: 90%;
+        clear: both;
+    }
+
+    .searchtour {
+        height: 250px !important;
+    }
+
+        .searchtour .timkiem {
+            margin-top: 10px;
+        }
+
+        .searchtour .nhaptukhoa, .searchtour .diadiem {
+            margin-top: 0;
+        }
+
+            .searchtour .diadiem .searchBlock, .search-box #txtSearch, .searchtour .soluongngay .searchBlock {
+                margin-top: 0;
+            }
+
+    .title-search {
+        display: none;
+    }
+}

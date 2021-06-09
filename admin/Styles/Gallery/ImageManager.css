@@ -1,0 +1,507 @@
+﻿body.galery {
+    background: #000;
+    margin: 0px;
+}
+
+.top_gallery {
+    background: url(img/bg_galery_top_1x75.png) repeat-x;
+    height: 75px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 690px;
+}
+
+    .top_gallery .galery {
+        bottom: 0px;
+        height: 31px;
+        position: absolute;
+        right: 0px;
+    }
+
+    .top_gallery .upload {
+        bottom: 0px;
+        height: 31px;
+        position: absolute;
+        right: 132px;
+    }
+
+    .top_gallery .type {
+        bottom: 0px;
+        height: 31px;
+        position: absolute;
+        right: 264px;
+    }
+
+    .top_gallery .logo {
+        background: url(img/bic_logo.jpg) no-repeat;
+        height: 75px;
+        width: 300px;
+    }
+
+    .top_gallery .version {
+        color: #000;
+        font: bold 12px/37px Arial;
+        position: absolute;
+        right: 20px;
+        text-shadow: 0.1em 0.1em 0.05em #2e6270;
+        top: 0px;
+    }
+
+.middle_gallery {
+    background: none;
+    height: 466px;
+    left: 0px;
+    position: absolute;
+    top: 75px;
+    width: 690px;
+}
+
+.top_gallery_forvideo {
+    background: url(img/bg_galery_top_1x75.png) repeat-x;
+    height: 31px;
+    /*left: 0px;
+    position: absolute;
+    top: 0px;*/
+    width: 690px;
+}
+/*Trang danh sach anh*/
+
+#ImageManagerForVideo1_RadAjaxPanel1 .body_view {
+    background: #fff;
+    color: #4D6678;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 690px;
+}
+
+.body_view {
+    background: #fff;
+    color: #4D6678;
+    float: left;
+    margin: 0px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 690px;
+}
+
+.gallery_caption {
+    background: url(img/galery_caption_1x45.jpg) repeat-x;
+    clear: both;
+    font: bold 12px/21px Arial;
+    height: 45px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.gallery_caption2 {
+    background: url(img/galery_caption_1x35.jpg) repeat-x;
+    clear: both;
+    font: bold 12px/21px Arial;
+    height: 35px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.gallery_caption .cate_gallery {
+    height: 21px;
+    left: 20px;
+    position: absolute;
+    top: 12px;
+    width: 300px;
+}
+
+.gallery_caption .input-select {
+    margin-left: 10px;
+    width: 150px;
+}
+
+.gallery_caption .img_name_gallery {
+    height: 21px;
+    position: absolute;
+    right: 69px;
+    top: 12px;
+}
+
+.input-text {
+    border: 1px solid #CCCCCC;
+    color: #4D6678;
+    font: normal 12px/19px Arial;
+    height: 19px;
+    padding: 0px 5px;
+    width: 200px;
+}
+
+.gallery_caption .separator {
+    background: url(img/seaparator_2x35.gif) no-repeat;
+    height: 35px;
+    left: 355px;
+    position: absolute;
+    top: 0px;
+    width: 2px;
+}
+
+.search_button_gallery {
+    background: url(img/search_button_gallery_50x21.jpg) no-repeat;
+    cursor: pointer;
+    height: 21px;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    width: 50px;
+}
+
+.text_result {
+    background: url(img/bullet_message_8x7.gif) 20px center no-repeat;
+    clear: both;
+    font: normal 12px/35px Arial;
+    height: 35px;
+    padding-left: 36px;
+    position: relative;
+}
+
+.frame_gallery {
+    background: #FDF7D0;
+    border: 1px solid #FFB069;
+    height: 284px;
+    margin: 0px 19px;
+    overflow: hidden;
+    padding: 17px;
+    position: relative;
+    vertical-align: top;
+}
+
+.frame_category {
+    height: 410px;
+}
+
+.img_detail {
+    background: #fff;
+    border: 1px solid #FFB069;
+    float: left;
+    height: 131px;
+    margin-bottom: 17px;
+    margin-right: 16px;
+    position: relative;
+    width: 108px;
+}
+
+    .img_detail.img_right {
+        clear: right;
+        margin-right: 0px;
+    }
+
+    .img_detail .size {
+        color: #4D6678;
+        font: bold 12px/27px Arial;
+        height: 27px;
+        text-align: center;
+    }
+
+    .img_detail .image {
+        height: 75px;
+        margin: 0px 4px;
+        overflow: hidden;
+    }
+
+        .img_detail .image img {
+            background: #ddd;
+            color: #ddd;
+            display: block;
+            margin: 0px auto;
+            overflow: hidden;
+        }
+
+    .img_detail .action {
+        height: 27px;
+        text-align: center;
+    }
+
+        .img_detail .action a {
+            color: #4D6678;
+            font: normal 10px/28px Arial;
+            text-decoration: none;
+        }
+
+.paging {
+    float: left;
+    height: 25px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.pagerImg {
+    color: #4D6678;
+    font: normal 12px/25px Arial;
+}
+
+    .pagerImg a.num {
+        color: #4D6678;
+        padding: 0px 3px;
+        text-decoration: none;
+    }
+
+    .pagerImg a.select {
+        color: #FE9B00;
+        font-weight: bold;
+        padding: 0px 3px;
+    }
+
+.clear {
+    clear: both;
+}
+/* tab */
+.middle_gallery .ui-xs {
+    padding: 0px;
+}
+
+    .middle_gallery .ui-tabs .ui-tabs-nav, #tabs ul {
+        height: 31px;
+        overflow: hidden;
+        padding: 0px;
+        position: absolute;
+        right: 1px;
+        top: -31px ;
+    }
+
+        .middle_gallery .ui-tabs .ui-tabs-nav li, #tabs ul li {
+            background: url(img/tab_galery_132x31.gif) no-repeat;
+            border: none;
+            cursor: pointer;
+            float: left;
+            height: 31px;
+            margin: 0px 0px 0px 1px;
+            overflow: hidden;
+            width: 132px;
+        }
+
+            .middle_gallery .ui-tabs .ui-tabs-nav li.ui-state-active, #tabs ul li.selected {
+                background: url(img/tab_galery_hover_132x31.gif) no-repeat;
+            }
+
+            .middle_gallery .ui-tabs .ui-tabs-nav li a, #tabs ul li a {
+                color: #4d6678;
+                cursor: pointer;
+                display: block;
+                font: bold 12px/31px Arial;
+                padding: 0px 0px 0px 44px;
+                width: 88px;
+                height: 31px;
+            }
+
+    .middle_gallery .ui-tabs .ui-widget-header {
+        background: none;
+        border: 0px;
+    }
+
+.middle_gallery .ui-widget-content {
+    background: none;
+    border: 0px;
+}
+
+.middle_gallery .ui-corner-all {
+    -moz-border-radius: 0px;
+}
+
+.middle_gallery .ui-corner-top {
+    -moz-border-radius: 0px;
+}
+
+.middle_gallery .ui-tabs-panel {
+    border: 0px;
+    padding: 0px;
+}
+
+.middle_gallery .ui-state-active {
+    border: 0px;
+}
+
+.tab-galery a {
+    background: url(icon/icon_gallery_20x20.png) 15px center no-repeat;
+}
+
+.tab-upload a {
+    background: url(icon/icon_upload_20x20.png) 15px center no-repeat;
+}
+
+.tab-category a {
+    background: url(icon/icon_category_20x20.png) 15px center no-repeat;
+}
+/* tab gallery*/
+
+.middle_gallery_forvideo {
+    background: none;
+    height: 466px;
+    /*left: 0px;
+    position: absolute;
+    top: 75px;*/
+    width: 690px;
+}
+.middle_gallery_forvideo .ui-tabs {
+    padding: 0px;
+}
+
+    .middle_gallery_forvideo  #tabs ul {
+        height: 31px;
+        overflow: hidden;
+        padding: 0px;
+        position: absolute;
+        right: 1px;
+        top: 0px;
+    }
+
+        .middle_gallery_forvideo .ui-tabs .ui-tabs-nav li, #tabs ul li {
+            background: url(img/tab_galery_132x31.gif) no-repeat;
+            border: none;
+            cursor: pointer;
+            float: left;
+            height: 31px;
+            margin: 0px 0px 0px 1px;
+            overflow: hidden;
+            width: 132px;
+        }
+
+            .middle_gallery_forvideo .ui-tabs .ui-tabs-nav li.ui-state-active, #tabs ul li.selected {
+                background: url(img/tab_galery_hover_132x31.gif) no-repeat;
+            }
+
+            .middle_gallery_forvideo .ui-tabs .ui-tabs-nav li a,.middle_gallery_forvideo  #tabs ul li a {
+                color: #4d6678;
+                cursor: pointer;
+                display: block;
+                font: bold 12px/31px Arial;
+                padding: 0px 0px 0px 44px;
+                width: 88px;
+                height: 31px;
+            }
+
+    .middle_gallery_forvideo .ui-tabs .ui-widget-header {
+        background: none;
+        border: 0px;
+    }
+
+.middle_gallery_forvideo .ui-widget-content {
+    background: none;
+    border: 0px;
+}
+
+.middle_gallery_forvideo .ui-corner-all {
+    -moz-border-radius: 0px;
+}
+
+.middle_gallery_forvideo .ui-corner-top {
+    -moz-border-radius: 0px;
+}
+
+.middle_gallery_forvideo .ui-tabs-panel {
+    border: 0px;
+    padding: 0px;
+}
+
+.middle_gallery_forvideo .ui-state-active {
+    border: 0px;
+}
+
+.tab-galery a {
+    background: url(icon/icon_gallery_20x20.png) 15px center no-repeat;
+}
+
+.tab-upload a {
+    background: url(icon/icon_upload_20x20.png) 15px center no-repeat;
+}
+
+.tab-category a {
+    background: url(icon/icon_category_20x20.png) 15px center no-repeat;
+}
+
+#ifGalery, #ifUpload, #ifCategory, #ifLoad {
+    background: #fff url(img/loading.gif) no-repeat center;
+    height: 466px;
+}
+
+.galery_note {
+    background: #fdf7d0;
+    color: red;
+    font: italic normal 12px/31px Arial;
+    height: 31px;
+    margin-top: 1px;
+    padding: 0px 19px;
+    position: relative;
+    text-align: right;
+}
+
+    .galery_note .imagesize {
+        height: 30px;
+        left: 20px;
+        line-height: 30px;
+        position: absolute;
+        top: 0px;
+    }
+
+        .galery_note .imagesize .item {
+            display: inline-block;
+        }
+
+            .galery_note .imagesize .item span {
+                display: inline-block;
+                font: bold 11px/30px Arial;
+            }
+
+            .galery_note .imagesize .item .input-text {
+                color: #FF9C01;
+            }
+
+/*Check*/
+.chkimg {
+    cursor: pointer;
+    height: 14px;
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    width: 17px;
+}
+
+.checkmark {
+    background: url("icon/checkmark.gif") no-repeat 0 0;
+}
+
+.uncheckmark {
+    background: url("icon/uncheckmark.gif") no-repeat 0 0;
+}
+
+.ckhall {
+    cursor: pointer;
+    height: 14px;
+    line-height: 14px;
+    padding-left: 17px;
+    position: absolute;
+    right: 274px;
+    top: 11px;
+    width: 80px;
+}
+
+#btnAddImg {
+    background: url("img/upload.png") no-repeat left center;
+    cursor: pointer;
+    padding-left: 18px;
+    position: absolute;
+    right: 140px;
+    top: 0;
+    width: 112px;
+}
+
+#btnDelImg {
+    background: url("img/delete.png") no-repeat left center;
+    cursor: pointer;
+    padding-left: 18px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 112px;
+}

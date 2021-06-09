@@ -1,0 +1,351 @@
+﻿/* Control */
+input[type="checkbox"] {
+    margin: 4px 3px 3px 0px;
+}
+
+input[type="text"] {
+    font: 12px/22px Arial;
+}
+
+    input[type="text"].error {
+        background: #fff url(icon/txt_valid.gif) no-repeat right center;
+    }
+
+label.error {
+    color: #f00;
+    display: none !important;
+    font: 11px/22px Arial;
+    left: 16px;
+    padding-left: 10px;
+    position: absolute;
+    top: 8px;
+    z-index: 99;
+}
+
+.input-select {
+    border: 1px solid #bed2db;
+    font: 11px/22px Arial;
+    height: 22px;
+    padding: 2px 0px;
+    width: auto;
+}
+
+    .input-select option {
+        font: 11px Arial;
+        line-height: 19px;
+    }
+
+    .input-select:hover {
+        border-color: #5794bf;
+    }
+
+    .input-select option:checked, .input-select option:hover {
+        background: #DDEBF1 !important;
+        color: -moz-html-cellhighlighttext !important;
+    }
+
+.input-text {
+    border: 1px solid #bed2db;
+    height: 22px;
+    padding: 0px 5px;
+    width: 88px;
+}
+
+    .input-text:hover {
+        border-color: #5794bf;
+    }
+
+.input-checkbox {
+    display: inline-block;
+    float: left;
+    height: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn-back {
+    background: url(icon/btn_back_65x18.gif) no-repeat 10px center;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 23px 0 30px;
+    width: auto;
+    color: #2f5d78;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.05em #fff;
+    white-space: nowrap;
+}
+
+    .btn-back:hover {
+        text-decoration: none;
+        color: #19a6f9;
+    }
+
+.btn-del {
+    background: url(icon/btn_delete.gif) no-repeat 10px 7px;
+    display: inline-block;
+    height: 35px;
+    padding-right: 23px;
+    float: right;
+    padding-left: 30px;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.05em #fff;
+    line-height: 35px;
+    color: #2f5d78;
+}
+
+.grid-side .btn-del, .rgMasterTable .btn-del {
+    float: left;
+    padding-left: 30px;
+}
+
+.btn-del:hover {
+    text-decoration: none;
+    color: #19a6f9;
+}
+
+.btn-addnew {
+    background: url(icon/btn_addnew_78x18.gif) no-repeat 10px 7px;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 30px;
+    padding-right: 23px;
+    width: auto;
+    color: #2f5d78;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.05em #fff;
+}
+
+    .btn-addnew:hover {
+        text-decoration: none;
+        color: #19a6f9;
+    }
+
+.btn-movenew {
+    background: url(icon/ContextMenu/move_to_folder.png) no-repeat 10px 7px;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 30px;
+    width: 100px;
+    color: #2f5d78;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.05em #fff;
+    cursor: pointer;
+}
+
+    .btn-movenew:hover {
+        text-decoration: none;
+        color: #19a6f9;
+    }
+
+.btn-edit {
+    color: #2f5d78;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.05em #fff;
+    background: url(icon/btn-edit.gif) no-repeat 0px 8px;
+    line-height: 35px;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    padding-left: 20px;
+    width: 80px;
+    font-weight: bold;
+}
+
+    .btn-edit:hover {
+        background-image: url(icon/btn-edit.gif);
+        color: #19a6f9;
+        text-decoration: none;
+    }
+
+.btn-reset {
+    background: url(icon/btn_reset.gif) no-repeat 0px 9px;
+    display: inline-block;
+    float: right;
+    height: 35px;
+    padding: 0px 10px;
+    width: 73px;
+    padding-right: 23px;
+    width: auto;
+    float: right;
+    padding-left: 20px;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.05em #fff;
+    line-height: 35px;
+    color: #2f5d78;
+    white-space: nowrap;
+}
+
+    .btn-reset:hover {
+        text-decoration: none;
+        color: #19a6f9;
+    }
+
+.btn-save {
+    background: url(icon/btn_save_95x18.gif) no-repeat 10px center;
+    display: inline-block;
+    float: right;
+    height: 35px;
+    padding-left: 30px;
+    padding-right: 20px;
+    width: auto;
+    line-height: 35px;
+    color: #2f5d78;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.05em #fff;
+    white-space: nowrap;
+}
+
+    .btn-save:hover {
+        text-decoration: none;
+        color: #19a6f9;
+    }
+
+.deleteUser {
+    height: 34px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+    .deleteUser .btn-addnew {
+        background: url("icon/btn_addnew_78x18.gif") no-repeat scroll 10px 7px transparent;
+        color: #2F5D78;
+        display: inline-block;
+        float: left;
+        font-weight: bold;
+        height: 35px;
+        line-height: 35px;
+        padding-left: 30px;
+        padding-right: 23px;
+        text-shadow: 0.1em 0.1em 0.05em #FFFFFF;
+        width: auto;
+    }
+
+        .deleteUser .btn-addnew:hover {
+            color: #19A6F9;
+            text-decoration: none;
+        }
+
+.btn-epExcel {
+    background: url(icon/btn_exportXls_100x18.gif) no-repeat 10px 6px;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    padding-left: 10px;
+    width: 100px;
+}
+
+    .btn-epExcel:hover {
+        background-image: url(icon/btn_exportXls_hover_100x18.gif);
+    }
+/*.btn-ipExcel { background: url(icon/btn_importXls_100x18.gif) no-repeat 10px center; display: inline-block; float: left; height: 35px; padding-left: 10px; width: 100px; }
+.btn-ipExcel:hover { background-image: url(icon/btn_importXls_hover_100x18.gif); }*/
+.btn-ipExcel {
+    background: url(icon/btn_importXls_100x18.gif) no-repeat 10px 6px;
+    margin-left: 200px;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    padding-left: 10px;
+    width: 100px;
+}
+
+    .btn-ipExcel:hover {
+        background-image: url(icon/btn_importXls_hover_100x18.gif);
+    }
+
+.btn-backup {
+    background: url(icon/btn_backup_66x18.gif) no-repeat 10px center;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    padding-left: 10px;
+    width: 66px;
+}
+
+    .btn-backup:hover {
+        background-image: url(icon/btn_backup_hover_66x18.gif);
+    }
+
+.btn-imageupload {
+    background: url(icon/btn_imageUpload_78x18.gif) no-repeat 10px center;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    padding-left: 10px;
+    width: 78px;
+}
+
+    .btn-imageupload:hover {
+        background-image: url(icon/btn_imageUpload_hover_78x18.gif);
+    }
+
+.image_category {
+    background: url(icon/btn_imageCategory_78x18.gif) no-repeat 10px center;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    padding-left: 10px;
+    width: 78px;
+}
+
+    .image_category:hover {
+        background-image: url(icon/btn_imageCategory_hover_78x18.gif);
+    }
+/*Rad Control */
+
+.input-box .input-select {
+    width: auto;
+}
+/* Drag Drop Line Telerik Control */
+.rtDropAbove, .rtDropBelow {
+    border: 1px dotted #96CA72 !important;
+    font-size: 3px;
+    height: 3px;
+    line-height: 3px;
+    margin-top: -1px;
+    z-index: 999;
+}
+
+.rtDropAbove {
+    border-bottom: 0 !important;
+}
+
+.rtDropBelow {
+    border-top: 0 !important;
+}
+
+/*Node */
+.note {
+    float: right;
+    font-style: italic;
+    font-weight: normal;
+    padding-right: 10px;
+    text-transform: none;
+}
+
+    .note em {
+        color: #f00;
+    }
+
+.validate {
+    color: #f00;
+}
+
+
+
+/*html body .riSingle .riTextBox, html body .riSingle .riTextBox[type="text"] {
+    color: black !important;
+}
+
+.riContSpinButtons .riDisplay, .riContSpinButtons.RadInputRTL.riButtonSwap .riDisplay {
+    text-align: left !important;
+}*/

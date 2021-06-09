@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TypeNews>
+  <type name="Tin tức" key="1" type="1"/>
+  <type name="Tin ảnh" key="2" type="2"/>
+  <type name="Tin video" key="3" type="3"/>
+  <type name="Tin tức khác" key="4" type="3"/>
+</TypeNews>

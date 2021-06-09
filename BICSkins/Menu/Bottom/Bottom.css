@@ -1,0 +1,52 @@
+﻿.RadMenu_Bottom {
+    float: left;
+    padding-left: 53px;
+}
+
+    .RadMenu_Bottom .rmRootGroup .rmItem .rmLink {
+        padding: 0 !important;
+    }
+    .RadMenu_Bottom .rmRootGroup .rmItem.rmFirst .rmLink {
+        border-left: none;
+    }
+
+        .RadMenu_Bottom .rmRootGroup .rmItem .rmLink:hover {
+            text-decoration: none !important;
+        }
+
+        .RadMenu_Bottom .rmRootGroup .rmItem .rmLink .rmText {
+            padding: 0 14px 0 12px;
+            font: bold 12px/35px Arial;
+            cursor: pointer;
+            color: #6290e0;
+        }
+
+        .RadMenu_Bottom .rmRootGroup .rmItem .rmLink:hover .rmText {
+            color: #F69424;
+        }
+
+        .RadMenu_Bottom .rmRootGroup .rmItem .rmLink .rmText .fix_left {
+            width: 2px;
+            height: 11px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            text-align: right;
+        }
+
+        .RadMenu_Bottom .rmRootGroup .rmItem .rmLink .rmText .fix_right {
+            background: url("img/fix_right.png") no-repeat;
+            width: 2px;
+            height: 11px;
+            position: absolute;
+            right: 0;
+            top: 11px;
+            text-align: right;
+        }
+    /*Submenu*/
+    .RadMenu_Bottom .rmSlide {
+    }
+    /*ẩn menu cấp 2*/
+    .RadMenu_Bottom .rmLevel1 {
+        display: none !important;
+    }

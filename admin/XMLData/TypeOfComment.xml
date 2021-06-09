@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<TypeNews>
+  <type key="1" value="Comment thuộc bài tin" name="Comment thuộc bài tin"  />
+  <type key="2" value="Comment thuộc sản phẩm" name="Comment thuộc sản phẩm"  />
+  <type key="99" value="Comment đang kiểm duyệt" name="Comment đang kiểm duyệt"  />
+</TypeNews>

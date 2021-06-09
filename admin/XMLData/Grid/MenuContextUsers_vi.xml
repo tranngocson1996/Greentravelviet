@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <Group Flow="Vertical">
+    <Item Text="Sửa bản ghi" Value="Edit"  LeftLogo="~/admin/Styles/icon/ContextMenu/edit.gif" Key="S" AccessKey="S" ></Item>
+    <Item Text="Đổi mật khẩu" Value="ChangePass"  LeftLogo="~/admin/Styles/icon/ContextMenu/rename.gif" Key="R" AccessKey="R" ></Item>
+    <Item Text="Xoá bản ghi" Value="Delete"  LeftLogo="~/admin/Styles/icon/ContextMenu/delete.gif" AccessKey="X"  Key="X" ></Item>
+    <Item Text="Xem danh sách đơn hàng" Value="ViewOrder"  LeftLogo="~/admin/Styles/icon/ContextMenu/move_to_folder.png" AccessKey=""  Key="" ></Item>
+  </Group>
+</Menu>

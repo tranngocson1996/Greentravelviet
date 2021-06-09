@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" standalone="yes"?>
+
+<TypeNews>
+  <type name="Không thay đổi" key="0" value="Không thay đổi" />
+  <type name="Chiều rộng ảnh (1000px)" key="1000" value="Chiều rộng ảnh (1000px)" />
+  <type name="Chiều rộng ảnh 800px)" key="800" value="Chiều rộng ảnh (800px)" />
+  <type name="Chiều rộng ảnh (600px)" key="600" value="Chiều rộng ảnh (600px)" />
+  <type name="Chiều rộng ảnh (400px)" key="400" value="Chiều rộng ảnh (400px)" />
+</TypeNews>

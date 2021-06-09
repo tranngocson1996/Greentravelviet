@@ -1,0 +1,43 @@
+﻿/*Upload */
+.upload-left {float:left;padding:0px 20px;width:200px;}
+.upload-right {float:left;overflow:hidden;padding:0px;position:relative;width:420px;}
+.upload-right-user {height:378px;overflow:auto;top:-14px;width:450px !important;}
+.gallery_caption2 span {color:#f6a300;}
+.gallery_caption2 .upload-left,.gallery_caption2 .upload-right {height:35px;line-height:35px;padding:0px 20px;}
+.gallery_caption2 .upload-left {background:url(img/separator_caption_2x45.png) no-repeat right top;}
+.gallery_caption2 .upload-right {width:410px;}
+
+.upload-frame {background:#fcf7d1 url(img/separator_upload_1x2.png) repeat-y 237px top;border-bottom:1px solid #f3eaa5;border-top:1px solid #fff;font:normal 12px/17px Arial;min-height:334px;overflow:hidden;padding-top:13px;position:relative;width:690px;}
+.upload-frame a {font:normal 12px/17px Arial;text-decoration:none;}
+a.edit-category {background:url(img/edit_category.gif) no-repeat left -3px;color:#4d6778;cursor:pointer;padding-left:20px;}
+.select-category {background:url(img/text_list_bullets.png) no-repeat 0 3px;clear:both;min-height:30px;padding-left:22px;}
+.input-finish {background:url(img/btnFinish.png) no-repeat center;border:0;cursor:pointer;height:28px;left:157px;position:absolute;top:4px;width:128px;z-index:2;}
+.upload-control {height:376px;overflow:auto;padding-left:20px;}
+.upload-control .RadAsyncUpload {min-height:30px;overflow:hidden;width:350px;}
+.resize {background:#fcf7d1 url(img/resize.png) no-repeat center;height:231px;position:relative;top:18px;width:204px;}
+.resize table {left:26px;position:relative;top:65px;}
+.resize span {bottom:6px;clear:both;display:inline;font:italic 11px/16px Arial;left:10px;position:absolute;text-indent:16px;width:190px;}
+.guhelp {background:#fff;height:400px;overflow:hidden;width:400px;}
+
+.RadUpload .ruFileWrap {height:24px;overflow:hidden !important;width:265px;}
+.RadUpload .ruRemove {background-position:22px -70px;border:0;cursor:pointer;font-size:12px;overflow:visible;padding-left:35px;width:auto;}
+.RadUpload,.RadUploadProgressArea {width:400px !important;}
+.ruFileWrap .ruFakeInput {width:150px !important;}
+.imglink span {margin-right:5px;}
+.imglink {text-align:right;width:352px;}
+
+.upload-right h3 {border:1px solid #DDD !important;}
+#ruImage {margin-top:10px;}
+.note_upload {font-size:11px;font-style:italic;line-height:17px;position:relative;top:-12px;}
+.note_upload b {color:#EB8F00;}
+/*Keo tha*/
+.ruRename {background:url(icon/rename_10x10.gif) no-repeat 6px 5px !important;border:0 !important;color:#333 !important;cursor:pointer;display:none;font-size:12px !important;overflow:visible;padding-left:20px !important;width:auto !important;}
+.ruInputs {position:relative;}
+.ruDropZone {background-color:#f0f0f0;border:5px dashed #cccccc;color:#000000;font-size:18px;height:100%;left:-15px;padding:10px;position:absolute;text-align:center;top:-15px;width:100%;z-index:1;}
+.ruDropZone span {font-size:18px;height:18px;left:0;line-height:1;margin:-9px 0 0 0;position:absolute;text-align:center;top:50%;width:100%;}
+.inputUpload {font:12px/14px Arial !important;width:214px;}
+
+.ErrorHolder {background:#ff9600 url('Img/warning.png') no-repeat 10px 10px;border:solid 3px #955e0d;color:#fff;display:none;padding:15px 10px 20px 70px;width:307px;}
+
+span.drop {color:#EB8F00;font-size:11px;position:relative;top:10px;}
+.help-drop {background:url(img/drop.png) no-repeat center;display:block;font:italic 11px/38px arial;height:34px;left:239px;padding:10px 0 0 10px;position:relative;top:-43px;width:158px;}

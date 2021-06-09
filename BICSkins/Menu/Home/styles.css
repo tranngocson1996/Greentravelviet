@@ -1,0 +1,62 @@
+.menu_home {
+    width: 640px;
+    float: right;
+    margin-top: 20px;
+}
+
+    .menu_home .caption {
+        height: 53px;
+        line-height: 53px;
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+
+        .menu_home .caption #ShareSocial {
+            top: 7px !important;
+        }
+
+        .menu_home .caption a {
+            cursor:default;
+           text-decoration:none;
+            float: left;
+            font-size: 18px;
+            color: #006ca9;
+        }
+
+    .menu_home .list {
+    }
+
+        .menu_home .list .item {
+            width: 300px;
+            float: left;
+            margin-bottom: 10px;
+        }
+
+            .menu_home .list .item .title {
+                cursor:default;
+                text-decoration:none;
+                color: #666666;
+                font-size: 18px;
+                float: left;
+                width: 100%;
+                margin-bottom: 5px;
+            }
+
+            .menu_home .list .item .image {
+                float: left;
+                max-width: 85px;
+                max-height: 85px;
+                cursor: default;
+            }
+
+            .menu_home .list .item .summary {
+                font-size: 12px;
+                color: #666666;
+                float: left;
+                width: 200px;
+            }
+
+        .menu_home .list .right {
+            margin-left: 35px;
+        }

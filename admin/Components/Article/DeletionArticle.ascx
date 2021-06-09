@@ -1,0 +1,1 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="DeletionArticle.ascx.cs" Inherits="admin_Components_Article_DeletionArticle" %>

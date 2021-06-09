@@ -1,0 +1,70 @@
+﻿<root>
+    <tools name="MainToolbar" dockable="true" enabled="true">
+        <tool name="Undo" />
+        <tool name="Redo" />
+        <EditorToolStrip Name="Paste Options"  PopupHeight="250px" PopupAlign="Left">
+            <EditorTool Name="Cut" />
+            <EditorTool Name="Copy" />
+            <EditorTool Name="Paste" />
+            <EditorTool Name="PasteFromWord" />
+            <EditorTool Name="Paste" />
+            <EditorTool Name="PasteFromWordNoFontsNoSizes" />
+            <EditorTool Name="PastePlainText" />
+            <EditorTool Name="PasteAsHtml" />
+        </EditorToolStrip>
+        <tool name="FormatStripper" />
+
+        <tool name="Bold" />
+        <tool name="Italic" />
+        <tool name="Underline" />
+        <tool separator="true"/>
+        <tool name="JustifyLeft" />
+        <tool name="JustifyCenter" />
+        <tool name="JustifyRight" />
+        <tool name="JustifyFull" />
+        <tool name="JustifyNone" />
+        <tool name="ConvertToLower" />
+        <tool name="ConvertToUpper" />
+        <tool name="Indent" />
+        <tool name="Outdent" />
+        <tool name="InsertOrderedList" />
+        <tool name="InsertUnorderedList"/>
+        <tool name="ForeColor" />
+        <tool name="BackColor"/>
+        <tool separator="true"/>
+        <tool name="FontName"/>
+        <tool name="RealFontSize"/>
+        <tool name="InsertLink" />
+    </tools>
+    <symbols>
+    </symbols>
+  <fontNames>
+    <item value="Arial" name="Arial"/>
+    <item value="Courier New"  name="Courier New" />
+    <item value="Garamond"  name="Garamond"/>
+    <item value="Georgia" name="Georgia"/>
+    <item value="MS Sans Serif" name="MS Sans Serif"/>
+    <item value="Segoe UI" name="Segoe UI"/>
+    <item value="Tahoma" name="Tahoma"/>
+    <item value="Times New Roman" name="Times New Roman"/>
+    <item value="Verdana" name="Verdana"/>
+    <item value="UTM-AVO" name="UTM-AVO"/>
+    <item value="UTM-AVOBOLD" name="UTM-AVOBOLD"/>
+    <item value="UTM Trajan Pro Bold" name="UTM Trajan Pro Bold"/>
+  </fontNames>
+    <fontSizes>
+    </fontSizes>
+
+    <colors>
+    </colors>
+    <classes>
+        <class name="Không định dạng" value="" />
+        <class name="Bảng có viền" value=".CommonTable"/>
+    </classes>
+    <paragraphs>
+    </paragraphs>
+    <dialogParameters>
+    </dialogParameters>
+    <languages>
+    </languages>
+</root>

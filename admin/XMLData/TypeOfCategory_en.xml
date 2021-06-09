@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TypeCategory>
+  <key key="1" value="1" name="Hình thức vận chuyển" description="" ></key>
+  <key key="2" value="2" name="Hình thức thanh toán" description="" ></key>
+  <key key="3" value="3" name="Phí giao hàng" description=""></key>
+</TypeCategory>

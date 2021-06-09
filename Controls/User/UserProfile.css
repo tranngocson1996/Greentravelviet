@@ -1,0 +1,115 @@
+﻿/*!
+ * Version - 1.0
+ * Module: User Profile
+ * Author: Ghida
+ * Copyright (c) 2017 Bicweb.Vn
+ */
+.page-profile {
+    clear: both;
+}
+
+    .page-profile .tab-heading {
+        margin-bottom: 15px;
+    }
+
+        .page-profile .tab-heading .nav {
+            border-bottom: 1px solid #ab8114;
+        }
+
+            .page-profile .tab-heading .nav li {
+            }
+
+                .page-profile .tab-heading .nav li.active {
+                }
+
+                .page-profile .tab-heading .nav li > a {
+                    border: 1px solid #ab8114;
+                    border-radius: 0;
+                    font-weight: bold;
+                    margin: 0 -1px 0 0;
+                    text-transform: uppercase;
+                }
+
+                .page-profile .tab-heading .nav li.active > a {
+                    background: linear-gradient(to right, rgb(171, 128, 20) 0%, rgb(217, 170, 51) 50%, rgb(171, 128, 20) 100%) repeat scroll 0 0;
+                    background: -webkit-linear-gradient(to right, rgb(171, 128, 20) 0%, rgb(217, 170, 51) 50%, rgb(171, 128, 20) 100%) repeat scroll 0 0;
+                    color: #fff;
+                }
+
+    .page-profile .tab-content {
+    }
+
+        .page-profile .tab-content .tab-pane {
+        }
+
+    /*#region INPUT */
+    .page-profile .form-control {
+        border-radius: 0;
+    }
+    /*Fix by HưngBicweb*/
+    .fw.form-ca-nhan {
+      margin-top: 20px;
+    }
+    .page-content.page-profile .fw.form-ca-nhan .form-control:focus {
+      box-shadow: none;
+    }
+    /*Response by HưngBicweb*/
+    @media screen and (max-width:576px){
+        .page-content.page-profile .fw.tab-heading .nav-tabs > li {
+          float: none;
+        }
+    }
+    @media screen and (max-width:399px){
+        .page-content.page-profile .nav.nav-tabs {
+          margin-top: 30px;
+        }
+    }
+
+    
+
+#profile .title {
+    padding: 15px 0;
+}
+
+.page-profile .btn {
+    border: #AB8114;
+    border-radius: 0;
+    background: linear-gradient(to right, rgb(171, 128, 20) 0%, rgb(217, 170, 51) 50%, rgb(171, 128, 20) 100%) repeat scroll 0 0;
+    background: -webkit-linear-gradient(to right, rgb(171, 128, 20) 0%, rgb(217, 170, 51) 50%, rgb(171, 128, 20) 100%) repeat scroll 0 0;
+    text-transform: uppercase;
+}
+
+/*#endregion */
+
+/*#region TABLE */
+.page-profile table .info, .page-profile table .default, .page-profile table .success {
+    color: #555555;
+    text-align: center;
+}
+
+.page-profile .table .success a, .page-profile .table .info a, .page-profile .table .default a {
+    color: #ab8114;
+}
+
+.page-profile .table .info {
+    border-bottom: 2px solid #dfdfdf;
+    font-weight: bold;
+}
+.page-profile .Paging{
+    padding: 15px 0;
+}
+.page-profile .Paging span {
+  background: #ab8114 none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  line-height: 25px;
+  text-align: center;
+  width: 25px;
+}
+/*#endregion */
+
+/*#region ORDER */
+
+
+
+/*#endregion */

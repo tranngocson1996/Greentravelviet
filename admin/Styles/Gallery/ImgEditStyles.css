@@ -1,0 +1,26 @@
+﻿.imageeditor {background:#6788be;border:solid 1px #000;cursor:default;float:left;font:normal 12px "Segoe UI",Arial,Verdana,Sans-serif;margin:0;padding:2px;padding-top:0;}
+.imageeditor h5 {background:#6788be;color:white;font-weight:normal;margin:0;padding:2px;}
+td.ImageEditArea {background:#808080;height:433px;text-align:center;vertical-align:middle;width:600px;}
+td.ImageEditArea .image {height:432px;overflow:auto;width:461px;}
+.ImageEditArea img {background:url('img/transparent.png');border:2px solid #dcfc5c !important;filter:progid:DXImageTransform.Microsoft.Shadow(direction=140,color=#000000,strength=2);margin:auto;}
+#ContentDiv {clear:both;font:normal 12px Arial,Verdana;}
+.table,.table td {border:solid 1px black;border-collapse:collapse;color:#6c6c6c;font-family:Tahoma;font-size:11px;vertical-align:top;}
+#pnlEditImage td {border:0;}
+div.panel {background:#ededed;margin:2px;margin-right:0;width:220px;}
+div.panel .title {background:url('img/paneltop.png');font-size:10px;height:25px;width:100%;}
+div.panel.options .title {display:none;}
+div.panel .title div {background:url('img/title.gif') no-repeat;float:left;height:16px;margin:9px 0 0 4px;}
+div.panel.options .title div {background:url('img/titleGreen.gif') no-repeat;}
+div.panel .title div span {background:url('img/title.gif') no-repeat right -16px;cursor:default;display:block;line-height:16px;padding:0 5px 0 5px;}
+div.panel.options .title div span {background:url('img/titleGreen.gif') no-repeat right -16px;}
+div.panel .controlwrapper {background:#ededed;border:solid 1px #1972ff;border-top:0;padding:4px;}
+div.panel.options .controlwrapper {background:#d4ff3d;border-color:#000;border-top-width:1px;}
+div.panel .controlwrapper td {vertical-align:middle;}
+.imageList {height:124px;overflow:hidden;position:relative;width:846px;}
+.imageList ul {height:124px;overflow:auto;width:846px;}
+.imageList ul,.imageList ul li {float:left;list-style:none;margin:0;padding:0;}
+.imageList ul li {}
+.thumb {-moz-opacity:.4;border:solid 2px #fff;cursor:hand;display:block;filter:alpha(opacity=40);float:left;height:54px;margin:1px;opacity:.4;width:54px;}
+.thumb.selected,.thumb:hover {-moz-opacity:1;border-color:#dcfc5c;filter:alpha(opacity=100);opacity:1;}
+.imageList .info {-moz-opacity:.8;background:#6788be;border:solid 1px black;color:white;cursor:default;filter:alpha(opacity=80);font-size:14px;left:12px;opacity:.8;padding:8px;position:absolute;top:12px;z-index:1000;}
+.imageList:hover .info {display:none;}

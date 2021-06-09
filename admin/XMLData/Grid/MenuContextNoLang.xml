@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <Group Flow="Vertical">
+    <Item Text="Thêm mới" Value="Add" LeftLogo="~/admin/Images/icons/new.gif"  AccessKey="T" >    
+    </Item>
+    <Item Text="Xem bản ghi" Value="View" LeftLogo=""    Key="E"  AccessKey="E" >
+	</Item>
+	<Item Text="Sửa bản ghi" Value="Edit"  LeftLogo="~/admin/Images/icons/edit.gif" Key="S" AccessKey="S" >     
+    </Item>
+    <Item Text="Xoá bản ghi" Value="Delete"  LeftLogo="~/admin/Images/icons/delete.gif" AccessKey="X"  Key="X" >      
+    </Item>
+  </Group>
+</Menu>

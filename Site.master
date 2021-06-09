@@ -1,0 +1,151 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<%@ Register Src="~/Controls/Menu/HorizontalTopPrimary.ascx" TagPrefix="uc1" TagName="HorizontalTopPrimary" %>
+<%@ Register Src="~/Controls/Language/Language.ascx" TagPrefix="uc1" TagName="Language" %>
+<%@ Register Src="~/Controls/Adv/ScriptAdv.ascx" TagPrefix="uc1" TagName="ScriptAdv" %>
+<%@ Register Src="~/Controls/Menu/MenuFooter.ascx" TagPrefix="uc1" TagName="MenuFooter" %>
+<%@ Register Src="~/Controls/Article/ArticleNewHightLight.ascx" TagPrefix="uc1" TagName="ArticleNewHightLight" %>
+<%= Include.LibraryCss() %>
+<%= Include.DefaultCss() %>
+<%= Include.JqueryUI() %>
+<%= Include.MeanMenu() %>
+<%= Include.OwlCarousel() %>
+<%= Include.MainJs() %>
+
+<%@ Import Namespace="BIC.Utils" %>
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+        <%-- -----------------Start Meta for Seo----------------------- --%>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <meta property="og:type" content="<%=SeoInfo.Type%>" />
+        <meta property="og:title" content="<%=SeoInfo.MetaTitle%>" />
+        <meta property="og:url" content="<%=SeoInfo.Url%>" />
+        <meta property="og:description" content="<%=SeoInfo.MetaDescription%>" />
+        <meta property="og:site_name" content="<%=BicXML.ToString("FacebookSiteName", "SearchEngine") %>" />
+        <meta property="og:image" content="<%=Common.GetSiteUrl()+"/"+SeoInfo.ImageLink%>" />
+        <meta property="fb:app_id" content="<%= BicXML.ToString("FacebookAppID", "SearchEngine") %>" />
+        <meta name='revisit-after' content='1 days' />
+        <meta http-equiv="content-language" content="<%=BicLanguage.CurrentLanguage%>" />
+        <link rel="shortcut icon" href='<%=Page.ResolveUrl("~/favicon.ico") %>' type="image/x-icon" />
+        <link rel="canonical" href="<%=SeoInfo.Url%>" />
+        <meta name="geo.placename" content="<%= BicXML.ToString("Placename", "SearchEngine") %>" />
+        <meta name="geo.position" content="<%= BicXML.ToString("GeoPosition", "SearchEngine") %>" />
+        <meta name="geo.region" content="<%= BicXML.ToString("Georegion", "SearchEngine") %>" />
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800&amp;subset=vietnamese" rel="stylesheet" />
+    </telerik:RadCodeBlock>
+    <uc1:ScriptAdv runat="server" ID="ScriptAdv" TypeOfAdv="100"/>
+</head>
+<body class="<%= BicLanguage.CurrentLanguage %>">
+    <uc1:ScriptAdv runat="server" ID="ucScriptAdvBodyTop" TypeOfAdv="102" />
+    <form id="WebGo" runat="server">
+        <telerik:RadScriptManager runat="server" ID="rcm1" EnableEmbeddedjQuery="false" />
+        <header class="header">
+            <div class="info-header">
+                <div class="container">
+                    <div class="main-info-header">
+                        <div class="contact-info-header">
+                            <uc1:ScriptAdv runat="server" ID="ucInfoHeader" TypeOfAdv="9" />
+                        </div>
+                        <div class="lang-header">
+                            <uc1:Language runat="server" ID="Language" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-header">
+                <div class="container">
+                    <div class="tns-logo">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="<%= Page.ResolveUrl("~/Styles/images/logo.png") %>" alt="<%= BicResource.GetValue("SiteName") %>" /></a>
+                        </div>
+                    </div>
+                    <nav class="main-menu">
+                        <div class="menu-primary">
+                            <uc1:HorizontalTopPrimary runat="server" ID="HorizontalTopPrimary1" TypeId="1" />
+                        </div>
+                        <div class="mobile-menu"></div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <asp:ContentPlaceHolder ID="cphMain" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="hightlight-news">
+            <div class="container">
+                <div class="title-hightlight-news"><%=BicResource.GetValue("Tintucdacsac") %></div>
+                <div class="detail-hightlight-news">
+                    <uc1:ArticleNewHightLight runat="server" ID="ArticleNewHightLight" />
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="main-footer">
+                <div class="container">
+                    <div class="info-contact col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="title-info-contact">
+                            <%=BicLanguage.CurrentLanguage== "vi"? "Công ty TNHH Du lịch Xanh Việt": "Green Travel Viet Co.,ltd  ®" %>
+                            <div class="title-info-contact-chungnhan"><%=BicLanguage.CurrentLanguage== "vi"? "Giấy phép KDLHQT số: 46-010/2014/TCDL - GPLHQT": "International Travel License No: 46-010/2014/TCDL - GPLHQT" %></div>
+                        </div>
+                        <i class="fa fa-angle-double-down tns-toggle" aria-hidden="true"></i>
+                        <uc1:ScriptAdv runat="server" ID="InfoContact" TypeOfAdv="3" />
+                    </div>
+                    <div class="menu-footer col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <uc1:MenuFooter runat="server" ID="ucMenuFooter" />
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container">
+                    <div class="copyright-content">
+                        <div class="copyright"><%= BicResource.GetValue("Copyright") %></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div id="back-to-top">
+            <a><span class="fa fa-angle-up"></span></a>
+        </div>
+    </form>
+
+    <uc1:ScriptAdv runat="server" ID="ucScriptFooter" TypeOfAdv="101" />
+    <script type="text/javascript">
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/<%= BicLanguage.CurrentLanguage == "vi" ? "vi_VN" : "en_US" %>/sdk.js#xfbml=1&version=v2.12<%= string.IsNullOrEmpty(BicXML.ToString("FacebookAppID", "SearchEngine")) ? "&appId=584963911659390" : "&appId=" + BicXML.ToString("FacebookAppID", "SearchEngine") %>";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+        //Datour
+        function saveTour(tourId) {
+            var tourid = tourId;
+            var lang = "<%=BicLanguage.CurrentLanguage%>";
+
+            var langSource = "/" + lang + "/";
+            if ((window.location.href.indexOf(langSource) === -1))
+                window.open("/" + lang + "/" + tourid + "/book-tour.html", '_self');
+            else
+                window.open("/" + lang + "/" + tourid + "/book-tour.html", '_self');
+        }
+
+        $(document).ready(function () {
+            $(".tns-toggle").click(function () {
+                $(".tns-menu-footer").slideToggle(700);
+            });
+        });
+
+
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+    </script>
+
+</body>
+</html>

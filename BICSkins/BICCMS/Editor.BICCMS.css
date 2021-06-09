@@ -1,0 +1,80 @@
+.reToolbarWindow {
+    z-index: 900 !important;
+}
+
+.reToolbar .CustomImageManagement {
+    background-image: url(Editor/bicselectImage.gif);
+}
+
+.reToolbar .InsertExternalVideo {
+    background-image: url(Editor/youtube.png);
+}
+
+a.CustomImageManagement .rrbButtonImage {
+    display: none;
+}
+
+a.CustomImageManagement span.rrbImagePlaceholder, .RadRibbonBar a.CustomImageManagement span.rrbImagePlaceholder {
+    background: rgba(0, 0, 0, 0) url("Editor/images.png") no-repeat scroll center center;
+    display: block;
+    width: 100%;
+}
+
+a.CustomImageManagement span.rrbTextContent {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a.InsertExternalVideo .rrbButtonImage {
+    display: none;
+}
+
+a.InsertExternalVideo span.rrbImagePlaceholder, .RadRibbonBar a.InsertExternalVideo span.rrbImagePlaceholder {
+    background: url(Editor/youtube.png) no-repeat center center;
+    display: block;
+    width: 100%;
+}
+
+a.InsertExternalVideo span.rrbTextContent {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a.DocumentManager .rrbButtonImage {
+    display: none;
+}
+
+a.DocumentManager span.rrbImagePlaceholder {
+    background: url(Editor/FILE.png) no-repeat;
+    display: block;
+    margin-left: 9px;
+}
+
+a.DocumentManager span.rrbTextContent {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a.MediaManager .rrbButtonImage {
+    display: none;
+}
+
+a.MediaManager span.rrbImagePlaceholder, .RadRibbonBar a.MediaManager span.rrbImagePlaceholder {
+    background: url(Editor/mediaKhac.png) no-repeat center center;
+    display: block;
+    width: 100%;
+}
+
+a.MediaManager span.rrbTextContent {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.RadRibbonBar .rrbLargeButton .rrbImagePlaceholder {
+    height: 35px !important;
+}
+
+.Office2007.reWrapper {
+    position: relative;
+    z-index: 100;
+}

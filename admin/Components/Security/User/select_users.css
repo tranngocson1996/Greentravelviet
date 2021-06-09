@@ -1,0 +1,32 @@
+﻿.select_users_frame {background:#F0F0F0;font:normal normal 11px/17px Tahoma;height:383px;width:600px;}
+.divPage {height:17px;padding:0px 10px;text-align:right;}
+.divPage a {color:#000;text-decoration:none;}
+.divPage a:hover {text-decoration:underline;}
+.select_users_frame select option {padding:5px;}
+.select_users_frame select {font:12px/24px Tahoma;height:24px;}
+.select_users_frame .top {clear:both;height:50px;padding:10px 0px;position:relative;width:580px;}
+.select_users_frame .title {font:normal normal 12px/35px Tahoma;height:35px;}
+.select_users_frame .title .caption {float:left;font:normal bold 12px/35px Tahoma;}
+.top .search {height:63px;left:0px;position:absolute;top:0px;width:254px;}
+
+.top .group {height:50px;left:280px;position:absolute;top:0px;}
+.select_users_frame .meddium {clear:both;padding:0px;width:580px;}
+.meddium .users_table {width:580px;}
+.meddium .users_table .head {background:url(img/bg_head_user_1x18.gif);border:1px solid #828790;font:normal normal 11px/18px Tahoma;height:18px;margin-bottom:3px;text-indent:5px;width:578px;}
+.meddium .users_table .all_item {background:#fff;background:#fff url(img/bg_allitem.gif) repeat-y;border:1px solid #828790;font:normal normal 11px/18px Tahoma;height:200px;overflow:scroll;text-indent:5px;width:578px;}
+.meddium .users_table .name {border-right:1px solid #828790;float:left;width:120px;}
+.meddium .users_table .display_name {border-right:1px solid #828790;float:left;width:250px;}
+.meddium .users_table .email {float:right;width:188px;}
+.item {clear:both;line-height:25px;overflow:auto;position:relative;}
+.item .name,.item .display_name {border-right:1px solid #F0F0F0 !important;min-height:25px;}
+.item.alt {background:#FDFDFD;}
+.item a {color:#000;font-weight:bold;text-decoration:none;}
+.item a:hover {text-decoration:underline;}
+.select_users_frame .bottom {clear:both;height:55px;overflow:auto;padding:3px 0px 10px;position:relative;width:580px;}
+.select_users_frame .bottom .line_bottom {clear:both;padding-bottom:3px;width:580px;}
+.select_users_frame .bottom .line_bottom .text_box {float:right;width:570px;}
+.select_users_frame .bottom .line_bottom .btn_control {width:70px;}
+.select_users_frame .bottom .control {bottom:10px;position:absolute;right:0px;}
+.select_users_frame .bottom .control_left {bottom:10px;left:0px;position:absolute;}
+.clear {clear:both;}
+.highlight {background:#A2D711 !important;}

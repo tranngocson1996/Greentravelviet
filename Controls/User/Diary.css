@@ -1,0 +1,266 @@
+﻿.TableView tr td {
+    padding: 10px 5px;
+    border: 1px solid #ddd5d5;
+}
+
+.TableView tr.trHeader td {
+    padding: 20px 5px;
+    text-transform: inherit;
+    font-size: 12px;
+    color: #222;
+    text-align: center;
+    font-family: 'roboto-b';
+    font-weight: normal;
+}
+
+/*Page view*/
+.PageName {
+    font-weight: bold;
+    margin: 7px 0px 5px 0px;
+    text-transform: uppercase;
+}
+
+.TableView {
+    border: 1px solid #EDEDED;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial;
+    font-size: 12px;
+    background: #fff;
+}
+
+    .TableView .trHeader {
+        font-weight: bold;
+    }
+
+        .TableView .trHeader td {
+            padding: 2px 0;
+            line-height: 15px;
+            height: 30px;
+            border: none;
+        }
+
+    .TableView .tr:hover td {
+        background: #d7d620;
+    }
+
+    .TableView .trOdd {
+        line-height: 24px;
+        background: #FFFFFF;
+        border: 1px solid #ddd5d5;
+    }
+        /*d�ng le*/
+        .TableView .trOdd td {
+            border: 1px solid #ddd5d5;
+            text-align: center;
+        }
+
+    .TableView .trEven {
+        line-height: 24px;
+        background: #f5f5f5;
+    }
+        /*d�ng chan*/
+        .TableView .trEven td {
+            border: 1px solid #ddd5d5;
+            text-align: center;
+        }
+
+    .TableView .tdCenter {
+        text-align: center;
+        width: 30px;
+    }
+
+    .TableView .tdLeft {
+        text-align: left;
+    }
+
+    .TableView .Function {
+        text-align: center;
+        width: 130px;
+        height: 20px;
+    }
+
+        .TableView .Function a {
+            padding: 2px 0 2px 0;
+            Color: #215dc6;
+            font-size: 12px;
+        }
+
+            .TableView .Function a.print-ico {
+                background: url("img/icon_print.gif") no-repeat center;
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                margin-left: -2px;
+            }
+
+        /*.TableView .Function:active {
+            padding: 2px 0 2px 0;
+            Color: #215dc6;
+            font-size: 12px;
+        }*/
+
+        .TableView .Function input {
+            border: 0;
+            margin: 0;
+            padding: 3px 0 0 0;
+        }
+
+    .TableView .lineHeightview {
+        text-align: center;
+    }
+
+.Paging {
+    font-family: Arial;
+    font-size: 12px;
+    margin: 5px auto;
+}
+
+    .Paging td a {
+        border: 1px solid #dfe0df;
+        background: #ffffff;
+        padding: 4px 7px;
+        margin: 2px;
+        Color: #5aa9de;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+        .Paging td a:hover {
+            background: #63aede;
+            Color: #fff;
+            border: 1px solid #1f79b4;
+        }
+
+    .Paging td span {
+        border: 1px solid #1f79b4;
+        background: #5aa9de;
+        padding: 4px 7px;
+        margin: 2px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        Color: #fff;
+    }
+
+
+.temp_3 .content {
+    /*border-left: 1px solid #E9E9E9;
+    border-right: 1px solid #E9E9E9;*/
+    padding: 5px 10px 0;
+}
+
+.temp_3 .bottom .fl {
+    background: url("img/temp_3_bottom_L.gif") no-repeat scroll left bottom transparent;
+    width: 6px;
+    height: 6px;
+}
+
+.temp_3 .bottom .fr {
+    background: url("img/temp_3_bottom_R.gif") no-repeat scroll right bottom transparent;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.temp_3 .bottom {
+    background: url("img/temp_3_bottom_bg.gif") repeat-x scroll center bottom transparent;
+    height: 6px;
+    position: relative;
+}
+
+.payment_step_2 .order_information .name {
+    font-weight: bold;
+    text-align: left;
+    width: 420px;
+}
+
+.payment_step_2 .order_information td {
+    padding: 4px 5px;
+}
+
+.break_module {
+    clear: both;
+    height: 20px;
+}
+
+.show_cart_table {
+    width: 880px;
+    float: left;
+    /*margin-top: 20px;*/
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+    .show_cart_table td {
+        /*border: 1px solid #E2E2E2;*/
+        border: 1px solid #E2E2E2;
+        /*height: 90px;*/
+        /*padding: 0 8px;*/
+        padding: 8px; /*8px*/
+        line-height: 20px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .show_cart_table tr.product_item td {
+        height: 70px;
+        padding: 0 8px;
+    }
+
+    .show_cart_table .text_title {
+        background: none repeat scroll 0 0 #F2F2F2;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .show_cart_table td.avatar {
+        padding: 1px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 0;
+        position: relative;
+    }
+
+        .show_cart_table td.avatar a {
+            display: block !important;
+        }
+
+        .show_cart_table td.avatar img {
+            height: 60px;
+            width: 60px;
+            min-width: 38px;
+        }
+
+        .show_cart_table td.avatar .imagehover {
+            position: absolute;
+            width: 150px !important;
+            height: 200px !important;
+            left: 72px;
+            top: -60px;
+            display: none !important;
+            z-index: 99999;
+        }
+
+.imagehover img {
+    width: 150px !important;
+    height: 180px !important;
+    border: 1px solid #125896;
+}
+
+.show_cart_table td.avatar:hover .imagehover {
+    display: block !important;
+}
+
+.TableView .trHeader .lineHeightview img {
+    vertical-align: middle;
+}
+.TableView .trOdd img {
+    vertical-align: middle;
+}
+.TableView .trEven img {
+    vertical-align: middle;
+}

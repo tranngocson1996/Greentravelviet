@@ -1,0 +1,1 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="LeftPanelBar.ascx.cs" Inherits="admin_Controls_LeftPanelBar" %>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StaticMenu>
+  <type name="Trang chủ" key="58" type="global"/>
+  <type name="Danh mục cấp 1" key="-1" type="global"/>
+  <type name="Danh mục cấp 2" key="-2" type="global"/>
+</StaticMenu>

@@ -1,0 +1,36 @@
+﻿<root>
+
+	<tools name="MainToolbar" enabled="true">
+	        <tool name="FindAndReplace" />
+		    <tool separator="true"/>
+		    <tool name="Undo" />
+		    <tool name="Redo" />
+		    <tool separator="true"/>
+		    <tool name="Cut" />
+		    <tool name="Copy" />
+		    <tool name="Paste" shortcut="CTRL+!"/>
+            <tool name="FormatStripper" />
+	    </tools>
+
+	    <tools name="Formatting" enabled="true">
+		    <tool name="Bold" />
+		    <tool name="Italic" />
+		    <tool name="Underline" />
+		    <tool separator="true"/>
+		    <tool name="ForeColor" />
+		    <tool name="BackColor"/>
+		    <tool separator="true"/>
+		    <tool name="FontName"/>
+		    <tool name="RealFontSize"/>
+            <tool name="Indent" />
+            <tool name="Outdent" />
+            <tool name="InsertOrderedList" />
+            <tool name="InsertUnorderedList"/>
+	    </tools>
+    <tools name="InsertLink" enabled="true" >
+        <tool name="InsertImage" />
+        <tool name="InsertLink" />
+
+    </tools>
+
+</root>

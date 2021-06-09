@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SortingColumn>
+  <type name="Lựa chọn" key="0" value="Lựa chọn" />
+  <type name="Lượt xem" key="ViewCount" value="Lượt xem" />
+  <type name="Bình luận" key="CommentCount" value="Bình luận" />
+</SortingColumn>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<Language>
+  <type key="vi" value="Tiếng Việt" name="Tiếng Việt" admin="true" user="true"/>
+  <type key="en" value="Tiếng Anh" name="English" admin="false" user="true"/>
+  <type key="ru" value="Tiếng Nga" name="Russia" admin="false" user="false"/>
+  <type key="ja" value="Tiếng Nhật" name="Japanese" admin="false" user="false"/>
+  <type key="ko" value="Tiếng Hàn" name="Korean" admin="false" user="false"/>
+  <type key="zh" value="Tiếng Trung Quốc" name="Chinese" admin="false" user="false"/>
+</Language>

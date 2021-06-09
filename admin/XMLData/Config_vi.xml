@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TypeConfig>
+  <!--<type datakey="1" key="FullTextSearch" value="0" name ="Chế độ tìm kiếm FullText"></type>
+  <type datakey="2" key="TimViecId" value="31" name ="[Muaban.ru] Mã mục Tìm việc"></type>
+  <type datakey="3" key="TimNguoiId" value="32" name ="[Muaban.ru] Mã mục Tìm người"></type>
+  <type datakey="4" key="MuaBanId" value="33" name ="[Muaban.ru] Mã mục Mua bán"></type>
+  <type datakey="5" key="TimViecPageSize" value="8" name ="Muaban.ru Số tin Tìm việc"></type>
+  <type datakey="6" key="TimNguoiPageSize" value="8" name ="Muaban.ru Số tin Tìm người"></type>
+  <type datakey="7" key="MuaBanPageSize" value="8" name ="Muaban.ru Số tin Mua bán"></type>
+  <type datakey="9" key="DuBaoThoiTiet" value="http://pogoda.yandex.ru/moscow?ncrnd=4300" name ="Liên kết Dự báo thời tiết"></type>
+  <type datakey="8" key="TyGiaNgoaiTe" value="http://cash.rbc.ru/?pagerLimiter=70&amp;order=DESC&amp;sortf=DT_LAST_PUBLICATE&amp;city=1&amp;currency=3&amp;time=60&amp;positionData=2" name ="Liên kết Tỷ giá ngoại tệ"></type>
+  <type datakey="10" key="LichTruyenHinh" value="http://vtv.vn/LichPS/Index" name ="Liên kết Lịch truyền hình"></type>
+  <type datakey="11" key="KetQuaXoSo" value="http://www.xosothudo.com.vn/results/Ket-qua-truyen-thong.html" name ="Liên kết Kết quả xổ số"></type>
+  <type datakey="12" key="TraTienDichVu" value="#" name ="Liên kết Trả tiền dịch vụ"></type>
+  <type datakey="13" key="DanhBaWebsite" value="http://baonga.com/vi/thong-tin-toa-soan.nd256/danh-ba-website.i16952.html" name ="Liên kết Danh bạ Website"></type>
+  <type datakey="14" key="XemNgayGioTot" value="#" name ="Liên kết xem ngày giờ tốt,xấu"></type>
+  <type datakey="16" key="ContactInformation" value="13794" name ="Thông tin tòa soạn"></type>
+  <type datakey="17" key="ContactArticle" value="13795" name ="Thông tin liên hệ"></type>
+  <type datakey="18" key="LinkTerm" value="~/vi/dieu-khoan-su-dung.html" name ="Điều khoản sử dụng website"></type>-->
+</TypeConfig>

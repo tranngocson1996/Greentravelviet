@@ -1,0 +1,1848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="System_Account" xml:space="preserve">
+    <value>Tài khoản</value>
+  </data>
+  <data name="System_Add" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="System_Browse" xml:space="preserve">
+    <value>Duyệt</value>
+  </data>
+  <data name="System_Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="System_InputCategoryName" xml:space="preserve">
+    <value>Nhập tên danh mục</value>
+  </data>
+  <data name="Admin_MenuUser_Function" xml:space="preserve">
+    <value>Chức năng</value>
+  </data>
+  <data name="Admin_MenuUser_ImageDescription" xml:space="preserve">
+    <value>Ảnh mô tả</value>
+  </data>
+  <data name="System_OtherInformation" xml:space="preserve">
+    <value>Thông tin khác</value>
+  </data>
+  <data name="System_Language" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="Admin_MenuUser_Link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="Admin_MenuUser_LoginRequired" xml:space="preserve">
+    <value>Y/c đăng nhập</value>
+  </data>
+  <data name="Admin_MenuUser_ModelMenu" xml:space="preserve">
+    <value>Vị trí menu</value>
+  </data>
+  <data name="System_New" xml:space="preserve">
+    <value>Mới</value>
+  </data>
+  <data name="Admin_MenuUser_OriginalList" xml:space="preserve">
+    <value>Danh mục gốc</value>
+  </data>
+  <data name="Admin_MenuUser_Pagesize" xml:space="preserve">
+    <value>Bản ghi / trang</value>
+  </data>
+  <data name="Admin_MenuUser_ParentCategories" xml:space="preserve">
+    <value>Chuyên mục cha</value>
+  </data>
+  <data name="Admin_MenuUser_Save" xml:space="preserve">
+    <value>Lưu nội dung</value>
+  </data>
+  <data name="Admin_MenuUser_SelectTheFunction" xml:space="preserve">
+    <value>[Chọn chức năng]</value>
+  </data>
+  <data name="System_UrlSEO" xml:space="preserve">
+    <value>Url SEO</value>
+  </data>
+  <data name="System_Target" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Admin_MenuUser_Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Cloning" xml:space="preserve">
+    <value>Nhân bản</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Down" xml:space="preserve">
+    <value>Xuống</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Edit" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_EditName" xml:space="preserve">
+    <value>Đổi tên</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Up" xml:space="preserve">
+    <value>Lên</value>
+  </data>
+  <data name="Admin_Menu_BinhChon" xml:space="preserve">
+    <value>Bình chọn</value>
+  </data>
+  <data name="Admin_Menu_CauHinh" xml:space="preserve">
+    <value>Cấu hình</value>
+  </data>
+  <data name="Admin_Menu_CauHinhNoiDung" xml:space="preserve">
+    <value>Cấu hình nội dung</value>
+  </data>
+  <data name="Admin_Menu_CauHoi" xml:space="preserve">
+    <value>Câu hỏi</value>
+  </data>
+  <data name="Admin_Menu_ChucNang" xml:space="preserve">
+    <value>Chức năng</value>
+  </data>
+  <data name="Admin_Menu_ChucNangMenu" xml:space="preserve">
+    <value>Chức năng menu</value>
+  </data>
+  <data name="Admin_Menu_DanhMuc" xml:space="preserve">
+    <value>Danh Mục</value>
+  </data>
+  <data name="Admin_Menu_DanhSachQuangCao" xml:space="preserve">
+    <value>Quản lý quảng cáo</value>
+  </data>
+  <data name="Admin_Menu_DanhSachSanPham" xml:space="preserve">
+    <value>Quản lý sản phẩm</value>
+  </data>
+  <data name="Admin_Menu_DanhSachTin" xml:space="preserve">
+    <value>Quản lý tin tức</value>
+  </data>
+  <data name="Admin_Menu_DanhSachTuKhoaTimKiem" xml:space="preserve">
+    <value>Quản lý từ khóa tìm kiếm</value>
+  </data>
+  <data name="Admin_Menu_DanhSachViDeo_Music" xml:space="preserve">
+    <value>Quản lý video &amp; music</value>
+  </data>
+  <data name="Admin_Menu_Google" xml:space="preserve">
+    <value>Google</value>
+  </data>
+  <data name="Admin_Menu_GoogleAnalytics" xml:space="preserve">
+    <value>Google Analytics</value>
+  </data>
+  <data name="Admin_Menu_GoogleWebmasterTools" xml:space="preserve">
+    <value>Google Webmaster Tools</value>
+  </data>
+  <data name="Admin_Menu_HeThong" xml:space="preserve">
+    <value>Hệ thống</value>
+  </data>
+  <data name="Admin_Menu_HeThongMenuWebSite" xml:space="preserve">
+    <value>Hệ thống menu website</value>
+  </data>
+  <data name="Admin_Menu_HoSoNangLuc" xml:space="preserve">
+    <value>Hồ sơ năng lực</value>
+  </data>
+  <data name="Admin_Menu_HoTroDichNoiDung" xml:space="preserve">
+    <value>Hỗ trợ dịch nội dung</value>
+  </data>
+  <data name="Admin_Menu_HuongDan" xml:space="preserve">
+    <value>Hướng dẫn</value>
+  </data>
+  <data name="Admin_Menu_IpDaBinhChon" xml:space="preserve">
+    <value>IP đã bình chọn</value>
+  </data>
+  <data name="Admin_Menu_KiemTraRanking" xml:space="preserve">
+    <value>Kiểm tra Ranking trên Alexa</value>
+  </data>
+  <data name="Admin_Menu_LichSuDangNhap" xml:space="preserve">
+    <value>Lịch sử đăng nhập</value>
+  </data>
+  <data name="Admin_Menu_LienHeVoiBICWebVN" xml:space="preserve">
+    <value>Liên hệ với BICWeb.VN</value>
+  </data>
+  <data name="Admin_Menu_LuaChon" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="Admin_Menu_MailServer" xml:space="preserve">
+    <value>Mail Server</value>
+  </data>
+  <data name="Admin_Menu_MenuHeThong" xml:space="preserve">
+    <value>Menu hệ thống</value>
+  </data>
+  <data name="System_GroupAcounts" xml:space="preserve">
+    <value>Nhóm tài khoản</value>
+  </data>
+  <data name="Admin_Menu_PhanQuyenHeThong" xml:space="preserve">
+    <value>Phân quyền hệ thống</value>
+  </data>
+  <data name="Admin_Menu_QuangCaoVideoGocPhai" xml:space="preserve">
+    <value>Quảng cáo Video góc phải</value>
+  </data>
+  <data name="Admin_Menu_QuanLyComment" xml:space="preserve">
+    <value>Quản lý comment</value>
+  </data>
+  <data name="Admin_Menu_QuanLyDieuKhien" xml:space="preserve">
+    <value>Quản lý điều khiển</value>
+  </data>
+  <data name="Admin_Menu_QuanLyQuangCao" xml:space="preserve">
+    <value>Quản lý quảng cáo</value>
+  </data>
+  <data name="Admin_Menu_QuanLySupport" xml:space="preserve">
+    <value>Quản lý Support</value>
+  </data>
+  <data name="Admin_Menu_QuanLyTaiKhoan" xml:space="preserve">
+    <value>Quản lý tài khoản</value>
+  </data>
+  <data name="Admin_Menu_QuanTriNguoiDung" xml:space="preserve">
+    <value>Quản trị người dùng</value>
+  </data>
+  <data name="Admin_Menu_Seo_SearchEngineOptimization" xml:space="preserve">
+    <value>SEO - Search Engine Optimization</value>
+  </data>
+  <data name="Admin_Menu_TaiLieuBICCMS2012" xml:space="preserve">
+    <value>Tài liệu BIC CMS 2014</value>
+  </data>
+  <data name="Admin_Menu_TaiLieuBICEditor2012" xml:space="preserve">
+    <value>Tài liệu BIC Editor 2014</value>
+  </data>
+  <data name="Admin_Menu_TaiLieuBICImage2012" xml:space="preserve">
+    <value>Tài liệu BIC Image Tools</value>
+  </data>
+  <data name="Admin_Menu_ThemMoiTinTuc" xml:space="preserve">
+    <value>Thêm mới tin tức</value>
+  </data>
+  <data name="Admin_Menu_ThongTinLienHe" xml:space="preserve">
+    <value>Thông tin liên hệ</value>
+  </data>
+  <data name="Admin_Menu_ThucHienCauLenhSQL" xml:space="preserve">
+    <value>Thực hiện câu lệnh SQL</value>
+  </data>
+  <data name="Admin_Menu_TienIch" xml:space="preserve">
+    <value>Tiện ích</value>
+  </data>
+  <data name="Admin_Menu_VeChungToi" xml:space="preserve">
+    <value>Về chúng tôi</value>
+  </data>
+  <data name="Admin_Menu_XemLogFile" xml:space="preserve">
+    <value>Xem Log File</value>
+  </data>
+  <data name="System_CategoriesComments" xml:space="preserve">
+    <value>Phân loại bình luận</value>
+  </data>
+  <data name="System_Content" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="Admin_Comment_CreateDate" xml:space="preserve">
+    <value>Ngày tạo</value>
+  </data>
+  <data name="Admin_Comment_EnterTheNameOfTheSender" xml:space="preserve">
+    <value>Enter the name of the sender</value>
+  </data>
+  <data name="System_Locks" xml:space="preserve">
+    <value>Khóa</value>
+  </data>
+  <data name="Admin_Comment_NewsContent" xml:space="preserve">
+    <value>Nội dung tin</value>
+  </data>
+  <data name="Admin_Comment_Sender" xml:space="preserve">
+    <value>Tên người gửi</value>
+  </data>
+  <data name="Admin_Comment_Sex" xml:space="preserve">
+    <value>Giới tính</value>
+  </data>
+  <data name="Admin_Comment_Sex_Man" xml:space="preserve">
+    <value>Nam</value>
+  </data>
+  <data name="Admin_Comment_Sex_Woman" xml:space="preserve">
+    <value>Nữ</value>
+  </data>
+  <data name="System_All" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="Admin_ListingMenuUser_ModelMenu" xml:space="preserve">
+    <value>Vị trí menu</value>
+  </data>
+  <data name="Admin_ListingMenuUser_Save" xml:space="preserve">
+    <value>Lưu nội dung</value>
+  </data>
+  <data name="Admin_NavigatePath_Edit" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="Admin_NavigatePath_Home" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="Admin_NavigatePath_WatchContent" xml:space="preserve">
+    <value>Xem nội dung</value>
+  </data>
+  <data name="Admin_ToolBar_Back" xml:space="preserve">
+    <value>Quay lại</value>
+  </data>
+  <data name="System_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="System_Edit" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="System_Reset" xml:space="preserve">
+    <value>Nhập lại</value>
+  </data>
+  <data name="System_View" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="Admin_ToolBar_Delete_Note" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Admin_MenuUser_Connection" xml:space="preserve">
+    <value>Menu liên quan</value>
+  </data>
+  <data name="Admin_MenuAdmin_CategoriesParent" xml:space="preserve">
+    <value>Chuyên mục cha</value>
+  </data>
+  <data name="Admin_MenuAdmin_Function" xml:space="preserve">
+    <value>Chức năng</value>
+  </data>
+  <data name="Admin_MenuAdmin_Icon" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="Admin_MenuAdmin_KeyShortcuts" xml:space="preserve">
+    <value>Phím tắt</value>
+  </data>
+  <data name="Admin_MenuAdmin_NameList" xml:space="preserve">
+    <value>Tên danh mục</value>
+  </data>
+  <data name="Admin_MenuAdmin_Select" xml:space="preserve">
+    <value>Lựa chọn...</value>
+  </data>
+  <data name="Admin_MenuAdmin_SourceLinks" xml:space="preserve">
+    <value>Nguồn liên kết</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Cloning" xml:space="preserve">
+    <value>Nhân bản</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Down" xml:space="preserve">
+    <value>Xuống</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Edit" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Rename" xml:space="preserve">
+    <value>Đổi tên (F2)</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Up" xml:space="preserve">
+    <value>Lên </value>
+  </data>
+  <data name="Admin_AdminLanguege_Language" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="Admin_LoginLog_LoginName" xml:space="preserve">
+    <value>Tên đăng nhập</value>
+  </data>
+  <data name="Admin_LoginLog_Time" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="Admin_LoginView_ChangePassword" xml:space="preserve">
+    <value>Đổi mật khẩu</value>
+  </data>
+  <data name="Admin_LoginView_Exit" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="Admin_LoginView_Login" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="Admin_Paging" xml:space="preserve">
+    <value>Chuyển trang: {4} Từ {2} tới {3} trong {5} bản ghi</value>
+  </data>
+  <data name="Admin_Paging_FirstPage" xml:space="preserve">
+    <value>Trang đầu</value>
+  </data>
+  <data name="Admin_Paging_LastPage" xml:space="preserve">
+    <value>Trang cuối</value>
+  </data>
+  <data name="Admin_Paging_NextPage" xml:space="preserve">
+    <value>Trang sau</value>
+  </data>
+  <data name="Admin_Paging_NextPages" xml:space="preserve">
+    <value>Các trang sau</value>
+  </data>
+  <data name="Admin_Paging_PageSize" xml:space="preserve">
+    <value>Số trang:</value>
+  </data>
+  <data name="Admin_Paging_PrevPage" xml:space="preserve">
+    <value>Trang trước</value>
+  </data>
+  <data name="Admin_Paging_PrevPages" xml:space="preserve">
+    <value>Các trang trước</value>
+  </data>
+  <data name="Admin_Roles_ListingRoles" xml:space="preserve">
+    <value>Nhóm tài khoản &lt;span class='note'&gt;( Click chuột phải để xem chi tiết, thêm sửa xóa )&lt;/span&gt;</value>
+  </data>
+  <data name="Admin_Roles_NumberAcount" xml:space="preserve">
+    <value>Số tài khoản</value>
+  </data>
+  <data name="Admin_Security_Browser" xml:space="preserve">
+    <value>Duyệt</value>
+  </data>
+  <data name="Admin_Security_NamePanel" xml:space="preserve">
+    <value>Tên điều khiển</value>
+  </data>
+  <data name="Admin_Security_User_AcountName" xml:space="preserve">
+    <value>Tên tài khoản</value>
+  </data>
+  <data name="Admin_Security_User_AcuontInfomation" xml:space="preserve">
+    <value>THÔNG TIN TÀI KHOẢN</value>
+  </data>
+  <data name="Admin_Security_User_Address" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="Admin_Security_User_ChangeThePassword" xml:space="preserve">
+    <value>Thay đổi mật khẩu</value>
+  </data>
+  <data name="Admin_Security_User_ConfirmNewPasswordIsRequired" xml:space="preserve">
+    <value>Confirm New Password is required.</value>
+  </data>
+  <data name="Admin_Security_User_DidNotEnterANewPassword" xml:space="preserve">
+    <value>Chưa nhập mật khẩu mới.</value>
+  </data>
+  <data name="Admin_Security_User_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Admin_Security_User_FieldRequiredToEnterContent" xml:space="preserve">
+    <value>Trường yêu cầu nhập nội dung</value>
+  </data>
+  <data name="Admin_Security_User_FullName" xml:space="preserve">
+    <value>Tên đầy đủ</value>
+  </data>
+  <data name="System_FullScreen" xml:space="preserve">
+    <value>Sp bán chạy</value>
+  </data>
+  <data name="Admin_Security_User_GroupPermissions" xml:space="preserve">
+    <value>Nhóm quyền</value>
+  </data>
+  <data name="Admin_Security_User_HomePhone" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="Admin_Security_User_IntegrationIntoGroupsTheRightToSetOrRemoveUsersFromTheGroup" xml:space="preserve">
+    <value>Tích vào từng nhóm quyền để thiết lập hoặc loại bỏ người dùng khỏi nhóm</value>
+  </data>
+  <data name="Admin_Security_User_LastLogin" xml:space="preserve">
+    <value>Đăng nhập lần cuối</value>
+  </data>
+  <data name="Admin_Security_User_LastVisit" xml:space="preserve">
+    <value>Lần cuối đăng nhập</value>
+  </data>
+  <data name="Admin_Security_User_Member" xml:space="preserve">
+    <value>Thành viên</value>
+  </data>
+  <data name="Admin_Security_User_Message1" xml:space="preserve">
+    <value>Tài khoản này đã có người sử dụng, hãy chọn tài khoản khác!</value>
+  </data>
+  <data name="Admin_Security_User_Message2" xml:space="preserve">
+    <value>Email này đã có người sử dụng, hãy chọn tài khoản khác!</value>
+  </data>
+  <data name="Admin_Security_User_Message3" xml:space="preserve">
+    <value>Mật khẩu phải bảo gồm ít nhất 4 ký tự!</value>
+  </data>
+  <data name="Admin_Security_User_Message4" xml:space="preserve">
+    <value>Tạo tài khoản thành công!</value>
+  </data>
+  <data name="Admin_Security_User_Message5" xml:space="preserve">
+    <value>Tạo tài khoản không thành công, hãy thử lại!</value>
+  </data>
+  <data name="Admin_Security_User_Message6" xml:space="preserve">
+    <value>Mật khẩu của {0} đã được thay đổi</value>
+  </data>
+  <data name="Admin_Security_User_Message7" xml:space="preserve">
+    <value>Mật khẩu của {0} chưa được thay đổi</value>
+  </data>
+  <data name="Admin_Security_User_Mobile" xml:space="preserve">
+    <value>Di động</value>
+  </data>
+  <data name="Admin_Security_User_NewPassword" xml:space="preserve">
+    <value>Mật khẩu mới:</value>
+  </data>
+  <data name="Admin_Security_User_NewPasswordIsRequired" xml:space="preserve">
+    <value>New Password is required.</value>
+  </data>
+  <data name="Admin_Security_User_NoOldPassword" xml:space="preserve">
+    <value>Chưa nhập mật khẩu cũ</value>
+  </data>
+  <data name="Admin_Security_User_NotConfirmThePassword" xml:space="preserve">
+    <value>Chưa xác nhận lại mật khẩu.</value>
+  </data>
+  <data name="Admin_Security_User_OldPassword" xml:space="preserve">
+    <value>Mật khẩu cũ:</value>
+  </data>
+  <data name="Admin_Security_User_Password" xml:space="preserve">
+    <value>Mật Khẩu</value>
+  </data>
+  <data name="Admin_Security_User_PasswordConfirmationDoesNotMatch" xml:space="preserve">
+    <value>Mật khẩu xác nhận không khớp.</value>
+  </data>
+  <data name="Admin_Security_User_PasswordIsRequired" xml:space="preserve">
+    <value>Password is required.</value>
+  </data>
+  <data name="Admin_Security_User_PersonalInformation" xml:space="preserve">
+    <value>Thông tin cá nhân</value>
+  </data>
+  <data name="Admin_Security_User_RegistrationDate" xml:space="preserve">
+    <value>Đăng ký ngày</value>
+  </data>
+  <data name="Admin_Security_User_RetypeNewPassword" xml:space="preserve">
+    <value>Gõ lại mật khẩu mới:</value>
+  </data>
+  <data name="Admin_Security_User_System" xml:space="preserve">
+    <value>Hệ thống</value>
+  </data>
+  <data name="Admin_Security_User_Tell" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="Admin_Security_User_TickToApproveOrDenyTheAccount" xml:space="preserve">
+    <value>Tick để duyệt hoặc từ chối tài khoản</value>
+  </data>
+  <data name="Admin_Security_User_TitleCompanyName" xml:space="preserve">
+    <value>Tên chức danh, công ty</value>
+  </data>
+  <data name="Admin_Security_User_UnlockForAccount" xml:space="preserve">
+    <value>Mở khóa cho tài khoản</value>
+  </data>
+  <data name="Admin_Security_User_UserName" xml:space="preserve">
+    <value>Tên tài khoản</value>
+  </data>
+  <data name="Admin_Security_User_YetToConfirmThePassword" xml:space="preserve">
+    <value>Chưa xác nhận lại mật khẩu</value>
+  </data>
+  <data name="Admin_Security_User_YouEnterTheOldPassword" xml:space="preserve">
+    <value>Bạn nhập sai mật khẩu cũ.</value>
+  </data>
+  <data name="Admin_Controls_ControlsName" xml:space="preserve">
+    <value>Tên điều khiển</value>
+  </data>
+  <data name="Admin_Controls_DetailedContent" xml:space="preserve">
+    <value>Chi tiết nội dung</value>
+  </data>
+  <data name="Admin_Controls_DirectoryName" xml:space="preserve">
+    <value>Tên thư mục</value>
+  </data>
+  <data name="Admin_Controls_Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="Admin_Controls_Message1" xml:space="preserve">
+    <value>Bạn khồn có quyền xóa bản ghi đã được duyệt</value>
+  </data>
+  <data name="Admin_Controls_Path" xml:space="preserve">
+    <value>Đường dẫn</value>
+  </data>
+  <data name="Admin_Security_Agree" xml:space="preserve">
+    <value>Đồng ý</value>
+  </data>
+  <data name="Admin_Security_Cancel" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="Admin_Security_User_AccordingToTheList" xml:space="preserve">
+    <value>Theo danh sách</value>
+  </data>
+  <data name="Admin_Security_User_DisplayName" xml:space="preserve">
+    <value>Tên hiển thị</value>
+  </data>
+  <data name="Admin_Security_User_EmailAddress" xml:space="preserve">
+    <value>Địa chỉ Email</value>
+  </data>
+  <data name="Admin_Security_User_FilterByGroup" xml:space="preserve">
+    <value>[Lọc theo nhóm]</value>
+  </data>
+  <data name="Admin_Security_User_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Admin_Security_User_NoData" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="System_Search" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="Admin_Security_User_SlectAll" xml:space="preserve">
+    <value>Chọn tất</value>
+  </data>
+  <data name="Admin_Security_User_SlectGroup" xml:space="preserve">
+    <value>Chọn nhóm</value>
+  </data>
+  <data name="Admin_XML_Config_Category" xml:space="preserve">
+    <value>Loại</value>
+  </data>
+  <data name="Admin_XML_Config_ConfigurationName" xml:space="preserve">
+    <value>Tên cấu hình</value>
+  </data>
+  <data name="System_InputTitle" xml:space="preserve">
+    <value>Nhập tiêu đề</value>
+  </data>
+  <data name="System_InputViewCount" xml:space="preserve">
+    <value>Nhập lượt xem</value>
+  </data>
+  <data name="Admin_XML_Config_News" xml:space="preserve">
+    <value>Tin tức</value>
+  </data>
+  <data name="Admin_XML_Config_Product" xml:space="preserve">
+    <value>Sản phẩm</value>
+  </data>
+  <data name="Admin_XML_Config_Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="Admin_XML_MailConfig_ConfigurationName" xml:space="preserve">
+    <value>Tên cấu hình</value>
+  </data>
+  <data name="Admin_XML_MailConfig_ConfiguredPassword" xml:space="preserve">
+    <value>Đã cấu hình mật khẩu</value>
+  </data>
+  <data name="Admin_XML_MailConfig_EnterATitle" xml:space="preserve">
+    <value>Nhập tiêu đề</value>
+  </data>
+  <data name="Admin_XML_MailConfig_PassWord" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="Admin_XML_MailConfig_Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="Admin_XML_MailConfig_YouHaveNotEnteredAPassword" xml:space="preserve">
+    <value>Bạn chưa nhập mật khẩu</value>
+  </data>
+  <data name="Admin_Adv_AdGroup" xml:space="preserve">
+    <value>Nhóm quảng cáo</value>
+  </data>
+  <data name="Admin_Adv_AdPlacement" xml:space="preserve">
+    <value>Vị trí quảng cáo</value>
+  </data>
+  <data name="Admin_Adv_DetailedContents" xml:space="preserve">
+    <value>Chi tiết nội dung</value>
+  </data>
+  <data name="Admin_Adv_Expires" xml:space="preserve">
+    <value>Ngày hết hạn</value>
+  </data>
+  <data name="Admin_Adv_NameAd" xml:space="preserve">
+    <value>Tên quảng cáo</value>
+  </data>
+  <data name="Admin_Adv_Sectbox" xml:space="preserve">
+    <value>[Chọn vị trí quảng cáo]</value>
+  </data>
+  <data name="Admin_Adv_Views" xml:space="preserve">
+    <value>Lượt xem</value>
+  </data>
+  <data name="Admin_Config_AddNew" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="Admin_XML_SearchEngine_ConfigurationName" xml:space="preserve">
+    <value>Tên cấu hình</value>
+  </data>
+  <data name="Admin_XML_SearchEngine_Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="Admin_XML_Support_Category" xml:space="preserve">
+    <value>Loại</value>
+  </data>
+  <data name="Admin_XML_Support_Langue" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="Admin_XML_Support_Style" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="Admin_XML_Support_Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="Admin_XML_Support_TypeOfContact" xml:space="preserve">
+    <value>Kiểu liên hệ</value>
+  </data>
+  <data name="Admin_Adv_DropDownList" xml:space="preserve">
+    <value>[ Chọn vị trí quảng cáo ]</value>
+  </data>
+  <data name="Admin_Adv_EnterAd" xml:space="preserve">
+    <value>Nhập tên quảng cáo</value>
+  </data>
+  <data name="Admin_Adv_InThePage" xml:space="preserve">
+    <value>Trong trang</value>
+  </data>
+  <data name="Admin_Adv_Message1" xml:space="preserve">
+    <value>Bạn chưa chọn vị trí quảng cáo!</value>
+  </data>
+  <data name="Admin_Adv_Order" xml:space="preserve">
+    <value>Thứ tự</value>
+  </data>
+  <data name="Admin_Controls_AddNew" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="Admin_FrameView_AddNew" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="Admin_FrameView_Browse" xml:space="preserve">
+    <value>Duyệt</value>
+  </data>
+  <data name="Admin_FrameView_DetailedContents" xml:space="preserve">
+    <value>Chi tiết nội dung</value>
+  </data>
+  <data name="Admin_FrameView_Document" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="Admin_FrameView_EnterTheFunctionName" xml:space="preserve">
+    <value>Nhập tên chức năng</value>
+  </data>
+  <data name="Admin_FrameView_Faq" xml:space="preserve">
+    <value>Hỏi đáp</value>
+  </data>
+  <data name="Admin_FrameView_FunctionName" xml:space="preserve">
+    <value>Tên chức năng</value>
+  </data>
+  <data name="Admin_FrameView_GalleryListing" xml:space="preserve">
+    <value>Thư viện ảnh</value>
+  </data>
+  <data name="Admin_FrameView_GroupName" xml:space="preserve">
+    <value>Tên nhóm</value>
+  </data>
+  <data name="Admin_FrameView_Law" xml:space="preserve">
+    <value>Luật</value>
+  </data>
+  <data name="Admin_FrameView_Message1" xml:space="preserve">
+    <value>Bạn không có quyền xóa bản ghi đã được duyệt</value>
+  </data>
+  <data name="Admin_FrameView_News" xml:space="preserve">
+    <value>Tin tức</value>
+  </data>
+  <data name="Admin_FrameView_Oder" xml:space="preserve">
+    <value>Thứ tự</value>
+  </data>
+  <data name="Admin_FrameView_Other" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="Admin_FrameView_Product" xml:space="preserve">
+    <value>Sản phẩm</value>
+  </data>
+  <data name="Admin_FrameView_ResourceKey" xml:space="preserve">
+    <value>Resource key</value>
+  </data>
+  <data name="Admin_FrameView_Save" xml:space="preserve">
+    <value>Lưu nội dung</value>
+  </data>
+  <data name="Admin_FrameView_StyleFunction" xml:space="preserve">
+    <value>Kiểu chức năng</value>
+  </data>
+  <data name="Admin_FrameView_SystemDistribution" xml:space="preserve">
+    <value>Hệ thống phân phối</value>
+  </data>
+  <data name="Admin_FrameView_Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Admin_Security_User_LastVisitn" xml:space="preserve">
+    <value>Lần đăng nhập cuối</value>
+  </data>
+  <data name="Admin_Security_User_Message8" xml:space="preserve">
+    <value>Tài khoản {0}đã bị khóa \n Bạn cần mở khóa trước khi thiết lập lại mật khẩu!</value>
+  </data>
+  <data name="Admin_Security_User_Save" xml:space="preserve">
+    <value>Lưu nội dung</value>
+  </data>
+  <data name="Admin_PollChoices_DetailedContents" xml:space="preserve">
+    <value>Chi tiết nội dung</value>
+  </data>
+  <data name="Admin_PollChoices_EnterSelection" xml:space="preserve">
+    <value>Nhập lựa chọn</value>
+  </data>
+  <data name="Admin_PollChoices_Message1" xml:space="preserve">
+    <value>Bạn không có quyền xóa bản ghi đã được duyệt</value>
+  </data>
+  <data name="Admin_PollChoices_Questions" xml:space="preserve">
+    <value>Câu hỏi</value>
+  </data>
+  <data name="Admin_PollChoices_Selection" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="Admin_PollChoices_Vote" xml:space="preserve">
+    <value>Bình chọn</value>
+  </data>
+  <data name="Admin_PollChoices_Votes" xml:space="preserve">
+    <value>Số phiếu</value>
+  </data>
+  <data name="Admin_PollCPs_Message1" xml:space="preserve">
+    <value>Bạn không có quyền xóa bản ghi đã được duyệt</value>
+  </data>
+  <data name="Admin_PollCPs_Message2" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa bản ghi này ?</value>
+  </data>
+  <data name="Admin_Poll_DeleteIPHourly" xml:space="preserve">
+    <value>Xóa IP theo giờ</value>
+  </data>
+  <data name="Admin_Poll_DetailedContents" xml:space="preserve">
+    <value>Chi tiết nội dung</value>
+  </data>
+  <data name="Admin_Poll_EnterQuestion" xml:space="preserve">
+    <value>Nhập câu hỏi</value>
+  </data>
+  <data name="Admin_Poll_HoursDeleteIP" xml:space="preserve">
+    <value>Số giờ xóa IP</value>
+  </data>
+  <data name="Admin_Poll_ModeAuthentication" xml:space="preserve">
+    <value>Chế độ xác thực</value>
+  </data>
+  <data name="Admin_Poll_Questions" xml:space="preserve">
+    <value>Câu hỏi</value>
+  </data>
+  <data name="Admin_Save" xml:space="preserve">
+    <value>Lưu nội dung</value>
+  </data>
+  <data name="Admin_Article_Comment" xml:space="preserve">
+    <value>B.Luận</value>
+  </data>
+  <data name="Admin_Article_CommentState" xml:space="preserve">
+    <value>Bình luận chưa duyệt/Bình luận đã duyệt</value>
+  </data>
+  <data name="Admin_Article_DateCreationAscending" xml:space="preserve">
+    <value>Ngày tạo tăng dần</value>
+  </data>
+  <data name="Admin_Article_DateCreationDescending" xml:space="preserve">
+    <value>Ngày tạo giảm dần</value>
+  </data>
+  <data name="Admin_Article_DateModificationAscending" xml:space="preserve">
+    <value>Ngày sửa tăng dần</value>
+  </data>
+  <data name="Admin_Article_DateModificationDescending" xml:space="preserve">
+    <value>Ngày sửa giảm dần</value>
+  </data>
+  <data name="System_DatePosted" xml:space="preserve">
+    <value>Ngày đăng</value>
+  </data>
+  <data name="Admin_Article_FromDate" xml:space="preserve">
+    <value>Từ</value>
+  </data>
+  <data name="System_Image" xml:space="preserve">
+    <value>Ảnh</value>
+  </data>
+  <data name="Admin_Article_List" xml:space="preserve">
+    <value>Danh mục</value>
+  </data>
+  <data name="Admin_Article_Order" xml:space="preserve">
+    <value>Thứ tự</value>
+  </data>
+  <data name="Admin_Article_SearchByCategory" xml:space="preserve">
+    <value>Tìm kiếm theo danh mục</value>
+  </data>
+  <data name="Admin_Article_SelectDate" xml:space="preserve">
+    <value>Chọn ngày</value>
+  </data>
+  <data name="Admin_Article_SkipConditions" xml:space="preserve">
+    <value>Bỏ điều kiện</value>
+  </data>
+  <data name="Admin_Article_SortResults" xml:space="preserve">
+    <value>Sắp xếp theo kết quả</value>
+  </data>
+  <data name="Admin_Article_Spotlight" xml:space="preserve">
+    <value>Tiêu điểm</value>
+  </data>
+  <data name="Admin_Article_Title" xml:space="preserve">
+    <value>Tiêu đề &lt;span class='note'&gt;( Click chuột phải để xem, sửa, xóa )</value>
+  </data>
+  <data name="Admin_Article_ToDay" xml:space="preserve">
+    <value>Đến</value>
+  </data>
+  <data name="Admin_Article_Update" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="Admin_Article_ViewsAscending" xml:space="preserve">
+    <value>Lượt xem tăng dần</value>
+  </data>
+  <data name="Admin_Article_ViewsDescending" xml:space="preserve">
+    <value>Lượt xem giảm dần</value>
+  </data>
+  <data name="Admin_Article_AppearComment" xml:space="preserve">
+    <value>Hiện comment</value>
+  </data>
+  <data name="Admin_Article_close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="Admin_Article_ContactByPost" xml:space="preserve">
+    <value>Liên hệ qua bài viết</value>
+  </data>
+  <data name="System_DetailedContent" xml:space="preserve">
+    <value>Nội dung chi tiết</value>
+  </data>
+  <data name="Admin_Article_DetailedContent2" xml:space="preserve">
+    <value>Chi tiết nội dung</value>
+  </data>
+  <data name="Admin_Article_Havebrowse" xml:space="preserve">
+    <value>Đã duyệt</value>
+  </data>
+  <data name="Admin_Article_Home" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="Admin_Article_ImageDescription" xml:space="preserve">
+    <value>Ảnh mô tả</value>
+  </data>
+  <data name="Admin_Article_Images" xml:space="preserve">
+    <value>Bộ ảnh</value>
+  </data>
+  <data name="Admin_Article_Link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="Admin_Article_ListOfSelected" xml:space="preserve">
+    <value>Danh mục đã chọn</value>
+  </data>
+  <data name="Admin_Article_Message1" xml:space="preserve">
+    <value>Bạn không có quyền xóa bản ghi đã được duyệt !</value>
+  </data>
+  <data name="Admin_Article_Message2" xml:space="preserve">
+    <value>Bài tin có comment, bạn vui lòng xóa comment.</value>
+  </data>
+  <data name="Admin_Article_Message3" xml:space="preserve">
+    <value>Xóa không thành công.</value>
+  </data>
+  <data name="Admin_Article_Message4" xml:space="preserve">
+    <value>Bạn phải chọn ít nhất một danh mục</value>
+  </data>
+  <data name="Admin_Article_Message5" xml:space="preserve">
+    <value>Bạn muốn cập nhật lại nhóm tin</value>
+  </data>
+  <data name="Admin_Article_Message6" xml:space="preserve">
+    <value>Bạn đã cập nhật nhóm tin</value>
+  </data>
+  <data name="System_MetaDescription" xml:space="preserve">
+    <value>Meta Description</value>
+  </data>
+  <data name="System_MetaKeyword" xml:space="preserve">
+    <value>Meta Keyword</value>
+  </data>
+  <data name="System_Move" xml:space="preserve">
+    <value>Di chuyển</value>
+  </data>
+  <data name="Admin_Article_NewsFocus" xml:space="preserve">
+    <value>Tin tiêu điểm</value>
+  </data>
+  <data name="Admin_Article_NewsTitle" xml:space="preserve">
+    <value>Tiêu đề bài tin</value>
+  </data>
+  <data name="System_NoBrowse" xml:space="preserve">
+    <value>Chưa duyệt</value>
+  </data>
+  <data name="Admin_Article_NoCategorySelected" xml:space="preserve">
+    <value>Chưa có danh mục nào được chọn</value>
+  </data>
+  <data name="System_NoComment" xml:space="preserve">
+    <value>Không có Comment nào</value>
+  </data>
+  <data name="Admin_Article_NoItemsSelected" xml:space="preserve">
+    <value>Chưa có danh mục nào được chọn.</value>
+  </data>
+  <data name="Admin_Article_Noposts" xml:space="preserve">
+    <value>--- Chưa có bài viết nào</value>
+  </data>
+  <data name="Admin_Article_Page" xml:space="preserve">
+    <value>Trang:</value>
+  </data>
+  <data name="Admin_Article_PageTitle" xml:space="preserve">
+    <value>Tiêu đề trang</value>
+  </data>
+  <data name="Admin_Article_RelatedNews" xml:space="preserve">
+    <value>Tin tức liên quan</value>
+  </data>
+  <data name="Admin_Article_RelatedNewsList" xml:space="preserve">
+    <value>Danh sách tin tức liên quan</value>
+  </data>
+  <data name="Admin_Article_RemovingNews" xml:space="preserve">
+    <value>Loại bỏ bài tin</value>
+  </data>
+  <data name="Admin_Article_SelectRelevantInformationFromTheMatch" xml:space="preserve">
+    <value>Chọn tin liên quan từ danh sánh</value>
+  </data>
+  <data name="Admin_Article_ShortDescription" xml:space="preserve">
+    <value>Mô tả ngắn</value>
+  </data>
+  <data name="System_Source" xml:space="preserve">
+    <value>Số trang</value>
+  </data>
+  <data name="Admin_Article_SpecialPosition" xml:space="preserve">
+    <value>Vị trí đặc biệt</value>
+  </data>
+  <data name="System_Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="Admin_Article_Title2" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="Admin_Article_TypeOfNews" xml:space="preserve">
+    <value>Loại tin</value>
+  </data>
+  <data name="Admin_Article_Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Admin_Article_Views2" xml:space="preserve">
+    <value>Lượt xem</value>
+  </data>
+  <data name="Admin_Article_Votes" xml:space="preserve">
+    <value>Lượt vote</value>
+  </data>
+  <data name="Admin_Comment_AgreeOrNoAgre" xml:space="preserve">
+    <value>Đồng ý/Không đồng ý</value>
+  </data>
+  <data name="Admin_Comment_AgreeOrNoAgree" xml:space="preserve">
+    <value>Đồng ý/ Không đồng ý</value>
+  </data>
+  <data name="Admin_Comment_All" xml:space="preserve">
+    <value>[ Tất cả ]</value>
+  </data>
+  <data name="Admin_Comment_DateEdit" xml:space="preserve">
+    <value>Ngày sửa</value>
+  </data>
+  <data name="Admin_Comment_DateSubmitted" xml:space="preserve">
+    <value>Ngày gửi</value>
+  </data>
+  <data name="Admin_Comment_DetailedContents" xml:space="preserve">
+    <value>Chi tiết nội dung</value>
+  </data>
+  <data name="Admin_Comment_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Admin_Comment_Message1" xml:space="preserve">
+    <value>Bạn có chắc muốn xóa bản ghi này?</value>
+  </data>
+  <data name="Admin_Comment_Message2" xml:space="preserve">
+    <value>Bạn không có quyền xóa bản ghi đã duyệt!</value>
+  </data>
+  <data name="Admin_Comment_PostSubject" xml:space="preserve">
+    <value>Tiêu đề bài viết</value>
+  </data>
+  <data name="Admin_Comment_SenderAddress" xml:space="preserve">
+    <value>Địa chỉ người gửi</value>
+  </data>
+  <data name="Admin_Comment_SEnterTheNameOfTheSender" xml:space="preserve">
+    <value>Nhập tên người gửi</value>
+  </data>
+  <data name="Admin_DeleteAll" xml:space="preserve">
+    <value>Xóa tất cả</value>
+  </data>
+  <data name="Admin_Product_AppearComment" xml:space="preserve">
+    <value>Hiện comment</value>
+  </data>
+  <data name="Admin_Product_Approved" xml:space="preserve">
+    <value>Đã duyệt</value>
+  </data>
+  <data name="Admin_Product_Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="Admin_Product_Code" xml:space="preserve">
+    <value>Mã sản phẩm</value>
+  </data>
+  <data name="Admin_Product_Comment" xml:space="preserve">
+    <value>Bình luận</value>
+  </data>
+  <data name="Admin_Product_CommentState" xml:space="preserve">
+    <value>Bình luận chưa duyệt/Bình luận đã duyệt</value>
+  </data>
+  <data name="Admin_Product_FromDay" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="Admin_Product_Home" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="Admin_Product_ImageDescription" xml:space="preserve">
+    <value>Ảnh mô tả</value>
+  </data>
+  <data name="Admin_Product_Images" xml:space="preserve">
+    <value>Bộ ảnh</value>
+  </data>
+  <data name="Admin_Product_InStock" xml:space="preserve">
+    <value>Còn hàng</value>
+  </data>
+  <data name="Admin_Product_Link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="Admin_Product_List" xml:space="preserve">
+    <value>Danh mục</value>
+  </data>
+  <data name="Admin_Product_ListComment" xml:space="preserve">
+    <value>Danh sách comment</value>
+  </data>
+  <data name="Admin_Product_ListOfSelected" xml:space="preserve">
+    <value>Danh mục đã chọn</value>
+  </data>
+  <data name="Admin_Product_ListRelatedProducts" xml:space="preserve">
+    <value>Danh sách sản phẩm liên quan</value>
+  </data>
+  <data name="System_Manufacture" xml:space="preserve">
+    <value>Nhà sản xuất</value>
+  </data>
+  <data name="Admin_Product_Message1" xml:space="preserve">
+    <value>Bạn phải chọn ít nhất một danh mục</value>
+  </data>
+  <data name="Admin_Product_Message2" xml:space="preserve">
+    <value>Sản phẩm có comment, bạn vui lòng xóa comment.</value>
+  </data>
+  <data name="Admin_Product_Message3" xml:space="preserve">
+    <value>Xóa không thành công</value>
+  </data>
+  <data name="Admin_Product_Message4" xml:space="preserve">
+    <value>Bạn không có quyền xóa bản ghi đã được duyệt</value>
+  </data>
+  <data name="Admin_Product_Message5" xml:space="preserve">
+    <value>Bạn muốn cập nhật lại nhóm tin?</value>
+  </data>
+  <data name="Admin_Product_NewsFocus" xml:space="preserve">
+    <value>Sản phẩm tiêu biểu</value>
+  </data>
+  <data name="Admin_Product_NewsTitle" xml:space="preserve">
+    <value>Tiêu đề bài tin</value>
+  </data>
+  <data name="Admin_Product_NoItemsSelected" xml:space="preserve">
+    <value>Chưa có danh mục nào được chọn.</value>
+  </data>
+  <data name="Admin_Product_Noposts" xml:space="preserve">
+    <value>--- Chưa có bài viết nào</value>
+  </data>
+  <data name="Admin_Product_OldPrice" xml:space="preserve">
+    <value>Giá cũ</value>
+  </data>
+  <data name="Admin_Product_Order" xml:space="preserve">
+    <value>Thứ tự</value>
+  </data>
+  <data name="Admin_Product_OtherProductInformation" xml:space="preserve">
+    <value>Thông tin Sản phẩm khác</value>
+  </data>
+  <data name="Admin_Product_PageTitle" xml:space="preserve">
+    <value>Tiêu đề trang</value>
+  </data>
+  <data name="Admin_Product_Price" xml:space="preserve">
+    <value>Giá bán</value>
+  </data>
+  <data name="Admin_Product_Promotion" xml:space="preserve">
+    <value>Khuyến mại</value>
+  </data>
+  <data name="Admin_Product_Property" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="Admin_Product_RelatedNews" xml:space="preserve">
+    <value>Tin tức liên quan</value>
+  </data>
+  <data name="Admin_Product_RelatedProducts" xml:space="preserve">
+    <value>Sản phẩm liên quan</value>
+  </data>
+  <data name="Admin_Product_RemovingNews" xml:space="preserve">
+    <value>Loại bỏ bài tin</value>
+  </data>
+  <data name="Admin_Product_SearchByCategory" xml:space="preserve">
+    <value>Tìm kiếm theo danh mục</value>
+  </data>
+  <data name="Admin_Product_SelectRelatedProductsFromList" xml:space="preserve">
+    <value>Chọn sản phẩm liên quan từ danh sách</value>
+  </data>
+  <data name="Admin_Product_ShortDescription" xml:space="preserve">
+    <value>Mô tả ngắn</value>
+  </data>
+  <data name="Admin_Product_Size" xml:space="preserve">
+    <value>Kích thước</value>
+  </data>
+  <data name="Admin_Product_SkipConditions" xml:space="preserve">
+    <value>Bỏ điều kiện</value>
+  </data>
+  <data name="Admin_Product_SortOutput" xml:space="preserve">
+    <value>Sắp xếp kết quả</value>
+  </data>
+  <data name="Admin_Product_Spotlight" xml:space="preserve">
+    <value>Tiêu điểm</value>
+  </data>
+  <data name="Admin_Product_Title" xml:space="preserve">
+    <value>Tiêu đề &lt;span class='note'&gt;( Click chuột phải để xem, sửa, xóa )&lt;/span&gt;</value>
+  </data>
+  <data name="Admin_Product_Title2" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="Admin_Product_ToDay" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="Admin_Product_TypeOfNews" xml:space="preserve">
+    <value>Loại sách</value>
+  </data>
+  <data name="Admin_Product_Update" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="Admin_Product_Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Admin_Product_Views2" xml:space="preserve">
+    <value>Lượt xem</value>
+  </data>
+  <data name="Admin_Product_Votes" xml:space="preserve">
+    <value>Lượt bình chọn</value>
+  </data>
+  <data name="Admin_MenuUser_ExclusiveMenu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="Admin_MenuUser_ExclusiveNavigatePath" xml:space="preserve">
+    <value>Thanh điều hướng</value>
+  </data>
+  <data name="Admin_MenuUser_ExclusiveSiteMap" xml:space="preserve">
+    <value>Site Map</value>
+  </data>
+  <data name="Admin_EditTitleMessage" xml:space="preserve">
+    <value>Chỉnh sửa nội dung</value>
+  </data>
+  <data name="Admin_MessageDelete" xml:space="preserve">
+    <value>Bạn chắc chắn muốn xóa bản ghi đã chọn?</value>
+  </data>
+  <data name="Admin_MessageDeleteChildFirst" xml:space="preserve">
+    <value>Bạn phải xóa các danh mục con của danh mục này trước!</value>
+  </data>
+  <data name="Admin_MessageDeleteFail" xml:space="preserve">
+    <value>Có lỗi xảy ra, xóa bản ghi không thành công!</value>
+  </data>
+  <data name="Admin_MessageDeletePermission" xml:space="preserve">
+    <value>Bạn không có quyền xóa bài tin:</value>
+  </data>
+  <data name="Admin_MessageDenyDelete" xml:space="preserve">
+    <value>Bạn không có quyền xóa thông tin!</value>
+  </data>
+  <data name="Admin_MessageDenyEdit" xml:space="preserve">
+    <value>Bạn không có quyền sửa thông tin!</value>
+  </data>
+  <data name="Admin_MessageEditPermission" xml:space="preserve">
+    <value>Bạn không có quyền sửa bài tin:</value>
+  </data>
+  <data name="Admin_MessageInsertFail" xml:space="preserve">
+    <value>Có lỗi xảy ra, thêm mới không thành công!</value>
+  </data>
+  <data name="Admin_MessageInsertSuccess" xml:space="preserve">
+    <value>Thêm mới thành công!</value>
+  </data>
+  <data name="Admin_MessageInsertTitle" xml:space="preserve">
+    <value>Thêm mới nội dung</value>
+  </data>
+  <data name="Admin_MessageNoData" xml:space="preserve">
+    <value>Không có dữ liệu!</value>
+  </data>
+  <data name="Admin_MessageNoSelect" xml:space="preserve">
+    <value>Bạn chưa chọn nội dung muốn xóa!</value>
+  </data>
+  <data name="Admin_MessageRequireTitle" xml:space="preserve">
+    <value>Trường yêu cầu nhập nội dung</value>
+  </data>
+  <data name="Admin_MessageUpdateFail" xml:space="preserve">
+    <value>Có lỗi xảy ra, cập nhật không thành công!</value>
+  </data>
+  <data name="Admin_MessageUpdatePermission" xml:space="preserve">
+    <value>Bạn không có quyền cập nhật bài tin này!</value>
+  </data>
+  <data name="Admin_MessageUpdateTitle" xml:space="preserve">
+    <value>Chỉnh sửa nội dung</value>
+  </data>
+  <data name="Admin_Controls_Save" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="Admin_Menu_DanhSachThuVienAnh" xml:space="preserve">
+    <value>Quản lý thư viện ảnh</value>
+  </data>
+  <data name="Admin_XML_SearchEngine_Save" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="Admin_Article_Message7" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa bản ghi?</value>
+  </data>
+  <data name="Admin_Comment_Posts" xml:space="preserve">
+    <value>Bài viết</value>
+  </data>
+  <data name="Admin_Comment_StyleComment" xml:space="preserve">
+    <value>Loại comment</value>
+  </data>
+  <data name="Admin_Article_CommentAscending" xml:space="preserve">
+    <value>Bình luận tăng dần</value>
+  </data>
+  <data name="Admin_Article_CommentDescending" xml:space="preserve">
+    <value>Bình luận giảm dần</value>
+  </data>
+  <data name="Admin_Article_PriorityAscending" xml:space="preserve">
+    <value>Thứ tự tăng dần</value>
+  </data>
+  <data name="Admin_Article_PriorityDescending" xml:space="preserve">
+    <value>Thứ tự giảm dần</value>
+  </data>
+  <data name="Admin_Product_Havebrowse" xml:space="preserve">
+    <value>Đã duyệt</value>
+  </data>
+  <data name="Admin_Product_SelectDate" xml:space="preserve">
+    <value>Chọn ngày</value>
+  </data>
+  <data name="Admin_Product_Views" xml:space="preserve">
+    <value>Lượt xem</value>
+  </data>
+  <data name="Admin_Gallery_CheckAll" xml:space="preserve">
+    <value>Chọn tất cả</value>
+  </data>
+  <data name="Admin_Gallery_DeleteImage" xml:space="preserve">
+    <value>Xóa ảnh đã chọn</value>
+  </data>
+  <data name="Admin_Gallery_Guid" xml:space="preserve">
+    <value>Hướng dẫn: Click đúp lên ảnh để chèn ảnh</value>
+  </data>
+  <data name="Admin_Gallery_ImageType" xml:space="preserve">
+    <value>Ảnh thuộc danh mục</value>
+  </data>
+  <data name="Admin_Gallery_InsertImage" xml:space="preserve">
+    <value>Chèn ảnh đã chọn</value>
+  </data>
+  <data name="Admin_Gallery_DinhDangAnhHoTro" xml:space="preserve">
+    <value>Định dạng ảnh hỗ trợ</value>
+  </data>
+  <data name="Admin_Gallery_HoanTatTaiAnh" xml:space="preserve">
+    <value>Hoàn tất tải ảnh</value>
+  </data>
+  <data name="Admin_Gallery_HoTroKeoTha" xml:space="preserve">
+    <value>Hỗ trợ kéo thả ảnh từ máy tính để upload</value>
+  </data>
+  <data name="Admin_Gallery_ResizeImage" xml:space="preserve">
+    <value>Chiều cao ảnh sẽ tự động thay đổi đúng tỷ lệ với chiều rộng ảnh đã chọn</value>
+  </data>
+  <data name="Admin_Gallery_SelectImageType" xml:space="preserve">
+    <value>Chọn danh mục chứa ảnh tải lên</value>
+  </data>
+  <data name="Admin_Gallery_SelectImageUpload" xml:space="preserve">
+    <value>Chọn ảnh tải lên</value>
+  </data>
+  <data name="Admin_Gallery_TrinhDuyetHoTroKeoTha" xml:space="preserve">
+    <value>Trình duyệt hỗ trợ kéo thả</value>
+  </data>
+  <data name="Admin_Gallery_Upload" xml:space="preserve">
+    <value>Upload ảnh từ máy tính của bạn</value>
+  </data>
+  <data name="Admin_Gallery_Boanh" xml:space="preserve">
+    <value>Bộ ảnh</value>
+  </data>
+  <data name="Admin_Product_RelatedProductList" xml:space="preserve">
+    <value>Danh sách sản phẩm liên quan</value>
+  </data>
+  <data name="Admin_FrameView_Advice" xml:space="preserve">
+    <value>Tư vấn</value>
+  </data>
+  <data name="Admin_FrameView_Contact" xml:space="preserve">
+    <value>Liên hệ</value>
+  </data>
+  <data name="Admin_FrameView_Distributionsystem" xml:space="preserve">
+    <value>Hệ thống phân phối</value>
+  </data>
+  <data name="Admin_FrameView_Gallery" xml:space="preserve">
+    <value>Thư viện ảnh</value>
+  </data>
+  <data name="Admin_FrameView_Home" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="Admin_FrameView_Introduction" xml:space="preserve">
+    <value>Giới thiệu</value>
+  </data>
+  <data name="Admin_FrameView_NewsGroup" xml:space="preserve">
+    <value>Tin tức (dạng nhóm)</value>
+  </data>
+  <data name="Admin_FrameView_NewsList" xml:space="preserve">
+    <value>Tin tức (dạng danh sách)</value>
+  </data>
+  <data name="Admin_FrameView_Partner" xml:space="preserve">
+    <value>Đối tác</value>
+  </data>
+  <data name="Admin_FrameView_Project" xml:space="preserve">
+    <value>Dự án</value>
+  </data>
+  <data name="Admin_FrameView_Recruitment" xml:space="preserve">
+    <value>Tuyển dụng</value>
+  </data>
+  <data name="Admin_FrameView_Services" xml:space="preserve">
+    <value>Dịch vụ</value>
+  </data>
+  <data name="Admin_Gallery_Anhduoctailengandaynhat" xml:space="preserve">
+    <value>Ảnh được tải lên gần đây nhất</value>
+  </data>
+  <data name="Admin_Article_Co" xml:space="preserve">
+    <value>Có </value>
+  </data>
+  <data name="Admin_Article_Khong" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="Admin_Gallery_DanhMucAnh" xml:space="preserve">
+    <value>Danh mục ảnh</value>
+  </data>
+  <data name="Admin_Gallery_ThuVienAnh" xml:space="preserve">
+    <value>Thư viện ảnh</value>
+  </data>
+  <data name="Admin_Gallery_UploadAnh" xml:space="preserve">
+    <value>Upload ảnh</value>
+  </data>
+  <data name="Admin_Home_Address" xml:space="preserve">
+    <value>~/admin/Styles/img/text_address_vi.png</value>
+  </data>
+  <data name="Admin_Home_Imgbicsrv" xml:space="preserve">
+    <value>~/admin/Styles/img/text_bicsrv2014_vi.png</value>
+  </data>
+  <data name="Admin_Menu_Quanlytailieu" xml:space="preserve">
+    <value>Quản lý tài liệu</value>
+  </data>
+  <data name="Admin_Gallery_Suathemmoidanhmuc" xml:space="preserve">
+    <value>Sửa, Thêm mới danh mục ảnh</value>
+  </data>
+  <data name="Admin_Video_Anhmota" xml:space="preserve">
+    <value>Ảnh mô tả</value>
+  </data>
+  <data name="Admin_Video_Danhmucvideo" xml:space="preserve">
+    <value>Danh mục video</value>
+  </data>
+  <data name="Admin_Video_Dinhdangchophep" xml:space="preserve">
+    <value>Định dạng cho phép</value>
+  </data>
+  <data name="Admin_Video_Huongdanclickdupdechenvideo" xml:space="preserve">
+    <value>( Hướng dẫn: Click đúp lên video để chèn video )</value>
+  </data>
+  <data name="Admin_Video_TenVideo" xml:space="preserve">
+    <value>Tên Video</value>
+  </data>
+  <data name="Admin_Video_Thuvienvideo" xml:space="preserve">
+    <value>Thư viện Video</value>
+  </data>
+  <data name="Admin_Video_uploadVideo" xml:space="preserve">
+    <value>Upload Video</value>
+  </data>
+  <data name="Admin_Video_Videoduoctailengandaynhat" xml:space="preserve">
+    <value>Video được tải lên gần đây nhất</value>
+  </data>
+  <data name="Admin_Video_Videothuocdanhmuc" xml:space="preserve">
+    <value>Video thuộc danh mục</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Admin_Article_ListComment" xml:space="preserve">
+    <value>Quản lý comment</value>
+  </data>
+  <data name="System_Hot" xml:space="preserve">
+    <value>Nổi bật</value>
+  </data>
+  <data name="Admin_Security_User_Birth" xml:space="preserve">
+    <value>Năm sinh</value>
+  </data>
+  <data name="Admin_Security_User_SDate" xml:space="preserve">
+    <value>Ngày tháng năm sinh</value>
+  </data>
+  <data name="System_Phone" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="System_Skype" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="System_Yahoo" xml:space="preserve">
+    <value>Yahoo</value>
+  </data>
+  <data name="Admin_MenuAdmin_Save" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="Admin_FrameView_Room" xml:space="preserve">
+    <value>Phòng</value>
+  </data>
+  <data name="Admin_XML_MailConfig_Save" xml:space="preserve">
+    <value>Lưu nội dung</value>
+  </data>
+  <data name="Admin_XML_Config_Save" xml:space="preserve">
+    <value>Lưu nội dung</value>
+  </data>
+  <data name="Admin_Menu_NhomTaiKhoan" xml:space="preserve">
+    <value>Quản lý nhóm tài khoản</value>
+  </data>
+  <data name="Admin_Menu_Accommodation" xml:space="preserve">
+    <value>Quản lý buồng phòng</value>
+  </data>
+  <data name="Admin_Menu_Hotel" xml:space="preserve">
+    <value>Quản lý khách sạn</value>
+  </data>
+  <data name="Admin_Menu_News_Letter" xml:space="preserve">
+    <value>Danh sách Email nhận tin</value>
+  </data>
+  <data name="Admin_Menu_Room_List" xml:space="preserve">
+    <value>Quản lý phòng</value>
+  </data>
+  <data name="Admin_Menu_Type_of_Room" xml:space="preserve">
+    <value>Quản lý kiểu phòng</value>
+  </data>
+  <data name="Admin_MenuUser_DeActive_Menu_Message" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn bỏ duyệt danh mục này?\nHệ thống sẽ tự động ẩn các nội dung liên quan đến danh mục này</value>
+  </data>
+  <data name="Admin_MenuUser_User_Guide" xml:space="preserve">
+    <value>&lt;span style="color:red; font-weight: bold;"&gt;Lưu ý:&lt;/span&gt;&lt;br /&gt;Hệ thống sẽ tự động bỏ duyệt các nội dung (sản phẩm, tin tức ...) liên quan đến danh mục này khi bỏ duyệt hoặc xóa danh mục.</value>
+  </data>
+  <data name="System_PageTitle" xml:space="preserve">
+    <value>Tiêu đề trang</value>
+  </data>
+  <data name="Admin_Article_Message8" xml:space="preserve">
+    <value>Danh mục chính đã bị bỏ duyệt, bạn vui lòng chọn lại danh mục chính khác</value>
+  </data>
+  <data name="Admin_Article_Message9" xml:space="preserve">
+    <value>Danh mục chính không tồn tại hoặc đã bị xóa. Bạn vui lòng chọn lại danh mục chính cho bản ghi</value>
+  </data>
+  <data name="Admin_Menu_Document" xml:space="preserve">
+    <value>Quản lý tài liệu tải về</value>
+  </data>
+  <data name="Admin_Menu_TraLoi" xml:space="preserve">
+    <value>Trả lời</value>
+  </data>
+  <data name="Document_Search" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="System_Dropdown_Select" xml:space="preserve">
+    <value>[-- Lựa chọn --]</value>
+  </data>
+  <data name="Product_CatGiam" xml:space="preserve">
+    <value>Chiết khấu</value>
+  </data>
+  <data name="Product_MauSac" xml:space="preserve">
+    <value>Màu</value>
+  </data>
+  <data name="Admin_Product_Author" xml:space="preserve">
+    <value>Tác giả</value>
+  </data>
+  <data name="Product_DinhDang" xml:space="preserve">
+    <value>Định dạng</value>
+  </data>
+  <data name="Product_DoTuoi" xml:space="preserve">
+    <value>Độ tuổi</value>
+  </data>
+  <data name="Product_PublishDate" xml:space="preserve">
+    <value>Ngày xuất bản</value>
+  </data>
+  <data name="Product_TrongLuong" xml:space="preserve">
+    <value>Trọng lượng</value>
+  </data>
+  <data name="Admin_XML_Promotion_Content" xml:space="preserve">
+    <value>Phần trăm được hưởng</value>
+  </data>
+  <data name="Admin_XML_Promotion_Title" xml:space="preserve">
+    <value>Số tiền thanh toán</value>
+  </data>
+  <data name="System_MenuIcon" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Product_DungTich" xml:space="preserve">
+    <value>Dung tích</value>
+  </data>
+  <data name="Admin_Menu_OrderMenu" xml:space="preserve">
+    <value>Quản lý đơn hàng</value>
+  </data>
+  <data name="Admin_Order_Header_OrderCode" xml:space="preserve">
+    <value>Mã đơn hàng</value>
+  </data>
+  <data name="Admin_Order_Header_Order_OrderDate" xml:space="preserve">
+    <value>Ngày đặt</value>
+  </data>
+  <data name="Admin_Order_Header_Order_PaymentMethods" xml:space="preserve">
+    <value>Phương thức thanh toán</value>
+  </data>
+  <data name="Admin_Order_Header_Order_ShippingStatus" xml:space="preserve">
+    <value>Trạng thái vận chuyển</value>
+  </data>
+  <data name="Admin_Order_Header_Order_Status" xml:space="preserve">
+    <value>Trạng thái đơn hàng</value>
+  </data>
+  <data name="Admin_Menu_Category" xml:space="preserve">
+    <value>Quản lý danh mục</value>
+  </data>
+  <data name="Admin_Category_DropDownList" xml:space="preserve">
+    <value>-- Chọn kiểu ---</value>
+  </data>
+  <data name="System_Active" xml:space="preserve">
+    <value>Duyệt</value>
+  </data>
+  <data name="System_Category_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="System_Category_Note" xml:space="preserve">
+    <value>Điều kiện miễn phí</value>
+  </data>
+  <data name="System_Category_Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="System_Method" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="System_Priority" xml:space="preserve">
+    <value>Thứ tự</value>
+  </data>
+  <data name="Admin_Security_User_Current_Point" xml:space="preserve">
+    <value>Điểm khả dụng</value>
+  </data>
+  <data name="Admin_Security_User_Point" xml:space="preserve">
+    <value>Điểm tích lũy</value>
+  </data>
+  <data name="Admin_Security_User_Total_Point" xml:space="preserve">
+    <value>Tổng điểm tích lũy</value>
+  </data>
+  <data name="Admin_Security_User_Used_Point" xml:space="preserve">
+    <value>Điểm đã dùng</value>
+  </data>
+  <data name="Admin_Security_Gift_Point" xml:space="preserve">
+    <value>Điểm thưởng</value>
+  </data>
+  <data name="Admin_Security_Point_Note" xml:space="preserve">
+    <value>Ghi chú điểm thưởng</value>
+  </data>
+  <data name="Admin_Security_User_Gift_Point" xml:space="preserve">
+    <value>Điểm thưởng</value>
+  </data>
+  <data name="Admin_Security_User_Point_History" xml:space="preserve">
+    <value>Lịch sử điểm thưởng</value>
+  </data>
+  <data name="Admin_Security_User_Point_Note" xml:space="preserve">
+    <value>Ghi chú điểm thưởng</value>
+  </data>
+  <data name="Admin_Order_Header_Order_Customer" xml:space="preserve">
+    <value>Khách hàng</value>
+  </data>
+  <data name="Admin_Order_Header_Order_OrderSubTotal" xml:space="preserve">
+    <value>Tổng tiền</value>
+  </data>
+  <data name="Admin_Order_Header_Order_PaymentStatus" xml:space="preserve">
+    <value>Trạng thái thanh toán</value>
+  </data>
+  <data name="Admin_Order_Header_Order_SavePoint" xml:space="preserve">
+    <value>Điểm tích lũy</value>
+  </data>
+  <data name="Admin_Order_Header_Order_ShippingMethod" xml:space="preserve">
+    <value>Hình thức vận chuyển</value>
+  </data>
+  <data name="Admin_Order_Header_Order_UsePoint" xml:space="preserve">
+    <value>Điểm sử dụng</value>
+  </data>
+  <data name="Admin_Search_PaymentMethods" xml:space="preserve">
+    <value>PT Thanh toán</value>
+  </data>
+  <data name="Admin_Search_PaymentStatus" xml:space="preserve">
+    <value>TT Thanh toán</value>
+  </data>
+  <data name="Admin_Search_ShippingStatus" xml:space="preserve">
+    <value>TT Vận chuyển</value>
+  </data>
+  <data name="Admin_Order_Message_Confirm_Change" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn thay đổi trạng thái các đơn hàng được chọn ?</value>
+  </data>
+  <data name="System_Save" xml:space="preserve">
+    <value>Lưu lại</value>
+  </data>
+  <data name="Admin_Order_Message_Confirm_Changed" xml:space="preserve">
+    <value>Cập nhật trạng thái đơn hàng thành công !</value>
+  </data>
+  <data name="System_Update_Order" xml:space="preserve">
+    <value>Xử lý đơn hàng</value>
+  </data>
+  <data name="System_BuyTimes" xml:space="preserve">
+    <value>Lượt mua hàng</value>
+  </data>
+  <data name="Admin_Security_lblCurrent" xml:space="preserve">
+    <value>Tổng điểm tích lũy - Điểm đã dùng</value>
+  </data>
+  <data name="Admin_Security_lblTotal" xml:space="preserve">
+    <value>Điểm thưởng + Điểm tích được khi mua</value>
+  </data>
+  <data name="Admin_Security_lblUserPoint" xml:space="preserve">
+    <value>Số điểm đã sử dụng khi mua hàng</value>
+  </data>
+  <data name="Admin_Security_User_Birthday" xml:space="preserve">
+    <value>Ngày sinh</value>
+  </data>
+  <data name="Admin_Security_User_Created_Date" xml:space="preserve">
+    <value>Ngày đăng ký</value>
+  </data>
+  <data name="Admin_Menu_City_Managerment" xml:space="preserve">
+    <value>Quản lý danh sách Tỉnh / Thành Phố</value>
+  </data>
+  <data name="Admin_Menu_Districts_Managerment" xml:space="preserve">
+    <value>Quản lý danh sách Quận / Huyện</value>
+  </data>
+  <data name="Product_Quantity" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="Admin_Product_NewColumn6" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Admin_Security_User_City" xml:space="preserve">
+    <value>Tỉnh / Thành Phố</value>
+  </data>
+  <data name="Admin_Security_User_District" xml:space="preserve">
+    <value>Quận / Huyện</value>
+  </data>
+  <data name="System_OutOfStock" xml:space="preserve">
+    <value>Còn hàng</value>
+  </data>
+  <data name="Admin_Article_Stock_Ascending" xml:space="preserve">
+    <value>Số lượng hàng trong kho tăng dần</value>
+  </data>
+  <data name="Admin_Article_Stock_Descending" xml:space="preserve">
+    <value>Số lượng hàng trong kho giảm dần</value>
+  </data>
+  <data name="Admin_Article_Code_Ascending" xml:space="preserve">
+    <value>Sắp xếp theo mã sản phẩm tăng dần</value>
+  </data>
+  <data name="Admin_Article_Code_Descending" xml:space="preserve">
+    <value>Sắp xếp theo mã sản phẩm giảm dần</value>
+  </data>
+  <data name="Admin_Article_Price_Ascending" xml:space="preserve">
+    <value>Sắp xếp theo giá sản phẩm tăng dần</value>
+  </data>
+  <data name="Admin_Article_Price_Descending" xml:space="preserve">
+    <value>Sắp xếp theo giá sản phẩm giảm dần</value>
+  </data>
+  <data name="Admin_Article_Title_Ascending" xml:space="preserve">
+    <value>Sắp xếp theo tên tăng dần</value>
+  </data>
+  <data name="Admin_Article_Title_Descending" xml:space="preserve">
+    <value>Sắp xếp theo tên giảm dần</value>
+  </data>
+  <data name="System_IsHot" xml:space="preserve">
+    <value>Nổi bật</value>
+  </data>
+  <data name="System_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Admin_Comment_IsHot" xml:space="preserve">
+    <value>Comment nổi bật</value>
+  </data>
+  <data name="Admin_Product_Capacity" xml:space="preserve">
+    <value>Công suất</value>
+  </data>
+  <data name="Admin_Product_Head" xml:space="preserve">
+    <value>Cột áp</value>
+  </data>
+  <data name="Admin_Product_Materials" xml:space="preserve">
+    <value>Vật liệu</value>
+  </data>
+  <data name="Admin_Product_Traffic" xml:space="preserve">
+    <value>Lưu lượng</value>
+  </data>
+  <data name="Admin_Product_Transmission" xml:space="preserve">
+    <value>Truyền động</value>
+  </data>
+  <data name="Admin_Product_Voltage" xml:space="preserve">
+    <value>Điện áp</value>
+  </data>
+  <data name="Admin_Product_Message7" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa bản ghi?</value>
+  </data>
+  <data name="TitleVisible" xml:space="preserve">
+    <value>Hiển thị Tiêu đề</value>
+  </data>
+  <data name="ToolbarVisible" xml:space="preserve">
+    <value>Hiển thị Toolbar</value>
+  </data>
+  <data name="Admin_FrameView_Tour" xml:space="preserve">
+    <value>Tours</value>
+  </data>
+  <data name="Admin_Order_Header_Order_ShippingEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Admin_Order_Header_Order_ShippingPhone" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+</root>

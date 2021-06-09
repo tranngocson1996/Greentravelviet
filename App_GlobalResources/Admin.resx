@@ -1,0 +1,1831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Admin_AdminLanguege_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Admin_Adv_AdGroup" xml:space="preserve">
+    <value>Adv group</value>
+  </data>
+  <data name="Admin_Adv_AdPlacement" xml:space="preserve">
+    <value>Adv position</value>
+  </data>
+  <data name="Admin_Adv_DetailedContents" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Admin_Adv_DropDownList" xml:space="preserve">
+    <value>[ Select ]</value>
+  </data>
+  <data name="Admin_Adv_EnterAd" xml:space="preserve">
+    <value>Input adv name</value>
+  </data>
+  <data name="Admin_Adv_Expires" xml:space="preserve">
+    <value>Expired date</value>
+  </data>
+  <data name="Admin_Adv_InThePage" xml:space="preserve">
+    <value>In page</value>
+  </data>
+  <data name="Admin_Adv_Message1" xml:space="preserve">
+    <value>Adv area is required</value>
+  </data>
+  <data name="Admin_Adv_NameAd" xml:space="preserve">
+    <value>Adv name</value>
+  </data>
+  <data name="Admin_Adv_Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Admin_Adv_Sectbox" xml:space="preserve">
+    <value>[Adv area]</value>
+  </data>
+  <data name="Admin_Adv_Views" xml:space="preserve">
+    <value>Viewd</value>
+  </data>
+  <data name="Admin_Article_AppearComment" xml:space="preserve">
+    <value>Display comment</value>
+  </data>
+  <data name="Admin_Article_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Admin_Article_Co" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Admin_Article_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Admin_Article_CommentAscending" xml:space="preserve">
+    <value>Comment asc</value>
+  </data>
+  <data name="Admin_Article_CommentDescending" xml:space="preserve">
+    <value>Comment desc</value>
+  </data>
+  <data name="Admin_Article_CommentState" xml:space="preserve">
+    <value>Unactive comment/Active comment</value>
+  </data>
+  <data name="Admin_Article_ContactByPost" xml:space="preserve">
+    <value>Display contact form</value>
+  </data>
+  <data name="Admin_Article_DateCreationAscending" xml:space="preserve">
+    <value>Created date asc</value>
+  </data>
+  <data name="Admin_Article_DateCreationDescending" xml:space="preserve">
+    <value>Created date desc</value>
+  </data>
+  <data name="Admin_Article_DateModificationAscending" xml:space="preserve">
+    <value>Modified date asc</value>
+  </data>
+  <data name="Admin_Article_DateModificationDescending" xml:space="preserve">
+    <value>Modified date desc</value>
+  </data>
+  <data name="Admin_Article_DetailedContent2" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Admin_Article_FromDate" xml:space="preserve">
+    <value>from</value>
+  </data>
+  <data name="Admin_Article_Havebrowse" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Admin_Article_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Admin_Article_ImageDescription" xml:space="preserve">
+    <value>Image description</value>
+  </data>
+  <data name="Admin_Article_Images" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="Admin_Article_Khong" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Admin_Article_Link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="Admin_Article_List" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Admin_Article_ListComment" xml:space="preserve">
+    <value>List of comment</value>
+  </data>
+  <data name="Admin_Article_ListOfSelected" xml:space="preserve">
+    <value>Selected category</value>
+  </data>
+  <data name="Admin_Article_Message1" xml:space="preserve">
+    <value>Article is appved - delete deny</value>
+  </data>
+  <data name="Admin_Article_Message2" xml:space="preserve">
+    <value>You need to delete comment of this article first</value>
+  </data>
+  <data name="Admin_Article_Message3" xml:space="preserve">
+    <value>Unsuccessful</value>
+  </data>
+  <data name="Admin_Article_Message4" xml:space="preserve">
+    <value>Category is required</value>
+  </data>
+  <data name="Admin_Article_Message5" xml:space="preserve">
+    <value>Do you want to update category</value>
+  </data>
+  <data name="Admin_Article_Message6" xml:space="preserve">
+    <value>Category is updated</value>
+  </data>
+  <data name="Admin_Article_Message7" xml:space="preserve">
+    <value>Do you want to delete?</value>
+  </data>
+  <data name="Admin_Article_NewsFocus" xml:space="preserve">
+    <value>Highlighted news</value>
+  </data>
+  <data name="Admin_Article_NewsTitle" xml:space="preserve">
+    <value>Title of article</value>
+  </data>
+  <data name="Admin_Article_NoCategorySelected" xml:space="preserve">
+    <value>No category selected</value>
+  </data>
+  <data name="Admin_Article_NoItemsSelected" xml:space="preserve">
+    <value>No items selected</value>
+  </data>
+  <data name="Admin_Article_Noposts" xml:space="preserve">
+    <value>--- Data is empty</value>
+  </data>
+  <data name="Admin_Article_Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Admin_Article_Page" xml:space="preserve">
+    <value>Page:</value>
+  </data>
+  <data name="Admin_Article_PageTitle" xml:space="preserve">
+    <value>Page title</value>
+  </data>
+  <data name="Admin_Article_PriorityAscending" xml:space="preserve">
+    <value>Priority Ascending</value>
+  </data>
+  <data name="Admin_Article_PriorityDescending" xml:space="preserve">
+    <value>Priority descending</value>
+  </data>
+  <data name="Admin_Article_RelatedNews" xml:space="preserve">
+    <value>Related news</value>
+  </data>
+  <data name="Admin_Article_RelatedNewsList" xml:space="preserve">
+    <value>Related news</value>
+  </data>
+  <data name="Admin_Article_RemovingNews" xml:space="preserve">
+    <value>Remove article</value>
+  </data>
+  <data name="Admin_Article_SearchByCategory" xml:space="preserve">
+    <value>Search by category</value>
+  </data>
+  <data name="Admin_Article_SelectDate" xml:space="preserve">
+    <value>Select date</value>
+  </data>
+  <data name="Admin_Article_SelectRelevantInformationFromTheMatch" xml:space="preserve">
+    <value>Selecting reference news</value>
+  </data>
+  <data name="Admin_Article_ShortDescription" xml:space="preserve">
+    <value>Brief description</value>
+  </data>
+  <data name="Admin_Article_SkipConditions" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Admin_Article_SortResults" xml:space="preserve">
+    <value>Sort by results</value>
+  </data>
+  <data name="Admin_Article_SpecialPosition" xml:space="preserve">
+    <value>Special position</value>
+  </data>
+  <data name="Admin_Article_Spotlight" xml:space="preserve">
+    <value>Hightled </value>
+  </data>
+  <data name="Admin_Article_Title" xml:space="preserve">
+    <value>Title &lt;span class='note'&gt;( Right click to view detail, add, edit, delete )&lt;/span&gt;</value>
+  </data>
+  <data name="Admin_Article_Title2" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Admin_Article_ToDay" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="Admin_Article_TypeOfNews" xml:space="preserve">
+    <value>Type of news</value>
+  </data>
+  <data name="Admin_Article_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Admin_Article_Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Admin_Article_Views2" xml:space="preserve">
+    <value>Viewed</value>
+  </data>
+  <data name="Admin_Article_ViewsAscending" xml:space="preserve">
+    <value>View - Accending</value>
+  </data>
+  <data name="Admin_Article_ViewsDescending" xml:space="preserve">
+    <value>View - Descending</value>
+  </data>
+  <data name="Admin_Article_Votes" xml:space="preserve">
+    <value>Voted</value>
+  </data>
+  <data name="Admin_Comment_AgreeOrNoAgre" xml:space="preserve">
+    <value>Liked / Unlike</value>
+  </data>
+  <data name="Admin_Comment_AgreeOrNoAgree" xml:space="preserve">
+    <value>Liked / Unlike</value>
+  </data>
+  <data name="Admin_Comment_All" xml:space="preserve">
+    <value>[ All ]</value>
+  </data>
+  <data name="Admin_Comment_CreateDate" xml:space="preserve">
+    <value>Created date</value>
+  </data>
+  <data name="Admin_Comment_DateEdit" xml:space="preserve">
+    <value>Modified date</value>
+  </data>
+  <data name="Admin_Comment_DateSubmitted" xml:space="preserve">
+    <value>Sent date</value>
+  </data>
+  <data name="Admin_Comment_DetailedContents" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Admin_Comment_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Admin_Comment_EnterTheNameOfTheSender" xml:space="preserve">
+    <value>Enter the name of the sender</value>
+  </data>
+  <data name="Admin_Comment_Message1" xml:space="preserve">
+    <value>Do you want to delete?</value>
+  </data>
+  <data name="Admin_Comment_Message2" xml:space="preserve">
+    <value>You don't have permission to delete approved file</value>
+  </data>
+  <data name="Admin_Comment_NewsContent" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Admin_Comment_Posts" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Admin_Comment_PostSubject" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Admin_Comment_Sender" xml:space="preserve">
+    <value>Sender name</value>
+  </data>
+  <data name="Admin_Comment_SenderAddress" xml:space="preserve">
+    <value>Sender address</value>
+  </data>
+  <data name="Admin_Comment_SEnterTheNameOfTheSender" xml:space="preserve">
+    <value>Input sender name</value>
+  </data>
+  <data name="Admin_Comment_Sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="Admin_Comment_Sex_Man" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Admin_Comment_Sex_Woman" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Admin_Comment_StyleComment" xml:space="preserve">
+    <value>Loại comment</value>
+  </data>
+  <data name="Admin_Config_AddNew" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Admin_Controls_AddNew" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Admin_Controls_ControlsName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Admin_Controls_DetailedContent" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Admin_Controls_DirectoryName" xml:space="preserve">
+    <value>Folder name</value>
+  </data>
+  <data name="Admin_Controls_Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="Admin_Controls_Message1" xml:space="preserve">
+    <value>You don't have permission to delete approved file</value>
+  </data>
+  <data name="Admin_Controls_Path" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="Admin_Controls_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_DeleteAll" xml:space="preserve">
+    <value>Delete all</value>
+  </data>
+  <data name="Admin_EditTitleMessage" xml:space="preserve">
+    <value>Connent edition</value>
+  </data>
+  <data name="Admin_FrameView_AddNew" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Admin_FrameView_Advice" xml:space="preserve">
+    <value>Consulting</value>
+  </data>
+  <data name="Admin_FrameView_Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="Admin_FrameView_Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Admin_FrameView_DetailedContents" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Admin_FrameView_Distributionsystem" xml:space="preserve">
+    <value>Distribution system</value>
+  </data>
+  <data name="Admin_FrameView_Document" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="Admin_FrameView_EnterTheFunctionName" xml:space="preserve">
+    <value>Input fuction name</value>
+  </data>
+  <data name="Admin_FrameView_Faq" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="Admin_FrameView_FunctionName" xml:space="preserve">
+    <value>Fuction name</value>
+  </data>
+  <data name="Admin_FrameView_Gallery" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="Admin_FrameView_GalleryListing" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="Admin_FrameView_GroupName" xml:space="preserve">
+    <value>Group name</value>
+  </data>
+  <data name="Admin_FrameView_Home" xml:space="preserve">
+    <value>Home page</value>
+  </data>
+  <data name="Admin_FrameView_Introduction" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="Admin_FrameView_Law" xml:space="preserve">
+    <value>Rule</value>
+  </data>
+  <data name="Admin_FrameView_Message1" xml:space="preserve">
+    <value>Item is approved - delete deny</value>
+  </data>
+  <data name="Admin_FrameView_News" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="Admin_FrameView_NewsGroup" xml:space="preserve">
+    <value>News (group style)</value>
+  </data>
+  <data name="Admin_FrameView_NewsList" xml:space="preserve">
+    <value>News (Listing style)</value>
+  </data>
+  <data name="Admin_FrameView_Oder" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Admin_FrameView_Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Admin_FrameView_Partner" xml:space="preserve">
+    <value>Partners</value>
+  </data>
+  <data name="Admin_FrameView_Product" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="Admin_FrameView_Project" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="Admin_FrameView_Recruitment" xml:space="preserve">
+    <value>Recruitment</value>
+  </data>
+  <data name="Admin_FrameView_ResourceKey" xml:space="preserve">
+    <value>Resource key</value>
+  </data>
+  <data name="Admin_FrameView_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_FrameView_Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="Admin_FrameView_StyleFunction" xml:space="preserve">
+    <value>Type of function</value>
+  </data>
+  <data name="Admin_FrameView_SystemDistribution" xml:space="preserve">
+    <value>Distribution system</value>
+  </data>
+  <data name="Admin_FrameView_Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Admin_Gallery_Anhduoctailengandaynhat" xml:space="preserve">
+    <value>Recent images uploaded</value>
+  </data>
+  <data name="Admin_Gallery_Boanh" xml:space="preserve">
+    <value>Other images</value>
+  </data>
+  <data name="Admin_Gallery_CheckAll" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="Admin_Gallery_DanhMucAnh" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Admin_Gallery_DeleteImage" xml:space="preserve">
+    <value>Delete selected</value>
+  </data>
+  <data name="Admin_Gallery_DinhDangAnhHoTro" xml:space="preserve">
+    <value>Allow extension</value>
+  </data>
+  <data name="Admin_Gallery_Guid" xml:space="preserve">
+    <value>Note: Double click to insert image</value>
+  </data>
+  <data name="Admin_Gallery_HoanTatTaiAnh" xml:space="preserve">
+    <value>Upload complete</value>
+  </data>
+  <data name="Admin_Gallery_HoTroKeoTha" xml:space="preserve">
+    <value>Drag and drop images from computer</value>
+  </data>
+  <data name="Admin_Gallery_ImageType" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Admin_Gallery_InsertImage" xml:space="preserve">
+    <value>Insert selected</value>
+  </data>
+  <data name="Admin_Gallery_ResizeImage" xml:space="preserve">
+    <value>The height image will automatically change to the adjust width</value>
+  </data>
+  <data name="Admin_Gallery_SelectImageType" xml:space="preserve">
+    <value>Select category</value>
+  </data>
+  <data name="Admin_Gallery_SelectImageUpload" xml:space="preserve">
+    <value>Chosse images</value>
+  </data>
+  <data name="Admin_Gallery_Suathemmoidanhmuc" xml:space="preserve">
+    <value>Edit, add image category</value>
+  </data>
+  <data name="Admin_Gallery_ThuVienAnh" xml:space="preserve">
+    <value>Gallary</value>
+  </data>
+  <data name="Admin_Gallery_TrinhDuyetHoTroKeoTha" xml:space="preserve">
+    <value>Browser support of drag and drop file uploads</value>
+  </data>
+  <data name="Admin_Gallery_Upload" xml:space="preserve">
+    <value>Upload images from computer</value>
+  </data>
+  <data name="Admin_Gallery_UploadAnh" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Admin_Home_Address" xml:space="preserve">
+    <value>~/admin/Styles/img/text_address_vi.png</value>
+  </data>
+  <data name="Admin_Home_Imgbicsrv" xml:space="preserve">
+    <value>~/admin/Styles/img/text_bicsrv2014_en.png</value>
+  </data>
+  <data name="Admin_ListingMenuUser_ModelMenu" xml:space="preserve">
+    <value>Menu area</value>
+  </data>
+  <data name="Admin_ListingMenuUser_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_LoginLog_LoginName" xml:space="preserve">
+    <value>Login name</value>
+  </data>
+  <data name="Admin_LoginLog_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Admin_LoginView_ChangePassword" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="Admin_LoginView_Exit" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Admin_LoginView_Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Admin_MenuAdmin_CategoriesParent" xml:space="preserve">
+    <value>Parent category</value>
+  </data>
+  <data name="Admin_MenuAdmin_Function" xml:space="preserve">
+    <value>Funtion</value>
+  </data>
+  <data name="Admin_MenuAdmin_Icon" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="Admin_MenuAdmin_KeyShortcuts" xml:space="preserve">
+    <value>Shortcut</value>
+  </data>
+  <data name="Admin_MenuAdmin_NameList" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Admin_MenuAdmin_Select" xml:space="preserve">
+    <value>Select...</value>
+  </data>
+  <data name="Admin_MenuAdmin_SourceLinks" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Cloning" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Down" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Rename" xml:space="preserve">
+    <value>Rename (F2)</value>
+  </data>
+  <data name="Admin_MenuAdmin_TreeviewMenuAdmin_Up" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="Admin_MenuUser_Connection" xml:space="preserve">
+    <value>Reference category</value>
+  </data>
+  <data name="Admin_MenuUser_ExclusiveMenu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="Admin_MenuUser_ExclusiveNavigatePath" xml:space="preserve">
+    <value>Navigate path</value>
+  </data>
+  <data name="Admin_MenuUser_ExclusiveSiteMap" xml:space="preserve">
+    <value>Site Map</value>
+  </data>
+  <data name="Admin_MenuUser_Function" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="Admin_MenuUser_ImageDescription" xml:space="preserve">
+    <value>Image description</value>
+  </data>
+  <data name="Admin_MenuUser_Link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="Admin_MenuUser_LoginRequired" xml:space="preserve">
+    <value>Login is required</value>
+  </data>
+  <data name="Admin_MenuUser_ModelMenu" xml:space="preserve">
+    <value>Menu area</value>
+  </data>
+  <data name="Admin_MenuUser_OriginalList" xml:space="preserve">
+    <value>Root category</value>
+  </data>
+  <data name="Admin_MenuUser_Pagesize" xml:space="preserve">
+    <value>Record / page</value>
+  </data>
+  <data name="Admin_MenuUser_ParentCategories" xml:space="preserve">
+    <value>Parent category</value>
+  </data>
+  <data name="Admin_MenuUser_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_MenuUser_SelectTheFunction" xml:space="preserve">
+    <value>[Select]</value>
+  </data>
+  <data name="Admin_MenuUser_Title" xml:space="preserve">
+    <value>Tile</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Cloning" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Down" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_EditName" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="Admin_MenuUser_TreeviewMenuUser_Up" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="Admin_Menu_BinhChon" xml:space="preserve">
+    <value>Poll</value>
+  </data>
+  <data name="Admin_Menu_CauHinh" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="Admin_Menu_CauHinhNoiDung" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="Admin_Menu_CauHoi" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="Admin_Menu_ChucNang" xml:space="preserve">
+    <value>Fuctions</value>
+  </data>
+  <data name="Admin_Menu_ChucNangMenu" xml:space="preserve">
+    <value>Menu fuction</value>
+  </data>
+  <data name="Admin_Menu_DanhMuc" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Admin_Menu_DanhSachQuangCao" xml:space="preserve">
+    <value>Advertising management</value>
+  </data>
+  <data name="Admin_Menu_DanhSachSanPham" xml:space="preserve">
+    <value>Products management</value>
+  </data>
+  <data name="Admin_Menu_DanhSachThuVienAnh" xml:space="preserve">
+    <value>Gallery management</value>
+  </data>
+  <data name="Admin_Menu_DanhSachTin" xml:space="preserve">
+    <value>News management</value>
+  </data>
+  <data name="Admin_Menu_DanhSachTuKhoaTimKiem" xml:space="preserve">
+    <value>Keyword management</value>
+  </data>
+  <data name="Admin_Menu_DanhSachViDeo_Music" xml:space="preserve">
+    <value>Video &amp; music management</value>
+  </data>
+  <data name="Admin_Menu_Google" xml:space="preserve">
+    <value>Google</value>
+  </data>
+  <data name="Admin_Menu_GoogleAnalytics" xml:space="preserve">
+    <value>Google Analytics</value>
+  </data>
+  <data name="Admin_Menu_GoogleWebmasterTools" xml:space="preserve">
+    <value>Google Webmaster Tools</value>
+  </data>
+  <data name="Admin_Menu_HeThong" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Admin_Menu_HeThongMenuWebSite" xml:space="preserve">
+    <value>Menu website management</value>
+  </data>
+  <data name="Admin_Menu_HoSoNangLuc" xml:space="preserve">
+    <value>Capacity profile</value>
+  </data>
+  <data name="Admin_Menu_HoTroDichNoiDung" xml:space="preserve">
+    <value>Google translate</value>
+  </data>
+  <data name="Admin_Menu_HuongDan" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="Admin_Menu_IpDaBinhChon" xml:space="preserve">
+    <value>Selected IP</value>
+  </data>
+  <data name="Admin_Menu_KiemTraRanking" xml:space="preserve">
+    <value>Alexa ranking</value>
+  </data>
+  <data name="Admin_Menu_LichSuDangNhap" xml:space="preserve">
+    <value>Login history</value>
+  </data>
+  <data name="Admin_Menu_LienHeVoiBICWebVN" xml:space="preserve">
+    <value>Contact with BICWeb.VN</value>
+  </data>
+  <data name="Admin_Menu_LuaChon" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Admin_Menu_MailServer" xml:space="preserve">
+    <value>Mail Server</value>
+  </data>
+  <data name="Admin_Menu_MenuHeThong" xml:space="preserve">
+    <value>Menu system</value>
+  </data>
+  <data name="Admin_Menu_PhanQuyenHeThong" xml:space="preserve">
+    <value>Grant permission</value>
+  </data>
+  <data name="Admin_Menu_QuangCaoVideoGocPhai" xml:space="preserve">
+    <value>Right bottom corner video management</value>
+  </data>
+  <data name="Admin_Menu_QuanLyComment" xml:space="preserve">
+    <value>Comments management</value>
+  </data>
+  <data name="Admin_Menu_QuanLyDieuKhien" xml:space="preserve">
+    <value>Modules management</value>
+  </data>
+  <data name="Admin_Menu_QuanLyQuangCao" xml:space="preserve">
+    <value>Advertising management</value>
+  </data>
+  <data name="Admin_Menu_QuanLySupport" xml:space="preserve">
+    <value>Live support management</value>
+  </data>
+  <data name="Admin_Menu_QuanLyTaiKhoan" xml:space="preserve">
+    <value>Account management</value>
+  </data>
+  <data name="Admin_Menu_Quanlytailieu" xml:space="preserve">
+    <value>Documents management</value>
+  </data>
+  <data name="Admin_Menu_QuanTriNguoiDung" xml:space="preserve">
+    <value>User management</value>
+  </data>
+  <data name="Admin_Menu_Seo_SearchEngineOptimization" xml:space="preserve">
+    <value>SEO - Search Engine Optimization</value>
+  </data>
+  <data name="Admin_Menu_TaiLieuBICCMS2012" xml:space="preserve">
+    <value>BIC CMS 2014 documents</value>
+  </data>
+  <data name="Admin_Menu_TaiLieuBICEditor2012" xml:space="preserve">
+    <value>BIC Editor 2014 documents</value>
+  </data>
+  <data name="Admin_Menu_TaiLieuBICImage2012" xml:space="preserve">
+    <value>BIC Image Tools documents</value>
+  </data>
+  <data name="Admin_Menu_ThemMoiTinTuc" xml:space="preserve">
+    <value>New record</value>
+  </data>
+  <data name="Admin_Menu_ThongTinLienHe" xml:space="preserve">
+    <value>Contact information</value>
+  </data>
+  <data name="Admin_Menu_ThucHienCauLenhSQL" xml:space="preserve">
+    <value>Execute SQL command</value>
+  </data>
+  <data name="Admin_Menu_TienIch" xml:space="preserve">
+    <value>Utilities</value>
+  </data>
+  <data name="Admin_Menu_VeChungToi" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="Admin_Menu_XemLogFile" xml:space="preserve">
+    <value>View Log</value>
+  </data>
+  <data name="Admin_MessageDelete" xml:space="preserve">
+    <value>Do you want to delete this item?</value>
+  </data>
+  <data name="Admin_MessageDeleteChildFirst" xml:space="preserve">
+    <value>You need to delete sub-category first</value>
+  </data>
+  <data name="Admin_MessageDeleteFail" xml:space="preserve">
+    <value>Occurrence a problem, delete information uncomplete!</value>
+  </data>
+  <data name="Admin_MessageDeletePermission" xml:space="preserve">
+    <value>You don't have permission to delete!</value>
+  </data>
+  <data name="Admin_MessageDenyDelete" xml:space="preserve">
+    <value>You don't have permission to delete!</value>
+  </data>
+  <data name="Admin_MessageDenyEdit" xml:space="preserve">
+    <value>You don't have permission to edit!</value>
+  </data>
+  <data name="Admin_MessageEditPermission" xml:space="preserve">
+    <value>You don't have permission to edit!</value>
+  </data>
+  <data name="Admin_MessageInsertFail" xml:space="preserve">
+    <value>Occurrence a problem, insert information uncomplete!</value>
+  </data>
+  <data name="Admin_MessageInsertSuccess" xml:space="preserve">
+    <value>Insert information complete!</value>
+  </data>
+  <data name="Admin_MessageInsertTitle" xml:space="preserve">
+    <value>Insert information</value>
+  </data>
+  <data name="Admin_MessageNoData" xml:space="preserve">
+    <value>There are no results to display.</value>
+  </data>
+  <data name="Admin_MessageNoSelect" xml:space="preserve">
+    <value>Category is require!</value>
+  </data>
+  <data name="Admin_MessageRequireTitle" xml:space="preserve">
+    <value>Indicates a required field</value>
+  </data>
+  <data name="Admin_MessageUpdateFail" xml:space="preserve">
+    <value>Occurrence a problem, update information uncomplete!</value>
+  </data>
+  <data name="Admin_MessageUpdatePermission" xml:space="preserve">
+    <value>You don't have permission to update!</value>
+  </data>
+  <data name="Admin_MessageUpdateTitle" xml:space="preserve">
+    <value>Edit information</value>
+  </data>
+  <data name="Admin_NavigatePath_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Admin_NavigatePath_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Admin_NavigatePath_WatchContent" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Admin_Paging" xml:space="preserve">
+    <value>Change page: {4} from {2} to {3} in {5} items</value>
+  </data>
+  <data name="Admin_Paging_FirstPage" xml:space="preserve">
+    <value>Frist page</value>
+  </data>
+  <data name="Admin_Paging_LastPage" xml:space="preserve">
+    <value>Last page</value>
+  </data>
+  <data name="Admin_Paging_NextPage" xml:space="preserve">
+    <value>Next page</value>
+  </data>
+  <data name="Admin_Paging_NextPages" xml:space="preserve">
+    <value>Next pages</value>
+  </data>
+  <data name="Admin_Paging_PageSize" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="Admin_Paging_PrevPage" xml:space="preserve">
+    <value>Prev page</value>
+  </data>
+  <data name="Admin_Paging_PrevPages" xml:space="preserve">
+    <value>Prev pages</value>
+  </data>
+  <data name="Admin_PollChoices_DetailedContents" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Admin_PollChoices_EnterSelection" xml:space="preserve">
+    <value>Enter selection</value>
+  </data>
+  <data name="Admin_PollChoices_Message1" xml:space="preserve">
+    <value>Item is approved - delete deny</value>
+  </data>
+  <data name="Admin_PollChoices_Questions" xml:space="preserve">
+    <value>Câu hỏi</value>
+  </data>
+  <data name="Admin_PollChoices_Selection" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="Admin_PollChoices_Vote" xml:space="preserve">
+    <value>Bình chọn</value>
+  </data>
+  <data name="Admin_PollChoices_Votes" xml:space="preserve">
+    <value>Số phiếu</value>
+  </data>
+  <data name="Admin_PollCPs_Message1" xml:space="preserve">
+    <value>Bạn không có quyền xóa bản ghi đã được duyệt</value>
+  </data>
+  <data name="Admin_PollCPs_Message2" xml:space="preserve">
+    <value>Do you want to delete?</value>
+  </data>
+  <data name="Admin_Poll_DeleteIPHourly" xml:space="preserve">
+    <value>Delete IP by hour</value>
+  </data>
+  <data name="Admin_Poll_DetailedContents" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Admin_Poll_EnterQuestion" xml:space="preserve">
+    <value>Enter question</value>
+  </data>
+  <data name="Admin_Poll_HoursDeleteIP" xml:space="preserve">
+    <value>Hours to delete IP</value>
+  </data>
+  <data name="Admin_Poll_ModeAuthentication" xml:space="preserve">
+    <value>Authentication mode</value>
+  </data>
+  <data name="Admin_Poll_Questions" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="Admin_Product_AppearComment" xml:space="preserve">
+    <value>Display comment</value>
+  </data>
+  <data name="Admin_Product_Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Admin_Product_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Admin_Product_Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Admin_Product_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Admin_Product_CommentState" xml:space="preserve">
+    <value>Unactive comment/Active comment</value>
+  </data>
+  <data name="Admin_Product_FromDay" xml:space="preserve">
+    <value>from date</value>
+  </data>
+  <data name="Admin_Product_Havebrowse" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Admin_Product_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Admin_Product_ImageDescription" xml:space="preserve">
+    <value>Image description</value>
+  </data>
+  <data name="Admin_Product_Images" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="Admin_Product_InStock" xml:space="preserve">
+    <value>In stock</value>
+  </data>
+  <data name="Admin_Product_Link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="Admin_Product_List" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Admin_Product_ListComment" xml:space="preserve">
+    <value>List of comment</value>
+  </data>
+  <data name="Admin_Product_ListOfSelected" xml:space="preserve">
+    <value>Selected category</value>
+  </data>
+  <data name="Admin_Product_ListRelatedProducts" xml:space="preserve">
+    <value>List of related products</value>
+  </data>
+  <data name="Admin_Product_Message1" xml:space="preserve">
+    <value>No category selected, you need to select at lease one category</value>
+  </data>
+  <data name="Admin_Product_Message2" xml:space="preserve">
+    <value>You need to delete comment of this product first</value>
+  </data>
+  <data name="Admin_Product_Message3" xml:space="preserve">
+    <value>Unsuccessful</value>
+  </data>
+  <data name="Admin_Product_Message4" xml:space="preserve">
+    <value>Item is approved - Access deny</value>
+  </data>
+  <data name="Admin_Product_Message5" xml:space="preserve">
+    <value>Do you want to update category of news</value>
+  </data>
+  <data name="Admin_Product_NewsFocus" xml:space="preserve">
+    <value>Highlighted products</value>
+  </data>
+  <data name="Admin_Product_NewsTitle" xml:space="preserve">
+    <value>Title of news</value>
+  </data>
+  <data name="Admin_Product_NoItemsSelected" xml:space="preserve">
+    <value>No items selected</value>
+  </data>
+  <data name="Admin_Product_Noposts" xml:space="preserve">
+    <value>--- Data is empty</value>
+  </data>
+  <data name="Admin_Product_OldPrice" xml:space="preserve">
+    <value>Old price</value>
+  </data>
+  <data name="Admin_Product_Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Admin_Product_OtherProductInformation" xml:space="preserve">
+    <value>Other product information</value>
+  </data>
+  <data name="Admin_Product_PageTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Admin_Product_Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Admin_Product_Promotion" xml:space="preserve">
+    <value>Promotion</value>
+  </data>
+  <data name="Admin_Product_Property" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="Admin_Product_RelatedNews" xml:space="preserve">
+    <value>Related news</value>
+  </data>
+  <data name="Admin_Product_RelatedProductList" xml:space="preserve">
+    <value>List of products reference</value>
+  </data>
+  <data name="Admin_Product_RelatedProducts" xml:space="preserve">
+    <value>Related products</value>
+  </data>
+  <data name="Admin_Product_RemovingNews" xml:space="preserve">
+    <value>Remove article</value>
+  </data>
+  <data name="Admin_Product_SearchByCategory" xml:space="preserve">
+    <value>Search by category</value>
+  </data>
+  <data name="Admin_Product_SelectDate" xml:space="preserve">
+    <value>Select date</value>
+  </data>
+  <data name="Admin_Product_SelectRelatedProductsFromList" xml:space="preserve">
+    <value>Selecting reference products</value>
+  </data>
+  <data name="Admin_Product_ShortDescription" xml:space="preserve">
+    <value>Brief description</value>
+  </data>
+  <data name="Admin_Product_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Admin_Product_SkipConditions" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Admin_Product_SortOutput" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="Admin_Product_Spotlight" xml:space="preserve">
+    <value>Hot</value>
+  </data>
+  <data name="Admin_Product_Title" xml:space="preserve">
+    <value>Title &lt;span class='note'&gt;( Right click to view detail, add, edit, delete )&lt;/span&gt;</value>
+  </data>
+  <data name="Admin_Product_Title2" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Admin_Product_ToDay" xml:space="preserve">
+    <value>to date</value>
+  </data>
+  <data name="Admin_Product_TypeOfNews" xml:space="preserve">
+    <value>Type of product</value>
+  </data>
+  <data name="Admin_Product_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Admin_Product_Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Admin_Product_Views" xml:space="preserve">
+    <value>Viewed</value>
+  </data>
+  <data name="Admin_Product_Views2" xml:space="preserve">
+    <value>Viewed</value>
+  </data>
+  <data name="Admin_Product_Votes" xml:space="preserve">
+    <value>Voted</value>
+  </data>
+  <data name="Admin_Roles_ListingRoles" xml:space="preserve">
+    <value>Group &lt;span class='note'&gt;( Right click to view detail, add, edit, delete )&lt;/span&gt;</value>
+  </data>
+  <data name="Admin_Roles_NumberAcount" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="Admin_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_Security_Agree" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Admin_Security_Browser" xml:space="preserve">
+    <value>Publish</value>
+  </data>
+  <data name="Admin_Security_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_Security_NamePanel" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Admin_Security_User_AccordingToTheList" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Admin_Security_User_AcountName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Admin_Security_User_AcuontInfomation" xml:space="preserve">
+    <value>ACCOUNT INFORMATION</value>
+  </data>
+  <data name="Admin_Security_User_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Admin_Security_User_ChangeThePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Admin_Security_User_ConfirmNewPasswordIsRequired" xml:space="preserve">
+    <value>Confirm New password is required.</value>
+  </data>
+  <data name="Admin_Security_User_DidNotEnterANewPassword" xml:space="preserve">
+    <value>New password require</value>
+  </data>
+  <data name="Admin_Security_User_DisplayName" xml:space="preserve">
+    <value>Display name</value>
+  </data>
+  <data name="Admin_Security_User_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Admin_Security_User_EmailAddress" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Admin_Security_User_FieldRequiredToEnterContent" xml:space="preserve">
+    <value>Require field</value>
+  </data>
+  <data name="Admin_Security_User_FilterByGroup" xml:space="preserve">
+    <value>[filter by group]</value>
+  </data>
+  <data name="Admin_Security_User_FullName" xml:space="preserve">
+    <value>Fullname</value>
+  </data>
+  <data name="Admin_Security_User_GroupPermissions" xml:space="preserve">
+    <value>Group Permissions</value>
+  </data>
+  <data name="Admin_Security_User_HomePhone" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="Admin_Security_User_IntegrationIntoGroupsTheRightToSetOrRemoveUsersFromTheGroup" xml:space="preserve">
+    <value>Tick to assign group permission.</value>
+  </data>
+  <data name="Admin_Security_User_LastLogin" xml:space="preserve">
+    <value>Last login</value>
+  </data>
+  <data name="Admin_Security_User_LastVisit" xml:space="preserve">
+    <value>Last login</value>
+  </data>
+  <data name="Admin_Security_User_LastVisitn" xml:space="preserve">
+    <value>Last login</value>
+  </data>
+  <data name="Admin_Security_User_Member" xml:space="preserve">
+    <value>Member</value>
+  </data>
+  <data name="Admin_Security_User_Message1" xml:space="preserve">
+    <value>This account already exists in system. Please choose another.</value>
+  </data>
+  <data name="Admin_Security_User_Message2" xml:space="preserve">
+    <value>Email address already exists in system. Please choose another.</value>
+  </data>
+  <data name="Admin_Security_User_Message3" xml:space="preserve">
+    <value>Your password must be at least 4 characters long</value>
+  </data>
+  <data name="Admin_Security_User_Message4" xml:space="preserve">
+    <value>Successfull</value>
+  </data>
+  <data name="Admin_Security_User_Message5" xml:space="preserve">
+    <value>Could not complete successfully. Please try again.</value>
+  </data>
+  <data name="Admin_Security_User_Message6" xml:space="preserve">
+    <value>Change Your Password, Already</value>
+  </data>
+  <data name="Admin_Security_User_Message7" xml:space="preserve">
+    <value>Change Your Password, not successfull</value>
+  </data>
+  <data name="Admin_Security_User_Message8" xml:space="preserve">
+    <value>Your account {0} is lock \n You need unlock before change password</value>
+  </data>
+  <data name="Admin_Security_User_Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Admin_Security_User_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Admin_Security_User_NewPassword" xml:space="preserve">
+    <value>New password:</value>
+  </data>
+  <data name="Admin_Security_User_NewPasswordIsRequired" xml:space="preserve">
+    <value>New Password is required.</value>
+  </data>
+  <data name="Admin_Security_User_NoData" xml:space="preserve">
+    <value>No data display</value>
+  </data>
+  <data name="Admin_Security_User_NoOldPassword" xml:space="preserve">
+    <value>Old password require</value>
+  </data>
+  <data name="Admin_Security_User_NotConfirmThePassword" xml:space="preserve">
+    <value>Retype password is required</value>
+  </data>
+  <data name="Admin_Security_User_OldPassword" xml:space="preserve">
+    <value>Old password:</value>
+  </data>
+  <data name="Admin_Security_User_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Admin_Security_User_PasswordConfirmationDoesNotMatch" xml:space="preserve">
+    <value>Passwords not match!</value>
+  </data>
+  <data name="Admin_Security_User_PasswordIsRequired" xml:space="preserve">
+    <value>Password is required.</value>
+  </data>
+  <data name="Admin_Security_User_PersonalInformation" xml:space="preserve">
+    <value>Personal information</value>
+  </data>
+  <data name="Admin_Security_User_RegistrationDate" xml:space="preserve">
+    <value>Registration date</value>
+  </data>
+  <data name="Admin_Security_User_RetypeNewPassword" xml:space="preserve">
+    <value>Confirm password:</value>
+  </data>
+  <data name="Admin_Security_User_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_Security_User_SlectAll" xml:space="preserve">
+    <value>Sellect all</value>
+  </data>
+  <data name="Admin_Security_User_SlectGroup" xml:space="preserve">
+    <value>Select group</value>
+  </data>
+  <data name="Admin_Security_User_System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Admin_Security_User_Tell" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="Admin_Security_User_TickToApproveOrDenyTheAccount" xml:space="preserve">
+    <value>Tick to active or inactive account</value>
+  </data>
+  <data name="Admin_Security_User_TitleCompanyName" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Admin_Security_User_UnlockForAccount" xml:space="preserve">
+    <value>Unlock this account</value>
+  </data>
+  <data name="Admin_Security_User_UserName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Admin_Security_User_YetToConfirmThePassword" xml:space="preserve">
+    <value>Old password is require</value>
+  </data>
+  <data name="Admin_Security_User_YouEnterTheOldPassword" xml:space="preserve">
+    <value>Verified password is not valid!</value>
+  </data>
+  <data name="Admin_ToolBar_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Admin_ToolBar_Delete_Note" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Admin_Video_Anhmota" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Admin_Video_Danhmucvideo" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Admin_Video_Dinhdangchophep" xml:space="preserve">
+    <value>Allow extentions</value>
+  </data>
+  <data name="Admin_Video_Huongdanclickdupdechenvideo" xml:space="preserve">
+    <value>( Note: Double click to video to insert )</value>
+  </data>
+  <data name="Admin_Video_TenVideo" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Admin_Video_Thuvienvideo" xml:space="preserve">
+    <value>Video gallary</value>
+  </data>
+  <data name="Admin_Video_uploadVideo" xml:space="preserve">
+    <value>Upload Video</value>
+  </data>
+  <data name="Admin_Video_Videoduoctailengandaynhat" xml:space="preserve">
+    <value>Recent video</value>
+  </data>
+  <data name="Admin_Video_Videothuocdanhmuc" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Admin_XML_Config_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Admin_XML_Config_ConfigurationName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Admin_XML_Config_News" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="Admin_XML_Config_Product" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="Admin_XML_Config_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Admin_XML_MailConfig_ConfigurationName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Admin_XML_MailConfig_ConfiguredPassword" xml:space="preserve">
+    <value>Saved</value>
+  </data>
+  <data name="Admin_XML_MailConfig_EnterATitle" xml:space="preserve">
+    <value>Input title</value>
+  </data>
+  <data name="Admin_XML_MailConfig_PassWord" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Admin_XML_MailConfig_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Admin_XML_MailConfig_YouHaveNotEnteredAPassword" xml:space="preserve">
+    <value>Password require.</value>
+  </data>
+  <data name="Admin_XML_SearchEngine_ConfigurationName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Admin_XML_SearchEngine_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_XML_SearchEngine_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Admin_XML_Support_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Admin_XML_Support_Langue" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Admin_XML_Support_Style" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="Admin_XML_Support_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Admin_XML_Support_TypeOfContact" xml:space="preserve">
+    <value>Type of contact</value>
+  </data>
+  <data name="System_Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="System_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="System_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="System_Browse" xml:space="preserve">
+    <value>Publish</value>
+  </data>
+  <data name="System_CategoriesComments" xml:space="preserve">
+    <value>Type of Comment</value>
+  </data>
+  <data name="System_Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="System_DatePosted" xml:space="preserve">
+    <value>Created Date</value>
+  </data>
+  <data name="System_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="System_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="System_DetailedContent" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="System_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="System_FullScreen" xml:space="preserve">
+    <value>Best Item</value>
+  </data>
+  <data name="System_GroupAcounts" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="System_Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="System_InputCategoryName" xml:space="preserve">
+    <value>Input name</value>
+  </data>
+  <data name="System_InputTitle" xml:space="preserve">
+    <value>Input title</value>
+  </data>
+  <data name="System_InputViewCount" xml:space="preserve">
+    <value>Input view count</value>
+  </data>
+  <data name="System_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="System_Locks" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="System_Manufacture" xml:space="preserve">
+    <value>Manufacture</value>
+  </data>
+  <data name="System_MetaDescription" xml:space="preserve">
+    <value>Meta Description</value>
+  </data>
+  <data name="System_MetaKeyword" xml:space="preserve">
+    <value>Meta Keyword</value>
+  </data>
+  <data name="System_Move" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="System_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="System_NoBrowse" xml:space="preserve">
+    <value>InActive</value>
+  </data>
+  <data name="System_NoComment" xml:space="preserve">
+    <value>No comment display</value>
+  </data>
+  <data name="System_OtherInformation" xml:space="preserve">
+    <value>Other information</value>
+  </data>
+  <data name="System_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="System_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="System_Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="System_Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="System_Target" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="System_UrlSEO" xml:space="preserve">
+    <value>Url SEO</value>
+  </data>
+  <data name="System_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="System_Hot" xml:space="preserve">
+    <value>Hot</value>
+  </data>
+  <data name="Admin_Security_User_Birthday" xml:space="preserve">
+    <value>Birthday</value>
+  </data>
+  <data name="Admin_Security_User_SDate" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="System_Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="System_Skype" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="System_Yahoo" xml:space="preserve">
+    <value>Yahoo</value>
+  </data>
+  <data name="Admin_MenuAdmin_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_FrameView_Room" xml:space="preserve">
+    <value>Room</value>
+  </data>
+  <data name="Admin_XML_MailConfig_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_XML_Config_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_Menu_NhomTaiKhoan" xml:space="preserve">
+    <value>Group management</value>
+  </data>
+  <data name="Admin_Menu_Accommodation" xml:space="preserve">
+    <value>Accommodation</value>
+  </data>
+  <data name="Admin_Menu_Hotel" xml:space="preserve">
+    <value>Hotel</value>
+  </data>
+  <data name="Admin_Menu_News_Letter" xml:space="preserve">
+    <value>Mailing List</value>
+  </data>
+  <data name="Admin_Menu_Room_List" xml:space="preserve">
+    <value>Room List</value>
+  </data>
+  <data name="Admin_Menu_Type_of_Room" xml:space="preserve">
+    <value>Type of Room</value>
+  </data>
+  <data name="Admin_MenuUser_DeActive_Menu_Message" xml:space="preserve">
+    <value>Are you sure to deactivate this category? All related content in this category will be deactivated!</value>
+  </data>
+  <data name="Admin_MenuUser_User_Guide" xml:space="preserve">
+    <value>&lt;span style="color:red; font-weight: bold;"&gt;Warning:&lt;/span&gt;&lt;br /&gt; All related content in this category will be deactivated when category deactivated or deleted.</value>
+  </data>
+  <data name="System_PageTitle" xml:space="preserve">
+    <value>Page Title</value>
+  </data>
+  <data name="Admin_Article_Message8" xml:space="preserve">
+    <value>Main Category has been deactivated, please select the other main category</value>
+  </data>
+  <data name="Admin_Article_Message9" xml:space="preserve">
+    <value>Main category does not exist or has been deleted. Please select new main category for this record</value>
+  </data>
+  <data name="Admin_Menu_Document" xml:space="preserve">
+    <value>Document management</value>
+  </data>
+  <data name="Admin_Menu_TraLoi" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="Document_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="System_Dropdown_Select" xml:space="preserve">
+    <value>[-- Select --]</value>
+  </data>
+  <data name="Product_CatGiam" xml:space="preserve">
+    <value>SaleOff</value>
+  </data>
+  <data name="Product_MauSac" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Admin_XML_Promotion_Content" xml:space="preserve">
+    <value>Promotion Content</value>
+  </data>
+  <data name="Admin_XML_Promotion_Title" xml:space="preserve">
+    <value>Promotion Title</value>
+  </data>
+  <data name="System_MenuIcon" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Product_DungTich" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="Admin_Menu_OrderMenu" xml:space="preserve">
+    <value>Order Mangerment</value>
+  </data>
+  <data name="Admin_Order_Header_Order_Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Admin_Order_Header_Order_OrderDate" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <data name="Admin_Order_Header_Order_PaymentMethods" xml:space="preserve">
+    <value>Payment Methods</value>
+  </data>
+  <data name="Admin_Order_Header_Order_ShippingStatus" xml:space="preserve">
+    <value>Shipping Status</value>
+  </data>
+  <data name="Admin_Order_Header_Order_Status" xml:space="preserve">
+    <value>Order Status</value>
+  </data>
+  <data name="Admin_Menu_Category" xml:space="preserve">
+    <value>Category Managerment</value>
+  </data>
+  <data name="Admin_Category_DropDownList" xml:space="preserve">
+    <value>-- Choose one ---</value>
+  </data>
+  <data name="System_Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="System_Category_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="System_Category_Note" xml:space="preserve">
+    <value>Free shippingfee Condition</value>
+  </data>
+  <data name="System_Category_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="System_Method" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="System_Priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="Admin_Security_User_Current_Point" xml:space="preserve">
+    <value>Points available</value>
+  </data>
+  <data name="Admin_Security_User_Point" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Admin_Security_User_Total_Point" xml:space="preserve">
+    <value>Total Point</value>
+  </data>
+  <data name="Admin_Security_User_Used_Point" xml:space="preserve">
+    <value>Used Point</value>
+  </data>
+  <data name="Admin_Security_Gift_Point" xml:space="preserve">
+    <value>Gift Point</value>
+  </data>
+  <data name="Admin_Security_Point_Note" xml:space="preserve">
+    <value>Point Note</value>
+  </data>
+  <data name="Admin_Security_User_Gift_Point" xml:space="preserve">
+    <value>Gift Point</value>
+  </data>
+  <data name="Admin_Security_User_Point_History" xml:space="preserve">
+    <value>Gift Point History</value>
+  </data>
+  <data name="Admin_Security_User_Point_Note" xml:space="preserve">
+    <value>Point Note</value>
+  </data>
+  <data name="Admin_Order_Header_Order_Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Admin_Order_Header_Order_OrderSubTotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Admin_Order_Header_Order_PaymentStatus" xml:space="preserve">
+    <value>Trạng thái thanh toán</value>
+  </data>
+  <data name="Admin_Order_Header_Order_SavePoint" xml:space="preserve">
+    <value>Điểm tích lũy</value>
+  </data>
+  <data name="Admin_Order_Header_Order_ShippingMethod" xml:space="preserve">
+    <value>Hình thức vận chuyển</value>
+  </data>
+  <data name="Admin_Order_Header_Order_UsePoint" xml:space="preserve">
+    <value>Điểm sử dụng</value>
+  </data>
+  <data name="Admin_Search_PaymentMethods" xml:space="preserve">
+    <value>Payment Methods</value>
+  </data>
+  <data name="Admin_Search_PaymentStatus" xml:space="preserve">
+    <value>Payment Status</value>
+  </data>
+  <data name="Admin_Search_ShippingStatus" xml:space="preserve">
+    <value>Shipping Status</value>
+  </data>
+  <data name="Admin_Order_Message_Confirm_Change" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn thay đổi trạng thái các đơn hàng được chọn ?
+Are you sure to change order status of selected order ?</value>
+  </data>
+  <data name="System_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_Order_Message_Confirm_Changed" xml:space="preserve">
+    <value>Update Order Status Successfully !</value>
+  </data>
+  <data name="System_Update_Order" xml:space="preserve">
+    <value>Processing Order</value>
+  </data>
+  <data name="System_BuyTimes" xml:space="preserve">
+    <value>Buy Times</value>
+  </data>
+  <data name="Admin_Security_lblCurrent" xml:space="preserve">
+    <value>Total points accumulated - The used</value>
+  </data>
+  <data name="Admin_Security_lblTotal" xml:space="preserve">
+    <value>Rewards + Point area when purchasing</value>
+  </data>
+  <data name="Admin_Security_lblUserPoint" xml:space="preserve">
+    <value>Points to use when shopping</value>
+  </data>
+  <data name="Admin_Security_User_Created_Date" xml:space="preserve">
+    <value>Registered date</value>
+  </data>
+  <data name="Admin_Menu_City_Managerment" xml:space="preserve">
+    <value>Cities Managerment</value>
+  </data>
+  <data name="Admin_Menu_Districts_Managerment" xml:space="preserve">
+    <value>Districts Managerment</value>
+  </data>
+  <data name="Product_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Admin_Product_NewColumn6" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Admin_Security_User_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Admin_Security_User_District" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="System_OutOfStock" xml:space="preserve">
+    <value>Out of Stock</value>
+  </data>
+  <data name="Admin_Article_Stock_Ascending" xml:space="preserve">
+    <value>In Stock Ascending</value>
+  </data>
+  <data name="Admin_Article_Stock_Descending" xml:space="preserve">
+    <value>In Stock Descending</value>
+  </data>
+  <data name="Admin_Article_Code_Ascending" xml:space="preserve">
+    <value>Sort by Product Code Ascending</value>
+  </data>
+  <data name="Admin_Article_Code_Descending" xml:space="preserve">
+    <value>Sort by Product Code Descending</value>
+  </data>
+  <data name="Admin_Article_Price_Ascending" xml:space="preserve">
+    <value>Sort by Product Price Ascending</value>
+  </data>
+  <data name="Admin_Article_Price_Descending" xml:space="preserve">
+    <value>Sort by Product Price Descending</value>
+  </data>
+  <data name="Admin_Article_Title_Ascending" xml:space="preserve">
+    <value>Sort by Product Name Ascending</value>
+  </data>
+  <data name="Admin_Article_Title_Descending" xml:space="preserve">
+    <value>Sort by Product Name Descending</value>
+  </data>
+  <data name="System_IsHot" xml:space="preserve">
+    <value>Is Hot</value>
+  </data>
+  <data name="System_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Admin_Comment_IsHot" xml:space="preserve">
+    <value>Hot Comment</value>
+  </data>
+  <data name="Admin_Product_Capacity" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="Admin_Product_Head" xml:space="preserve">
+    <value>Head</value>
+  </data>
+  <data name="Admin_Product_Materials" xml:space="preserve">
+    <value>Materials</value>
+  </data>
+  <data name="Admin_Product_Traffic" xml:space="preserve">
+    <value>Traffic</value>
+  </data>
+  <data name="Admin_Product_Transmission" xml:space="preserve">
+    <value>Transmission</value>
+  </data>
+  <data name="Admin_Product_Voltage" xml:space="preserve">
+    <value>Voltage</value>
+  </data>
+  <data name="Admin_Product_Message7" xml:space="preserve">
+    <value>Do you want to delete?</value>
+  </data>
+  <data name="TitleVisible" xml:space="preserve">
+    <value>Show Title</value>
+  </data>
+  <data name="ToolbarVisible" xml:space="preserve">
+    <value>Show Toolbar</value>
+  </data>
+  <data name="Admin_FrameView_Tour" xml:space="preserve">
+    <value>Tours</value>
+  </data>
+  <data name="Admin_Order_Header_Order_ShippingEmail" xml:space="preserve">
+    <value>Shipping Email</value>
+  </data>
+  <data name="Admin_Order_Header_Order_ShippingPhone" xml:space="preserve">
+    <value>Shipping Phone</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>f</value>
+  </data>
+</root>

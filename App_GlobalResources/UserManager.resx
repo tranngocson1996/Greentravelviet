@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Code" xml:space="preserve">
+    <value>Code :</value>
+  </data>
+  <data name="Confirmemail" xml:space="preserve">
+    <value>Confirm your email address:</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirm password:</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Email address:</value>
+  </data>
+  <data name="EmailRigister" xml:space="preserve">
+    <value>Email already registered:</value>
+  </data>
+  <data name="Forgotpassword" xml:space="preserve">
+    <value>Forgot password</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Full name:</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Login_False" xml:space="preserve">
+    <value>Username or password incorrect!</value>
+  </data>
+  <data name="NoAccount" xml:space="preserve">
+    <value>Do not have an account?</value>
+  </data>
+  <data name="NotCongirmEmail" xml:space="preserve">
+    <value>Not enter the confirm your email</value>
+  </data>
+  <data name="NotCongirmPass" xml:space="preserve">
+    <value>Not enter the confirm your password</value>
+  </data>
+  <data name="NotEmail" xml:space="preserve">
+    <value>Not enter email</value>
+  </data>
+  <data name="NotForgot" xml:space="preserve">
+    <value>Please enter a valid email registered to receive information retrieve your password assistance from</value>
+  </data>
+  <data name="NotName" xml:space="preserve">
+    <value>Not enter full name!</value>
+  </data>
+  <data name="NotPassword" xml:space="preserve">
+    <value>Not enter password!</value>
+  </data>
+  <data name="NotPhone" xml:space="preserve">
+    <value>Not enter phone</value>
+  </data>
+  <data name="NotUserName" xml:space="preserve">
+    <value>Not enter username</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone :</value>
+  </data>
+  <data name="Register_Address" xml:space="preserve">
+    <value>Address :</value>
+    <comment>System</comment>
+  </data>
+  <data name="Register_City" xml:space="preserve">
+    <value>City :</value>
+    <comment>System</comment>
+  </data>
+  <data name="REGISTER_ERR_CAPTCHA" xml:space="preserve">
+    <value>Verified code is not valid!</value>
+  </data>
+  <data name="REGISTER_ERR_CITY" xml:space="preserve">
+    <value>City could not be blank!</value>
+  </data>
+  <data name="REGISTER_ERR_EXIST_EMAIL" xml:space="preserve">
+    <value>Email is registered before!</value>
+  </data>
+  <data name="REGISTER_ERR_EXIST_USERNAME" xml:space="preserve">
+    <value>Username is exists!</value>
+  </data>
+  <data name="REGISTER_ERR_FORMAT_EMAIL" xml:space="preserve">
+    <value>Email is not valid format!</value>
+  </data>
+  <data name="REGISTER_ERR_FORMAT_USERNAME" xml:space="preserve">
+    <value>Username could not include space and special characters!</value>
+  </data>
+  <data name="REGISTER_ERR_NOT_MATCH_EMAIL" xml:space="preserve">
+    <value>Emails not match!</value>
+  </data>
+  <data name="REGISTER_ERR_NOT_MATCH_PASS" xml:space="preserve">
+    <value>Passwords not match!</value>
+  </data>
+  <data name="REGISTER_ERR_PHONE" xml:space="preserve">
+    <value>Phone could not be blank!</value>
+  </data>
+  <data name="REGISTER_ERR_TERM_AGGREEMENT" xml:space="preserve">
+    <value>You have to aggree with terms aggreement of website!</value>
+  </data>
+  <data name="REGISTER_ERR_TOO_SHORT_PASS" xml:space="preserve">
+    <value>Password length must be more than 3 characters!</value>
+  </data>
+  <data name="REGISTER_FAIL_ACTIVE" xml:space="preserve">
+    <value>An errors occurs when trying active your account! Please contact admin to get support!</value>
+  </data>
+  <data name="Register_Mobile" xml:space="preserve">
+    <value>Mobile</value>
+    <comment>System</comment>
+  </data>
+  <data name="REGISTER_SUCC" xml:space="preserve">
+    <value>Your registration is successfully!</value>
+  </data>
+  <data name="REGISTER_SUCC_ACTIVE" xml:space="preserve">
+    <value>Active account successfully!</value>
+  </data>
+  <data name="REGISTER_SUCC_EMAIL" xml:space="preserve">
+    <value>Valid email!</value>
+  </data>
+  <data name="REGISTER_SUCC_EMAIL_CONFIRM" xml:space="preserve">
+    <value>Valid confirmation!</value>
+  </data>
+  <data name="REGISTER_SUCC_PASS" xml:space="preserve">
+    <value>Valid password!</value>
+  </data>
+  <data name="REGISTER_SUCC_PASS_CONFIRM" xml:space="preserve">
+    <value>Valid confirmation!</value>
+  </data>
+  <data name="REGISTER_SUCC_USERNAME" xml:space="preserve">
+    <value>Valid account!</value>
+  </data>
+  <data name="Register_Terms_Aggreement" xml:space="preserve">
+    <value>I aggree with terms of website</value>
+    <comment>System</comment>
+  </data>
+  <data name="Remember" xml:space="preserve">
+    <value>Remember</value>
+  </data>
+  <data name="REQUIRE_VALUE" xml:space="preserve">
+    <value>indicates a required field</value>
+  </data>
+  <data name="RigisterAccount" xml:space="preserve">
+    <value>Rigister an account</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="UserNameFalse" xml:space="preserve">
+    <value>Username 6 to 20 characters</value>
+  </data>
+  <data name="CheckUserEmail" xml:space="preserve">
+    <value>Check your username and email!</value>
+  </data>
+  <data name="EmailNotRegister" xml:space="preserve">
+    <value>Email not yet register</value>
+  </data>
+  <data name="RecoverSuccessfull" xml:space="preserve">
+    <value>Recover password successfully! We have sent a new password to your email.</value>
+  </data>
+  <data name="UsernameAlreadyRegister" xml:space="preserve">
+    <value>Username already registered</value>
+  </data>
+  <data name="UsernameNotRegister" xml:space="preserve">
+    <value>Username not yet register</value>
+  </data>
+  <data name="Bt_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Bt_Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Bt_Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Bt_Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ProcessingData" xml:space="preserve">
+    <value>Processing data ...</value>
+  </data>
+  <data name="Bt_Close" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+  <data name="EditProfile" xml:space="preserve">
+    <value>Edit Profile</value>
+  </data>
+  <data name="AccountInfomation" xml:space="preserve">
+    <value>Account Infomation</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="DateOfBirth" xml:space="preserve">
+    <value>Date Of Birth</value>
+  </data>
+  <data name="DontEmail" xml:space="preserve">
+    <value>I don't have email address</value>
+  </data>
+  <data name="REGISTER_SUCCNOTEMAIL" xml:space="preserve">
+    <value>Congratulations you have successfully registered an account!</value>
+  </data>
+  <data name="NotAddress" xml:space="preserve">
+    <value>Address can't be empty !</value>
+  </data>
+  <data name="Register_District" xml:space="preserve">
+    <value>District:</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+</root>

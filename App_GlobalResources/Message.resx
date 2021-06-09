@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BACK_CAPTION" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="DATA_NOT_FOUND" xml:space="preserve">
+    <value>There are no results to display.</value>
+  </data>
+  <data name="DELETE_ALL_CAPTION" xml:space="preserve">
+    <value>Delete All</value>
+  </data>
+  <data name="DELETE_CAPTION" xml:space="preserve">
+    <value>Delete Item</value>
+  </data>
+  <data name="DELETE_ERROR" xml:space="preserve">
+    <value>Occurrence a problem, delete information uncomplete</value>
+  </data>
+  <data name="DELETE_SUCCESS" xml:space="preserve">
+    <value>Deletion success.</value>
+  </data>
+  <data name="DELETE_WARNING" xml:space="preserve">
+    <value>Do you want to delete this item?</value>
+  </data>
+  <data name="EXPAND_COLLAPSE_CAPTION" xml:space="preserve">
+    <value>Expand/Collapse</value>
+  </data>
+  <data name="FALSE" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="FILTER_CAPTION" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="FILTER_CHANGE_CAPTION" xml:space="preserve">
+    <value>Change Filter</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="INSERT_CAPTION" xml:space="preserve">
+    <value>New Item</value>
+  </data>
+  <data name="INSERT_ERROR" xml:space="preserve">
+    <value>Occurrence a problem, Insert information uncomplete</value>
+  </data>
+  <data name="INSERT_SUCCESS" xml:space="preserve">
+    <value>Insert success.</value>
+  </data>
+  <data name="INSERT_TITLE" xml:space="preserve">
+    <value>Addition Information</value>
+  </data>
+  <data name="INVALID_EMAIL" xml:space="preserve">
+    <value>Please enter a valid e-mail address.</value>
+  </data>
+  <data name="ITEM_DO_NOT_EXIST" xml:space="preserve">
+    <value>Mục lựa chọn không tồn tại.</value>
+  </data>
+  <data name="ITEM_EXIST" xml:space="preserve">
+    <value>Giá trị này đã được sử dụng, hãy nhập giá trị khác?</value>
+  </data>
+  <data name="LIST_TITLE" xml:space="preserve">
+    <value>Listing Information</value>
+  </data>
+  <data name="MESSAGE" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="REQUIRE_VALUE" xml:space="preserve">
+    <value>indicates a required field</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="SELECT_ALL_CAPTION" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="SELECT_CAPTION" xml:space="preserve">
+    <value>Please select one...</value>
+  </data>
+  <data name="SEND_MAIL_ERROR" xml:space="preserve">
+    <value>Occurrence a problem, transfer your inquiry uncomplete.</value>
+  </data>
+  <data name="SEND_MAIL_SUCCESS" xml:space="preserve">
+    <value>Thank you for your inquiry, we will reply soon!</value>
+  </data>
+  <data name="SendNewLetterError" xml:space="preserve">
+    <value>Occurrence a problem, registration news letter unsuccessfully</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="THANKS" xml:space="preserve">
+    <value>Thank you for using our services</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="TOTAL_RECORD_CAPTION" xml:space="preserve">
+    <value>Total records</value>
+  </data>
+  <data name="TRUE" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="UPDATE_CAPTION" xml:space="preserve">
+    <value>Edit Item</value>
+  </data>
+  <data name="UPDATE_ERROR" xml:space="preserve">
+    <value>Occurrence a problem, update information uncomplete</value>
+  </data>
+  <data name="UPDATE_SUCCESS" xml:space="preserve">
+    <value>Cập nhật thông tin thành công.</value>
+  </data>
+  <data name="UPDATE_TITLE" xml:space="preserve">
+    <value>Edition Information</value>
+  </data>
+  <data name="VIEW_CAPTION" xml:space="preserve">
+    <value>View Item</value>
+  </data>
+  <data name="VIEW_TITLE" xml:space="preserve">
+    <value>Display Information</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="Validate_Email" xml:space="preserve">
+    <value>Dữ liệu sai định dạng email</value>
+    <comment>Valid date</comment>
+  </data>
+  <data name="Validate_Field" xml:space="preserve">
+    <value>Dữ liệu yêu cầu nhập</value>
+    <comment>Valid date</comment>
+  </data>
+  <data name="Validate_Number" xml:space="preserve">
+    <value>Dữ liệu sai định dạng số</value>
+    <comment>Valid date</comment>
+  </data>
+  <data name="CM_Error_Captcha" xml:space="preserve">
+    <value>Verified code is not valid!</value>
+  </data>
+  <data name="CM_Succes" xml:space="preserve">
+    <value>Post comment successfully!</value>
+  </data>
+  <data name="CM_Error_Description" xml:space="preserve">
+    <value>Comment length must be less or equal 200 characters!</value>
+  </data>
+  <data name="CM_Missing_Username" xml:space="preserve">
+    <value>Sender is missing!</value>
+  </data>
+  <data name="SHARE_BY_MAIL_MAIL_FROM_MISSING" xml:space="preserve">
+    <value>Sender email is missing!</value>
+  </data>
+  <data name="SHARE_BY_MAIL_MAIL_TO_MISSING" xml:space="preserve">
+    <value>Receiver email is missing!</value>
+  </data>
+  <data name="SHARE_BY_MAIL_SENDER_MISSING" xml:space="preserve">
+    <value>Sender is missing!</value>
+  </data>
+  <data name="SHARE_BY_MAIL_SYSTEM_ERR" xml:space="preserve">
+    <value>System error occurs! Sorry about that! Please try again!</value>
+  </data>
+  <data name="REGISTER_ERR_CAPTCHA" xml:space="preserve">
+    <value>Verified code is not valid!</value>
+  </data>
+  <data name="REGISTER_ERR_CITY" xml:space="preserve">
+    <value>City could not be blank!</value>
+  </data>
+  <data name="REGISTER_ERR_EXIST_EMAIL" xml:space="preserve">
+    <value>Email is registered before!</value>
+  </data>
+  <data name="REGISTER_ERR_EXIST_USERNAME" xml:space="preserve">
+    <value>Username is exists!</value>
+  </data>
+  <data name="REGISTER_ERR_FORMAT_EMAIL" xml:space="preserve">
+    <value>Email is not valid format!</value>
+  </data>
+  <data name="REGISTER_ERR_FORMAT_USERNAME" xml:space="preserve">
+    <value>Username could not include space and special characters!</value>
+  </data>
+  <data name="REGISTER_ERR_NOT_MATCH_EMAIL" xml:space="preserve">
+    <value>Emails not match!</value>
+  </data>
+  <data name="REGISTER_ERR_NOT_MATCH_PASS" xml:space="preserve">
+    <value>Passwords not match!</value>
+  </data>
+  <data name="REGISTER_ERR_PHONE" xml:space="preserve">
+    <value>Phone could not be blank!</value>
+  </data>
+  <data name="REGISTER_ERR_TERM_AGGREEMENT" xml:space="preserve">
+    <value>You have to aggree with terms aggreement of website!</value>
+  </data>
+  <data name="REGISTER_ERR_TOO_SHORT_PASS" xml:space="preserve">
+    <value>Password length must be more than 3 characters!</value>
+  </data>
+  <data name="REGISTER_SUCC_EMAIL" xml:space="preserve">
+    <value>Valid email!</value>
+  </data>
+  <data name="REGISTER_SUCC_EMAIL_CONFIRM" xml:space="preserve">
+    <value>Valid confirmation!</value>
+  </data>
+  <data name="REGISTER_SUCC_PASS" xml:space="preserve">
+    <value>Valid password!</value>
+  </data>
+  <data name="REGISTER_SUCC_PASS_CONFIRM" xml:space="preserve">
+    <value>Valid confirmation!</value>
+  </data>
+  <data name="REGISTER_SUCC_USERNAME" xml:space="preserve">
+    <value>Valid account!</value>
+  </data>
+  <data name="REGISTER_SUCC" xml:space="preserve">
+    <value>Your registration is successfully! An active email was sent to your mailbox!</value>
+  </data>
+  <data name="REGISTER_FAIL_ACTIVE" xml:space="preserve">
+    <value>An errors occurs when trying active your account! Please contact admin to get support!</value>
+  </data>
+  <data name="REGISTER_SUCC_ACTIVE" xml:space="preserve">
+    <value>Active account successfully!</value>
+  </data>
+  <data name="USER_REQUIRE_LOGIN" xml:space="preserve">
+    <value>Login required!</value>
+  </data>
+  <data name="USER_UPDATE_FAIL" xml:space="preserve">
+    <value>Update account fail!</value>
+  </data>
+  <data name="USER_UPDATE_SUCC" xml:space="preserve">
+    <value>Update account successfully!</value>
+  </data>
+  <data name="DOWNLOAD_FILE_REMOVED" xml:space="preserve">
+    <value>Sorry, file was removed by owner!</value>
+  </data>
+  <data name="BOOK_DATE" xml:space="preserve">
+    <value>Check-in date can not less than the current date</value>
+  </data>
+  <data name="WRONG_CHECKOUT_DATE" xml:space="preserve">
+    <value>The check-out date must be greater than the check-in date.</value>
+  </data>
+  <data name="Order_UsePoint_Not_Enought" xml:space="preserve">
+    <value>Điểm khả dụng không đủ để thanh toán cho đơn hàng này, hệ thống sẽ tự động thay đổi điểm sử dụng về số dư cho phép!</value>
+  </data>
+</root>

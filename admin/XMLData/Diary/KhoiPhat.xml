@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<KhoiPhat>
+  <type value="Rượu"></type>
+  <type value="Một điều kiện y tế"></type>
+  <type value="Cafe"></type>
+  <type value="Thay đổi thói quen"></type>
+  <type value="Mất nước"></type>
+  <type value="Môi trường(tiếng ồn/độ cao/đèn)"></type>
+  <type value="Tập thể dục"></type>
+  <type value="Thay đổi nội tiết tố"></type>
+  <type value="Đói"></type>
+  <type value="Giấc ngủ (quá nhiều hay quá ít)"></type>
+  <type value="Căng thẳng"></type>
+  <type value="Nghiến răng"></type>
+  <type value="Du lịch"></type>
+  <type value="Điều kiện thời tiết"></type>
+  <type value="Công việc liên quan (ví dụ như máy tính)"></type> 
+</KhoiPhat>

@@ -1,0 +1,732 @@
+﻿/*comment home*/
+#comment_home {
+    width: 252px;
+    background: url('img/bg_dot.png') repeat-y scroll right 0 transparent;
+    height: auto;
+    overflow: hidden;
+    margin-right: 10px;
+    float: left;
+    text-align: left;
+}
+
+    #comment_home .cap {
+        margin: 10px 0 1px 0;
+        text-align: left;
+        position: relative;
+    }
+
+        #comment_home .cap a {
+            color: #9d7433;
+            font-weight: bold;
+            font-size: 14px;
+            font-weight: bold;
+            position: absolute;
+            top: 5px;
+            left: 30px;
+            text-transform: uppercase;
+        }
+
+        #comment_home .cap .viewAll {
+            color: #9d7433;
+            font-size: 12px;
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            text-align: right;
+            text-transform: none;
+        }
+
+    #comment_home .list .ccItem {
+        display: inline-block;
+        margin-top: 12px;
+        float: left;
+        width: 242px;
+    }
+
+    #comment_home .ccItem .ccInfo .ccName {
+        color: #C28B33;
+        font-weight: bold;
+    }
+
+        #comment_home .ccItem .ccInfo .ccName i {
+            color: #C28B33;
+            font-size: 11px;
+            font-style: normal;
+            font-weight: normal;
+        }
+
+    #comment_home .ccItem .ccComment {
+        color: #4d4d4d;
+    }
+
+/*form commet*/
+#Commentary {
+    overflow: hidden;
+    float: left;
+}
+
+    #Commentary.wrapper {
+       overflow: hidden;
+float: left;
+border: 1px solid #EEE;
+padding: 0px 0 15px 15px;
+margin:0 0 20px 0 ;
+width: 665px;
+    }
+
+    #Commentary .cap {
+        margin: 10px 0 1px;
+        position: relative;
+        text-align: left;
+    }
+
+        #Commentary .cap a {
+            color: #666666;
+            font-weight: bold;
+            font: bold 14px arial;
+            position: absolute;
+            top: 5px;
+            left: 30px;
+            text-transform: uppercase;
+        }
+
+        #Commentary .cap .viewAll {
+            color: #ff6c86;
+            font-size: 14px;
+            font-weight: normal;
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            text-align: right;
+            text-transform: none;
+            text-decoration: underline;
+        }
+
+/*.menuCatBlock {
+    background: url("img/pattern_darkgray.png") repeat scroll 0 0 transparent;
+    border-color: #959595;
+    height: 29px;
+    line-height: 28px;
+    margin-top: 0;
+    position: relative;
+}*/
+
+/*.menuCatBlock .menuCatList {
+        background: url("img/bullet_roundarr.png") no-repeat 7px 5px transparent;
+        color: #FFFFFF;
+        font-weight: bold;
+        padding-left: 34px;
+        text-shadow: 0 0 #FFFFFF;
+        text-transform: uppercase;
+        height: 31px;
+        left: 0;
+        top: 1px;
+        position: absolute;
+    }*/
+
+.divcontent {
+    overflow: hidden;
+    padding-top: 1px;
+    position: relative;
+}
+
+#Commentary .menuCatBlock .menuCatList {
+    width: 622px;
+}
+
+
+#Commentary .allcomment {
+    float: right;
+    color: #fff;
+    text-shadow: 0 0 #fff;
+    -moz-text-shadow: 0 0 #fff;
+    -webkit-text-shadow: 0 0 #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 14px;
+}
+
+#Commentary .cSend {
+    clear: both;
+    min-height: 100px;
+    padding: 0px;
+    position: relative;
+    width: 640px;
+    text-align: left;
+}
+
+    #Commentary .cSend .inputBlock {
+        position: relative;
+        width: 650px;
+    }
+
+.RadAjaxPanelID {
+    position: relative;
+}
+
+#Commentary .cSend .name, #Commentary .cSend .captraBlock input[type=text] {
+    width: 456px;
+    height: 26px;
+    border: 1px solid #dad6b4;
+    color: #000;
+    font-style: italic;
+    font-size: 12px;
+    font-family: Arial, Tahoma, sans-serif;
+    margin: 7px 0 10px;
+    padding: 0 5px;
+    /*background: #fffad1;*/
+}
+
+#Commentary .cSend .des {
+    width: 456px;
+    padding: 5px;
+    height: 100px;
+    resize: none;
+    border: 1px solid #dad6b4;
+    background: #fffad1;
+    color: #000;
+    font-style: italic;
+    font-size: 12px;
+}
+
+#Commentary .cSend .captraBlock input[type=text] {
+    background: #fff;
+}
+
+#Commentary .cContent .ccItem .cReply .cSend .inputGender {
+    right: -8px;
+}
+
+#Commentary .cSend .name:focus, #Commentary .cSend .des:focus, #Commentary .cSend .captraBlock input[type=text]:focus {
+    font-style: normal;
+    color: #333;
+    font-size: 12px;
+}
+
+#Commentary .cSend h6 {
+    color: #C72028;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#Commentary .cSend .captraBlock {
+    position: absolute;
+    width: 134px;
+    height: 106px;
+    top: 28px;
+    right: 1px;
+}
+
+    #Commentary .cSend .captraBlock img {
+        width: 56px !important;
+        height: 28px !important;
+        float: left;
+    }
+
+    #Commentary .cSend .captraBlock input[type=text] {
+        width: 118px !important;
+        margin-top: 8px;
+    }
+
+    #Commentary .cSend .captraBlock p label {
+        display: none;
+    }
+
+    #Commentary .cSend .captraBlock .rcRefreshImage {
+        display: inline-block;
+        width: 66px;
+        height: 21px;
+        position: absolute;
+        top: 0px;
+        right: 5px;
+        background: url(img/anhkhac.png) no-repeat;
+    }
+
+    #Commentary .cSend .captraBlock .send {
+        background: url("img/bg-sendcomment.gif") repeat-x top left;
+        height: 28px;
+        color: #fff;
+        display: block;
+        line-height: 28px;
+        padding: 0 0 0 30px;
+        margin-top: 8px;
+        font-weight: bold;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        text-decoration: none;
+    }
+
+#Commentary .cSend .inputGender {
+    position: absolute;
+    top: 10px;
+    right: 130px;
+}
+
+    #Commentary .cSend .inputGender label {
+        margin: 0 8px 0 2px;
+    }
+
+#Commentary .cContent {
+    text-align: left;
+    padding-top: 10px;
+}
+
+    #Commentary .cContent .ccItem {
+        padding-top: 10px;
+        position: relative;
+        width: 645px;
+        margin-bottom: 0px;
+        float: left;
+    }
+    #Commentary .cContent .ccItem.xam{background: #f5f5f5}
+    #Commentary .cContent .ccAvatar {
+        width: 22px;
+        height: 18px;
+        /*background: url(img/icon_gender.png) -50px 0;*/
+        background: url(img/vn_iconComment.png) no-repeat; background-position:  left 0;
+        position: absolute;
+        top: 9px;
+        left: 3px;
+    }
+
+        /*#Commentary .cContent .ccAvatar.male {
+            background-position: -50px -50px;
+        }*/
+
+        #Commentary .cContent .ccAvatar.member {
+            background-position: 0 0;
+        }
+
+        #Commentary .cContent .ccAvatar.male.member {
+            background-position: 0 -50px;
+        }
+
+    #Commentary .cContent .ccInfo {
+        text-align: left;
+        margin-left: 27px;
+    }
+
+        #Commentary .cContent .ccInfo .ccName {
+            font-weight: bold;
+            color: #f7811d;
+        }
+
+            #Commentary .cContent .ccInfo .ccName.member {
+                /*padding-left: 27px;
+                background: url(img/icon_member.png) no-repeat 0 0;*/
+            }
+
+            #Commentary .cContent .ccInfo .ccName i {
+                color: #b4afa4;
+                font-weight: normal;
+                font-style: normal;
+                font-size: 11px;
+            }
+
+        #Commentary .cContent .ccInfo .cagree {
+            float: right;
+            text-align: right;
+            color: #808080;
+        }
+
+            #Commentary .cContent .ccInfo .cagree a {
+                margin: 0 7px 0 4px;
+                font-weight: bold;
+                color: #555;
+                cursor: pointer;
+            }
+
+                #Commentary .cContent .ccInfo .cagree a i {
+                    font-style: normal;
+                    font-weight: normal;
+                    color: #555;
+                }
+
+                #Commentary .cContent .ccInfo .cagree a.disable {
+                    color: #808080;
+                }
+
+                #Commentary .cContent .ccInfo .cagree a.reply {
+                    color: #e56a03;
+                }
+
+                #Commentary .cContent .ccInfo .cagree a.comment {
+                    margin-right: 4px;
+                }
+
+    #Commentary .cContent .ccItem .ccComment {
+        min-height: 14px;
+        padding: 5px;
+        position: relative;
+        line-height: 18px;
+        color: #5b5b5b;
+        width: 637px;
+        float: left;
+        margin: 5px 0 10px 0;
+    }
+
+        #Commentary .cContent .ccItem .ccComment .oq {
+            width: 7px;
+            height: 11px;
+            background: url(img/openquote_fff.png);
+            position: absolute;
+            top: 11px;
+            left: -7px;
+            display: block;
+        }
+
+        #Commentary .cContent .ccItem .ccComment.f8 {
+            background: #f8f8f8;
+        }
+
+            #Commentary .cContent .ccItem .ccComment.f8 .oq {
+                background: url(img/openquote_f8.png);
+            }
+
+    #Commentary .cContent .ccItem .cReply {
+        margin-top: 0;
+        float: right;
+        width: 884px;
+        padding-left: 10px;
+        display: none;
+    }
+
+        #Commentary .cContent .ccItem .cReply .cSend {
+            width: 884px;
+            margin-left: 0px;
+            margin-top: 5px;
+            border: 0px solid transparent;
+            border-radius: 3px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+        }
+
+            #Commentary .cContent .ccItem .cReply .cSend .inputBlock {
+                width: 724px;
+            }
+
+            #Commentary .cContent .ccItem .cReply .cSend .des {
+                width: 714px;
+            }
+
+            #Commentary .cContent .ccItem .cReply .cSend .name {
+                width: 500px;
+            }
+
+            #Commentary .cContent .ccItem .cReply .cSend .captraBlock {
+                top: 10px;
+            }
+
+                #Commentary .cContent .ccItem .cReply .cSend .captraBlock .rcRefreshImage {
+                    background: url(img/anhkhac_gray.png);
+                }
+
+        #Commentary .cContent .ccItem .cReply .ccItem {
+            width: 854px;
+        }
+
+        #Commentary .cContent .ccItem .cReply .ccComment {
+            width: 784px;
+        }
+
+        #Commentary .cContent .ccItem .cReply .scrollable {
+            padding-left: 40px; /*max-height: 143px;*/
+            margin-left: -10px;
+            height: auto !important;
+        }
+/*#Commentary .cScroll {max-height: 538px; }*/
+#Commentary .menuCatBlock .menuCatList {
+    width: 622px;
+}
+
+#Commentary .RadCaptcha p {
+    width: 130px;
+}
+
+#Commentary .RadCaptcha {
+    display: inline-block;
+    padding-top: 1px;
+}
+
+.scrollable {
+    position: relative;
+    overflow: auto;
+    max-height: 275px;
+}
+
+    /*.scrollbar {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background: #d6d6d6;
+    width: 5px;
+    height: 100%;
+    text-align: center;
+    z-index: 110;
+}*/
+
+    /*.scrollbar .pointer {
+        max-height: 100%;
+        width: 1px;
+        padding: 0 6px;
+        background: url(img/scroll_bar.png) no-repeat center bottom;
+        display: block;
+        margin-left: -4px;
+        cursor: pointer;
+        min-height: 37px;
+    }*/
+
+    .scrollable .scrollcontent {
+        position: relative;
+        z-index: 100;
+    }
+
+    .scrollable .scrollbar.right {
+        right: 8px;
+        left: auto;
+        float: none;
+    }
+/* phan trang*/
+.comment_detail {
+    width: 617px;
+    /*padding: 10px;*/
+    margin-top: 10px;
+    float: left;
+}
+
+.comment_detail1 {
+    display: none;
+    margin-left: 53px;
+    margin: 5px 0 5px 48px;
+    padding: 5px;
+    float: left;
+    background: #f3f3f3;
+}
+
+.comment_detail .list {
+    display: block;
+    margin: 0 10px;
+    /*width: 98%;*/
+    max-height: 400px;
+    overflow: auto;
+}
+
+    .comment_detail .list .cmt_item {
+        margin-bottom: 10px;
+        float: left;
+        /*border-bottom: 1px dotted #e3e3e3;*/ text-align: left;
+    }
+
+.cmt_img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    background: url(img/icon_gender.png) no-repeat 0 -50px;
+}
+
+.cmt_header {
+    color: #fff;
+    margin: 10px 0 25px 0;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 140px;
+    height: 34px;
+    line-height: 34px;
+    color: #313191;
+}
+
+.comment_detail .list .cmt_item .datetime {
+    height: 22px;
+    /*padding-left: 15px;*/
+    line-height: 30px;
+    display: block;
+    margin-left: 52px;
+    margin-bottom: 5px;
+}
+
+    .comment_detail .list .cmt_item .datetime .name {
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: bold;
+        color: #c01a15;
+    }
+
+    .comment_detail .list .cmt_item .datetime .date {
+        font-size: 11px;
+        color: #5e5e5e;
+    }
+
+    .comment_detail .list .cmt_item .datetime .reply {
+        float: right;
+        font-size: 12px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+.comment_detail .list .cmt_item .cmt_content {
+    width: 507px;
+    min-height: 14px;
+    border: 1px solid #d1d1d1;
+    background: #fff;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-left: 54px;
+    padding: 8px;
+    position: relative;
+    margin-top: 4px;
+}
+
+.oq {
+    width: 7px;
+    height: 11px;
+    background: url(img/openquote_fff.png);
+    position: absolute;
+    top: 11px;
+    left: -7px;
+    display: block;
+}
+
+.comment_detail .comment_title {
+    color: #c01a15;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+}
+
+.comment_detail .inputBlock {
+    width: 430px;
+    float: left;
+}
+
+.comment_detail1 .inputBlock {
+    float: left;
+    width: 355px;
+    margin-right: 15px;
+}
+
+.comment_detail .inputBlock #txtName {
+    width: 325px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    height: 22px;
+    font-style: italic;
+    color: #5e5e5e;
+    font-size: 12px;
+    float: left;
+    background: #fff;
+}
+
+.gallery_detail .comment_detail .inputBlock #txtName {
+    width: 325px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    height: 22px;
+    font-style: italic;
+    color: #5e5e5e;
+    font-size: 12px;
+    float: left;
+    margin-left: 7px;
+}
+
+.comment_detail1 .inputBlock #txtName1 {
+    width: 250px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    height: 22px;
+    font-style: italic;
+    color: #5e5e5e;
+    font-size: 12px;
+}
+
+.comment_detail .inputBlock #txtName:focus, .comment_detail .inputBlock textarea:focus, .comment_detail .captraBlock input[type=text]:focus {
+    color: #000;
+    font-style: normal;
+}
+
+.comment_detail .inputBlock textarea {
+    width: 385px;
+    font-size: 12px;
+    font-family: Arial;
+    font-style: italic;
+    color: #5e5e5e;
+    background: #fffad2;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    height: 60px;
+    max-height: 60px;
+    max-width: 422px;
+}
+
+.comment_detail1 .inputBlock textarea {
+    width: 330px;
+    font-size: 12px;
+    font-family: Arial;
+    font-style: italic;
+    color: #5e5e5e;
+    background: #fffad2;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    height: 60px;
+    max-height: 60px;
+    max-width: 422px;
+}
+
+.comment_detail .captraBlock {
+    width: 150px;
+    float: right;
+    position: relative;
+}
+
+    .comment_detail .captraBlock .rcRefreshImage {
+        display: inline-block;
+        width: 66px;
+        height: 21px;
+        position: absolute;
+        top: 0px;
+        right: 11px;
+        background: url(img/anhkhac.png) no-repeat;
+    }
+
+    .comment_detail .captraBlock .send {
+        background: #b51a15;
+        height: 28px;
+        color: #fff;
+        display: block;
+        line-height: 28px;
+        padding: 0 0 0 20px;
+        margin-top: 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+    }
+
+    .comment_detail .captraBlock img {
+        width: 65px !important;
+        height: 30px !important;
+        margin-bottom: 5px;
+    }
+
+    .comment_detail .captraBlock input[type=text] {
+        padding: 0 10px;
+        border: 1px solid #ddd;
+        margin-bottom: 5px;
+        height: 22px;
+        font-style: italic;
+        color: #5e5e5e;
+        font-size: 12px;
+    }
+
+.comment_detail input, .comment_detail textarea {
+    margin-left: 0;
+}

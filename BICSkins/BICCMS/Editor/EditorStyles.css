@@ -1,0 +1,6 @@
+﻿.reButton_text { text-align: left; }
+.reTool .BIC { background-image: url(Icons/bic.gif); }
+.reTool .InsertSpecialLink { background-image: url(Icons/InsertSpecialLink.gif); }
+.reTool .InsertSpecialLink { background-image: url(Icons/flv.png); }
+.reTool .AlignmentOptions { background-image: url("Icons/JustifyLeft.gif"); }
+.reDropDownBody td { text-align: left; text-indent: 5px; }

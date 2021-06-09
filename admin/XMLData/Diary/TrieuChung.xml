@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TrieuChung>
+  <type value="Nhầm lẫn"></type>
+  <type value="Táo bón"></type>
+  <type value="Tiêu chảy"></type>
+  <type value="Chóng mặt"></type>
+  <type value="Bất tỉnh"></type>
+  <type value="Thèm ăn"></type>
+  <type value="Hiếu động"></type>
+  <type value="Khó chịu"></type>
+  <type value="Thờ ơ / Mệt mỏi / Buồn ngủ"></type>
+  <type value="Thay đổi bộ nhớ"></type>
+  <type value="Thay đổi tâm trạng (cảm giác cao hay thấp)"></type>
+  <type value="Buồn nôn (cảm giác đau hoặc buồn nôn)"></type>
+  <type value="Tê hoặc ngứa rát"></type>
+  <type value="Một phần tê liệt"></type>
+  <type value="Nhạy cảm với ánh sáng (sợ ánh sáng)"></type>
+  <type value="Nhạy cảm với mùi"></type>
+  <type value="Nhạy cảm với âm thanh"></type>
+  <type value="Giọng nói bị ảnh hưởng"></type>
+  <type value="Khát"></type>
+  <type value="Ù tai"></type>
+  <type value="Đứng không vững hay vụng về"></type>
+  <type value="Sự chóng mặt"></type>
+  <type value="Yếu"></type>
+  <type value="Ngáp"></type>
+</TrieuChung>

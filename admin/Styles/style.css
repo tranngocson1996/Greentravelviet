@@ -1,0 +1,477 @@
+
+/* style gridview*/
+.inactive-link-button
+{
+    height: 16px;
+    font-family: Arial, Tahoma, Times New Roman;
+    font-size: 12px;
+    font-weight: normal;
+    color: #1A52C3;
+    background: url(img/inactive_icon.gif) 4px 4px no-repeat;
+    padding: 4px 4px 3px 22px;
+    cursor: pointer; /*border: solid 1px #ebf3ff;*/
+    display: inline-block;
+}
+
+    .inactive-link-button:hover
+    {
+        background: #CEE0FC url(img/inactive_icon.gif) 4px 4px no-repeat; /*border: solid 1px #BCD9CE;*/
+    }
+
+    .inactive-link-button:active
+    {
+        background: #E0F8C5 url(img/inactive_icon.gif) 4px 4px no-repeat; /*border: solid 1px #BCD9CE;*/
+    }
+
+.filter-link-button
+{
+    height: 20px;
+    font-family: Arial, Tahoma, Times New Roman;
+    font-size: 12px;
+    font-weight: normal;
+    color: #1A52C3;
+    background: url(img/filter.gif) 4px 12px no-repeat; /*4px 12px*/
+    padding: 4px 4px 3px 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.filteroff-link-button
+{
+    height: 16px;
+    font-family: Arial, Tahoma, Times New Roman;
+    font-size: 12px;
+    font-weight: normal;
+    color: #1A52C3;
+    background: url(img/filteroff.gif) 4px 10px no-repeat;
+    padding: 4px 4px 3px 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.filteroff-link-button1
+{
+    height: 16px;
+    font-family: Arial, Tahoma, Times New Roman;
+    font-size: 12px;
+    font-weight: normal;
+    color: #1A52C3;
+    background: url(img/cancel.png) 0px 5px no-repeat;
+    padding: 4px 4px 3px 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.addnew-link-button, addnew-link-button:link, .addnew-link-button:visited
+{
+    font-family: Arial, Tahoma, Times New Roman;
+    font-size: 12px;
+    font-weight: normal;
+    color: #1A52C3;
+    background: url(img/icon-newitem.gif) 4px 4px no-repeat;
+    padding-left: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 4px 4px 3px 22px; /*border: solid 1px #ebf3ff;*/
+    display: inline-block;
+    height: 16px;
+}
+
+    .addnew-link-button:hover
+    {
+        background: #CEE0FC url(img/icon-newitem.gif) 4px 4px no-repeat; /*border: solid 1px #BCD9CE;*/
+    }
+
+    .addnew-link-button:active
+    {
+        background: #E0F8C5 url(img/icon-newitem.gif) 4px 4px no-repeat; /*border: solid 1px #BCD9CE;*/
+    }
+
+.detail-link-button, .detail-link-button:link, .detail-link-button:visited
+{
+    height: 16px;
+    font-family: Arial, Tahoma, Times New Roman;
+    font-size: 12px;
+    font-weight: normal;
+    color: #1A52C3;
+    background: url(img/detail.gif) 4px 4px no-repeat;
+    padding: 4px 4px 3px 22px;
+    cursor: pointer; /*border: solid 1px #ebf3ff;*/
+    display: inline-block;
+}
+
+    .detail-link-button:hover
+    {
+        background: #CEE0FC url(img/detail.gif) 4px 4px no-repeat; /*border: solid 1px #BCD9CE;*/
+    }
+
+    .detail-link-button:active
+    {
+        background: #E0F8C5 url(img/detail.gif) 4px 4px no-repeat; /*border: solid 1px #BCD9CE;*/
+    }
+
+.update-link-button, .update-link-button:link, .update-link-button:visited
+{
+    height: 16px;
+    font-family: Arial, Tahoma, Times New Roman;
+    font-size: 12px;
+    font-weight: normal;
+    color: #1A52C3;
+    background: url(img/edititem.gif) 4px 4px no-repeat;
+    padding: 4px 4px 3px 22px;
+    cursor: pointer; /*border: solid 1px #ebf3ff;*/
+    display: inline-block;
+}
+
+    .update-link-button:hover
+    {
+        background: #CEE0FC url(img/edititem.gif) 4px 4px no-repeat; /*border: solid 1px #BCD9CE;*/
+    }
+
+    .update-link-button:active
+    {
+        background: #E0F8C5 url(img/edititem.gif) 4px 4px no-repeat; /*border: solid 1px #BCD9CE;*/
+    }
+
+.delete-link-button, .delete-link-button:link, .delete-link-button:visited
+{
+    height: 16px;
+    font-family: Arial, Tahoma, Times New Roman;
+    font-size: 12px;
+    font-weight: normal;
+    color: #1A52C3;
+    background: url(img/delitem.gif) 4px 4px no-repeat;
+    padding: 4px 4px 3px 22px;
+    cursor: pointer; /*border: solid 1px #ebf3ff;*/
+    display: inline-block;
+}
+
+    .delete-link-button:hover
+    {
+        background: #CEE0FC url(img/delitem.gif) 4px 4px no-repeat; /*border: solid 1px #BCD9CE;*/
+    }
+
+    .delete-link-button:active
+    {
+        background: #E0F8C5 url(img/delitem.gif) 4px 4px no-repeat; /*border: solid 1px #BCD9CE;*/
+    }
+
+
+.back-link-button, .back-link-button:link, .back-link-button:visited
+{
+    font-family: Arial, Tahoma, Times New Roman;
+    font-size: 12px;
+    font-weight: normal;
+    color: #1A52C3;
+    background: url(img/back.gif) 4px 4px no-repeat;
+    padding: 4px 4px 3px 22px;
+    cursor: pointer; /*border: solid 1px #ebf3ff;*/
+    display: inline-block;
+}
+
+    .back-link-button:hover
+    {
+        background: #CEE0FC url(img/back.gif) 4px 4px no-repeat; /*border: solid 1px #BCD9CE;*/
+    }
+
+    .back-link-button:active
+    {
+        background: #E0F8C5 url(img/back.gif) 4px 4px no-repeat; /*border: solid 1px #BCD9CE;*/
+    }
+
+.active-link-button
+{
+    height: 16px;
+    font-family: Arial, Tahoma, Times New Roman;
+    font-size: 12px;
+    font-weight: normal;
+    color: #1A52C3;
+    background: url(img/active_icon.gif) 4px 4px no-repeat;
+    padding: 4px 4px 3px 22px;
+    cursor: pointer; /*border: solid 1px #ebf3ff;*/
+    display: inline-block;
+}
+
+    .active-link-button:hover
+    {
+        background: #CEE0FC url(img/active_icon.gif) 4px 4px no-repeat; /*border: solid 1px #BCD9CE;*/
+    }
+
+    .active-link-button:active
+    {
+        background: #E0F8C5 url(img/active_icon.gif) 4px 4px no-repeat; /*border: solid 1px #BCD9CE;*/
+    }
+
+.pointer
+{
+    cursor: pointer;
+    color: blue;
+}
+
+.error-message
+{
+    color: red;
+    font-family: Tahoma,Arial,Times New Roman;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.control-text1
+{
+    height: 20px;
+    width: 100px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.control-title
+{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.td-bold-text
+{
+    width: 140px;
+    font-size: 12px !important;
+    font-weight: normal;
+    font-family: Arial !important;
+    vertical-align: middle;
+}
+
+table.be-table
+{
+    border-collapse: separate !important;
+    border-spacing: 5px !important;
+    width: 99%;
+    padding-left: 10px;
+}
+
+    table.be-table input[type="text"]
+    {
+        height: 18px;
+        color: #767676;
+        padding-left: 5px;
+        margin-right: 5px;
+    }
+
+    table.be-table input[type="submit"]
+    {
+        height: 26px;
+        padding: 4px 20px 6px 20px;
+        margin-top: 20px;
+        background: rgb(233, 241, 252) url(img/bg_btn.png) repeat-x;
+        color: #767676;
+        border: none;
+    }
+
+        table.be-table input[type="submit"]:hover
+        {
+            color: #1e1e1e;
+        }
+
+.grid-header
+{
+    background: rgb(212, 226, 244) url(img/bg_head.png) repeat-x;
+    border: 1px solid rgb(93, 140, 201);
+    color: #2e2e2e;
+    font-weight: normal;
+    height: 28px;
+    line-height: 28px;
+}
+
+.grid-item
+{
+    border: 1px solid #d0d7e5;
+    vertical-align: middle;
+    padding: 0px 5px;
+    border-left: none;
+}
+
+.grv {
+    width: 80% !important;
+    margin: 0 auto !important;
+}
+.grv tr td:last-child
+{
+    border-right: none;
+
+}
+
+.grv tr:last-child td
+{
+    border-bottom: none !important;
+    height: 26px;
+    background: url(img/bg_head.png) repeat-x;
+    border-top: 1px solid rgb(93, 140, 201) !important;
+}
+
+.grv tr:hover td
+{
+    background: #ecf4ff;
+}
+
+.grv tr:last-child:hover td
+{
+    background: url(img/bg_head.png) repeat-x;
+}
+
+.language h3.h3_lang
+{
+    height: 24px;
+    background: url(img/bg_btn1.png) repeat-x;
+    text-transform: none !important;
+    margin: 0 !important;
+    padding: 4px 0 0 4px !important;
+    width: 650px;
+    font-family: Arial;
+    line-height: 26px;
+}
+
+    .language h3.h3_lang span
+    {
+        display: inline-block;
+        height: 23px;
+        width: 100px;
+        border-radius: 4px 4px 0 0;
+        -moz-border-radius: 4px 4px 0 0;
+        -webkit-border-radius: 4px 4px 0 0;
+        text-align: center;
+        cursor: pointer;
+    }
+
+.activespan
+{
+    background: #fff;
+}
+
+.error
+{
+    color: red;
+}
+.text_td {
+    font-family: Arial !important;
+    font-size: 13px !important;
+}
+.tabledetail {
+    border-collapse: separate;
+    border: 1px solid #e5e5e5;
+}
+.tabledetail tr td:first-child {
+    width: 400px;
+    vertical-align: text-top;
+}
+    
+.tabledetail td {
+    border: 1px solid #e1e1e1;
+}
+.tabledetail td img {
+    margin-left: 15px;
+}
+.div_pic {
+    border: 2px solid #e1e1e1;
+    text-align: center; 
+    margin-bottom: 10px;
+    width: 100px;
+    height: 122px;
+    float: left;
+    /*text-align: center;*/
+    margin-right: 5px;
+}
+.div_pic p {
+    height: 20px !important;
+    line-height: 18px;
+}
+.div_pic a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    /*margin: 0 0 0 20px;*/
+    background: url(img/DELITEM.GIF) no-repeat 0px 0px;
+}
+.div_pic a:hover {
+    background-color: lightblue;
+} 
+.div_pic input[type=checkbox] {
+    margin: 2px 0 0 1px;
+    float: left;
+    display: inline-block;
+    border: none;
+    padding: 0;
+
+}
+.deleteall {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 30px;
+    height: 26px;
+    background:url(img/DELITEM.GIF) no-repeat 7px 5px;
+    display: inline-block;
+}
+.deleteall1 {
+    background:url(img/DELITEM.GIF) no-repeat 7px 5px;
+    width: 30px;
+    height: 26px;
+    display: inline-block;
+    margin: 0 35px 0 0;
+}
+.deleteall1:hover {
+    background-color: lightblue;
+}
+.deleteall:hover
+{
+    background-color: lightblue;
+}
+.picall {
+    padding: 5px 0 10px 0;
+    float: left;
+}
+.item-child {
+    width: 100px;
+    height: 130px;
+    float: left;
+    margin: 15px;
+}
+.item-child a
+{
+    display: inline-block;
+    width: 100px;
+    height: 130px;
+    text-align: center;
+}
+.item-child a img {
+    opacity: .6;
+    width: 70px;
+    height: 70px;
+}
+    .item-child a:hover img
+    {
+opacity: .8;
+    }
+.item-child a span {
+    display: block;
+    margin-top: 5px;
+
+}
+.pad0 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#editOrderstatus,#editShippingStatus,#editShippingFree {
+    display: inline-block;
+    margin: 0 10px;
+    width: 20px;
+    height: 16px;
+    color: #305d7a;
+    cursor: pointer;
+    font-size: 0;
+    background: url(img/edititem.gif) 3px 0 no-repeat;
+    font-weight: bold;
+}
+#lbtDeleteAll {
+    background: url(icon/btn_delete.gif) no-repeat left 0;
+    padding-left: 20px;
+    margin: 5px 0;
+    display: inline-block;
+}

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TypeConfig>
+  <!--<type datakey="1" name="Danh mục tin tức" key="Category" value="1" type="news"/>
+  <type datakey="2" name="Hiển thị đánh giá" key="CommentsEnabled" value="0" type="news"/>
+  <type datakey="3" name="Số lượng bài viết chính" key="BigArticle" value="5" type="news"/>
+  <type datakey="4" name="Số lượng bài viết liên quan" key="SmallArticle" value="10" type="news"/>
+  <type datakey="5" name="Số lượng bài viết tiêu biểu" key="ArticleTypical" value="5" type="news"/>
+  <type datakey="6" name="Số lượng bài viết trang danh sách" key="PagerArticle" value="10" type="news"/>
+  <type datakey="7" name="Số lượng bài viết trong nhóm tin" key="GroupArticle" value="5" type="news"/>
+  <type datakey="8" name="Hiển thị giá sản phẩm" key="ProductPrice" value="0" type="product"/>
+  <type datakey="9" name="Hiển thị sản phẩm bán chạy" key="IsBestSelling" value="0" type="product"/>
+  <type datakey="10" name="Hiển thị danh mục đặc biệt" key="OtherCategoryID" value="1" type="product" />
+  <type datakey="11" name="Hiển thị trang chủ" key="IsHome" value="1" type="product"/>
+  <type datakey="12" name="Số lượng sản phẩm" key="ListProductSize" value="6" type="product"/>
+  <type datakey="13" name="Số lượng sản phẩm cùng loại - Chi tiết sản phẩn" key="ProductInSamePage" value="4" type="product"/>
+  <type datakey="14" name="Sản phẩm bán chạy" key="ProductBestSelling" value="4" type="product"/>
+  <type datakey="15" name="Link trang liên hệ" key="LinkContact" value="20" type="product" />-->
+</TypeConfig>

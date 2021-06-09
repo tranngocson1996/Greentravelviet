@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+    <Group Flow="Vertical">
+        <Item Text="Add" Value="Add" LeftLogo="~/admin/Styles/icon/ContextMenu/new.gif"  AccessKey="T" ></Item>
+        <Item Text="Edit" Value="Edit"  LeftLogo="~/admin/Styles/icon/ContextMenu/edit.gif" Key="S" AccessKey="S" ></Item>
+        <Item Text="Delete" Value="Delete"  LeftLogo="~/admin/Styles/icon/ContextMenu/delete.gif" AccessKey="X"  Key="X" ></Item>
+    </Group>
+</Menu>

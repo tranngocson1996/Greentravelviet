@@ -1,0 +1,391 @@
+﻿@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('fonts/OpenSans-Bold.ttf') format('truetype');
+}
+/*Utm avo*/
+@font-face {
+    font-family: 'UTM-AVO';
+    src: url('fonts/UTM-AVO.ttf') format('truetype');
+}
+
+ul {
+    -webkit-margin-before: 0 !important;
+    -webkit-margin-after: 0 !important;
+    -webkit-margin-start: 0 !important;
+    -webkit-margin-end: 0 !important;
+    -webkit-padding-start: 0 !important;
+}
+
+    ul li {
+        list-style: none;
+    }
+
+a, a:hover {
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #ff9000;
+    }
+
+body {
+    width: 100%;
+    font-family: 'OpenSans-Regular';
+    box-sizing: border-box;
+}
+
+.main-wapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto !important;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.hidden, .none {
+    display: none !important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 6px;
+    text-align: left;
+}
+
+tr {
+    background: #fff;
+}
+
+th {
+    text-align: left;
+    font-family: Arial;
+    font-size: 14px;
+    color: #353535;
+    font-weight: normal;
+}
+
+td {
+    font-family: Arial;
+    font-size: 14px;
+    color: #353535;
+}
+
+.VungListHang table tr, .VungListHang table td {
+    border: 1px solid #eee;
+}
+
+.VungListHang table thead tr td {
+    font-weight: bold;
+}
+
+td a {
+    color: #353535;
+}
+
+.form-control {
+    border-radius: 0;
+}
+/*Css phan header cua gio hang*/
+.header {
+    padding: 15px 0;
+}
+
+    .header .step {
+        height: 43px;
+        float: right;
+    }
+
+        .header .step .buoc {
+            display: inline-block;
+            color: #d3d4d4;
+            font-size: 16px;
+            font-family: 'OpenSans-Bold';
+            text-transform: uppercase;
+        }
+
+            .header .step .buoc .so1, .header .step .buoc .so2, .header .step .buoc .so3 {
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                background: #d3d4d4;
+                border-radius: 50%;
+                color: #fff;
+            }
+
+            .header .step .buoc .line_text {
+                text-align: center;
+                height: 40px;
+                border-bottom: 1px solid #d3d4d4;
+                padding: 0 15px;
+                padding-bottom: 5px;
+            }
+
+            .header .step .buoc.current .so {
+                background: #ff9000;
+            }
+
+            .header .step .buoc.current .line_text {
+                border-bottom: 1px solid #ff9000;
+                color: #ff9000;
+            }
+/*Css phan noi dung*/
+.main_shoppingcart {
+    margin: 20px 0;
+}
+/*Buoc 01 - Kiem track don hang*/
+.Step .continute {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+    .Step .continute a {
+        font-size: 14px;
+        font-family: Arial;
+        color: #646464;
+        text-align: center;
+        display: block;
+        line-height: 19px;
+        margin-bottom: 10px;
+        float: left;
+    }
+
+.myCart {
+    font-size: 15px;
+    font-family: Arial;
+    color: #646464;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Step .continute a:hover {
+    color: #ff9000;
+}
+
+#Step1 .avatar img {
+    width: auto;
+    height: 50px;
+    overflow: hidden;
+    max-width: 80px;
+}
+
+.VungTrai {
+    padding: 10px;
+    border: 1px solid #e3e3e3;
+    box-sizing: border-box;
+}
+
+.lbtDelete {
+    color: red;
+}
+
+.lblTotalMoney {
+    color: #f37021;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btnThanhToanStep1 {
+    color: #fff;
+    background: #f37021;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border: none;
+    margin-top: 30px;
+}
+
+.cart-login {
+    display: none;
+}
+
+.VungTraiTable .note {
+    background: #dfdfdf;
+    display: none;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+    .VungTraiTable .note .item {
+        display: none;
+    }
+
+        .VungTraiTable .note .item.active {
+            display: block;
+        }
+table a.btnThanhToanStep1 {
+  color: #fff;
+  text-decoration: none;
+}
+/*Buoc 01 - Kiem track don hang*/
+/*Buoc 02 - Kiem track don hang*/
+.listProduct .VungTraiTable .btnThanhToanStep1 {
+    margin-top: 10px;
+}
+/*Buoc 02 - Kiem track don hang*/
+/*Buoc 03 - Kiem track don hang*/
+#Step3 .ThongTinThanhToan {
+    margin-top: 10px;
+}
+
+    #Step3 .ThongTinThanhToan .myCart2 {
+        background: #f8f8f8;
+        padding: 5px 5px;
+        border: 1px solid #eee;
+    }
+
+#Step3 #VungTraiTableThanhToanKhac {
+    border: 1px solid #eee;
+    padding: 5px 5px;
+    border-top: none;
+}
+.main_shoppingcart .successMsg {
+  font-size: 20px;
+  margin: auto;
+  padding: 30px 0;
+  width: 80%;
+}
+/*Buoc 03 - Kiem track don hang*/
+@media screen and (min-width: 1200px) {
+    #Step2 .Step2 table {
+        width: 70%;
+    }
+
+    #Step2 .Step2 .VungTraiTable {
+        background: #fff;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #Step2 .Step2 table {
+        width: 100%;
+    }
+}
+
+/*Css phan noi dung*/
+
+/*Css phan footer*/
+.footer {
+    border-top: 1px solid #dde2e4;
+    font-size: 12px;
+    font-family: Arial;
+    color: #646464;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    .footer span {
+        font-size: 12px;
+        font-family: Arial;
+        color: #646464;
+        text-align: center;
+        display: block;
+        line-height: 19px;
+    }
+
+        .footer span.tencongty {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+/*Css phan footer*/
+@media screen and (max-width: 767px) {
+    .logo {
+        text-align: center;
+        margin-bottom: 15px;
+        width: 100% !important;
+        float: left;
+    }
+
+    .header .step {
+        color: #d3d4d4;
+        font-size: 16px;
+        font-family: 'OpenSans-Bold';
+        text-transform: uppercase;
+        display: inline-block;
+        width: 100% !important;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .main_shoppingcart .successMsg {
+      font-size: 16px;
+      margin: auto;
+      padding: 30px 0;
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 672px) {
+    .header .step {
+        color: #d3d4d4;
+        font-size: 16px;
+        font-family: 'OpenSans-Bold';
+        text-transform: uppercase;
+        display: block;
+        width: 197px !important;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: left;
+        float: none;
+        height: auto !important;
+        margin: auto auto !important;
+    }
+
+        .header .step .buoc {
+            width: 100%;
+            float: left;
+            margin-bottom: 10px;
+        }
+}
+
+@media screen and (min-width: 768px) {
+    #Step3 .VungTraiTable table tr td:nth-child(1) {
+        width: 40%;
+    }
+
+    #Step3 .VungTraiTable table tr td:nth-child(2) {
+        width: 60%;
+    }
+}
+
+#Step3 .tblShippingType tr td {
+    width: 50% !important;
+}

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<TypeNews>
+  <type name="Toán" key="1" type="1" />
+  <type name="Ngữ văn" key="2" type="2" />
+  <type name="Văn học" key="3" type="3" />
+</TypeNews>

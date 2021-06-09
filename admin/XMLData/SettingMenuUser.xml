@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SettingMenuUser>
+  <key datakey="1" name="Cho phép hiển thị yêu cầu đăng nhập" key="EnableRequireLogin" value="0" />
+  <key datakey="2" name="Cho phép hiển thị menu liên quan nội bộ" key="EnableRefrenceMenu" value="0" />
+  <key datakey="3" name="Cho phép hiển thị ảnh mô tả" key="EnableImageDescription" value="1" />
+  <key datakey="4" name="Cho phép hiển thị bộ ảnh" key="EnableArrayImage" value="1" />
+  <key datakey="5" name="Cho phép hiển thị mô tả" key="EnableDescription" value="1" />
+</SettingMenuUser>

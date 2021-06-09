@@ -1,0 +1,73 @@
+.RadPanelBar_Left{width:208px;}
+
+.RadPanelBar_Left .rpRootGroup .rpItem
+{
+    background:#fff;
+    width:208px;
+    overflow:hidden;
+    border-width:0px;
+
+}
+.RadPanelBar_Left .rpRootGroup{border-width:0px;}
+.RadPanelBar_Left .rpRootGroup .rpItem .rpLink
+{
+    font: normal normal 12px/31px Arial;
+    min-height: 31px;
+    text-decoration: none;
+    background: url(img/bg_pb_root.png) repeat-x; 
+    color:#000;
+    width:208px;
+    padding:0px 0px;
+    position:relative;
+    border-width:0px;
+    border-bottom-width:0px !important;
+}
+.RadPanelBar_Left .rpRootGroup .rpItem .rpLink .rpOut
+{
+    border-width:0px;
+    border-bottom-width:0px !important;
+}
+.RadPanelBar_Left .rpRootGroup .rpItem .rpLink .rpText
+{
+    background: url(img/bullet_root_menu.gif) no-repeat 23px center;
+    float: left;
+    height: 30px;
+    text-align: left;
+    padding:0px 0px 0px 40px;
+}
+
+.RadPanelBar_Left .rpLink:hover, .RadPanelBar_Left .focused, .RadPanelBar_Left .expanded
+{
+    cursor: pointer;
+    cursor: hand;    
+}
+.RadPanelBar_Left .rpLink:hover .rpText, .RadPanelBar_Left .focused .rpText, .RadPanelBar_Left .expanded .rpText
+{
+    /*Do some thing*/
+}
+/*Style cho menu o muc 1
+Neu thuoc tinh nao o muc cha dinh nghia roi ma muc con muon dinh nghi thanh 
+dinh dang khac thi viet lai thuoc tinh se bi ghi de boi thuoc tinh o menu con
+*/
+.RadPanelBar_Left .rpSlide
+{
+    position:relative;  
+    
+}
+.RadPanelBar_Left .rpSlide .rpGroup{}
+.RadPanelBar_Left .rpSlide .rpGroup .rpItem{background:none;}
+.RadPanelBar_Left .rpSlide .rpGroup .rpItem .rpLink{background:none;width:170px;padding:5px 4px 5px 0px;min-height:17px;display:block;position:relative !important;overflow:hidden;}
+.RadPanelBar_Left .rpSlide .rpGroup .rpLast .rpLink{background:none;width:170px;padding:5px 4px 5px 0px;min-height:0px;display:block;position:relative !important;overflow:hidden;}
+.RadPanelBar_Left .rpSlide .rpGroup .rpItem .rpLink:hover,
+.RadPanelBar_Left .rpSlide .rpGroup .rpItem .expanded
+{background:none !important;text-decoration:underline;}
+.RadPanelBar_Left .rpSlide .rpGroup .rpLink .rpOut .rpText
+{
+    font: normal normal 12px/17px Arial;
+    display:block;
+    background:url(img/bullet_sub.gif) no-repeat 41px 5px;
+    margin:0px;
+    padding:0px 5px 0px 52px;
+    width:150px;
+    height:auto;
+ }

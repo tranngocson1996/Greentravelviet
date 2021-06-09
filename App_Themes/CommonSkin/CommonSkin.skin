@@ -1,0 +1,37 @@
+﻿<asp:GridView runat="server" CellPadding="3" GridLines="Both" SkinID="GridView" BorderColor="#999999" Width="100%">
+    <FooterStyle BackColor="#EBF3FF" Font-Bold="True" ForeColor="#525252" />
+    <RowStyle BackColor="#F7F6F3" ForeColor="#333333" Font-Name="Tahoma"  Font-Size="11px" />
+    <EditRowStyle BackColor="#D6E8FF" />
+    <SelectedRowStyle BackColor="#D4E2F0" Font-Bold="True" ForeColor="#333333" />
+    <PagerStyle BackColor="#6699CC" ForeColor="White" HorizontalAlign="Center" />
+    <HeaderStyle Font-Size="11px" Font-Bold="True" Font-Name="Tahoma" BackColor="#EBF3FF" HorizontalAlign="center" ForeColor="#525252" />
+    <AlternatingRowStyle BackColor="#D4E2F0" ForeColor="#284775" />
+    <EmptyDataTemplate >Không tìm thấy dữ liệu</EmptyDataTemplate>
+    <EmptyDataRowStyle ForeColor="red" Font-Size="11px" Font-Bold="true" />
+    </asp:GridView>
+   <asp:GridView runat="server" CellPadding="3" GridLines="Both" SkinID="GridViewNoWidth" BorderColor="#999999">
+    <FooterStyle BackColor="#EBF3FF" Font-Bold="True" ForeColor="#525252" />
+    <RowStyle BackColor="#F7F6F3" ForeColor="#333333" Font-Name="Tahoma"  Font-Size="11px" />
+    <EditRowStyle BackColor="#D6E8FF" />
+    <SelectedRowStyle BackColor="#D4E2F0" Font-Bold="True" ForeColor="#333333" />
+    <PagerStyle BackColor="#6699CC" ForeColor="White" HorizontalAlign="Center" />
+    <HeaderStyle Font-Size="11px" Font-Bold="True" Font-Name="Tahoma" BackColor="#EBF3FF" HorizontalAlign="center" ForeColor="#525252" />
+    <AlternatingRowStyle BackColor="#D4E2F0" ForeColor="#284775" />
+    <EmptyDataTemplate >Không tìm thấy dữ liệu</EmptyDataTemplate>
+    <EmptyDataRowStyle ForeColor="red" Font-Size="11px" Font-Bold="true" />
+    </asp:GridView>
+    
+ <asp:Menu SkinID="Menu" runat="server" BackColor="#0072BB" Orientation="Horizontal"
+            DynamicHorizontalOffset="2" Font-Names="Tahoma" Font-Size="8" ForeColor="#F6F6F6"
+            StaticSubMenuIndent="10px"  MaximumDynamicDisplayLevels="99">
+            <StaticSelectedStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="#333333" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" Font-Bold="True"
+                BorderWidth="1px" BorderColor="red" />
+            <DynamicMenuStyle BackColor="#0072BB" Font-Bold="True" ForeColor="#333333" />
+            <DynamicSelectedStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="#333333" />
+            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" Font-Bold="True"
+                Font-Names="Tahoma" Font-Size="8pt" ForeColor="#F6F6F6" BorderWidth="1px" BorderColor="#F6F6F6" />
+            <DynamicHoverStyle BackColor="#F6F6F6" Font-Bold="True" ForeColor="#333333" />
+            <StaticHoverStyle BackColor="#F6F6F6" Font-Bold="True" ForeColor="#333333" />
+        </asp:Menu>
+

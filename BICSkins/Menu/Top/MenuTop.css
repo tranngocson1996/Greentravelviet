@@ -1,0 +1,201 @@
+﻿.RadMenu_Top {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+/* MENU-TOP */
+#wrapper #wr_main #top_menu .RadMenu_Top ul.rmRootGroup {
+    margin: 0 8px 0 7px;
+}
+/* add new style */
+.RadMenu_Top .rmRootGroup.rmHorizontal .rmItem .rmSlide .rmVertical.rmGroup{
+	opacity: 1;
+	background: #9d2029;
+}
+.RadMenu_Top .rmRootGroup.rmHorizontal .rmItem .rmSlide .rmVertical.rmGroup.rmLevel1 .rmItem{
+	background: #9d2029;
+	font-family: 'OpenSans-Regular';
+	font-size: 14px;
+}
+.RadMenu_Top .rmRootGroup .rmItem {
+}
+
+/* end */
+.RadMenu_Top .rmRootGroup .rmItem.rmLast {
+    border: none !important;
+}
+
+
+#top_menu .rmHorizontal .RadMenu_Top .rmRootGroup .rmItem.rmFirst .rmLink:hover {
+    position: relative;
+    z-index: 999;
+}
+
+#top_menu ul, li {
+    padding: 0;
+    margin: 0;
+}
+.RadMenu_Top .rmRootGroup .rmItem .rmLink {
+    padding: 0 !important;
+    color: #000;
+    font-size:12px;
+    font-weight: bold;
+    font-family: 'OpenSans-Regular';
+    width: 100%;
+    display: block;
+}
+
+.RadMenu_Top .rmRootGroup .rmItem .rmLink .rmText{
+	height: auto;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-family: 'OpenSans-Bold';
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	padding-right: 35px;
+}
+.RadMenu_Top .rmRootGroup .rmItem .rmLink:hover .rmText{
+	color:#f39100;
+}
+
+
+.RadMenu_Top .rmRootGroup > .rmItem:hover > a .rmText .fix_left,.RadMenu_Top .rmRootGroup > .rmItem > a.expanded .rmText .fix_left {
+      position: absolute;
+    width: 13px;
+    height: 7px;
+    top: 40px;
+    left: 42%;
+}
+
+.rmLevel1 .menuhome-firt {
+    width: 0px;
+    height: 0px;
+}
+
+.RadMenu_Top .rmRootGroup .rmItem.rmFirst .rmText {
+    position: relative;
+}
+
+
+.RadMenu .rmRootGroup .rmItem .rmGroup {
+    padding-bottom: 0px !important;
+}
+
+.RadMenu_Top .rmSlide a {
+    text-decoration: none !important;
+}
+
+.RadMenu_Top .rmSlide .rmVertical.rmLevel1 {
+    min-width: 100%;
+}
+.RadMenu_Top .rmSlide .rmItem {
+    text-align: left !important;
+    background: none;
+    margin: 0 0 0 1px;
+}
+    .RadMenu_Top .rmSlide .rmItem .rmLink {
+    }
+
+.rmHorizontal .rmLink:hover, .rmHorizontal .rmExpanded, .rmHorizontal .expanded {
+    background-position: top center;
+    position: relative;
+    z-index: 0;
+}
+.rmHorizontal .expanded  .rmText{
+    color: #000!important;
+}
+
+#wr_main #wr_menu #top_menu .RadMenu_Top .rmRootGroup .rmItem.refreshgach a.rmLink.expanded {
+    background-color: #000;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+}
+
+
+
+.rmHorizontal .rmSlide .rmItem .rmLink .rmText {
+    margin: 0 !important;
+    padding: 13px 22px;
+    height: auto;
+    text-align: left;
+    text-transform: none;
+    line-height: 36px;
+    color: #000;
+    font:normal 12px/18px 'OpenSans-Regular';
+    text-transform: uppercase;
+    background :none;
+    box-sizing: border-box;
+}
+
+
+
+.RadMenu_Top .rmSlide .rmItem .rmLink .rmText{
+    color: #fff;
+    font-family: 'OpenSans-Regular';
+    text-transform: uppercase;
+}
+
+.RadMenu_Top .rmSlide .rmItem .rmLink .rmText:hover, .RadMenu_Top .rmSlide .rmItem .expanded .rmText {
+    font-size: 14px;
+    text-transform: uppercase;
+    color:#fff !important;
+    font-family: 'OpenSans-Regular';
+    background: #781e24;
+}
+.RadMenu_Top .rmSlide .rmItem .rmLevel2 .rmText, .RadMenu_Top .rmSlide .rmItem .expanded .rmLevel2 .rmText {
+    color:#333 !important;
+}
+.RadMenu_Top .rmSlide .rmItem .rmLevel2 .rmText:hover, .RadMenu_Top .rmSlide .rmItem .expanded .rmLevel2 .rmText:hover {
+    color:#fff !important;
+}
+
+
+.RadMenu_Top .rmSlide .rmItem .rmLink .rmText {
+    font-size: 14px;
+    font-family: 'OpenSans-Regular';
+}
+/*Submenu*/
+.RadMenu_Top>ul>li>.rmSlide {
+    min-width: 100%;
+    position: absolute;
+    top: 50px !important;
+    border-top: 1px solid #a23f46;
+}
+
+.RadMenu_Top .rmSlide {
+    z-index: 99999;
+}
+.RadMenu_Top>ul>li>.rmSlide  .rmItem:hover{background:#fff;}
+.RadMenu_Top>ul>li>.rmSlide  .rmItem:hover .rmText{color:#fff;}
+.RadMenu_Top .rmSlide .rmItem:hover >a>.rmText {
+    background: #0E4194;
+    color: #fff;
+}
+
+.RadMenu_Top .rmRootGroup>.rmItem>.rmLink {
+    color: #fff;
+    font-size:12px;
+    font-weight: bold;
+    font-family: 'OpenSans-Regular';
+    height: 50px;
+}
+.RadMenu_Top .rmRootGroup>.rmItem>.rmLink:hover ,.RadMenu_Top .rmRootGroup>.rmItem>.rmLink.expanded{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'OpenSans-Regular';
+    border-radius: 30px;
+    height: 50px;
+    color: #000;
+}
+
+.RadMenu_Top .rmRootGroup>.rmItem>.rmLink:hover .rmText,.RadMenu_Top .rmRootGroup>.rmItem>.rmLink.expanded> .rmText {
+    color: #000;
+}
+.RadMenu_Top .rmRootGroup>.rmItem>.rmLink>.rmText {
+    
+}
+.RadMenu_Top .rmRootGroup>.rmItem.rmLast>.rmLink>.rmText {
+    padding-right: 10px !important;
+}

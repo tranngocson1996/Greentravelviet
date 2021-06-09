@@ -1,0 +1,248 @@
+﻿<root>
+	<modules>
+		<module name="RadEditorStatistics" dockingZone="Bottom" enabled="false" visible="false" dockable="true" />
+		<module name="RadEditorDomInspector" dockingZone="Module" enabled="false" visible="false" dockable="true" />
+		<module name="RadEditorNodeInspector" dockingZone="Module" enabled="false" visible="false" dockable="true" />
+
+		<module name="RadEditorDiagnostics" dockingZone="Module" enabled="false" visible="false" dockable="true" />
+		<module name="RadEditorXhtmlValidator" dockingZone="Module" enabled="false" visible="false" dockable="true" />
+		<module name="RadEditorHtmlInspector" dockingZone="Module" enabled="true" visible="false" dockable="true" />
+	</modules>
+
+	<tools name="MainToolbar" dockable="true" enabled="true">
+		<!--<tool name="AjaxSpellCheck" />-->
+		<tool name="InsertSymbol" />
+		<!--<tool name="FormatCodeBlock" />
+
+		<tool name="FormatStripper" />
+		<tool separator="true"/>
+		
+		<tool name="InsertFormForm" />
+		<tool name="InsertFormButton" />
+		<tool name="InsertFormCheckbox" />
+		<tool name="InsertFormHidden" />
+		<tool name="InsertFormPassword" />
+		<tool name="InsertFormRadio" />
+		<tool name="InsertFormReset" />
+		<tool name="InsertFormSelect" />
+		<tool name="InsertFormSubmit" />
+		<tool name="InsertFormTextarea" />
+		<tool name="InsertFormText" />-->
+		<tool name="InsertFormElement" />
+		<tool separator="true"/>
+		<tool name="StripAll" />
+		<tool name="StripCss" />
+		<tool name="StripFont" />
+		<tool name="StripSpan" />
+		<tool name="StripWord" />
+		<tool separator="true"/>
+		<tool name="Undo" />
+		<tool name="Redo" />
+		<!--<tool separator="true"/>-->
+		<tool name="Cut" />
+		<tool name="Copy" />
+		<tool name="Paste" />
+		<!--<tool separator="true"/>-->
+		<tool name="PasteFromWord" />
+		<tool name="PasteFromWordNoFontsNoSizes" />
+		<tool name="PastePlainText" />
+		<tool name="PasteAsHtml"  />
+		<tool separator="true"/>
+			<!--<tool name="Print" />-->
+		<tool name="FindAndReplace" />
+		<tool name="SelectAll" />
+		<tool separator="true"/>
+		<tool name="InsertGroupbox" />
+		<tool name="InsertParagraph" />
+		<tool name="InsertHorizontalRule" />
+		<!--<tool name="InsertSnippet" />-->
+		<!--<tool separator="true"/>-->
+		<tool name="InsertDate" />
+		<tool name="InsertTime" />
+
+		<!--<tool separator="true"/>-->
+		<!--<tool name="AboutDialog" />-->
+	
+	</tools>
+
+
+	<tools name="EnhancedEditToolbar" dockingZone="Bottom" dockable="true" enabled="true">
+		<tool name="ToggleScreenMode" />
+		<tool name="ToggleTableBorder" />
+		<tool name="Zoom" />
+		<tool name="ModuleManager" />
+		<tool name="ToggleDocking" />
+		<tool name="RepeatLastCommand" />
+	</tools>
+
+	<tools name="InsertToolbar" dockable="true" enabled="true" >
+
+		<tool name="CustomImageManagement" shortcut="CTRL+SHIFT+P" iconurl="~/RadControls/Editor/SelectImage.gif"/>
+		<!--<tool name="ImageManager" shortcut="CTRL+M"/>-->
+		<tool name="ImageMapDialog"/>
+		<tool separator="true"/>
+		<tool name="FlashManager" />
+		<tool name="MediaManager" />
+		<tool separator="true"/>
+		<tool name="DocumentManager" />
+		<tool name="TemplateManager" />
+		<tool separator="true"/>
+		<tool name="InsertTable" />
+		<tool name="InsertRowAbove" />
+		<tool name="InsertRowBelow" />
+		<tool name="DeleteRow" />
+		<tool name="InsertColumnLeft" />
+		<tool name="InsertColumnRight" />
+		<tool name="DeleteColumn" />
+		<tool separator="true"/>
+		<tool name="MergeColumns" />
+		<tool name="MergeRows" />
+		<tool separator="true"/>
+		<tool name="SplitCell" />
+		<tool name="DeleteCell" />
+		<tool name="SetCellProperties" />
+		<tool name="SetTableProperties" />
+		<tool separator="true"/>
+		<tool name="IncreaseSize" shortcut="F10"/>
+		<tool name="DecreaseSize" shortcut="F9"/>
+
+
+	</tools>
+
+
+	<tools enabled="true" dockable="true">
+		<tool name="Bold" />
+		<tool name="Italic" />
+		<tool name="Underline" />
+		<tool name="StrikeThrough" />
+		<tool separator="true"/>
+		<tool name="JustifyLeft" />
+		<tool name="JustifyCenter" />
+		<tool name="JustifyRight" />
+		<tool name="JustifyFull" />
+		<tool name="JustifyNone" />
+
+		<tool separator="true"/>
+		<tool name="Superscript" />
+		<tool name="Subscript" />
+
+		<tool separator="true"/>
+		<tool name="ConvertToLower" />
+		<tool name="ConvertToUpper" />
+
+		<tool name="Indent" />
+		<tool name="Outdent" />
+		<tool name="InsertOrderedList" />
+		<tool name="InsertUnorderedList"/>
+
+		<tool name="AbsolutePosition" />
+		<tool name="LinkManager" />
+		<tool name="InsertAnchor"/>
+		<tool name="InsertEmailLink"/>
+		<tool name="Unlink" />
+	</tools>
+
+	<tools name="DropdownToolbar" dockable="true" >
+		<tool name="ForeColor" />
+		<tool name="BackColor"/>
+		<tool separator="true"/>
+		<tool name="FontName"/>
+		<tool name="FontSize"/>
+		<tool name="RealFontSize"/>
+		<tool name="ApplyClass"/>
+		<!--<tool name="InsertCustomLink"/>-->
+		<tool name="FormatBlock"/>
+		<tool name="BIC" shortcut="F1" iconurl="~/RadControls/Editor/bic.gif"/>
+		<tool name="Help" />
+	</tools>
+ 
+  <links>
+		<link name="telerik" href="http://www.telerik.com">
+			<link name="Products" href="http://www.telerik.com/products">
+				<link name="RadEditor" href="http://www.telerik.com/radeditor" />
+			</link>
+			<link name="Purchase" href="http://www.telerik.com/purchase" />
+			<link name="Support" href="http://www.telerik.com/support" />
+			<link name="Client.Net" href="http://www.telerik.com/clientnet" />
+		</link>
+		<link name="Microsoft">
+			<link name="Main Site" href="http://www.microsoft.com" />
+			<link name="MSDN Online" href="http://msdn.microsoft.com" />
+			<link name="Windows Update" href="http://windowsupdate.microsoft.com" />
+		</link>
+		<link name="Search Engines">
+			<link name="Google" href="http://www.google.com" />
+			<link name="Yahoo" href="http://www.yahoo.com" />
+			<link name="AltaVista" href="http://www.altavista.com" />
+		</link>
+	</links>
+	<snippets>
+		<snippet name="Order Confirmation">
+			<![CDATA[
+					<div style="width:300px;border:2px outset #D8D2BD;padding:34px;font-family:Arial, Verdana; font-size:11px;background-color:#F1EFE6;">
+					Dear ____________________,<br />
+					Thank you for inquiring about ____________. Your request will be processed in 48 hours and shipped at the address you have provided. 
+					<br /><br />
+						<b>Please, contact us if you have any problems.</b>
+					</div>
+				]]>
+		</snippet>
+		<snippet name="Email Signature">
+			<![CDATA[
+					<div style="margin-top:30px;width:80%;border-top:1px dotted gray;padding-top:4px;font-family:Arial, Verdana; font-size:11px;">
+					<b>John Wigham</b><br />
+					Senior Web Developer<br />
+						<a href="#">john@mysite.com</a>
+						<br />
+							<br />
+								<i>Disclaimer: The contents of this e-mail are privileged and confidential and intended for the addressees at the specified e-mail addresses only.</i>
+					</div>
+				]]>
+		</snippet>
+		<snippet name="Problem Report Feedback">
+			<![CDATA[
+					<div style="width:300px;border:2px outset #D8D2BD;padding:34px;font-family:Arial, Verdana; font-size:11px;background-color:#F1EFE6;">
+					Hi ____________________,<br />
+					Thank you for reporting this issue. We have verified the problem and it is logged in our system. We will notify you once we have a solution. 
+					<br /><br />
+						<b>Please, contact us if you have any problems.</b>
+					</div>
+				]]>
+		</snippet>
+	</snippets>
+
+	<symbols>
+
+	</symbols>
+  <fontNames>
+    <item value="Arial" name="Arial"/>
+    <item value="Courier New"  name="Courier New" />
+    <item value="Garamond"  name="Garamond"/>
+    <item value="Georgia" name="Georgia"/>
+    <item value="MS Sans Serif" name="MS Sans Serif"/>
+    <item value="Segoe UI" name="Segoe UI"/>
+    <item value="Tahoma" name="Tahoma"/>
+    <item value="Times New Roman" name="Times New Roman"/>
+    <item value="Verdana" name="Verdana"/>
+    <item value="UTM-AVO" name="UTM-AVO"/>
+    <item value="UTM-AVOBOLD" name="UTM-AVOBOLD"/>
+    <item value="UTM Trajan Pro Bold" name="UTM Trajan Pro Bold"/>
+  </fontNames>
+	<fontSizes>
+	</fontSizes>
+
+	<colors>
+	</colors>
+  <classes>
+    <class name="Không định dạng" value="" />
+    <class name="Bảng có viền" value=".TableWidthBorder"/>
+  </classes>
+
+  <paragraphs>
+	</paragraphs>
+
+	<dialogParameters>
+	</dialogParameters>
+	<languages>
+	</languages>
+</root>

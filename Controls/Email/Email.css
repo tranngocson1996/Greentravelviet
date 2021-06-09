@@ -1,0 +1,87 @@
+﻿/*#Email {
+    float: left;
+    width: 247px;
+    position: relative;
+    margin-top: 18px;
+}
+
+    #Email .title {
+        float: left;
+        color: #dd6f3e;
+        font-size: 16px;
+        line-height: 22px;
+        width: 100%;
+        font-family: times new roman;
+    }
+
+    #Email .text {
+        float: left;
+        color: #606527;
+        font-size: 12px;
+        line-height: 22px;
+        width: 300px;
+    }
+
+    #Email .send_box {
+        width: 245px;
+        *width: 249px;
+        margin-top: 10px;
+        float: left;
+        border: 1px solid #cacaca;
+    }
+
+        #Email .send_box .text_email {
+            color: #4B4B4B;
+            background: #f3e1bb;
+            float: left;
+            height: 26px !important;
+            line-height: 26px;
+            *height: 22px !important;
+            *line-height: 22px;
+            padding: 0 5px;
+            width: 177px;
+            border: none;
+            font-size: 12px;
+        }
+
+        #Email .send_box .bt_email {
+            background: url(img/hl_email_bg.jpg) repeat-x transparent;
+            border: medium none;
+            cursor: pointer;
+            display: block;
+            float: right;
+            height: 26px;
+            width: 58px;
+            text-align: center;
+            font-weight: bold;
+            color: #fff;
+            font-size: 10px;
+        }
+
+    #Email .open_time {
+        float: left;
+        width: 100%;
+        line-height: 22px;
+        color: #4B4B4B;
+        margin-top: 5px;
+        font-weight: bold;
+    }*/
+.input-control {
+    position: relative;
+}
+.text_email {
+    height: 45px;
+    width: 180px;
+    background: url("img/ico_email.gif") 8px 8px no-repeat #e0e0e0;
+    border: 1px inset #c7c7c7;
+    padding: 0 45px 0 62px;
+}
+.bt_email {
+    width: 45px;
+    height: 45px;
+    background: url("img/btn-sendmail.gif") 0 0 no-repeat;
+    border: 1px solid #999;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}

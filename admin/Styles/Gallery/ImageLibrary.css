@@ -1,0 +1,32 @@
+﻿/* Image Library */
+.imagelibrary {background:#fff;height:541px;overflow:hidden;position:relative;}
+.imagelibrary .frame_gallery {background:#fff;height:284px;margin:0px 19px;margin:0px auto;overflow:hidden;padding:17px;position:relative;text-align:center;vertical-align:top;width:872px;}
+.imagelibrary .fix_gallery {height:auto !important;}
+.imagelibrary .frame_gallery table {margin:0px auto;}
+.imagelibrary .control-box {float:left;height:35px;line-height:35px;}
+.imagelibrary .control-box a {color:#4d6678;}
+.imagelibrary .select-box {float:left;height:35px;line-height:35px;}
+.imagelibrary .select-box select {margin-top:7px;}
+.imagelibrary .select-box .label {float:left;padding:0px 10px;}
+.imagelibrary .select-box .input {float:left;padding:0px 10px;}
+
+.imagelibrary .img_detail {background:#FDF7D0;border:1px solid #FFB069;float:left;height:131px;margin-bottom:17px;margin-right:17px;position:relative;width:108px;}
+.imagelibrary .img_detail.img_right {clear:right;margin-right:0px;}
+.imagelibrary .img_detail .size {color:#4D6678;font:bold 12px/27px Arial;height:27px;text-align:center;}
+.imagelibrary .img_detail .image {height:75px;margin:0px 4px;overflow:hidden;}
+.imagelibrary .img_detail .image img {background:#ddd;color:#ddd;display:block;margin:0px auto;overflow:hidden;}
+.imagelibrary .img_detail .action {height:27px;text-align:center;}
+.imagelibrary .img_detail .action a {color:#4D6678;font:normal 10px/28px Arial;text-decoration:none;}
+.imagelibrary .text_result {clear:both;font:normal 12px/35px Arial;height:35px;position:relative;text-align:center;}
+
+.imagelibrary .pager {position:relative;text-align:center;top:-12px;}
+.imagelibrary .pager label {color:#656565;display:inline-block;font-weight:bold;line-height:21px;padding-right:5px;}
+.imagelibrary .pager a.num {color:#008f4c;display:inline-block;font-weight:bolder;height:21px;line-height:21px;margin-right:1px;padding:0 2px;text-align:center;width:21px;}
+.imagelibrary .pager a.select,.newsListBlock .pager a:hover {-webkit-border-radius:5px;background:#F58220;border-radius:5px;color:#fff;}
+
+/*Check*/
+.imagelibrary .chkimg {cursor:pointer;height:14px;position:absolute;right:0px;top:1px;width:17px;}
+.imagelibrary .checkmark {background:url("icon/checkmark.gif") no-repeat 0 0;}
+.imagelibrary .uncheckmark {background:url("icon/uncheckmark.gif") no-repeat 0 0;}
+.imagelibrary .ckhall {cursor:pointer;height:14px;left:291px;line-height:14px;padding-left:17px;position:absolute;top:12px;width:80px;}
+.imagelibrary #btnDelImg {background:url("img/delete.png") no-repeat left center;cursor:pointer;left:388px;padding-left:18px;position:absolute;top:10px;width:112px;}

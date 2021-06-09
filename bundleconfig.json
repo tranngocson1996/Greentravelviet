@@ -1,0 +1,32 @@
+[
+  {
+    "outputFileName": "Styles/lib/animate.min.css",
+    "inputFiles": [
+      "Styles/lib/animate.css"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/wowjs/animate.min.css",
+    "inputFiles": [
+      "Scripts/wowjs/animate.css"
+    ]
+  },
+  {
+    "outputFileName": "Styles/style.min.css",
+    "inputFiles": [
+      "Styles/style.css"
+    ]
+  },
+  {
+    "outputFileName": "Styles/responsive.min.css",
+    "inputFiles": [
+      "Styles/responsive.css"
+    ]
+  },
+  {
+    "outputFileName": "Styles/lib/bootstrap.min.css",
+    "inputFiles": [
+      "Styles/lib/bootstrap.css"
+    ]
+  }
+]

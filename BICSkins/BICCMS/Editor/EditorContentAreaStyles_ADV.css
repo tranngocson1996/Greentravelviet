@@ -1,0 +1,8 @@
+﻿body { color: #2b2b2b; font: 12px Arial; line-height: 150%; width: 990px !important; }
+p { line-height: 150% !important; }
+span { line-height: 150% !important; }
+font { line-height: 150% !important; }
+table { border-right: #999999 1px solid; border-bottom: #999999 1px solid; border-collapse: collapse; }
+table td { padding: 5px; border-top: #999999 1px solid; border-left: #999999 1px solid; }
+table th { text-align: center; padding: 5px; border-top: #999999 1px solid; border-left: #999999 1px solid; }
+img { max-width: 990px !important; _width: 990px !important; height: auto !important; border: 0; }

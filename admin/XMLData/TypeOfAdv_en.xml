@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<TypeNews>
+  <type key="1" value="Vùng thông tin Hotline đầu trang" name="Vùng thông tin Hotline đầu trang" />
+  <type key="2" value="Banner slide mặc định (1366 - 620)" name="Banner slide mặc định (1366 - *)" />
+  <type key="3" value="Thông tin ở dưới chân trang" name="Thông tin ở dưới chân trang" />
+  <type key="4" value="Quảng cáo dưới box sản phẩm trang chủ (1200*130)" name="Quảng cáo dưới box sản phẩm trang chủ (1200*130)" />
+  <type key="5" value="Vùng quảng cáo (fanpage) trang chủ" name="Vùng quảng cáo (fanpage) trang chủ" />
+  <type key="6" value="Logo đối tác - thương hiệu" name="Logo đối tác - thương hiệu" />
+  <type key="7" value="Thông tin liên hệ trang liên hệ" name="Thông tin liên hệ trang liên hệ" />
+  <type key="8" value="Thông tin công ty chân trang" name="Thông tin công ty chân trang" />
+  <type key="9" value="Thông tin ở đầu trang" name="Thông tin ở đầu trang" />
+  <type key="10" value="Quảng cáo cột bên phải Website" name="Quảng cáo cột bên phải Website" />
+  <type key="11" value="Giới thiệu banner" name="Giới thiệu banner" />
+  <type key="12" value="Khách hàng nói về chúng tôi" name="Khách hàng nói về chúng tôi" />
+  <type key="100" value="Nhúng Script vào trong thẻ Head" name="Nhúng Script vào trong thẻ Head" />
+  <type key="101" value="Nhúng Script vào trong thẻ Body (dưới)" name="Nhúng Script vào trong thẻ Body (dưới)" />
+  <type key="102" value="Nhúng Script vào trong thẻ Body (trên)" name="Nhúng Script vào trong thẻ Body (trên)" />
+</TypeNews>

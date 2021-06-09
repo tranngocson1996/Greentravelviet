@@ -1,0 +1,55 @@
+/*Telerik RadInput BICCMS Skin*/
+
+/*global*/
+
+.RadInput_BICCMS, .RadInputMgr_BICCMS { font: 12px Arial; height: 18px !important; }
+#ctl06_txtViewCount { width: 116px !important; }
+/*textbox states*/
+
+html body .RadInput_BICCMS .riTextBox, html body .RadInputMgr_BICCMS { height: 22px; text-indent: 5px; padding: 0px; border: 1px solid #bed2db; width: 88px; background: #fff; color: #000; font: 12px/22px Arial; }
+
+html body .RadInput_BICCMS .riEmpty, html body .RadInput_Empty_BICCMS { color: #8a8a8a; }
+
+html body .RadInput_BICCMS .riHover, html body .RadInput_Hover_BICCMS, html body .RadInput_BICCMS .riFocused, html body .RadInput_Focused_BICCMS { border-color: #5794bf; }
+
+html body .RadInput_BICCMS .riRead, html body .RadInput_Read_BICCMS { border-color: #e3e9ef; }
+
+html body .RadInput_BICCMS .riDisabled, html body .RadInput_Disabled_BICCMS { border-color: #e3e9ef; color: #8a8a8a; cursor: default; }
+
+html body .RadInput_BICCMS .riError, html body .RadInput_Error_BICCMS { border-color: #b32d34 #dc643f #ea8541 #e5713e; background: #fff 100% -295px no-repeat url('Input/sprite.gif'); color: #b32d34; }
+
+.RadForm.rfdTextbox .RadInput_BICCMS .riError[type="text"], .RadForm.rfdTextbox .RadInput_Error_BICCMS[type="text"] { border-color: #b32d34 #dc643f #ea8541 #e5713e; background: #fff 100% -298px no-repeat url('Input/sprite.gif'); color: #b32d34; }
+
+html body .RadInput_BICCMS .riNegative, html body .RadInput_Negative_BICCMS { color: #565656; }
+
+/*buttons*/
+
+.RadInput_BICCMS a { background: transparent no-repeat url('Input/sprite.gif'); }
+
+/*go*/
+
+.RadInput_BICCMS .riBtn a { width: 20px; height: 18px; line-height: 18px; background-position: 3px 5px; }
+
+.RadInput_BICCMS .riBtn a:hover { background-position: 3px -45px; }
+
+/*spin*/
+
+.RadInput_BICCMS .riSpin a { width: 15px; height: 7px; line-height: 7px; }
+
+.RadInput_BICCMS a.riUp { background-position: 4px -98px; }
+
+.RadInput_BICCMS a.riUp:hover { background-position: 4px -148px; }
+
+.RadInput_BICCMS a.riDown { background-position: 4px -199px; }
+
+.RadInput_BICCMS a.riDown:hover { background-position: 4px -249px; }
+
+/*label*/
+
+.RadInput_BICCMS .riLabel { color: #000; }
+
+/*rtl*/
+
+html body .RadInputRTL_BICCMS .riError, html body .RadInputRTL_Error_BICCMS { background-position: 3px -298px; }
+
+.RadForm.rfdTextbox .RadInputRTL_BICCMS .riError[type="text"], .RadForm.rfdTextbox .RadInputRTL_Error_BICCMS[type="text"] { background-position: 3px -298px; }

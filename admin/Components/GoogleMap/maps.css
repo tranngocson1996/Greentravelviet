@@ -1,0 +1,151 @@
+﻿#maps {
+    position: relative;
+    margin-top: 15px;
+}
+
+.google-map {
+    clear: both;
+    margin: 0 auto;position: relative;
+}
+
+    .google-map #map_canvas {
+        margin: 0 auto;
+        height: 480px;
+        width: 790px !important ;
+    }
+   .map_2 .google-map #map_canvas {
+        margin: 0 auto;
+        height: 480px;
+        width: 810px ;
+    }
+
+    .google-map span {
+        display: block;
+        float: left;
+    }
+
+    .google-map .addr {
+        font: bold 12px/18px arial;
+        color: #f59201;
+        text-align: left;
+        padding-right: 20px;
+    }
+
+    .google-map .input-addr {
+        /*display: none;*/
+        width: 234px;
+        height: 20px;
+        background: #F3F3F3;
+        padding: 0 5px;
+        border: 1px solid #E3E9EF;
+        margin: 0 10px 20px 0;
+        font: 12px/20px arial;
+        float: left;
+        color: #9E5601;
+        font-style: italic;
+    }
+.dangtin_wr .google-map .input-addr {
+        display: block;
+        width: 234px;
+        height: 20px;
+        background: #F3F3F3;
+        padding: 0 5px;
+        border: 1px solid #E3E9EF;
+        margin: 0 10px 20px 0;
+        font: 12px/20px arial;
+        float: left;
+        color: #9E5601;
+        font-style: italic;
+        position: absolute;
+top: 6px;
+z-index: 10;
+left: 95px;
+    }
+ .dangtin_wr .google-map .btnLocate {
+        display: block;
+        width: 62px;
+        height: 22px;
+        background: url(img/btnLocate.png) no-repeat;
+        float: left;
+        position: relative;
+        cursor: pointer;
+        border: 0;
+        position: absolute;
+top: 5px;
+left: 328px;
+z-index: 10;
+    }   
+ .google-map .btnLocate {
+        /*display: none;*/
+        width: 62px;
+        height: 22px;
+        background: url(img/btnLocate.png) no-repeat;
+        float: left;
+        position: relative;
+        cursor: pointer;
+        border: 0;
+    }
+
+.goolge-map .input-local {
+    float: left;
+}
+
+.google-map .title {
+    display: none;
+    float: left;
+    padding-left: 15px;
+    line-height: 22px;
+    background: url(img/bullet_label.png) no-repeat 0 center;
+    font-weight: bold;
+    color: #9E5601;
+    margin: 0 36px 5px 0;
+}
+
+.google-map input.ok {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-right: 0;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    font-style: italic;
+    color: #2678BE;
+    background: url(img/save.jpg) no-repeat left center transparent;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.google-map .addressContainer {
+    position: relative;
+}
+
+.google-map #txtInput {
+    width: 96%;
+    height: 20px;
+    padding: 0 5px;
+    background: #F3F3F3;
+    border: 1px solid #E4E4E4;
+    font: 12px/20px arial;
+}
+
+.mapGuide {
+    width: 562px;
+    text-align: justify;
+    display: block;
+    color: #106596;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+    .mapGuide .guideCaption {
+        display: block;
+        font-weight: bold;
+        color: #DB8300;
+    }
+
+.map_contact {
+    margin-top: 30px;
+}

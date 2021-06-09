@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GoogleMaps>
+  <key datakey="1" name="Description" key="Description" value="Hacinco Hotel" />
+  <key datakey="2" name="Title" key="Title" value="Hacinco Hotel" />
+  <key datakey="3" name="Latitude" key="Lat" value="21.002259" />
+  <key datakey="4" name="Longitude" key="Lng" value="105.805866" />
+  <key datakey="5" name="Latitude and Longitude" key="LatLng" value="21.002259,105.805866" />
+  <key datakey="6" name="Zoom" key="Zoom" value="15" />
+</GoogleMaps>

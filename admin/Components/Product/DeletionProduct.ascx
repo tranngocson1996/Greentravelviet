@@ -1,0 +1,1 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="DeletionProduct.ascx.cs" Inherits="admin_Components_Product_DeletionProduct" %>

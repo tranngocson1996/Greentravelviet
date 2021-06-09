@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+    <Group Flow="Vertical">
+        <Item Text="Добавить новую" Value="Add" LeftLogo="~/admin/Styles/icons/ContextMenu/new.gif"  AccessKey="T" ></Item>
+        <Item Text="Редактирование записей" Value="Edit"  LeftLogo="~/admin/Styles/icon/ContextMenu/edit.gif" Key="S" AccessKey="S" ></Item>
+        <Item Text="Ясно записей" Value="Delete"  LeftLogo="~/admin/Styles/icon/ContextMenu/delete.gif" AccessKey="X"  Key="X" ></Item>
+    </Group>
+</Menu>
